@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_groups [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: groups.php,v 1.26 2007/06/09 11:10:23 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,6 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Bu panelden tüm kullanıcı gruplarınızı yönetebilirsiniz. Kullanıcı gruplarını silebilir, oluşturabilir ve var olan grupları düzenleyebilirsiniz. Ayrıca, grup liderlerini seçebilir, grup durumunu açık-kapalı olarak değiştirebilirsiniz ve grubun ismini belirleyebilir ve tanımlamasını yapabilirsiniz.',
+	'ADD_GROUP_CATEGORY'			=> 'Kategori ekle',	
 	'ADD_USERS'						=> 'Kullanıcı ekle',
 	'ADD_USERS_EXPLAIN'				=> 'Burada gruplara yeni kullanıcılar ekleyebilirsiniz. Seçilmiş kullanıcılar için bu grup varsayılan olarak olsa bile seçim yapabilirsiniz. Ayrıca grup liderlerini tanımlayabilirsiniz. Lütfen her kullanıcı için ayrı satır kullanınız.',
 
@@ -51,11 +53,14 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Onaylanmış Üyeler',
 	'GROUP_AVATAR'					=> 'Grup Avatarı',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Bu resim Grup Kontrol Panelinde gösterilecektir.',
+	'GROUP_CATEGORY_NAME'			=> 'Kategori adı',
 	'GROUP_CLOSED'					=> 'Kapalı',
 	'GROUP_COLOR'					=> 'Grup rengi',
 	'GROUP_COLOR_EXPLAIN'			=> 'Bu gruba dahil üyelerin kullanıcı adlarının rengini tanımlar, boş bırakılırsa kullanıcı varsayılan rengi kullanır.',
-	'GROUP_CONFIRM_ADD_USER'      => '%1$s kullanıcısını gruba eklemek istediğinize emin misiniz?',
-	'GROUP_CONFIRM_ADD_USERS'      => '%1$s kullanıcılarını gruba eklemek istediğinize emin misiniz?',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> '%2$s kullanıcısını gruba eklemek istediğinize emin misiniz?',
+		2	=> '%2$s kullanıcılarını gruba eklemek istediğinize emin misiniz?',
+	),
 	'GROUP_CREATED'					=> 'Grup başarıyla oluşturuldu',
 	'GROUP_DEFAULT'					=> 'Üye için varsayılan grup yap',
 	'GROUP_DEFS_UPDATED'			=> 'Varsayılan grup tüm üyeler için ayarlanır.',
@@ -97,27 +102,47 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'Grup özel ayarları',
 	'GROUP_SKIP_AUTH'				=> 'Grup liderini izinlerden muaf tut',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Eğer aktif edilirse grup lideri grup izinlerden muaf tutulacaktır.',
+	'GROUP_SPECIAL'					=> 'Önceden tanımlı',
+	'GROUP_TEAMPAGE'				=> 'Grubu takım sayfasında göster',	
 	'GROUP_TYPE'					=> 'Grup tipi',
 	'GROUP_TYPE_EXPLAIN'			=> 'Bu, gruba hangi kullanıcıların katılabileceğini ya da hangi kullanıcıların grubu görebileceğini tanımlar.',
 	'GROUP_UPDATED'					=> 'Grup ayarları başarıyla güncellendi.',
 	
 	'GROUP_USERS_ADDED'				=> 'Yeni kullanıcılar gruba başarıyla eklendi.',
-	'GROUP_USERS_EXIST'				=> 'Seçilmiş kullanıcılar zaten grup üyesidir.',
-	'GROUP_USERS_REMOVE'			=> 'Kullanıcılar gruptan silinmiştir ve yeni varsayılan ayarlar başarıyla ayarlanmıştır',
+	'GROUP_USERS_EXIST'				=> 'Seçilen kullanıcılar zaten üyedir.',
+	'GROUP_USERS_REMOVE'			=> 'Kullanıcılar gruptan silindi ve yeni varsayılan ayarlar başarıyla yapıldı',
 	
+	'LEGEND_EXPLAIN'				=> 'Bunlar grup yetkililerinde gösterilen gruplardır:',
+	'LEGEND_SETTINGS'				=> 'Yetkililer ayarları',
+	'LEGEND_SORT_GROUPNAME'			=> 'Yetkilileri grup adına göre sırala',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Bu seçenek aktifleştirildiğinde aşağıdaki sıralama gözardı edilir.',
+
+	'MANAGE_LEGEND'			=> 'Grup yetkililerini yönet',
+	'MANAGE_TEAMPAGE'		=> 'Takım sayfasını yönet',	
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Her üye için varsayılan grup yap',
 	'MEMBERS'				=> 'Üyeler',
 
-	'NO_GROUP'					=> 'Grup belirlenmedi',
+	'NO_GROUP'					=> 'Hiç bir grup belirlenmedi',
+	'NO_GROUPS_ADDED'			=> 'Henüz hiç bir grup eklenmedi.',
 	'NO_GROUPS_CREATED'			=> 'Daha hiç bir grup oluşturulmadı.',
 	'NO_PERMISSIONS'			=> 'İzinleri kopyalama',
 	'NO_USERS'					=> 'Herhangi bir kullanıcı girmediniz.',
-	'NO_USERS_ADDED'         => 'Gruba hiç bir kullanıcı eklenmedi.',
-	'NO_VALID_USERS'         => 'Bu eylem için uygun nitelikte herhangi bir kullanıcı girmediniz.',
-
+	'NO_USERS_ADDED'         	=> 'Gruba hiç bir kullanıcı eklenmedi.',
+	'NO_VALID_USERS'         	=> 'Bu eylem için uygun nitelikte herhangi bir kullanıcı girmediniz.',
+	
+	'SELECT_GROUP'				=> 'Bir grup seç',
 	'SPECIAL_GROUPS'			=> 'Önceden tanımlı gruplar',
-	'SPECIAL_GROUPS_EXPLAIN'	=> 'Önceden tanımlı gruplar özel gruplardır. Bunlar silinemez ya da doğrudan değiştirilemez. Yine de kullanıcı ekleyebilir ve temel ayarlarını değiştirebilirsiniz.',
+	'SPECIAL_GROUPS_EXPLAIN'	=> 'Önceden tanımlı gruplar özel gruplardır. Bunlar silinemez ya da doğrudan düzenlenemez. Yine de kullanıcı ekleyebilir ve temel ayarlarını değiştirebilirsiniz.',
 
+	'TEAMPAGE'					=> 'Takım sayfası',
+	'TEAMPAGE_DISP_ALL'			=> 'Tüm üyelikler',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'Sadece kullanıcının varsayılan grubu',
+	'TEAMPAGE_DISP_FIRST'		=> 'Sadece ilk üyelik',
+	'TEAMPAGE_EXPLAIN'			=> 'Bunlar takım sayfasında görüntülenen gruplardır:',
+	'TEAMPAGE_FORUMS'			=> 'Moderatörlük yapılan forumları göster',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Eğer evet olarak ayarlanırsa, her moderatörün kendi satırında moderatör izinlerine sahip olduğu tüm forumların bir listesi gösterilecektir. Bu, büyük mesaj panoları için yoğun veritabanı işlemine yol açabilir.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Kullanıcı üyeliklerini göster',
+	'TEAMPAGE_SETTINGS'			=> 'Takım sayfası ayarları',
 	'TOTAL_MEMBERS'				=> 'Üyeler',
 
 	'USERS_APPROVED'				=> 'Kullanıcılar başarıyla onaylandı.',
@@ -128,5 +153,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Burada evet derseniz bu grup, eklenmiş kullanıcılar için varsayılan olarak ayarlanacaktır.',
 	'USER_GROUP_LEADER'				=> 'Grup Lideri olarak ayarla',
 ));
-
-?>

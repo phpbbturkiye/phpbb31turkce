@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_ban [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: ban.php,v 1.18 2007/05/17 14:58:40 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -74,14 +75,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Sürekli',
 	
 	'UNTIL'						=> 'Zaman aralığı',
-	'USER_BAN'					=> 'Bir ya da daha fazla kullanıcıyı yasaklama',
+	'USER_BAN'					=> 'Kullanıcı adına göre bir ya da daha fazla kullanıcıyı yasakla',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Bu kısım aktif olduğunda, belirttiğiniz kullanıcılar var olan tüm yasaklamaların dışında tutulur.',
 	'USER_BAN_EXPLAIN'			=> 'Her satıra bir ad girerek çoklu kullanıcı yasaklayabilirsiniz. <span style="text-decoration: underline;">Bir üye bul</span> seçeneğini kullanarak bir ya da birden fazla kullanıcıya bakabilir ve bunları otomatik olarak ekleyebilirsiniz.',
 	'USER_NO_BANNED'			=> 'Yasaklı kullanıcı yok',
-	'USER_UNBAN'				=> 'Kullanıcı adlarındaki yasağı veya engeli kaldır',
-	'USER_UNBAN_EXPLAIN'		=> 'Fare ve klavye kombinasyonu kullanarak tarayıcınız ve bilgisayarınız yardımıyla birden çok kullanıcı üzerindeki yasaklamayı kaldırabilirsiniz. Dışarda tutulan kullanıcılar vurgulanmıştır.',
-
-
+	'USER_UNBAN'				=> 'Kullanıcı adına göre kullanıcıların yasağını ya da hariçliğini kaldır',
+	'USER_UNBAN_EXPLAIN'		=> 'Fare ve klavye kombinasyonu kullanarak tarayıcınız ve bilgisayarınız yardımıyla birden çok kullanıcı üzerindeki yasaklamayı (ya da hariçliği) kaldırabilirsiniz. Hariç tutulan kullanıcılar vurgulu olarak belirtilmiştir.',
 ));
-
-?>

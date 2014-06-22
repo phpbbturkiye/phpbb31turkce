@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_forums [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: forums.php,v 1.27 2007/05/10 15:31:21 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -98,11 +99,13 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_CONFIRM'			=> 'Forum şifresini onayla',
 	'FORUM_PASSWORD_CONFIRM_EXPLAIN'	=> 'Sadece forum şifresi girildiğinde ayarlanması gerekir.',
 	'FORUM_PASSWORD_EXPLAIN'			=> 'Tercihlerdeki izin sistemini kullanarak bu forum için bir şifre tanımlar.',
-  'FORUM_PASSWORD_UNSET'            => 'Forum şifresini kaldır',
-  'FORUM_PASSWORD_UNSET_EXPLAIN'      => 'Forum şifresini kaldırmak istiyorsanız burayı kontrol edin.',
-  'FORUM_PASSWORD_OLD'            => 'Forum şifresi, eski bir karmaşık şifreleme metodunu kullanıyor ve değiştirilmesi gerekiyor.',
+	'FORUM_PASSWORD_UNSET'            => 'Forum şifresini kaldır',
+	'FORUM_PASSWORD_UNSET_EXPLAIN'      => 'Forum şifresini kaldırmak istiyorsanız burayı kontrol edin.',
+	'FORUM_PASSWORD_OLD'            => 'Forum şifresi, eski bir karmaşık şifreleme metodunu kullanıyor ve değiştirilmesi gerekiyor.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Girmiş olduğunuz şifreler birbibirini tutmuyor.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Forum budama ayarları',
+	'FORUM_PRUNE_SHADOW'				=> 'Gölgeli başlıkların otomatik olarak budanmasını aç',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Forumlardaki gölgeli başlıkları budar, budama sıklığı/yaş parametrelerini aşağıdan ayarlayabilirsiniz.',	
 	'FORUM_RESYNCED'					=> '“%s” isimli forum başarıyla yeniden senkronize edildi',
 	'FORUM_RULES_EXPLAIN'				=> 'Forum kuralları, forumda belirtilmiş herhangi bir sayfa içinde görüntülenecektir.',
 	'FORUM_RULES_LINK'					=> 'Forum kurallarına bağlantı',
@@ -124,8 +127,8 @@ $lang = array_merge($lang, array(
 	'LINK'					=> 'Bağlantı',
 	'LIST_INDEX'			=> 'Ana-forum’un açıklaması içerisinde altforumu listele',
 	'LIST_INDEX_EXPLAIN'	=> 'Bu forum ana sayfada gösterilir ve eğer ana-forum’un “Açıklama içerisinde altforumları listele” özelliği aktifse altforumlar ana-forum’un açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
-  'LIST_SUBFORUMS'         => 'Açıklama içerisinde altforumları listele',
-  'LIST_SUBFORUMS_EXPLAIN'   => 'Bu forumun altforumları ana sayfada gösterilir ve eğer altforumların “Ana-forum’un açıklaması içerisinde altforumu listele” özelliği aktifse ana-forum’un açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
+	'LIST_SUBFORUMS'         => 'Açıklama içerisinde altforumları listele',
+	'LIST_SUBFORUMS_EXPLAIN'   => 'Bu forumun altforumları ana sayfada gösterilir ve eğer altforumların “Ana-forum’un açıklaması içerisinde altforumu listele” özelliği aktifse ana-forum’un açıklaması içerisinde başka bir yere bağlantı olarak gösterilir.',
 	'LOCKED'				=> 'Kilitli',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Mesajları taşımak için seçtiğiniz forum mesaj gönderilebilir değil. Lütfen mesaj gönderilebilir bir forum seçin.',
@@ -157,5 +160,3 @@ $lang = array_merge($lang, array(
 
 	'UNLOCKED'			=> 'Kilitli Değil',
 ));
-
-?>

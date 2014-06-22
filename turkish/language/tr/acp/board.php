@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_board [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: board.php,v 1.86 2007/06/09 11:10:23 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,18 +39,25 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Buradan mesaj panonuzun ana işleyişini belirleyebilirsiniz, uygun bir isim ve açıklama verin, ve diğer ayarlar arasında zaman dilimi ile dil için varsayılan değerleri ayarlayın.',
+	'BOARD_INDEX_TEXT'				=> 'Mesaj panosu ana sayfa metni',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Buraya yazacağınız metin mesaj panosu dahilindeki menü belirteçlerinde mesaj panosunun ana sayfa adı olarak gösterilecektir. Eğer hiç bir metin yazmazsanız, varsayılan olarak “Forum ana sayfa” metni gösterilecektir.',	
 	'CUSTOM_DATEFORMAT'				=> 'Özel…',
 	'DEFAULT_DATE_FORMAT'			=> 'Tarih formatı',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Tarih formatı PHP <code>tarih</code> özelliği ile aynıdır.',
 	'DEFAULT_LANGUAGE'				=> 'Varsayılan dil',
 	'DEFAULT_STYLE'					=> 'Varsayılan stil',
 	'DISABLE_BOARD'					=> 'Mesaj panosunu kullanıcılara kapat',
-	'DISABLE_BOARD_EXPLAIN'			=> 'Bu işlem, mesaj panosunu kullanıcılara kapatacaktır. İsterseniz, kapama nedeni olarak kullanıcıların görebileceği kısa bir mesaj (255 karakter) yazabilirsiniz.',
+	'DISABLE_BOARD_EXPLAIN'			=> 'Bu özellik, mesaj panosunu yönetici ya da moderatör olmayan tüm kullanıcılara kapatacaktır. Ayrıca kapatma nedeni olarak gösterilmesini istediğiniz kısa bir mesaj (en fazla 255 karakter) yazabilirsiniz.',
+	'DISPLAY_LAST_SUBJECT'			=> 'Son eklenen mesajın başlığını forum listesinde göster',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Son eklenen mesajın başlığı mesaja doğrudan bir bağlantı ile forum listesinde gösterilecektir. Şifre korumalı ve kullanıcıların okuma yetkisi olmayan forumlardaki başlıklar gösterilmez.',	
 	'OVERRIDE_STYLE'				=> 'Kullanıcı stilini gözardı et',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Kullanıcıların stillerini varsayılan ile değiştirir.',
 	'SITE_DESC'						=> 'Mesaj panosu açıklaması',
+	'SITE_HOME_TEXT'				=> 'Ana website metni',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Bu metin mesaj panosu dahilindeki menü belirteçlerinde websitenizin ana sayfasına bir bağlantı olarak gösterilecektir. Eğer hiç bir metin belirtmezseniz, varsayılan olarak “Ana sayfa” metni gösterilecektir.',
+	'SITE_HOME_URL'					=> 'Ana website URL adresi',
+	'SITE_HOME_URL_EXPLAIN'			=> 'Eğer bir URL adresi yazarsanız, mesaj panonuz dahilindeki menü belirteçlerinin önünde bu URL adresine bir bağlantı eklenecektir. Ayrıca mesaj panosu logosuna tıklandığında forum ana sayfa yerine bu URL adresine yönlendirilecektir. Tam bir URL adresi belirtmeniz gereklidir, ör. <samp>http://www.phpbb.com</samp>.',	
 	'SITE_NAME'						=> 'Mesaj panosu ismi',
-	'SYSTEM_DST'					=> 'Yaz Saati/<abbr title="Gün Işığından Tasarruf Zamanı">GITZ</abbr> uygulamasını aç',
 	'SYSTEM_TIMEZONE'            => 'Misafir zaman dilimi',
 	'SYSTEM_TIMEZONE_EXPLAIN'         => 'Giriş yapmayan kullanıcılara (misafirler, botlar) gösterilmek için kullanılacak zaman dilimi. Giriş yapan kullanıcılar kendi zaman dilimlerini kayıt esnasında ayarlayabilirler ve kendi kullanıcı kontrol panellerinden değiştirebilirler.',
 	'WARNINGS_EXPIRE'				=> 'Uyarı süresi',
@@ -92,9 +100,10 @@ $lang = array_merge($lang, array(
 // Avatar Settings
 $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatarlar kullanıcıların kendilerine yakın hissedip seçtikleri genel olarak küçük, benzersiz resimlerden oluşur. Tema stiline göre çoğunlukla mesajlar görüntülenirken kullanıcı adının hemen altında gösterilir. Siz bu bölümde kullanıcılarınızın kendi avatarlarını nasıl tanımlayacağını belirleyebileceksiniz. Burada önemli bir hususa dikkat etmelisiniz, avatarlarınızın web sunucusunda yaratılmış kayıt klasörlerindeki, yazma işlemine karşı yetkilendirilmesi gerektiğini unutmayın. Lütfen şunu önemle hatırlayın, dosya boyutu sınırlaması sadece yüklenen avatarlar için geçerlidir, bu sınırlama uzak bağlantı verilen resimler için geçerli olmayacaktır.',
+	
 	'ALLOW_AVATARS'					=> 'Avatarları aç',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarların genel kullanımına izin verir;<br />Eğer genel olarak avatarları kapattıysanız ya da kesin bir şekilde avatar kullanımına izin vermiyorsanız, bu ayarı kapalı yaptığınız takdirde avatarlar mesaj panosunda artık görüntülenmeyecektir, fakat kullanıcılara hala kendi avatarlarını Kullanıcı Kontrol Panelinden indirebilirler.',
-
+	'ALLOW_GRAVATAR'				=> 'Gravatar avatarlarını aç',
 	'ALLOW_LOCAL'					=> 'Galeri avatarlarını aç',
 	'ALLOW_REMOTE'					=> 'Uzak avatarı aç',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Avatarlar diğer web sitelerinden bağlantı alır.',
@@ -104,7 +113,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galerisinin klasörü',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ön-yüklenmiş resimler için phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/gallery</samp>.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar kayıt klasörü',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/upload</samp>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/upload</samp>.<br />Eğer bu dosya yolu yazılabilir değilse avatar yüklemesi <strong>mevcut olmayacaktır</strong>.',
 	'MAX_AVATAR_SIZE'				=> 'En yüksek avatar boyutları',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Piksel cinsinden Genişlik x Yükseklik.',
 	'MAX_FILESIZE'					=> 'En yüksek avatar dosyası büyüklüğü',
@@ -139,7 +148,7 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME'				=> 'Mesajı düzenleme limiti',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Özel mesajlarda mesaj henüz alıcıya ulaşmadıysa, mesajı tekrar düzenlemek için izin verilen zaman limitini ayarlar. Bu eylemi kapatmak için değeri 0 olarak ayarlayın.',
 	'PM_MAX_RECIPIENTS'         => 'İzin verilen en fazla alıcı sayısı',
-  'PM_MAX_RECIPIENTS_EXPLAIN'   => 'Bir özel mesajda izin verilen en fazla alıcı sayısı. Eğer 0 sayısı girilirse, izin verilen sayı sınırsız olur. Bu ayar grup ayarları sayfasından her grup için ayarlanmış olabilir.',
+	'PM_MAX_RECIPIENTS_EXPLAIN'   => 'Bir özel mesajda izin verilen en fazla alıcı sayısı. Eğer 0 sayısı girilirse, izin verilen sayı sınırsız olur. Bu ayar grup ayarları sayfasından her grup için ayarlanmış olabilir.',
 ));
 
 // Post Settings
@@ -346,16 +355,23 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Buradan mesaj panosunun belirli fonksiyonlarını açıp kapatabilirsiniz, bu sayede işlem miktarını azaltabilirsiniz. Bir çok sunucuda herhangi bir fonksiyonu kapamanız gerekmez. Aslında, belirli sistemlerde ya da paylaşılmış hosting ekipmanlarında gerekli olmadığına inandığınız fonksiyonların kapatılması bazı kazançlar sağlayabilir. Ayrıca burada sistem yüklemesi ve aktif oturum durumundan çıkıldığında, -ki bu durumda mesaj panosu çevrimdışı olur, bunlar için bazı sınırlamalar belirleyebilirsiniz.',
 
+	'ALLOW_CDN'						=> 'Üçüncü parti içerik dağıtım ağlarının kullanılmasına izin ver',
+	'ALLOW_CDN_EXPLAIN'				=> 'Eğer bu ayar açılırsa, bazı dosyalar sunucunuzun yerine dış üçüncü parti sunuculardan hizmet veriyor olacaktır. Bu işlem sunucunuz tarafından istenen bant genişliği ağını azaltır, ancak bazı mesaj panosu yöneticileri için gizlilik sorunu ortaya çıkarabilir. Varsayılan bir phpBB kurulumu içerisinde, Google’ın içerik dağıtım ağından yüklenen “jQuery” ve “Open Sans” yazı tipi mevcuttur.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Canlı aramalara izin ver',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Eğer bu ayar açılırsa, mesaj panosu boyunca belirli alanlardaki yazılar kullanıcılara anahtar kelime önerisi olarak sunulacaktır.',	
 	'CUSTOM_PROFILE_FIELDS'			=> 'Özel profil alanları',
 	'LIMIT_LOAD'					=> 'Sistem yükleme sınırı',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Eğer sistem, 1-dakika içerisindeki yükleme ortalamasında burada belirtilen değeri geçerse mesaj panosu otomatik olarak çevrimdışı olacaktır, 1.0 değeri bir işlemcinin ~100% kullanımına eşittir. Bu özellik sadece UNIX tabanlı sunucularda ve bu bilgiye erişebilen yerlerde geçerlidir. Eğer phpBB, sistemin yükleme sınırını tespit edemezse buradaki değer kendini 0 değerine sıfırlar.',
 	'LIMIT_SESSIONS'				=> 'Oturum sınırı',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Eğer oturumların sayısı birer dakika periyotlar içerisinde burada belirtilen değeri geçerse mesaj panosu çevrimdışı olacaktır. Sınırsız oturum için 0 olarak ayarlayın.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Üye listesinde özel profil alanları göstermek için stillere izin ver',
+	'LOAD_CPF_PM'					=> 'Özel mesajlarda özel profil alanlarını göster',	
 	'LOAD_CPF_VIEWPROFILE'			=> 'Kullanıcı profillerinde özel profil alanları göster',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Başlık sayfalarında özel profil alanları göster',
 	'LOAD_USER_ACTIVITY'			=> 'Kullanıcıların faaliyetlerini göster',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Kullanıcı profillerinde ve kullanıcı kontrol panelinde aktif olunan başlık/forum bilgilerini göster. Bir milyon mesajdan fazla olan mesaj panolarında bu özelliği kapatmanız önerilir.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Okunan Bildirimin Bitiş Süresi',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Okunan bir bildirimin otomatik olarak silinmesinden önce geçecek gün sayısı. Bildirimleri kalıcı yapmak için bu değeri 0 olarak ayarlayın.',
 	'RECOMPILE_STYLES'			=> 'Bozulmuş stil bileşenlerini yeniden derle',
 	'RECOMPILE_STYLES_EXPLAIN' => 'Dosya sisteminde bulunan stil bileşenlerinin güncelliğini kontrol eder ve duruma göre yeniden derler',
 	'YES_ANON_READ_MARKING'			=> 'Misafirler için başlık işaretlenmesini aç',
@@ -379,18 +395,25 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB yapısı eklenti veya modüllerin doğrulanmasını destekler. Kullanıcılar mesaj panosuna girdiklerinde onların nasıl doğrulanacağının belirlenmesine izin verir. Varsayılan olarak üç tane uyumlu eklenti bu ihtiyacı karşılar; DB, LDAP ve Apache. Hiçbir metot ekstra bir bilgi gerektirmez yani konu ile ilgili seçilmiş bir metot varsa bu bilgi alanını doldurunuz.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB yapısı eklenti veya modüllerin doğrulanmasını destekler. Bunlar kullanıcılar mesaj panosuna giriş yaptıklarında nasıl doğrulanacaklarının belirlenmesine izin verir. Varsayılan olarak dört tane uyumlu eklenti sağlanmıştır; DB, LDAP ve Apache, ve OAuth. Hiç bir metot ilave bir bilgi istemez, yani eğer seçilen metot için uygun boş alanlar varsa sadece bu alanlar doldurulur.',
 
-	'AUTH_METHOD'				=> 'Bir doğrulama yöntemi seçiniz',
+	'AUTH_METHOD'				=> 'Bir doğrulama yöntemi seçin',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Bu doğrulama metotuna phpBB\'yi ilave etmeden önce apache doğrulama ayarını yapın. Apache doğrulaması için kullanılacak akılda tutulması gereken kullanıcı adı phpBB kullanıcı adınız ile aynı olmalıdır. Apache doğrulaması sadece mod_php ile kullanılabilir (bir CGI sürümü ile değil) ve safe_mode kapalı olmalıdır.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Her etkin OAuth servis sağlayıcısının anahtar ve gizli parametreleri temin edilmiş olmalıdır. Bir OAuth servis sağlayıcısı için sadece bir tanesi temin edilmelidir.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Her bir OAuth sağlayıcısı, dış sunucu ile doğrulama yapmak için benzersiz bir gizli ve bir anahtar parametresi gerektirir.<br />Bu parametreler OAuth servisine web siteniz ile kayıt olduğunuz zaman size verilir. Temin edilen bu parametreleri tam ve doğru olarak girmelisiniz.<br />Buraya girilen ve bir anahtar ile bir gizli parametresinin her ikisi de olmayan herhangi bir servisin forum kullanıcıları tarafından kullanımı uygun olmayacaktır.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Anahtar',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Gizli',
 
+	'APACHE_SETUP_BEFORE_USE'	=> 'phpBB\'yi bu doğrulama metotuna geçirmeden önce apache doğrulama ayarını yapmalısınız. Apache doğrulaması için kullanılacak kullanıcı adı, phpBB kullanıcı adınız ile aynı olması gerektiğini unutmayın. Apache doğrulaması sadece mod_php ile kullanılabilir (bir CGI sürümü ile değil) ve safe_mode kapalı olmalıdır.',
+
+	'LDAP'							=> 'LDAP',	
 	'LDAP_DN'						=> 'LDAP tabanı <var>dn</var>',
-	'LDAP_DN_EXPLAIN'				=> 'Bu ayrılmış isim, kullanıcı bilgisi konumudur, örnek: <samp>o=My Company,c=US</samp>.',
-	'LDAP_EMAIL'					=> 'LDAP e-posta niteliği',
-	'LDAP_EMAIL_EXPLAIN'			=> 'Buradan yeni kullanıcılar için otomatik ayarlanacak olan kullanıcınızın e-posta girdisi niteliğinin (eğer bir tane varsa) adını ayarlayabilirsiniz. İlk defa giriş yapan kullanıcılara boş e-posta adresi dahil etmek için burayı boş bırakın.',
+	'LDAP_DN_EXPLAIN'				=> 'Bu, kullanıcı bilgisinde yer gösteren Ayırt Edici Bir Addır (Distinguished Name), ör. <samp>o=My Company,c=US</samp>.',
+	'LDAP_EMAIL'					=> 'LDAP e-posta özelliği',
+	'LDAP_EMAIL_EXPLAIN'			=> 'Buradan yeni kullanıcılar için otomatik ayarlanacak olan kullanıcınızın e-posta girdisi özelliğinin (eğer bir tane varsa) adını ayarlayabilirsiniz. İlk defa giriş yapan kullanıcılara boş e-posta adresi vermek için burayı boş bırakın.',
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Belirtilen kullanıcı/şifre ile LDAP sunucusuna bağlanma başarısız oldu.',
-	'LDAP_NO_EMAIL'					=> 'Belirtilen e-posta niteliği bulunmuyor.',
+	'LDAP_NO_EMAIL'					=> 'Belirtilen e-posta özelliği bulunmuyor.',
 	'LDAP_NO_IDENTITY'				=> '%s için bir giriş kimliği bulunamadı.',
  	'LDAP_PASSWORD'					=> 'LDAP şifresi',
  	'LDAP_PASSWORD_EXPLAIN'			=> 'Anonim bağlayıcı kullanılıyorsa boş bırakın, aksi takdirde yukarıdaki kullanıcı için şifre belirtin. Aktif Dizin Sunucuları için gereklidir. <strong>DİKKAT:</strong> Bu şifre düz metin halinde veritabanına kaydedileceği için veritabanınıza erişebilen ya da bu ayar sayfasını görüntüleyebilen herkese görünecektir.',
@@ -416,6 +439,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Evet olarak seçilmesi durumunda sunucu ayarları buradaki otomatik olarak belirlenmiş değerlere tabi olacak ve kullanılacaktır.',
 	'ICONS_PATH'				=> 'Mesaj ikonlarının bulunduğu yol',
 	'ICONS_PATH_EXPLAIN'		=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/icons</samp>.',
+	'MOD_REWRITE_ENABLE'		=> 'URL Yeniden Yazmayı aç',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Bu ayarı açtığınız zaman, ’app.php’ şeklinde dosya adı içeren URL adresleri dosya adı silinerek yeniden yazılacaktır (örneğin: app.php/foo yeniden yazılarak /foo olacaktır). <strong>Bu özelliğin çalışması için Apache sunucusu’nun mod_rewrite modulü gereklidir; eğer mod_rewrite desteği olmadan bu özellik açılırsa, mesaj panonuzdaki URL adresleri bozulabilir.</strong>',
+	'MOD_REWRITE_DISABLED'		=> 'Apache web sunucunuzdaki <strong>mod_rewrite</strong> modulü aktif değil. Eğer bu özelliği açmak istiyorsanız modülü aktifleştirin ya da web hosting sağlayıcınız ile iletişime geçin.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'Bu sunucunun URL yeniden yazma desteğinin olup olmadığını belirleyemiyoruz. Bu ayar açılmış olabilir, fakat eğer URL yeniden yazma mevcut değilse, bu mesaj panosu tarafından oluşturulan yollar (bağlantıların kullanımı gibi) bozulmuş olabilir. Eğer bu özelliği güvenli bir şekilde açıp açmadığınızdan emin değilseniz web hosting sağlayıcınız ile iletişime geçin.',	
 	'PATH_SETTINGS'				=> 'Yol ayarları',
 	'RANKS_PATH'				=> 'Rütbe resimlerinin saklandığı yol',
 	'RANKS_PATH_EXPLAIN'		=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/ranks</samp>.',
@@ -432,6 +459,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'phpBB ana klasörünüzün alt yolu, ör: <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Uzantı grup ikonlarının saklandığı klasör',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, ör: <samp>images/upload_icons</samp>.',
+	'USE_SYSTEM_CRON'		=> 'Sistem kronundan periyodik görevleri çalıştır',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Kapalı olduğu zaman, phpBB otomatik olarak çalışması için periyodik görevleri düzenleyecektir. Açık olduğu zaman, phpBB kendisi tarafından herhangi bir periyodik görev zamanlaması yapmayacaktır; bir sistem yöneticisi düzenli aralıklarda (ör. her 5 dakikada bir) sistem kron aracı tarafından çağırılması için <code>cron.php</code> dosyasını düzenlemelidir.',	
 ));
 
 // Security Settings
@@ -439,10 +468,12 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Buradan oturum ve giriş ile ilgili ayarları belirleyebilirsiniz.',
 
 	'ALL'							=> 'Tümü',
-	'ALLOW_AUTOLOGIN'				=> 'Sürekli girişlere izin ver', 
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Kullanıcıların mesaj panosunu ziyaret ettiklerinde otomatik olarak giriş yapıp yapamayacaklarını belirler.', 
-	'AUTOLOGIN_LENGTH'				=> 'Sürekli giriş anahtarının sona erme uzunluğu (gün cinsinden)', 
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Sürekli giriş anahtarları burada belirlenen gün sayısından sonra kaldırılır. Bu özelliği kapatmak için rakamla 0 (sıfır) sayısını kullanın.', 
+	'ALLOW_AUTOLOGIN'				=> '"Beni Hatırla" girişlerine izin ver',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Kullanıcılara mesaj panosunu ziyaret ettiklerinde "Beni Hatırla" seçeneğinin verilip verilmeyeceğini belirler.',
+	'ALLOW_PASSWORD_RESET'			=> 'Şifre sıfırlamasına izin ver ("Şifremi Unuttum")',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Kullanıcılara hesaplarını kurtarmak için giriş sayfasında "Şifremi Unuttum" bağlantısının kullanılabilir olup olmayacağını belirler. Eğer bir dış doğrulama mekanizması kullanıyorsanız bu özelliği kapatmayı isteyebilirsiniz.',
+	'AUTOLOGIN_LENGTH'				=> '"Beni Hatırla" giriş anahtarının sona erme uzunluğu (gün cinsinden)',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> '"Beni Hatırla" giriş anahtarları belirlenen gün sayısından sonra kaldırılmış olacaktır. 0 değeri bu özelliği kapatır.',
 	'BROWSER_VALID'					=> 'Tarayıcı doğrulama',
 	'BROWSER_VALID_EXPLAIN'			=> 'Her oturumdaki güvenliğini artırmak için, web tarayıcısı doğrulamayı açık hale getirir.',
 	'CHECK_DNSBL'					=> 'DNS Kara Listesine karşı IP kontrolü',
@@ -494,9 +525,11 @@ $lang = array_merge($lang, array(
 	'BOARD_EMAIL_FORM'				=> 'Kullanıcılar mesaj panosu aracılığıyla e-posta göndersin',
 	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'Kullanıcıların e-posta adreslerini göstermek yerine, e-posta gönderilerini mesaj panosu aracılığıyla gerçekleştirirler.',
 	'BOARD_HIDE_EMAILS'				=> 'E-posta adreslerini gizle',
-	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Bu fonksiyonla e-posta adresleri tamamen özel olarak gizlenir.',
+	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Bu özellik e-posta adreslerini tamamen gizli tutar.',
 	'CONTACT_EMAIL'					=> 'İletişim e-posta adresi',
-	'CONTACT_EMAIL_EXPLAIN'			=> 'Bu adres, özel bir iletişim noktası gerektiği zaman kullanılacaktır, örnek: spam, hatalı çıktı, vb. Bu, e-postalarda her zaman <samp>Kimden</samp> ve <samp>Kime</samp> adresi olarak kullanılacaktır.',
+	'CONTACT_EMAIL_EXPLAIN'			=> 'Bu e-posta adresi, özel bir iletişim konusu gerektiren zamanlarda kullanılacaktır, örnek: spam, hatalı çıktı, vb. Bu adres, e-postalarda daima <samp>Kimden</samp> ve <samp>Kime</samp> adresi olarak kullanılır.',	
+	'CONTACT_EMAIL_NAME'			=> 'İletişim adı',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Bu ad, e-posta alıcılarının göreceği iletişim adıdır. Eğer bir iletişim adı kullanmak istemiyorsanız, bu alanı boş bırakın.',
 	'EMAIL_FUNCTION_NAME'			=> 'E-posta fonksiyon ismi',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'PHP aracılığıyla posta gönderiminde kullanılacak e-posta fonksiyonu.',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-posta paket boyutu',
@@ -540,10 +573,8 @@ $lang = array_merge($lang, array(
 	'JAB_SERVER'				=> 'Jabber sunucusu',
 	'JAB_SERVER_EXPLAIN'		=> 'Sunucunuzun bir listesi için %sjabber.org%s adresine bakın.',
 	'JAB_SETTINGS_CHANGED'		=> 'Jabber ayarları başarıyla değiştirildi.',
-  'JAB_USE_SSL'            => 'Bağlantı için SSL kullan',
-  'JAB_USE_SSL_EXPLAIN'      => 'Eğer bu özellik aktifse, kabul ettirmek için güvenli bağlantı denenecektir. Eğer belirlenen port 5222 ise Jabber portu 5223 olarak değiştirilecektir.',
-  'JAB_USERNAME'            => 'Jabber kullanıcı adı ya da JID',
-  'JAB_USERNAME_EXPLAIN'      => 'Bir kullanıcı adı ya da geçerli bir JID belirtin. Kullanıcı adı doğruluk için kontrol edilmeyecektir. Eğer sadece bir kullanıcı adı belirttiyseniz, o zaman JID hesabınız yukarıda belirlediğiniz kullanıcı adı ve sunucu olacaktır. Aksi takdirde geçerli bir JID belirtin, örneğin user@jabber.org.',
+	'JAB_USE_SSL'            => 'Bağlantı için SSL kullan',
+	'JAB_USE_SSL_EXPLAIN'      => 'Eğer bu özellik aktifse, kabul ettirmek için güvenli bağlantı denenecektir. Eğer belirlenen port 5222 ise Jabber portu 5223 olarak değiştirilecektir.',
+	'JAB_USERNAME'            => 'Jabber kullanıcı adı ya da JID',
+	'JAB_USERNAME_EXPLAIN'      => 'Bir kullanıcı adı ya da geçerli bir JID belirtin. Kullanıcı adı doğruluk için kontrol edilmeyecektir. Eğer sadece bir kullanıcı adı belirttiyseniz, o zaman JID hesabınız yukarıda belirlediğiniz kullanıcı adı ve sunucu olacaktır. Aksi takdirde geçerli bir JID belirtin, örneğin user@jabber.org.',
 ));
-
-?>

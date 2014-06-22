@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* search [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php,v 1.22 2007/05/10 15:31:21 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,9 +42,14 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_RESULTS'		=> 'Görüntülenecek sonuçlar',
 
-	'FOUND_SEARCH_MATCH'	=> '%d uygun sonuç bulundu',
-	'FOUND_SEARCH_MATCHES'	=> '%d uygun sonuç bulundu',
-	'FOUND_MORE_SEARCH_MATCHES'	=> '%d uygun sonuçtan fazlası bulundu',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> '%d uygun sonuç bulundu',
+		2	=> '%d uygun sonuç bulundu',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		1	=> '%d uygun sonuçtan fazlası bulundu',
+		2	=> '%d uygun sonuçtan fazlası bulundu',
+	),
 
 	'GLOBAL'				=> 'Global başlık',
 
@@ -54,18 +60,27 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_EGOSEARCH'   => 'Bu mesaj panosu kendi mesajlarınızı görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Bu mesaj panosu okunmamış mesajlarınızı görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Bu mesaj panosu son ziyaretinizden beri gönderilen yeni mesajları görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',	
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'Aramak için çok fazla kelime belirlediniz. Lütfen %1$d taneden fazla kelime girmeyin.',
-	'NO_KEYWORDS'			=> 'Arama için çok düşük bir kelime belirlediniz. Jokerler hariç her kelime %d karakterden yüksek ve %d karakterden düşük olmalıdır.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Bu mesaj panosu son ziyaretinizden beri gönderilen yeni mesajları görüntülemek için kayıtlı olmanızı ve giriş yapmanızı gerekli tutuyor.',
+	
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'Aramak için çok fazla kelime belirlediniz. Lütfen %1$d kelimeden fazlasını girmeyin.',
+		2	=> 'Aramak için çok fazla kelime belirlediniz. Lütfen %1$d kelimeden fazlasını girmeyin.',
+ 	),
+
+	'NO_KEYWORDS'			=> 'Arama yapmak için en az bir kelime belirlemelisiniz. Her kelime, jokerler hariç en az %s ve en fazla %s içermelidir.',
 	'NO_RECENT_SEARCHES'	=> 'En son herhangi bir arama yapılmadı.',
 	'NO_SEARCH'				=> 'Üzgünüz fakat arama sistemini kullanma izniniz yok.',
 	'NO_SEARCH_RESULTS'		=> 'Uygun sonuç bulunamadı.',
-	'NO_SEARCH_TIME'		=> 'Üzgünüz fakat şimdilik arama yapamazsınız. Lütfen bir kaç dakika içerisinde tekrar deneyin.',
-	'NO_SEARCH_UNREADS'      => 'Üzgünüz fakat bu mesaj panosunda okunmamış mesajlar için arama yapma özelliği kapatıldı.',
+	'NO_SEARCH_TIME'		=> array(
+		1	=> 'Üzgünüz fakat arama fonksiyonunu şu anda kullanamazsınız. Lütfen %d saniye sonra tekrar deneyin.',
+		2	=> 'Üzgünüz fakat arama fonksiyonunu şu anda kullanamazsınız. Lütfen %d saniye sonra tekrar deneyin.',
+	),
+	'NO_SEARCH_UNREADS'     => 'Üzgünüz fakat bu mesaj panosunda okunmamış mesajlar için arama yapma özelliği kapatıldı.',
 	'WORD_IN_NO_POST'		=> 'Hiç bir mesaj bulunamadı çünkü <strong>%s</strong> kelimesini içeren herhangi bir mesaj yok.',
 	'WORDS_IN_NO_POST'		=> 'Hiç bir mesaj bulunamadı çünkü <strong>%s</strong> kelimelerini içeren herhangi bir mesaj yok.',
 
 	'POST_CHARACTERS'		=> 'karakterini göster',
+	'PHRASE_SEARCH_DISABLED'	=> 'Bu mesaj panosunda tam cümle araması desteklenmiyor.',	
 
 	'RECENT_SEARCHES'		=> 'Son arananlar',
 	'RESULT_DAYS'			=> 'Sonuçlar için gün limiti',
@@ -98,8 +113,11 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'			=> 'Forum',
 	'SORT_POST_SUBJECT'		=> 'Mesaj başlığı',
 	'SORT_TIME'				=> 'Mesaj zamanı',
+	'SPHINX_SEARCH_FAILED'		=> 'Arama başarısız oldu: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Üzgünüz, arama yapılamadı. Bu hata ile ilgili daha fazla bilgi hata kayıtlarına kaydedildi.',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Yazar adını en az %d karakter olarak belirlemelisiniz.',
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'Yazar adını en az %d karakter olarak belirlemelisiniz.',
+		2	=> 'Yazar adını en az %d karakter olarak belirlemelisiniz.',
+	),
 ));
-
-?>

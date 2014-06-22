@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* memberlist [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: memberlist.php,v 1.32 2007/05/16 14:44:56 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -48,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Önce',
 
 	'CC_EMAIL'				=> 'Bu e-posta\'nın bir kopyasını kendinize gönderin.',
-	'CONTACT_USER'			=> 'İletişim',
 
 	'DEST_LANG'				=> 'Dil',
 	'DEST_LANG_EXPLAIN'		=> 'Bu mesajın alıcısı için (eğer mevcutsa) uygun bir dil seçin.',
@@ -72,16 +72,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Üye aramasını gizle',
 
 	'IM_ADD_CONTACT'		=> 'İletişime ekle',
-	'IM_AIM'				=> 'Not: Bunu kullanmak için AOL Instant Messenger programının yüklenmiş olması gerekmektedir.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'İndirme uygulaması',
-	'IM_ICQ'				=> 'Not: Bu kullanıcılar istenilmeyen anlık mesajları almamayı seçmiş olabilirler.',
 	'IM_JABBER'				=> 'Not: Bu kullanıcılar istenilmeyen anlık mesajları almamayı seçmiş olabilirler.',
 	'IM_JABBER_SUBJECT'		=> 'Bu bir otomatik mesajdır lütfen cevap vermeyin! %2$s kısmında %1$s kullanıcısından mesaj.',
 	'IM_MESSAGE'			=> 'Mesajınız',
-	'IM_MSNM'				=> 'Not: Bunu kullanmak için Windows Messenger programının yüklenmiş olması gerekmektedir.',
-	'IM_MSNM_BROWSER'		=> 'Tarayıcınız bunu desteklemiyor.',
-	'IM_MSNM_CONNECT'		=> 'MSNM bağlı değil.\nDevam etmek için MSNM\'e bağlanın.',	
 	'IM_NAME'				=> 'Adınız',
 	'IM_NO_DATA'			=> 'Bu kullanıcı için uygun iletişim bilgisi yok.',
 	'IM_NO_JABBER'			=> 'Üzgünüz, bu forumdan Jabber kullanıcılarının direkt mesajlaşmaları desteklenmiyor. Yukarıdaki alıcı ile iletişim kurmak için sisteminize Jabber bağlantı programının yüklenmiş olması gerekmektedir.',
@@ -93,9 +87,11 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Son aktiflik',
 	'LESS_THAN'					=> 'Daha az',
-	'LIST_USER'					=> '1 kullanıcı',
-	'LIST_USERS'				=> '%d kullanıcı',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Mesaj panosu, takım listesini görüntülemek için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
+	'LIST_USERS'				=> array(
+		1	=> '%d kullanıcı',
+		2	=> '%d kullanıcı',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Mesaj panosu, takım listesini görüntülemek için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Mesaj panosu, üye listesine erişim için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Mesaj panosu, kullanıcıları aramak için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Mesaj panosu, profilleri görüntülemek için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
@@ -117,13 +113,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'İşaretlileri seç',
 	'SELECT_SORT_METHOD'	=> 'Sıralama tipini seçin',
- 	'SEND_AIM_MESSAGE'		=> 'AIM mesajı gönder',
  	'SEND_ICQ_MESSAGE'		=> 'ICQ mesajı gönder',
 	'SEND_IM'				=> 'Anlık mesajlaşma',
 	'SEND_JABBER_MESSAGE'	=> 'Jabber mesajı gönder',
 	'SEND_MESSAGE'			=> 'Mesaj',
- 	'SEND_MSNM_MESSAGE'		=> 'MSNM/WLM mesajı gönder',
- 	'SEND_YIM_MESSAGE'		=> 'YIM mesajı gönder',
+	'SEND_YIM_MESSAGE'		=> 'YIM mesajı gönder',
 	'SORT_EMAIL'			=> 'E-posta',
 	'SORT_LAST_ACTIVE'		=> 'Son aktiflik',
 	'SORT_POST_COUNT'		=> 'Mesaj sayısı',
@@ -135,14 +129,11 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Şu anda gönderilen hiç bir hatırlatma yok',
 		1		=> '%1$d hatırlatma gönderildi<br />» %2$s',
+		2		=> '%1$d hatırlatma gönderildi<br />» %2$s',		
 	),
 	'USER_ONLINE'			=> 'Çevrimiçi',
 	'USER_PRESENCE'			=> 'Mesaj panosundaki görünüşü',
+	'USERS_PER_PAGE'		=> 'Sayfa başına kullanıcı sayısı',
 
 	'VIEWING_PROFILE'		=> 'Profil görüntüleniyor - %s',
-	'VISITED'				=> 'Son ziyaret',
-
-	'WWW'					=> 'Web adresi',
 ));
-
-?>

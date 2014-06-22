@@ -14,7 +14,6 @@ Hesabınızı aktif hale getirmek için lütfen alttaki bağlantıyı ziyaret ed
 
 {U_ACTIVATE}
 
-
 Kayıt olduğunuz için teşekkürler.
 
 {EMAIL_SIG}

@@ -10,5 +10,4 @@ Size gönderilen e-posta:
 
 {MESSAGE}
 
-
 {EMAIL_SIG}

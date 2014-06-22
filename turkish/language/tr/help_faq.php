@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* help_faq [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: help_faq.php,v 1.39 2007/06/09 11:10:24 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -44,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'Neden otomatik olarak çıkışım yapılıyor?',
-		1 => 'Giriş sayfasında gördüğünüz <em>Her ziyaretimde otomatik giriş yap</em> kutucuğunu işaretlemediğiniz sürece, mesaj panosu sizi sadece belirli bir süre için giriş yapmış kabul eder. Böylece kaydınızın başkaları tarafından kullanılması önlenir. Girişinizin devamlı kalması için, bu komutu seçmeniz yeterlidir. Fakat başka şahıslarında kullandığı (örn. herhangi bir kütüphaneye, internet kafeye, üniversiteye vs. ait) bir bilgisayardan giriş yapıyorsanız, bu komutu seçmemeniz önerilir. Eğer bu kutucuğu göremiyorsanız, bu demektir ki; mesaj panosu yöneticisi bu özelliği kapatmıştır.'
+		1 => 'Giriş sayfasında gördüğünüz <em>Beni hatırla</em> kutucuğunu işaretlemediğiniz sürece, mesaj panosu sizi sadece belirli bir süre için giriş yapmış kabul eder. Böylece kaydınızın başkaları tarafından kullanılması önlenir. Girişinizin devamlı kalması için, bu komutu seçmeniz yeterlidir. Fakat başka şahıslarında kullandığı (örn. herhangi bir kütüphaneye, internet kafeye, üniversiteye vs. ait) bir bilgisayardan giriş yapıyorsanız, bu komutu seçmemeniz önerilir. Eğer bu kutucuğu göremiyorsanız, bu demektir ki; mesaj panosu yöneticisi bu özelliği kapatmıştır.'
 	),
 	array(
 		0 => 'Çevrimiçi kullanıcı listesinde kullanıcı adımın görünmesini nasıl önleyebilirim?',
@@ -64,7 +65,7 @@ $help = array(
 	),
 	array(
 		0 => 'COPPA nedir?',
-		1 => 'COPPA ya da Child Online Privacy and Protection Act of 1998, Birleşik Devletlerde web sitelerinin 13 yaşından küçüklerin ebeveynlerinden potansiyel bilgi toplayabilmek için yazılı izin almayı gerekli tutan bir kanundur, ya da başka bir deyişle yasal veli/vasi onay şeklidir, veliler 13 yaşından küçüklerden kişisel kimlik bilgilerinin toplanması için izin verirler. Eğer bu uygulama ile kayıt olmak ya da bu uygulama ile bir web sitesine kayıt olmak size güvenilir gelmiyorsa, yardım için bir yasal danışman ile iletişime geçin. Not: phpBB Takımları yasal destek sağlamaz ve genel konular hariç, herhangi bir çeşit yasa ile ilgili bir durum için iletişim göstermez.',
+		1 => 'COPPA ya da Child Online Privacy and Protection Act of 1998, Birleşik Devletlerde web sitelerinin 13 yaşından küçüklerin ebeveynlerinden potansiyel bilgi toplayabilmek için yazılı izin almayı gerekli tutan bir kanundur, ya da başka bir deyişle yasal veli/vasi onay şeklidir, veliler 13 yaşından küçüklerden kişisel kimlik bilgilerinin toplanması için izin verirler. Eğer bu uygulama ile kayıt olmak ya da bu uygulama ile bir web sitesine kayıt olmak size güvenilir gelmiyorsa, yardım için bir yasal danışman ile iletişime geçin. Not: phpBB Limited yasal destek sağlamaz ve genel konular hariç, herhangi bir çeşit yasa ile ilgili bir durum için iletişim göstermez.',
 	),
 	array(
 		0 => 'Neden kayıt olamıyorum?',
@@ -88,7 +89,7 @@ $help = array(
 	),
 	array(
 		0 => 'Değişik bir zaman dilimi seçtim ama saatler hala yanlış!',
-		1 => 'Eğer doğru zaman dilimini seçtiğinize eminseniz ve Yaz Saati/GITZ doğruysa ve zaman hala yanlışsa, o zaman sunucu saatinde kayıtlı zaman yanlıştır. Lütfen problemin düzelmesi için bir yöneticiyi haberdar edin.'
+		1 => 'Eğer doğru zaman dilimini seçtiğinize eminseniz ve zaman hala yanlışsa, sunucu saatinde kayıtlı zaman yanlış olabilir. Lütfen problemin düzeltilmesi için bir yöneticiyi haberdar edin.'
 	),
 	array(
 		0 => 'Konuştuğum dil listede yok!',
@@ -126,9 +127,9 @@ $help = array(
 		0 => 'Nasıl bir anket oluştururum?',
 		1 => 'Anket oluşturmak kolaydır, yeni bir başlık gönderirken (veya bir başlığın ilk mesajını düzenlerken (bu tabiki sahip olduğunuz izne bağlıdır)), mesaj gönderme formunun altında “Anket oluştur” sekmesini göreceksiniz (böyle bir formu göremiyorsanız, anket oluşturma yetkiniz yok demektir). Anket için “Anket sorusu” kısmına bir başlık girmelisiniz ve sonra “Anket seçenekleri” alanına, her satıra ayrı bir seçenek olacak şekilde en az iki seçenek girmelisiniz (bu limit mesaj panosu yönetici tarafından ayarlanır). Ayrıca kullanıcıların oylama sırasında seçebilecekleri seçeneklerin sayısını “Her kullanıcı için seçenek” bölümünün altından ayarlayabilirsiniz, anket için gün cinsinden bir zaman sınırı belirleyebilirsiniz (sınırsız sürede olması için 0 yazın) ve son olarak eğer kullanıcıların kendi oylarını değiştirme izni varsa oy verdikleri seçeneği değiştirebilirler.'
 	), 
-  array( 
-    0 => 'Neden daha fazla anket seçeneği ekleyemiyorum?', 
-    1 => 'Anket seçenekleri için limit, mesaj panosu yöneticisi tarafından ayarlanır. Eğer anketiniz için izin verilen miktardan daha fazla seçenek eklemeniz gerekiyorsa, mesaj panosu yöneticisi ile iletişime geçin.'
+	array( 
+		0 => 'Neden daha fazla anket seçeneği ekleyemiyorum?', 
+		1 => 'Anket seçenekleri için limit, mesaj panosu yöneticisi tarafından ayarlanır. Eğer anketiniz için izin verilen miktardan daha fazla seçenek eklemeniz gerekiyorsa, mesaj panosu yöneticisi ile iletişime geçin.'
 	),
 	array(
 		0 => 'Bir anketi nasıl değiştirir veya silerim?',
@@ -144,7 +145,7 @@ $help = array(
 	),
 	array(
 		0 => 'Neden bir uyarı aldım?',
-		1 => 'Her mesaj panosu yöneticisi, mesaj panoları için kendi kurallarını belirlemişlerdir. Eğer bir kural ihlalinde bulunduysanız, uyarı alabilirsiniz. Not: Bu durum, mesaj panosu yöneticisi’nin kararındadır ve phpBB Grubu verilen bu uyarı ile ilgili herhangi bir şey yapamaz. Eğer neden bir uyarı aldığınızı bilmiyorsanız, mesaj panosu yöneticisi ile iletişime geçin.'
+		1 => 'Her mesaj panosu yöneticisi, mesaj panoları için kendi kurallarını belirlemiştir. Eğer bir kural ihlalinde bulunduysanız, uyarı alabilirsiniz. Not: Bu durum, mesaj panosu yöneticisi’nin kararındadır ve phpBB Limited verilen bu uyarı ile ilgili herhangi bir şey yapamaz. Eğer neden bir uyarı aldığınızı bilmiyorsanız, mesaj panosu yöneticisi ile iletişime geçin.'
 	),
 	array(
 		0 => 'Bir moderatöre mesajları nasıl bildirebilirim?',
@@ -329,16 +330,14 @@ $help = array(
 	),
 	array(
 		0 => 'Bu mesaj panosunu kim yazdı?',
-		1 => 'Bu yazılım (değiştirilmemiş haliyle) <a href="https://www.phpbb.com/">phpBB Group</a> tarafından üretilmiş ve genel dağıtıma çıkarılmıştır. Tüm eser hakları phpBB Group\'a aittir. Bu eser, GNU General Public License antlaşması altında sunulmuştur. Bu antlaşmaya uyma şartıyla ücretsiz dağıtılabilir. Daha detaylı bilgiler için bağlantıya göz atın.'
+		1 => 'Bu yazılım (değiştirilmemiş haliyle) <a href="https://www.phpbb.com/">phpBB Limited</a> tarafından telif hakkıyla üretilmiş ve genel dağıtıma çıkarılmıştır. Bu yazılım, GNU General Public License (Genel Kamu Lisansı) altında yapılmıştır ve serbestçe dağıtılabilir. Daha detaylı bilgiler için bağlantıya göz atın.'
 	),
 	array(
 		0 => 'Aradığım X özellik neden yok?',
-		1 => 'Bu yazılım phpBB Group tarafından yazılmış ve lisanslanmıştır. Eğer herhangi bir özelliğin eklenmesi gerektiğini düşünüyorsanız lütfen <a href="https://www.phpbb.com/ideas/">phpBB Fikirleri Merkezi\'ni</a> ziyaret edin, oradan mevcut fikirlere oy verebilir ya da yeni özellikler önerebilirsiniz.'
+		1 => 'Bu yazılım phpBB Limited tarafından yazılmış ve lisanslanmıştır. Eğer herhangi bir özelliğin eklenmesi gerektiğini düşünüyorsanız lütfen <a href="https://www.phpbb.com/ideas/">phpBB Fikirleri Merkezi</a>’ni ziyaret edin, oradan mevcut fikirlere oy verebilir ya da yeni özellikler önerebilirsiniz.'
 	),
 	array(
 		0 => 'Bu mesaj panosuyla ilgili hukuki sorunlar için veya suistimal durumlarda kime başvurabilirim?',
-		1 => '“Takım” sayfasında listelenmiş yöneticilerin herhangi biri ile şikayetleriniz için iletişime geçebilirsiniz. Eğer onlardan cevap alamıyorsanız, o zaman alan adının sahibi ile (bir <a href="http://www.google.com/search?q=whois">whois sorgulaması</a> yaparak) ya da, eğer bu mesaj panosu ücretsiz bir serviste çalışıyorsa (ör. Yahoo!, free.fr, f2s.com, v.b.), bu servisin yönetimi veya suistimal konularla ilgilenen bölümüyle iletişime geçmelisiniz. Not: phpBB Grubu, bu mesaj panosunun nasıl, nerede ve kimler tarafından kullanıldığı konusunda bir bilgisi olmadığı için <strong>kesinlikle yargılanamaz</strong> ve her ne olursa olsun sorumlu tutulamaz. phpBB.com sitesiyle veya phpBB yazılımıyla <strong>doğrudan ilgisi olmayan</strong> herhangi bir hukuki konuda (ihtiyati tedbir, mali sorumluluk, iftira vs.) phpBB Grubu ile iletişime geçmeyin. Bu yazılımın herhangi <strong>üçüncü şahıslar tarafından kullanımıyla ilgili</strong> phpBB Group\'a e-posta gönderirseniz, ya çok kısa bir cevap alırsınız ya da hiç bir cevap alamazsınız.'
-	)
+		1 => '“Takım” sayfasında listelenmiş yöneticilerin herhangi biri ile şikayetleriniz için iletişime geçebilirsiniz. Eğer onlardan cevap alamıyorsanız, o zaman alan adının sahibi ile (bir <a href="http://www.google.com/search?q=whois">whois sorgulaması</a> yaparak alan adı sahibine ulaşılabilir) ya da, eğer bu mesaj panosu ücretsiz bir serviste çalışıyorsa (ör. Yahoo!, free.fr, f2s.com, v.b.), bu servisin yönetimi veya suistimal konularla ilgilenen bölümüyle iletişime geçmelisiniz. Not: phpBB Limited, bu mesaj panosunun nasıl, nerede ve kimler tarafından kullanıldığı konusunda bir bilgisi olmadığı için <strong>kesinlikle yargılanamaz</strong> ve her ne olursa olsun sorumlu tutulamaz. phpBB.com sitesiyle veya phpBB yazılımıyla <strong>doğrudan ilgisi olmayan</strong> herhangi bir hukuki konuda (ihtiyati tedbir, mali sorumluluk, iftira vs.) phpBB Limited ile iletişime geçmeyin. Bu yazılımın herhangi <strong>üçüncü şahıslar tarafından kullanımıyla ilgili</strong> phpBB Limited’e e-posta gönderirseniz, ya çok kısa bir cevap alırsınız ya da hiç bir cevap alamazsınız.'
+	),
 );
-
-?>

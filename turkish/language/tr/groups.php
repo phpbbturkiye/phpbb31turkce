@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* groups [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: groups.php,v 1.21 2007/05/10 15:31:21 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -82,7 +83,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'	=> 'İstenilen işlem yapılamadı çünkü seçilen grubun lideri değilsiniz.',
 	'NOT_MEMBER_OF_GROUP'	=> 'İstenilen işlem yapılamadı çünkü seçilen grubun üyesi değilsiniz ya da üyeliğiniz henüz onaylanmadı.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Varsayılan gurubunuzdan ayrılma izniniz yok.',
-	
+
 	'PRIMARY_GROUP'		=> 'Birinci grup',
 
 	'REMOVE_SELECTED'		=> 'Seçileni sil',
@@ -92,5 +93,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Seçilen gruptaki grup liderinin liderlik derecesini düşürmek istediğinizden emin misiniz?',
 	'USER_GROUP_DEMOTED'		=> 'Liderlik dereceniz başarıyla düşürüldü.',
 ));
-
-?>

@@ -15,5 +15,4 @@ Hesabınızı yeniden aktif etmek için lütfen alttaki bağlantıyı ziyaret ed
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

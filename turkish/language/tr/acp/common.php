@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp common [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: common.php,v 1.115 2007/06/11 12:39:50 kellanved Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -49,9 +50,9 @@ $lang = array_merge($lang, array(
 	'ACP_BACKUP'				=> 'Yedekleme',
 	'ACP_BAN'					=> 'Yasaklama',
 	'ACP_BAN_EMAILS'			=> 'E-postaları yasakla',
-	'ACP_BAN_IPS'				=> 'IP\'leri yasakla',
-	'ACP_BAN_USERNAMES'			=> 'Kullanıcı adlarını yasakla',
-	'ACP_BBCODES'				=> 'BBCode\'lar',
+	'ACP_BAN_IPS'				=> 'IP’leri yasakla',
+	'ACP_BAN_USERNAMES'			=> 'Kullanıcıları yasakla',
+	'ACP_BBCODES'				=> 'BBCode’lar',
 	'ACP_BOARD_CONFIGURATION'	=> 'Mesaj panosu konfigürasyonu',
 	'ACP_BOARD_FEATURES'		=> 'Mesaj panosu özellikleri',
 	'ACP_BOARD_MANAGEMENT'		=> 'Mesaj panosu yönetimi',
@@ -59,9 +60,10 @@ $lang = array_merge($lang, array(
 	'ACP_BOTS'					=> 'Örümcekler/Robotlar',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
-	
+
+	'ACP_CAT_CUSTOMISE'			=> 'Özelleştir',	
 	'ACP_CAT_DATABASE'			=> 'Veritabanı',
-	'ACP_CAT_DOT_MODS'			=> '.MODlar',
+	'ACP_CAT_DOT_MODS'			=> 'Uzantılar',
 	'ACP_CAT_FORUMS'			=> 'Forumlar',
 	'ACP_CAT_GENERAL'			=> 'Genel',
 	'ACP_CAT_MAINTENANCE'		=> 'Bakım',
@@ -81,7 +83,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Yasaklı kullanıcı isimleri',
 	
 	'ACP_EMAIL_SETTINGS'		=> 'E-posta ayarları',
-	'ACP_EXTENSION_GROUPS'		=> 'Eklenti gruplarını yönet',
+	'ACP_EXTENSION_GROUPS'		=> 'Eklenti uzantı gruplarını yönet',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Uzantı yönetimi',
+	'ACP_EXTENSIONS'			=> 'Uzantıları yönet',
 	
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum tabanlı izinler',
 	'ACP_FORUM_LOGS'				=> 'Forum kayıtları',
@@ -100,10 +104,10 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Grupları yönet',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Grup yönetimi',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Grup izinleri',
+	'ACP_GROUPS_POSITION'			=> 'Grup pozisyonlarını yönet',	
 	
 	'ACP_ICONS'					=> 'Başlık ikonları',
 	'ACP_ICONS_SMILIES'			=> 'Başlık ikonları/ifadeler',
-	'ACP_IMAGESETS'				=> 'Görüntü kümeleri',
 	'ACP_INACTIVE_USERS'		=> 'Aktif olmayan kullanıcılar',
 	'ACP_INDEX'					=> 'YKP ana sayfa',
 	
@@ -115,10 +119,13 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'Girişler',
 	
 	'ACP_MAIN'					=> 'YKP ana sayfa',
-	'ACP_MANAGE_EXTENSIONS'		=> 'Eklentileri yönet',
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Eklentileri yönet',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Buradan mesajlara ve özel mesajlara eklenen dosyaları listeleyebilir ve silebilirsiniz.',
+
+	'ACP_MANAGE_EXTENSIONS'		=> 'Eklenti uzantılarını yönet',
 	'ACP_MANAGE_FORUMS'			=> 'Forumları yönet',
 	'ACP_MANAGE_RANKS'			=> 'Rütbeleri yönet',
-	'ACP_MANAGE_REASONS'		=> 'Bildiri/Yasaklama sebeplerini yönet',
+	'ACP_MANAGE_REASONS'		=> 'Bildiri/yasaklama sebeplerini yönet',
 	'ACP_MANAGE_USERS'			=> 'Kullanıcıları yönet',
 	'ACP_MASS_EMAIL'			=> 'Toplu e-posta',
 	'ACP_MESSAGES'				=> 'Mesajlar',
@@ -161,10 +168,11 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'Sunucu ayarları',
 	'ACP_SIGNATURE_SETTINGS'	=> 'İmza ayarları',
 	'ACP_SMILIES'				=> 'İfadeler',
-	'ACP_STYLE_COMPONENTS'		=> 'Stil bileşenleri',
 	'ACP_STYLE_MANAGEMENT'		=> 'Stil yönetimi',
 	'ACP_STYLES'				=> 'Stiller',
-	'ACP_SUBMIT_CHANGES'		=> 'Değişiklikleri uygula',	
+	'ACP_STYLES_CACHE'			=> 'Önbelleği Temizle',
+	'ACP_STYLES_INSTALL'		=> 'Stil Kur',
+	'ACP_SUBMIT_CHANGES'		=> 'Değişiklikleri uygula',
 	
 	'ACP_TEMPLATES'				=> 'Şablonlar',
 	'ACP_THEMES'				=> 'Temalar',
@@ -224,12 +232,13 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Farklı indir',
 	'DOWNLOAD_STORE'			=> 'İndir ya da dosyayı depola',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Dosyayı direkt olarak indirebilir ya da <samp>store/</samp> dizininize kaydedebilirsiniz.',
+	'DOWNLOADS'          		=> 'İndirmeler',	
 
 	'EDIT'					=> 'Düzenle',
 	'ENABLE'				=> 'Aç',
 	'EXPORT_DOWNLOAD'		=> 'İndir',
 	'EXPORT_STORE'			=> 'Sakla',
-
+	
 	'GENERAL_OPTIONS'		=> 'Genel seçenekler',
 	'GENERAL_SETTINGS'		=> 'Genel ayarlar',
 	'GLOBAL_MASK'			=> 'Global izin maskesi',
@@ -237,6 +246,9 @@ $lang = array_merge($lang, array(
 	'INSTALL'				=> 'Kur',
 	'IP'					=> 'Kullanıcı IP',
 	'IP_HOSTNAME'			=> 'IP adresleri ya da sunucu adları',
+	
+	'LOAD_NOTIFICATIONS'			=> 'Bildirimleri göster',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Her sayfada (genellikle sayfa üstlerinde) bildirimler listesini göster.',
 
 	'LOGGED_IN_AS'			=> 'Şu şekilde giriş yaptınız:',
 	'LOGIN_ADMIN'			=> 'Mesaj panosunu yönetmek için yetkilendirilmiş bir kullanıcı olmalısınız.',
@@ -254,7 +266,8 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY'				=> 'Bildiri',
 	'NO_ADMIN'				=> 'Bu mesaj panosunu yönetmek için yetkiniz yok.',
-	'NO_EMAILS_DEFINED'		=> 'Geçerli bir e-posta adresi bulunamadı.',
+	'NO_EMAILS_DEFINED'		=> 'Geçerli bir e-mail adresi bulunamadı.',
+	'NO_FILES_TO_DELETE'	=> 'Silmek için seçtiğiniz eklentiler mevcut değil.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Yönetim Kontrol Paneline erişmek için şifrenizi girmelisiniz.',
 
 	'OFF'					=> 'Kapalı',
@@ -269,16 +282,18 @@ $lang = array_merge($lang, array(
 	
 	'REMIND'				=> 'Hatırlat',
 	'RESYNC'				=> 'Yeniden senkronize et',
-	'RETURN_TO'				=> 'Buraya dön...',
 
 	'SELECT_ANONYMOUS'		=> 'Misafir kullanıcı seç',
 	'SELECT_OPTION'			=> 'Tercih seç',
 
-  'SETTING_TOO_LOW'      => '“%1$s” ayarı için girilen değer çok düşük. En düşük izin verilen değer %2$d.',
-  'SETTING_TOO_BIG'      => '“%1$s” ayarı için girilen değer çok büyük. En yüksek izin verilen değer %2$d.',   
-  'SETTING_TOO_LONG'      => '“%1$s” ayarı için girilen değer çok uzun. En yüksek izin verilen uzunluk %2$d.',
-  'SETTING_TOO_SHORT'      => '“%1$s” ayarı için girilen değer yeterli uzunlukta değil. En düşük izin verilen uzunluk %2$d.',
-  'SHOW_ALL_OPERATIONS'	=> 'Tüm işlemleri göster',
+	'SETTING_TOO_LOW'      => '“%1$s” ayarı için girilen değer çok düşük. En düşük izin verilen değer %2$d.',
+	'SETTING_TOO_BIG'      => '“%1$s” ayarı için girilen değer çok büyük. En yüksek izin verilen değer %2$d.',   
+	'SETTING_TOO_LONG'      => '“%1$s” ayarı için girilen değer çok uzun. En yüksek izin verilen uzunluk %2$d.',
+	'SETTING_TOO_SHORT'      => '“%1$s” ayarı için girilen değer çok kısa. En düşük izin verilen uzunluk %2$d.',
+	
+	'SHOW_ALL_OPERATIONS'	=> 'Tüm işlemleri göster',
+	
+	'TOTAL_SIZE'      		=> 'Toplam boyut',	
 
 	'UCP'					=> 'Kullanıcı Kontrol Paneli',
 	'USERNAMES_EXPLAIN'		=> 'Her kullanıcı adını ayrı bir satıra yerleştirin.',
@@ -339,6 +354,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Gzip sıkıştırma',
 
+	'NO_SEARCH_INDEX'	=> 'Seçilen arama uygulaması bir arama indeksine sahip değil.<br />Lütfen %2$sarama indeksi%3$s bölümünden “%1$s” için indeks oluşturun.',	
 	'NOT_AVAILABLE'		=> 'Mevcut değil',
 	'NUMBER_FILES'		=> 'Eklentilerin sayısı',
 	'NUMBER_POSTS'		=> 'Mesajların sayısı',
@@ -350,32 +366,41 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Günlük ortalama mesaj',
 
-  'PURGE_CACHE'          => 'Önbellek temizliği', 
-  'PURGE_CACHE_CONFIRM'   => 'Önbelleği temizlemek istediğinize emin misiniz?', 
-  'PURGE_CACHE_EXPLAIN'   => 'Tüm önbellek ile ilgili ögeleri temizler; bu, önbelleklenen herhangi şablon dosyalarını ya da sorgularını kapsar.',
-  
-  'PURGE_SESSIONS'			=> 'Tüm oturumları temizle',
+	'PURGE_CACHE'          => 'Önbellek temizliği', 
+	'PURGE_CACHE_CONFIRM'   => 'Önbelleği temizlemek istediğinize emin misiniz?', 
+	'PURGE_CACHE_EXPLAIN'   => 'Tüm önbellek ile ilgili ögeleri temizler; bu, önbelleklenen herhangi şablon dosyalarını ya da sorgularını kapsar.',
+ 	'PURGE_CACHE_SUCCESS'	=> 'Önbellek başarıyla temizlendi.',
+	
+	'PURGE_SESSIONS'			=> 'Tüm oturumları temizle',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Tüm oturumları temizlemek istediğinizden emin misiniz? Bu işlem tüm kullanıcıların oturumlarını sonlandıracaktır.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Tüm oturumları temizler. Bu işlem oturum tablosunun boşaltılmasıyla tüm kullanıcıların oturumlarını sonlandırır.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'Oturumlar başarıyla temizlendi.',	
   
-	'RESET_DATE'			=> 'Mesaj panosunun açılış tarihini sıfırla',
-	'RESET_DATE_CONFIRM'			=> 'Mesaj panosunun açılış tarihini sıfırlamak istediğinize emin misiniz?',
+	'RESET_DATE'			=> 'Mesaj panosu’nun açılış tarihini sıfırla',
+	'RESET_DATE_CONFIRM'			=> 'Mesaj panosu’nun açılış tarihini sıfırlamak istediğinize emin misiniz?',
+	'RESET_DATE_SUCCESS'				=> 'Mesaj panosu’nun açılış tarihi sıfırlandı',	
 	'RESET_ONLINE'			=> 'Şimdiye kadar en çok çevrimiçi olanları sıfırla',
 	'RESET_ONLINE_CONFIRM'			=> 'Şimdiye kadar en çok çevrimiçi olanlar sayacını sıfırlamak istediğinize emin misiniz?',
+	'RESET_ONLINE_SUCCESS'				=> 'Şimdiye kadar en çok çevrimiçi olanlar sıfırlandı',
 	'RESYNC_POSTCOUNTS'		=> 'Mesaj sayaçlarını yeniden senkronize et',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Sadece varolan mesajlar gözönüne alınacaktır. Budanan mesajlar hesaba katılmayacaktır.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Mesaj sayaçlarını yeniden senkronize etmek istediğinize emin misiniz?',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Mesaj sayaçları yeniden senkronize edildi',
 	'RESYNC_POST_MARKING'	=> 'Noktalanan başlıkları yeniden senkronize et',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Noktalanan başlıkları yeniden senkronize etmek istediğinize emin misiniz?',
  	'RESYNC_POST_MARKING_EXPLAIN'	=> 'İlk önce tüm başlıkların işaretleri kaldırılır ve o zaman geçmişteki altı ay içinde herhangi bir aktivite görülen işaretli başlıklar doğru şekilde görüntülenir.',
-	'RESYNC_STATS'			=> 'İstatistikleri yeniden senkronize et',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Noktalanan başlıklar yeniden senkronize edildi',	
+	'RESYNC_STATS'					=> 'İstatistikleri yeniden senkronize et',
 	'RESYNC_STATS_CONFIRM'			=> 'İstatistikleri yeniden senkronize etmek istediğinize emin misiniz?',
  	'RESYNC_STATS_EXPLAIN'			=> 'Mesajların, başlıkların, kullanıcıların ve dosyaların toplam sayısını yeniden hesaplar.',
+	'RESYNC_STATS_SUCCESS'			=> 'İstatistikler yeniden senkronize edildi',	
  	'RUN'							=> 'Şimdi çalıştır',
 
-	'STATISTIC'			=> 'İstatistik',
+	'STATISTIC'					=> 'İstatistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'İstatistikleri sıfırla veya yeniden senkronize et',
 
+	'TIMEZONE_INVALID'	=> 'Seçtiğiniz zaman dilimi geçersiz.',
+	'TIMEZONE_SELECTED'	=> '(şu an seçili)',
 	'TOPICS_PER_DAY'	=> 'Günlük ortalama başlık',
 
 	'UPLOAD_DIR_SIZE'	=> 'Gönderilen eklentilerin boyutu',
@@ -524,16 +549,21 @@ $lang = array_merge($lang, array(
 	'LOG_MOVE'               => '<strong>Başlık taşındı</strong><br />» Başlık %1$s forumundan %2$s forumuna taşındı',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>ÖM bildirisi kapatıldı</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>ÖM bildirisi silindi</strong><br />» %s',
-	'LOG_POST_APPROVED'   => '<strong>Mesaj onaylandı</strong><br />» %s', 
-	'LOG_POST_DISAPPROVED'  => '<strong>“%1$s” konulu mesaj onaylanmadı</strong><br />» Onaylanmama sebebi: %2$s',
-	'LOG_POST_EDITED'     => '<strong>“%1$s” konulu mesaj düzenlendi</strong><br />» Mesajın yazarı: %2$s',
-	'LOG_REPORT_CLOSED'   => '<strong>Bildiri kapatıldı</strong><br />» %s', 
-	'LOG_REPORT_DELETED'  => '<strong>Bildiri silindi</strong><br />» %s',
+	'LOG_POST_APPROVED'   		=> '<strong>Mesaj onaylandı</strong><br />» %s', 
+	'LOG_POST_DISAPPROVED'		=> '<strong>“%3$s” tarafından yazılan “%1$s” konulu mesaj onaylanmadı</strong><br />» Onaylanmama sebebi: %2$s',
+	'LOG_POST_EDITED'     		=> '<strong>“%1$s” konulu mesaj düzenlendi</strong><br />» Mesajın yazarı: %2$s',
+	'LOG_POST_RESTORED'			=> '<strong>Mesaj onarıldı</strong><br />» %s',
+	'LOG_REPORT_CLOSED'   		=> '<strong>Bildiri kapatıldı</strong><br />» %s', 
+	'LOG_REPORT_DELETED'  		=> '<strong>Bildiri silindi</strong><br />» %s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>“%1$s” konulu başlık onarıldı</strong><br />» Başlığın yazarı: %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>“%1$s” konulu mesaja yumuşak silme yapıldı</strong><br />» Mesajın yazarı: %2$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>“%1$s” konulu başlığa yumuşak silme yapıldı</strong><br />» Başlığın yazarı: %2$s',
  	'LOG_SPLIT_DESTINATION'		=> '<strong>Bölünen mesajlar taşındı</strong><br />» Bölünen mesajlar %s başlığına taşındı',
  	'LOG_SPLIT_SOURCE'			=> '<strong>Mesajlar bölündü</strong><br />» Mesajlar %s başlığından bölündü',
  	
-	'LOG_TOPIC_APPROVED'   => '<strong>Başlık onaylandı</strong><br />» %s', 
-	'LOG_TOPIC_DISAPPROVED' => '<strong>“%1$s” konulu başlık onaylanmadı</strong><br />Onaylanmama sebebi: %2$s',
+	'LOG_TOPIC_APPROVED'   => '<strong>Başlık onaylandı</strong><br />» %s',
+	'LOG_TOPIC_RESTORED'		=> '<strong>Başlık onarıldı</strong><br />» %s',	
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>“%3$s” tarafından yazılan “%1$s” konulu başlık onaylanmadı</strong><br />» Onaylanmama sebebi: %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Başlık sayaçları yeniden senkronize edildi</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Başlık tipi değiştirildi</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Başlığın kilidi açıldı</strong><br />» %s',
@@ -584,19 +614,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Resim oluşturulurken hata meydana geldi</strong><br />» Hata, %1$s içinde ve %2$s satırında: %3$s',
 
-	'LOG_IMAGESET_ADD_DB'		=> '<strong>Veritabanına yeni görüntü kümesi eklendi</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'		=> '<strong>Dosya sistemine yeni görüntü kümesi eklendi</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'		=> '<strong>Görüntü kümesi silindi</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'	=> '<strong>Görüntü kümesi bilgileri düzenlendi</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'			=> '<strong>Görüntü kümesi düzenlendi</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'		=> '<strong>Görüntü kümesi dışarı aktarıldı</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>“%2$s” kısmındaki görüntü kümesi kayboldu</strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'   => '<strong>Görüntü kümesinin “%2$s” kısmı yenilendi</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'	=> '<strong>Görüntü kümesi yenilendi</strong><br />» %s',
-	
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Aktif olmayan kullanıcılar aktif edildi</strong><br />» %s',
-	'LOG_INACTIVE_DELETE'		=> '<strong>Aktif olmayan kullanıcılar silindi</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'		=> '<strong>Aktif olmayan kullanıcılara hatırlatma e-postası gönderildi</strong><br />» %s',
+	'LOG_INACTIVE_DELETE'	=> '<strong>Aktif olmayan kullanıcılar silindi</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>Aktif olmayan kullanıcılara hatırlatma e-postası gönderildi</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>%1$s sürümünden phpBB %2$s sürümüne dönüştürme yapıldı</strong>',	
 	'LOG_INSTALL_INSTALLED'	=> '<strong>phpBB kuruldu %s</strong>',
 
@@ -625,19 +645,20 @@ $lang = array_merge($lang, array(
 	'LOG_MODULE_ADD'		=> '<strong>Modül eklendi</strong><br />» %s',
 	'LOG_MODULE_EDIT'		=> '<strong>Modül düzenlendi</strong><br />» %s',
 
-	'LOG_A_ROLE_ADD'		=> '<strong>Yönetici Rolü eklendi</strong><br />» %s',
-	'LOG_A_ROLE_EDIT'		=> '<strong>Yönetici Rolü düzenlendi</strong><br />» %s',
-	'LOG_A_ROLE_REMOVED'	=> '<strong>Yönetici Rolü silindi</strong><br />» %s',
-	'LOG_F_ROLE_ADD'		=> '<strong>Forum Rolü eklendi</strong><br />» %s',
-	'LOG_F_ROLE_EDIT'		=> '<strong>Forum Rolü düzenlendi</strong><br />» %s',
-	'LOG_F_ROLE_REMOVED'	=> '<strong>Forum Rolü kaldırıldı</strong><br />» %s',
-	'LOG_M_ROLE_ADD'		=> '<strong>Moderatör Rolü eklendi</strong><br />» %s',
-	'LOG_M_ROLE_EDIT'		=> '<strong>Moderatör Rolü düzenlendi</strong><br />» %s',
-	'LOG_M_ROLE_REMOVED'	=> '<strong>Moderatör Rolü silindi</strong><br />» %s',
-	'LOG_U_ROLE_ADD'		=> '<strong>Kullanıcı Rolü eklendi</strong><br />» %s',
-	'LOG_U_ROLE_EDIT'		=> '<strong>Kullanıcı Rolü düzenlendi</strong><br />» %s',
-	'LOG_U_ROLE_REMOVED'	=> '<strong>Kullanıcı Rolü silindi</strong><br />» %s',
+	'LOG_A_ROLE_ADD'		=> '<strong>Yönetici rolü eklendi</strong><br />» %s',
+	'LOG_A_ROLE_EDIT'		=> '<strong>Yönetici rolü düzenlendi</strong><br />» %s',
+	'LOG_A_ROLE_REMOVED'	=> '<strong>Yönetici rolü silindi</strong><br />» %s',
+	'LOG_F_ROLE_ADD'		=> '<strong>Forum rolü eklendi</strong><br />» %s',
+	'LOG_F_ROLE_EDIT'		=> '<strong>Forum rolü düzenlendi</strong><br />» %s',
+	'LOG_F_ROLE_REMOVED'	=> '<strong>Forum rolü kaldırıldı</strong><br />» %s',
+	'LOG_M_ROLE_ADD'		=> '<strong>Moderatör rolü eklendi</strong><br />» %s',
+	'LOG_M_ROLE_EDIT'		=> '<strong>Moderatör rolü düzenlendi</strong><br />» %s',
+	'LOG_M_ROLE_REMOVED'	=> '<strong>Moderatör rolü silindi</strong><br />» %s',
+	'LOG_U_ROLE_ADD'		=> '<strong>Kullanıcı rolü eklendi</strong><br />» %s',
+	'LOG_U_ROLE_EDIT'		=> '<strong>Kullanıcı rolü düzenlendi</strong><br />» %s',
+	'LOG_U_ROLE_REMOVED'	=> '<strong>Kullanıcı rolü silindi</strong><br />» %s',
 
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Toplama yapmak için %1$s açılamıyor, izinleri kontrol edin.</strong><br />İstisna: %2$s<br />İzlenen: %3$s',
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profil alanı aktif edildi</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profil alanı eklendi</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Profil alanı pasif edildi</strong><br />» %s',
@@ -646,6 +667,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Forumlar budandı</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Forumlar otomatik olarak budandı</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Gölgeli başlıklar otomatik olarak budandı</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Kullanıcılar deaktif edildi</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Kullanıcılar budandı ve mesajlar silindi</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Kullanıcılar budandı ve mesajlar tutuldu</strong><br />» %s',
@@ -660,37 +682,45 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_ADDED'		=> '<strong>Bildiri/yasaklama sebebi eklendi</strong><br />» %s',
 	'LOG_REASON_REMOVED'	=> '<strong>Bildiri/yasaklama sebebi silindi</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Bildiri/yasaklama sebebi güncellendi</strong><br />» %s',
+	
 	'LOG_REFERER_INVALID'      => '<strong>Referer doğrulaması başarısız oldu</strong><br />»Referer, “<em>%1$s</em>” olarak görüldü. İstek kabul edilmedi ve oturum sonlandırıldı.',
-
-	'LOG_RESET_DATE'			=> '<strong>Mesaj panosu açılış tarihi değeri sıfırlandı</strong>',
-	'LOG_RESET_ONLINE'			=> '<strong>En çok çevrimiçi olan kullanıcılar değeri sıfırlandı</strong>',
+	'LOG_RESET_DATE'			=> '<strong>Mesaj panosu’nun açılış tarihi sıfırlandı</strong>',
+	'LOG_RESET_ONLINE'			=> '<strong>Şimdiye kadar en çok çevrimiçi olanlar sıfırlandı</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Dosya istatistikleri yeniden senkronize edildi</strong>',	
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Kullanıcı mesaj sayacı yeniden senkronize edildi</strong>',
-	'LOG_RESYNC_POST_MARKING'	=> '<strong>İşaretli başlıklar yeniden senkronize edildi</strong>',
+	'LOG_RESYNC_POST_MARKING'	=> '<strong>Noktalı başlıklar yeniden senkronize edildi</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Mesaj, başlık ve kullanıcı istatistikleri yeniden senkronize edildi</strong>',
 
  	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Arama indeksi oluşturuldu</strong><br />» %s',
- 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Arama indeksi kaldırıldı</strong><br />» %s',
+ 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Arama indeksi silindi</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Hatası</strong><br />» %s',	
 	'LOG_STYLE_ADD'				=> '<strong>Yeni stil eklendi</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Stil silindi</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Stil düzenlendi</strong><br />» %s',
 	'LOG_STYLE_EXPORT'			=> '<strong>Stil dışarı aktarıldı</strong><br />» %s',
 
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Veritabanına yeni şablon seti eklendi</strong><br />» %s',
+	// @deprecated 3.1	
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Dosya sistemine yeni şablon seti eklendi</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Şablon seti <em>%1$s</em> içerisindeki şablon dosyalarının ön belleğe alınan sürümleri silindi</strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>Şablon seti silindi</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>Şablon seti düzenlendi <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Şablon bilgileri düzenlendi</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>Dışa Aktarılmış şablon seti</strong><br />» %s',
+	// @deprecated 3.1	
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Şablon seti yenilendi</strong><br />» %s',
 
+	// @deprecated 3.1	
 	'LOG_THEME_ADD_DB'			=> '<strong>Veritabanına yeni tema eklendi</strong><br />» %s',
+	// @deprecated 3.1	
 	'LOG_THEME_ADD_FS'			=> '<strong>Dosya sistemine yeni tema eklendi</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Tema silindi</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Tema bilgileri düzenlendi</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Tema düzenlendi <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Tema düzenlendi <em>%1$s</em></strong><br />» Düzenlenen dosya <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Tema dışarı aktarıldı</strong><br />» %s',
+	// @deprecated 3.1	
 	'LOG_THEME_REFRESHED'		=> '<strong>Tema yenilendi</strong><br />» %s',
 	
  	'LOG_UPDATE_DATABASE'	=> '<strong>Veritabanı %1$s sürümünden %2$s sürümüne güncellendi</strong>',
@@ -727,7 +757,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE_USER'	=> '<strong>Kullanıcı hesabı yeniden aktivasyon için zorunlu tutuldu</strong>',
 	'LOG_USER_UNLOCK'			=> '<strong>Kullanıcı kendi başlığının kilidini açtı</strong><br />» %s',
 	'LOG_USER_WARNING'			=> '<strong>Kullanıcı uyarısı eklendi</strong><br />»%s',
-	'LOG_USER_WARNING_BODY'		=> '<strong>İzlenen uyarı bu kullanıcıya verildi</strong><br />»%s',
+	'LOG_USER_WARNING_BODY'		=> '<strong>Kullanıcıya uyarı verildi</strong><br />»%s',
 
 	'LOG_USER_GROUP_CHANGE'			=> '<strong>Kullanıcı varsayılan grubunu değiştirdi</strong><br />» %s',
 	'LOG_USER_GROUP_DEMOTE'			=> '<strong>Kullanıcının, kullanıcı grubundan liderlik rütbesi düşürüldü</strong><br />» %s',
@@ -736,12 +766,17 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Kullanıcı grup üyeliğinden ayrıldı</strong><br />» %s',
 	
 	'LOG_WARNING_DELETED'		=> '<strong>Kullanıcı uyarısı silindi</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>%2$s kullanıcı uyarısı silindi</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Kullanıcı uyarısı silindi</strong><br />» %1$s',
+		2 => '<strong>%2$d kullanıcı uyarısı silindi</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tüm kullanıcı uyarıları silindi</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Kelime sansürü eklendi</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Kelime sansürü silindi</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Kelime sansürü düzenlendi</strong><br />» %s',
-));
 
-?>
+	'LOG_EXT_ENABLE'	=> '<strong>Uzantı aktifleştirildi</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Uzantı pasifleştirildi</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Uzantı’nın verisi silindi</strong><br />» %s',	
+));

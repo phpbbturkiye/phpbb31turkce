@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_database [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: database.php,v 1.22 2007/06/09 11:10:23 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -73,5 +74,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> 'Tablo seçimi',
 	'TABLE_SELECT_ERROR'	=> 'En az bir tablo seçmelisiniz.',
 ));
-
-?>

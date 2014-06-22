@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_attachments [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: attachments.php,v 1.30 2007/05/17 14:58:40 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -62,6 +63,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'   => 'Bir özel mesaj eklentisinde her bir dosyanın en yüksek boyutu, 0 ile sınırsız olur.',
 	'ATTACH_ORPHAN_URL'					=> 'Boşta kalan eklentiler',
 	'ATTACH_POST_ID'					=> 'Mesaj ID',
+	'ATTACH_POST_TYPE'					=> 'Mesaj türü',	
 	'ATTACH_QUOTA'						=> 'Toplam eklenti kotası',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Mesaj panosunun tümü için eklentilere ayrılan en fazla sürücü alanı, sınırsız olması için 0 yazın.',
 	'ATTACH_TO_POST'					=> 'Mesaja dosya ekle',
@@ -106,9 +108,12 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_QUICKTIME_MEDIA'      => 'Quicktime Ortam Dosyaları',
 	'EXT_GROUP_REAL_MEDIA'         => 'Real Media Ortam Dosyaları',
 	'EXT_GROUP_WINDOWS_MEDIA'      => 'Windows Media Ortam Dosyaları',
+ 
+	'FILES_GONE'			=> 'Silmek için seçtiğiniz eklentilerin bazıları mevcut değil. Bunlar daha önce zaten silinmiş olabilir. Mevcut olan eklentiler ise silindi.',
+	'FILES_STATS_WRONG'		=> 'Dosya istatistiklerinizde büyük olasılıkla yanlışlık var ve yeniden senkronize edilmeleri gerekiyor. Güncel değerler: eklentilerin sayısı = %1$d, eklentilerin toplam boyutu = %2$s.<br />Bunları yeniden senkronize etmek için %3$sburaya%4$s tıklayın.',
 
-	'GO_TO_EXTENSIONS'		=> 'Uzantı Yönetim Paneline Git',
-	'GROUP_NAME'			=> 'Grup İsmi',
+	'GO_TO_EXTENSIONS'		=> 'Uzantı yönetim paneline git',
+	'GROUP_NAME'			=> 'Grup adı',
 
 	'IMAGE_LINK_SIZE'			=> 'Resim bağlantısı boyutları',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Resim eklentisi belirtilen miktardan büyükse satır içinde bir metin bağlantısı olarak gösterilecektir. Bu eylemi kapatmak için, değeri 0 piksel - 0 piksel olarak ayarlayın.',
@@ -130,6 +135,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Sadece mesajlarda izinli',
 	'NOT_ALLOWED_IN_PM_POST'    => 'İzinli değil',
 	'NOT_ASSIGNED'				=> 'Tanımlanmadı',
+	'NO_ATTACHMENTS'			=> 'Bu dönem için hiç bir eklenti bulunamadı.',	
 	'NO_EXT_GROUP'				=> 'Yok',
 	'NO_EXT_GROUP_NAME'			=> 'Grup ismi girilmedi',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Belirli bir uzantı grubu yok',
@@ -143,8 +149,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'İzin ver',
 	'ORDER_DENY_ALLOW'		=> 'Reddet',
 
-	'REMOVE_ALLOWED_IPS'		=> '<em>İzin verilen</em> IP/Sunucu isimlerini kaldır ya da kabul et',
-	'REMOVE_DISALLOWED_IPS'		=> '<em>İzin verilmeyen</em> IP/Sunucu isimlerini kaldır ya da kabul et',
+	'REMOVE_ALLOWED_IPS'			=> '<em>İzin verilen</em> IP/sunucu adlarını kaldır ya da hariç tutulanlardan çıkar',
+	'REMOVE_DISALLOWED_IPS'			=> '<em>İzin verilmeyen</em> IP/sunucu adlarını kaldır ya da hariç tutulanlardan çıkar',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Dosya istatistiklerini yeniden senkronize etmek istediğinize emin misiniz?',
 
 	'SEARCH_IMAGICK'				=> 'Imagemagick için ara',
 	'SECURE_ALLOW_DENY'				=> 'İzinli/Yasaklı listesi',
@@ -170,5 +177,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Yükleme resmi',
 	'UPLOAD_NOT_DIR'				=> 'Belirtmiş olduğunuz yükleme konumu bir klasör gibi görünmüyor.',
 ));
-
-?>

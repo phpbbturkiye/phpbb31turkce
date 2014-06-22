@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* search_ignore_words [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search_ignore_words.php,v 1.2 2006/10/08 11:21:39 acydburn Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -268,5 +269,3 @@ $words = array(
 	'ROTFLMAO',
 	'YMMV',
 );
-
-?>

@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* posting [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: posting.php,v 1.38 2007/06/09 11:10:23 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -43,8 +44,10 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_DANGER'				=> 'Eklemeyi denediğiniz BBCode bir HTML niteliği içerisinde yanıltıcı bir {TEXT} tipi kullanıldığını gösteriyor. Bu XSS güvenlik sorunundan olabilir. Onun yerine daha başka tanımlayıcı {SIMPLETEXT} ya da {INTTEXT} tiplerini kullanmayı deneyin. Eğer ilgili riskleri anladıysanız ve kesinlikle kaçınılmaz olarak {TEXT} tipini kullanmayı düşünüyorsanız sadece ilerleyin.',
 	'BBCODE_DANGER_PROCEED'		=> 'İlerle', //'I understand the risk',
+	
 	'BBCODE_ADDED'				=> 'BBCode başarıyla eklendi',
 	'BBCODE_EDITED'				=> 'BBCode başarıyla düzenlendi',
+	'BBCODE_DELETED'			=> 'BBCode başarıyla silindi.',	
 	'BBCODE_NOT_EXIST'			=> 'Seçmiş olduğunuz BBCode mevcut değil',
 	'BBCODE_HELPLINE'			=> 'Yardım satırı',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Bu alan BBcode üzerine fare ile gelindiğinde metin içerir.',
@@ -83,8 +86,8 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Herhangi bir protokolde geçerli URL kullanımı (http, ftp, gibi… javascript exploitleri için kullanılamaz). Hiç biri verilmezse, diziye “http://” ön adı verilir.',
 		'LOCAL_URL'		=> 'Yerel bir URL adresi. URL adresi konu/başlık sayfasına bağlı olmalıdır ve sunucu ismi ya da protokolü içermemelidir, bağlantılar “%s” ön adı almalıdır.',
 		'RELATIVE_URL'	=> 'Göreceli bir URL adresi. Bir URL adresinin eşleşen bölümleri için bunu kullanabilirsiniz, fakat dikkatli olun: tam URL adresi geçerli bir göreceli URL adresi olmalıdır. Mesaj panonuzun göreceli URL adreslerini kullanmak istediğiniz zaman, LOCAL_URL belirtecini kullanabilirsiniz.',
-		'COLOR'			=> 'Bir HTML rengi, <samp>#FF1234</samp> şeklinde sayısal form içinde ya da bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk klavyesindeki</a> gibi olabilir, <samp>fuchsia</samp> veya <samp>InactiveBorder</samp> gibi de olabilir'
-	)
+		'COLOR'			=> 'Bir HTML rengi, <samp>#FF1234</samp> şeklinde sayısal form içinde ya da bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk klavyesindeki</a> gibi olabilir, <samp>fuchsia</samp> veya <samp>InactiveBorder</samp> gibi de olabilir',
+	),
 ));
 
 // Smilies and topic icons
@@ -104,10 +107,8 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES_EXPLAIN'	=> 'Şu anki kurulu olan ifadelerle ne yapacağınızı seçin.',
 
 	'DISPLAY_ON_POSTING'	=> 'Mesaj gönderme sayfasında göster',
-  'DISPLAY_POSTING'         => 'Mesaj gönderme sayfasında',
-  'DISPLAY_POSTING_NO'      => 'Mesaj gönderme sayfasında değil',
-
-
+	'DISPLAY_POSTING'         => 'Mesaj gönderme sayfasında',
+	'DISPLAY_POSTING_NO'      => 'Mesaj gönderme sayfasında değil',
 
 	'EDIT_ICONS'				=> 'İkonları Düzenle',
 	'EDIT_SMILIES'				=> 'İfadeleri düzenle',
@@ -120,15 +121,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'İlk',
 
 	'ICONS_ADD'				=> 'Yeni bir ikon ekle',
-  'ICONS_NONE_ADDED'      => 'Hiç bir ikon eklenmedi.',
-  'ICONS_ONE_ADDED'      => 'İkon başarıyla eklendi.',
-	'ICONS_ADDED'			=> 'İkonlar başarıyla eklendi.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'Hiç bir ikon eklenmedi.',
+		1	=> 'İkon başarıyla eklendi.',
+		2	=> 'İkonlar başarıyla eklendi.',
+	),
 	'ICONS_CONFIG'			=> 'İkon ayarları',
 	'ICONS_DELETED'			=> 'İkon başarıyla kaldırıldı.',
 	'ICONS_EDIT'			=> 'İkonu düzenle',
-  'ICONS_ONE_EDITED'      => 'İkon başarıyla güncellendi.',
-  'ICONS_NONE_EDITED'      => 'Hiç bir ikon güncellenmedi.',
-	'ICONS_EDITED'			=> 'İkonlar başarıyla güncellendi.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Hiç bir ikon güncellenmedi.',
+		1	=> 'İkon başarıyla güncellendi.',
+		2	=> 'İkonlar başarıyla güncellendi.',
+	),
 	'ICONS_HEIGHT'			=> 'İkon yüksekliği',
 	'ICONS_IMAGE'			=> 'İkon resmi',
 	'ICONS_IMPORTED'		=> 'İkon paketi başarıyla yüklendi.',
@@ -160,9 +165,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Bir paket dosyası seçin',
 	'SMILIES_ADD'				=> 'Yeni bir ifade ekle',
-	'SMILIES_NONE_ADDED'      => 'Hiç bir ifade eklenmedi.',
-	'SMILIES_ONE_ADDED'         => 'İfade başarıyla eklendi.',
-	'SMILIES_ADDED'            => 'İfadeler başarıyla eklendi.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Hiç bir ifade eklenmedi.',
+		1	=> 'İfade başarıyla eklendi.',
+		2	=> 'İfadeler başarıyla eklendi.',
+	),
 	'SMILIES_CODE'				=> 'İfade Kodu',
 	'SMILIES_CONFIG'			=> 'İfade ayarları',
 	'SMILIES_DELETED'			=> 'İfade başarıyla kaldırıldı.',
@@ -170,9 +177,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'         => '“%s” ifadesi, hiç bir ifade kodu girilmediği için yoksayıldı.',
 	'SMILIE_NO_EMOTION'         => '“%s” ifadesi, hiç bir ifade resmi girilmediği için yoksayıldı.',
 	'SMILIE_NO_FILE'			=> '“%s” ifadesi, ifade dosyası kayıp olduğu için yoksayıldı.',
-	'SMILIES_NONE_EDITED'      => 'Hiç bir ifade güncellenmedi.',
-	'SMILIES_ONE_EDITED'      => 'İfade başarıyla güncellendi.',
-	'SMILIES_EDITED'         => 'İfadeler başarıyla güncellendi.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Hiç bir ifade güncellenmedi.',
+		1	=> 'İfade başarıyla güncellendi.',
+		2	=> 'İfadeler başarıyla güncellendi.',
+	),
 	'SMILIES_EMOTION'			=> 'Duygu',
 	'SMILIES_HEIGHT'			=> 'İfade yüksekliği',
 	'SMILIES_IMAGE'				=> 'İfade resmi',
@@ -183,7 +192,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'İfade sıralaması',
 	'SMILIES_URL'				=> 'İfade resim dosyası',
 	'SMILIES_WIDTH'				=> 'İfade genişliği',
-	'TOO_MANY_SMILIES'			=> '%d ifade sınırına ulaşıldı.',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> '%d ifade sınırına ulaşıldı.',
+		2	=> '%d ifade sınırına ulaşıldı.',
+	),
 
 	'WRONG_PAK_TYPE'	=> 'Belirtilen paket uygun veriye sahip değil.',
 ));
@@ -275,5 +287,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'Bildirilerde kullanılır',
 ));
-
-?>

@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_profile [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: profile.php,v 1.23 2007/06/09 11:10:23 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -40,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Özel profil alanı başarıyla eklendi',
 	'ALPHA_ONLY'			=> 'Sadece alfanümerik',
 	'ALPHA_SPACERS'			=> 'Alfanümerik ve boşluk',
+	'ALPHA_UNDERSCORE'		=> 'Alfanümerik ve alt çizgiler',
 	'ALWAYS_TODAY'			=> 'Her zaman geçerli tarih',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Ayarlarınızı şimdi girin',
@@ -65,9 +67,13 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE'			=> 'Kullanıcı kontrol panelinde göster',
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Kullanıcı, kullanıcı kontrol panelinden bu profil alanını değiştirebilir.',
 	'DISPLAY_AT_REGISTER'			=> 'Kayıt ekranında göster',
-	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Eğer bu özellik açık olursa, alan kayıt ekranında gösterilecektir.',
+	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Eğer bu özellik açık olursa; alan, kayıt ekranında gösterilecektir.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Üye listesi ekranında göster',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Eğer bu özellik açık olursa; alan, üye listesi ekranındaki kullanıcı satırlarında gösterilecektir.',	
+	'DISPLAY_ON_PM'					=> 'Özel mesaj görüntüleme ekranında göster',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Eğer bu özellik açık olursa alan, özel mesaj ekranındaki mini-profil içerisinde gösterilecektir.',
 	'DISPLAY_ON_VT'					=> 'Başlık görüntüleme ekranında göster',
-	'DISPLAY_ON_VT_EXPLAIN'			=> 'Eğer bu seçenek aktif edilirse, alan başlık ekranında mini-profil içerisinde gösterilecektir.',
+	'DISPLAY_ON_VT_EXPLAIN'			=> 'Eğer bu seçenek aktif edilirse, alan başlık ekranındaki mini-profil içerisinde gösterilecektir.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Profil alanını herkese göster',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Profil alanı, yüklü ayarların içerisinde izin verilen tüm yerlerde gösterilecektir. Bunu “hayır” olarak ayarlarsanız profil alanı, başlık sayfalarından, profillerden ve üye listesinden gizlenecektir.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Seçeneklerinizi şimdi girin, her satırda bir seçenek olmalıdır.',
@@ -78,21 +84,26 @@ $lang = array_merge($lang, array(
 	'ENTRIES'					=> 'Girdiler',
 	'EVERYTHING_OK'				=> 'Her şey TAMAM',
 
-	'FIELD_BOOL'				=> 'Boole (Evet/Hayır)',
+ 	'FIELD_BOOL'				=> 'Bağlaçlar (Evet/Hayır)',
+	'FIELD_CONTACT_DESC'		=> 'İletişim açıklaması',
+	'FIELD_CONTACT_URL'			=> 'İletişim bağlantısı',
 	'FIELD_DATE'				=> 'Tarih',
 	'FIELD_DESCRIPTION'			=> 'Alan Açıklaması',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Kullanıcıya sunulacak bu alan için açıklama.',
 	'FIELD_DROPDOWN'			=> 'Açılır liste kutusu',
 	'FIELD_IDENT'				=> 'Alan adı',
-	'FIELD_IDENT_ALREADY_EXIST'	=> 'Seçilen alan tanımlaması zaten var. Lütfen başka bir isim seçin.',
-	'FIELD_IDENT_EXPLAIN'		=> 'Tanımlayacağınız profil alanı için bir alan adı, bu kullanıcıya gösterilmeyecektir.',
-	'FIELD_INT'					=> 'Numaralar',
+	'FIELD_IDENT_ALREADY_EXIST'	=> 'Seçilen alan kimliği zaten mevcut. Lütfen başka bir ad seçin.',
+	'FIELD_IDENT_EXPLAIN'		=> 'Alan kimliği, veritabanı ve şablonlar içerisinde profil alanını tanımlamak için kullanılacak olan bir addır.',
+	'FIELD_INT'					=> 'Sayılar',	
+	'FIELD_IS_CONTACT'			=> 'Bir iletişim alanı olarak alanı göster',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'İletişim alanları, kullanıcı profilinin iletişim bölümünde; ve bundan farklı olarak mesajlar ile özel mesajlardan sonra mini profil içerisinde gösterilir.',
 	'FIELD_LENGTH'				=> 'Girdi kutusunun uzunluğu',
 	'FIELD_NOT_FOUND'			=> 'Profil alanı bulunamadı',
 	'FIELD_STRING'				=> 'Tek yazı alanı',
 	'FIELD_TEXT'				=> 'Yazı alanı',
 	'FIELD_TYPE'				=> 'Alan tipi',
 	'FIELD_TYPE_EXPLAIN'		=> 'Alan tipini daha sonra değiştiremezsiniz.',
+	'FIELD_URL'					=> 'URL (Bağlantı)',	
 	'FIELD_VALIDATION'			=> 'Alan doğrulaması',
 	'FIRST_OPTION'				=> 'İlk seçenek',
 
@@ -154,5 +165,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'Görülebilir seçenekler',
 ));
-
-?>

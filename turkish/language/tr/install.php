@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* install [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: install.php,v 1.109 2007/06/11 13:54:37 kellanved Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -73,14 +74,13 @@ $lang = array_merge($lang, array(
 	'CONFIG_FILE_WRITTEN'		=> 'Ayar dosyasına yazıldı. Şimdi kurulum için bir sonraki adıma geçebilirsiniz.',
 	'CONFIG_PHPBB_EMPTY'            => '“%s” için phpBB3 config değişkeni boş.',
 	'CONFIG_RETRY'				=> 'Tekrar dene',
-	'CONTACT_EMAIL_CONFIRM'		=> 'İletişim e-posta adresini doğrula',
 	'CONTINUE_CONVERT'			=> 'Dönüştürmeye devam et',
 	'CONTINUE_CONVERT_BODY'         => 'Önceki bir dönüştürme denemesi belirlendi. Şimdi, yeni bir dönüşüm başlatmak ya da dönüşüme devam etmek arasında bir seçim yapabilirsiniz.',
 	'CONTINUE_LAST'				=> 'Son anlatımlara devam et',
 	'CONTINUE_OLD_CONVERSION'       => 'Önceki başlatılan dönüştürmeye devam et',
 	'CONVERT'					=> 'Dönüştür',
 	'CONVERT_COMPLETE'			=> 'Dönüşüm tamamlandı',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.0\'a şimdi başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="http://www.phpbb.com/support/documentation/3.0/">Dokümantasyon</a> ve <a href="http://www.phpbb.com/community/viewforum.php?f=46">destek forumlarında</a> mevcuttur.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.1’e başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="http://www.phpbb.com/support/documentation/3.0/">Dokümantasyon</a> ve <a href="http://www.phpbb.com/community/viewforum.php?f=46">destek forumlarında</a> mevcuttur.',
 	'CONVERT_INTRO'				=> 'phpBB Birleştirme Dönüştürücü Sistemine Hoşgeldiniz',
 	'CONVERT_INTRO_BODY'		=> 'Buradan, diğer (kurulmuş) mesaj panosu sistemlerinden veri transfer edebilirsiniz. Alttaki listede geçerli tüm dönüşüm modülleri mevcuttur. Eğer alttaki listede dönüşüm yapmak istediğiniz mesaj panosu yazılımı gösterilmemişse, daha fazla dönüşüm modülleri için lütfen web sitemizi kontrol edin, bu modüller için mevcut bir indirme dosyası bulunabilir.',
 	'CONVERT_NEW_CONVERSION'        => 'Yeni dönüştürme',
@@ -153,11 +153,12 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL ile MySQLi Uzantısı',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',	
 	'DLL_XML'					=> 'XML desteği [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib sıkıştırma desteği [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'İndirme ayarları',
-	'DL_CONFIG_EXPLAIN'			=> 'config.php dosyasının tamamını kendi bilgisayarınıza indirebilirsiniz. O zaman dosyayı elle yüklemeniz ve phpBB 3.0 ana dizininizde mevcut olan config.php dosyası ile değiştirmeniz gerekecektir. Lütfen dosyayı ASCII formatında yüklemeyi unutmayın (eğer bunu nasıl yapacağınıza emin değilseniz FTP uygulama dokümantasyonunuza bakın). config.php dosyasını yüklediğiniz zaman lütfen sonraki adıma geçmek için “Bitti” bağlantısına tıklayın.',
+	'DL_CONFIG_EXPLAIN'			=> 'config.php dosyasının tamamını kendi bilgisayarınıza indirebilirsiniz. O zaman dosyayı elle yüklemeniz ve phpBB 3.1 ana dizininizde mevcut olan config.php dosyası ile değiştirmeniz gerekecektir. Lütfen dosyayı ASCII formatında yüklemeyi unutmayın (eğer bunu nasıl yapacağınıza emin değilseniz FTP uygulama dokümantasyonunuza bakın). config.php dosyasını yüklediğiniz zaman lütfen sonraki adıma geçmek için “Bitti” bağlantısına tıklayın.',
 	'DL_DOWNLOAD'				=> 'İndir',
 	'DONE'						=> 'Bitti',
 
@@ -197,28 +198,29 @@ $lang = array_merge($lang, array(
 
 	'INSTALL_INTRO_BODY'		=> 'Bu seçenek ile, sunucunuza phpBB3 kurmak mümkün olacaktır.</p><p>Devam etmek için, veritabanı ayarlarınıza ihtiyacınız vardır. Eğer veritabanı ayarlarınızı bilmiyorsanız, lütfen hosting firmanız ile iletişime geçin ve onlara sorun. Bu ayarlar olmadan devam edemezsiniz. Size gerekenler:</p>
 	
-  <ul> 
-     <li>Veritabanı Tipi - kullanacağınız veritabanı.</li> 
-     <li>Veritabanı sunucu adı ya da DSN - veritabanı sunucusunun adresi.</li> 
-     <li>Veritabanı sunucu portu - veritabanı sunucusunun portu (genellikle bu gerekli değildir).</li> 
-     <li>Veritabanı adı - sunucudaki veritabanının adı.</li> 
-     <li>Veritabanı kullanıcı adı ve Veritabanı şifresi - veritabanına erişim için giriş bilgileri.</li> 
-  </ul> 
-     
-  <p><strong>Not:</strong> eğer kurulum yaparken SQLite kullanacaksanız, DSN alanına veritabanı dosyanıza ulaşan tam yolu girmelisiniz ve kullanıcı adı ile şifre alanlarını boş bırakmalısınız. Güvenlik sebeplerinden dolayı, veritabanı dosyasının web üzerinden erişilebilir bir konumda bulunmadığına emin olun.</p> 
-     
-  <p>phpBB3 alttaki veritabanlarını destekler:</p> 
 	<ul>
-     <li>MySQL 3.23 veya üzeri (MySQLi destekli)</li> 
-     <li>PostgreSQL 7.3+</li> 
-     <li>SQLite 2.8.2+</li> 
-     <li>Firebird 2.1+</li> 
-     <li>MS SQL Server 2000 veya üzeri (direkt olarak veya ODBC yoluyla)</li> 
-	 <li>MS SQL Server 2005 veya üzeri (native)</li>
-     <li>Oracle</li> 
-     </ul> 
+		<li>Veritabanı Tipi - kullanacağınız veritabanı.</li> 
+		<li>Veritabanı sunucu adı ya da DSN - veritabanı sunucusunun adresi.</li> 
+		<li>Veritabanı sunucu portu - veritabanı sunucusunun portu (genellikle bu gerekli değildir).</li> 
+		<li>Veritabanı adı - sunucudaki veritabanının adı.</li> 
+		<li>Veritabanı kullanıcı adı ve Veritabanı şifresi - veritabanına erişim için giriş bilgileri.</li> 
+	</ul>
+     
+	<p><strong>Not:</strong> eğer kurulum yaparken SQLite kullanacaksanız, DSN alanına veritabanı dosyanıza ulaşan tam yolu girmelisiniz ve kullanıcı adı ile şifre alanlarını boş bırakmalısınız. Güvenlik sebeplerinden dolayı, veritabanı dosyasının web üzerinden erişilebilir bir konumda bulunmadığına emin olun.</p> 
+     
+	<p>phpBB3 alttaki veritabanlarını destekler:</p> 
+	<ul>
+		<li>MySQL 3.23 veya üzeri (MySQLi destekli)</li> 
+		<li>PostgreSQL 8.3+</li> 
+		<li>SQLite 2.8.2+</li>
+		<li>SQLite 3.6.15+</li>	 
+		<li>Firebird 2.1+</li> 
+		<li>MS SQL Server 2000 veya üzeri (direkt olarak veya ODBC yoluyla)</li> 
+		<li>MS SQL Server 2005 veya üzeri (native)</li>
+		<li>Oracle</li> 
+	</ul>
         
-  <p>Sunucunuzda sadece bu desteklenen veritabanları görüntülenecektir.', 
+	<p>Sunucunuzda sadece bu desteklenen veritabanları görüntülenecektir.', 
 	'INSTALL_INTRO_NEXT'		=> 'Kurulumu başlatmak için, lütfen alttaki butona tıklayın.',
 	'INSTALL_LOGIN'				=> 'Giriş',
 	'INSTALL_NEXT'				=> 'Sonraki Adım',
@@ -235,6 +237,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Hiç bir hata mesajı belirlenmedi.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Bu makinede kurulu olan MySQL sürümü seçtiğiniz “MySQL ile MySQLi Uzantısı” seçeneği ile uyuşmuyor. Lütfen bunun yerine “MySQL” seçeneğini seçerek tekrar deneyin.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 3.6.15 sürümüne güncellenmelidir.',	
 	'INST_ERR_DB_NO_ORACLE'		=> 'Bu makinede kurulu olan Oracle\'nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>\'e göre ayarlamanız gerekiyor. Kurulumunuzu 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'Bu makinede kurulu olan Firebird sürümü 2.1\'den eski, lütfen yeni bir sürüme güncelleyin.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Firebird için seçtiğiniz veritabanı 8192\'den daha az bir sayfa boyutuna sahip, en düşük 8192 olmalıdır.',
@@ -291,7 +294,9 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 desteği',
  	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'Eğer PHP kurulumunuz PCRE uzantısı içinde UTF-8 desteği ile derlenmediyse phpBB <strong>çalışmayacaktır</strong>.',
  	'PHP_GETIMAGESIZE_SUPPORT'     => 'PHP getimagesize() fonksiyonu mevcut', 
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => '<strong>Gerekli</strong> - phpBB doğru şekilde özellikte olması için, getimagesize fonksiyonu mevcut olmalıdır.',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => '<strong>Gerekli</strong> - phpBB’nin düzgün bir şekilde çalışması için, getimagesize fonksiyonu mevcut olmalıdır.',
+	'PHP_JSON_SUPPORT'        		=> 'PHP JSON desteği',
+	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Gerekli</strong> - phpBB’nin düzgün bir şekilde çalışması için, PHP JSON uzantısının mevcut olması gereklidir.',	
 	'PHP_OPTIONAL_MODULE'			=> 'İsteğe bağlı modüller',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>İsteğe Bağlı</strong> - Bu modüller veya uygulamalar isteğe bağlıdır. Fakat, eğer bunlar mevcutsa ekstra özellikler aktif olacaktır.',
 	'PHP_SUPPORTED_DB'				=> 'Desteklenen veritabanları',
@@ -300,10 +305,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'Eğer bu ayar aktifse phpBB çalışacaktır, fakat eğer mümkünse, güvenlik sebepleri için PHP kurulumunuzdan bu register_globals ayarını deaktif etmenizi öneriyoruz.',
 	'PHP_SAFE_MODE'					=> 'Güvenli mod',
 	'PHP_SETTINGS'					=> 'PHP sürümü ve ayarları',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Gerekli</strong> - phpBB kurulumu için en düşük PHP sürümünüz 4.3.3 olmalıdır. Eğer altta "güvenli mod" görünüyorsa PHP kurulumunuz bu modda çalışmaktadır. Bu, uzaktan yönetim ve benzer özelliklerde sınırlama getirecektir.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Gerekli</strong> - phpBB kurulumu için en düşük PHP sürümünüz 5.3.3 olmalıdır. Eğer altta "güvenli mod" görünüyorsa PHP kurulumunuz bu modda çalışmaktadır. Bu, uzaktan yönetim ve benzer özelliklerde sınırlama getirecektir.',
 	'PHP_URL_FOPEN_SUPPORT'     => 'PHP <var>allow_url_fopen</var> ayarı açık', 
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN' => '<strong>İsteğe Bağlı</strong> - Bu ayar isteğe bağlıdır, fakat site dışı avatarlar gibi bazı phpBB özellikleri bu olmadan düzgün bir şekilde çalışmayacaktır.',
-	'PHP_VERSION_REQD'				=> 'PHP sürümü >= 4.3.3',
+	'PHP_VERSION_REQD'				=> 'PHP sürümü >= 5.3.3',
 	'POST_ID'						=> 'Mesaj ID numarası',
 	'PREFIX_FOUND'					=> 'Tablolarınızda yapılan tarama sırasında, geçerli bir kurulum için <strong>%s</strong> adında bir tablo öneki kullanıldığı görüldü.',
 	'PREPROCESS_STEP'				=> 'Özelliklerin/sorguların ön-işlemi yapılıyor',
@@ -318,11 +323,12 @@ $lang = array_merge($lang, array(
 	'RETRY_WRITE_EXPLAIN'		=> 'Eğer isterseniz config.php dosyasının izinlerini phpBB’nin yazabilmesi için değiştirebilirsiniz. Bunu yaptıktan sonra alttaki Tekrar dene butonuna tıklamalısınız. phpBB kurulumu bittikten sonra config.php dosyasının izinlerini eski haline getirmeyi unutmayın.',
 
 	'SCRIPT_PATH'				=> 'Script yolu',
-	'SCRIPT_PATH_EXPLAIN'		=> 'Alan adına göre phpBB\'nin ilgili konum yolu, ör: <samp>/phpBB3</samp>.',
+	'SCRIPT_PATH_EXPLAIN'		=> 'Alan adına göre phpBB’nin ilgili konum yolu, ör: <samp>/phpBB3</samp>.',
 	'SELECT_LANG'				=> 'Dil seç',
 	'SERVER_CONFIG'				=> 'Sunucu ayarları',
  	'SEARCH_INDEX_UNCONVERTED'	=> 'Arama indeksi dönüştürülemedi',
- 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Eski arama indeksiniz dönüştürülemedi. Aramalar daima boş bir sonuç verecektir. Yeni bir arama indeksi oluşturmak için Yönetim Kontrol Paneline gidin, Bakım bölümünü seçin ve oradaki alt menüdende Arama indeksini seçin.',	
+ 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Eski arama indeksiniz dönüştürülemedi. Aramalar daima boş bir sonuç verecektir. Yeni bir arama indeksi oluşturmak için Yönetim Kontrol Paneline gidin, Bakım bölümünü seçin ve oradaki alt menüdende Arama indeksini seçin.',
+	'SELECT_FORUM_GA'			=> 'phpBB 3.1’de global duyurular forumlara bağlantılıdır. Şu anki global duyurularınız için bir forum seçin (daha sonra taşınabilir):',	
 	'SOFTWARE'					=> 'Mesaj panosu yazılımı',
 	'SPECIFY_OPTIONS'			=> 'Dönüştürme seçeneklerini belirle',
 	'STAGE_ADMINISTRATOR'		=> 'Yönetici bilgileri',
@@ -330,7 +336,7 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED_EXPLAIN'	=> 'Eğer varsayılandan farklı şeylerin kesinlikle ayarlanması gerektiğini biliyorsanız bu sayfadaki ayarları yapın. Eğer şüpheliyseniz, sadece sonraki sayfaya ilerleyin, bu ayarlar daha sonra Yönetici Kontrol Panelinden değiştirilebilir.',
 	'STAGE_CONFIG_FILE'			=> 'Ayar dosyası',
 	'STAGE_CREATE_TABLE'		=> 'Veritabanı tabloları oluştur',
-	'STAGE_CREATE_TABLE_EXPLAIN' => 'phpBB 3.0 tarafından kullanılan veritabanı tabloları oluşturuldu ve bir kısım önceki veriyle beraber yerleştirildi. phpBB kurulumunu bitirmek için sonraki ekrana ilerleyin.',
+	'STAGE_CREATE_TABLE_EXPLAIN' 	=> 'phpBB 3.1 tarafından kullanılan veritabanı tabloları oluşturuldu ve bir kısım önceki veriyle beraber yerleştirildi. phpBB kurulumunu bitirmek için sonraki ekrana ilerleyin.',
 	'STAGE_DATABASE'			=> 'Veritabanı ayarları',
 	'STAGE_FINAL'				=> 'Final aşaması',
 	'STAGE_INTRO'				=> 'Giriş',
@@ -343,7 +349,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'Lisans',
 	'SUB_SUPPORT'				=> 'Destek',
 	'SUCCESSFUL_CONNECT'		=> 'Bağlantı başarılı',
-	'SUPPORT_BODY'            => 'phpBB3’ün şu anki sabit sürümü için ücretsiz, tam destek sağlanacaktır. Bu konuları kapsar:</p><ul><li>kurulum</li><li>ayarlar</li><li>teknik sorular</li><li>yazılımdaki olası hatalara bağlı problemler</li><li>Release Candidate (RC) sürümlerinden son sabit sürüme güncelleme</li><li>phpBB 2.0.x sürümlerinden phpBB3 sürümüne dönüşüm</li><li>diğer mesaj panosu yazılımlarından phpBB3\'e dönüşüm (lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=65">Dönüştürücüler Forumuna</a> bakın)</li></ul><p>Hala phpBB3’ün beta sürümlerini kullanan kullanıcıların kurulumlarını, son sürümün yeni kopyası ile değiştirmeye teşvik ediyoruz.</p><h2>MODlar / Stiller</h2><p>MODlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=81">Modifikasyon Forumuna</a> mesaj gönderin.<br />Stiller, temalar ve görüntü kümeleri ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=80">Stiller Forumuna</a> mesaj gönderin.<br /><br />Eğer belirli bir pakete bağlı sorunuz varsa, lütfen direkt olarak paket için belirlenmiş başlığa mesaj gönderin.</p><h2>Bulunabilir Destek</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB Hoşgeldiniz Paketi</a><br /><a href="https://www.phpbb.com/support/">Destek Alanı</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Kolay Başlangıç Rehberi</a><br /><br />Son haberler ve yayınlanan sürümler ile güncel kaldığınıza emin olmak için, neden <a href="https://www.phpbb.com/support/">e-posta listemize abone olmuyorsunuz</a>?<br /><br />',
+	'SUPPORT_BODY'            => 'phpBB3’ün şu anki sabit sürümü için ücretsiz, tam destek sağlanacaktır. Bu konuları kapsar:</p><ul><li>kurulum</li><li>ayarlar</li><li>teknik sorular</li><li>yazılımdaki olası hatalara bağlı problemler</li><li>Release Candidate (RC) sürümlerinden son sabit sürüme güncelleme</li><li>phpBB 2.0.x sürümlerinden phpBB3 sürümüne dönüşüm</li><li>diğer mesaj panosu yazılımlarından phpBB3’e dönüşüm (lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=65">Dönüştürücüler Forumuna</a> bakın)</li></ul><p>Hala phpBB3’ün beta sürümlerini kullanan kullanıcıların kurulumlarını, son sürümün yeni kopyası ile değiştirmeye teşvik ediyoruz.</p><h2>MODlar / Stiller</h2><p>MODlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=81">Modifikasyon Forumuna</a> mesaj gönderin.<br />Stiller, temalar ve şablonlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=80">Stiller Forumuna</a> mesaj gönderin.<br /><br />Eğer belirli bir pakete bağlı sorunuz varsa, lütfen direkt olarak paket için belirlenmiş başlığa mesaj gönderin.</p><h2>Bulunabilir Destek</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB Hoşgeldiniz Paketi</a><br /><a href="https://www.phpbb.com/support/">Destek Alanı</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Kolay Başlangıç Rehberi</a><br /><br />Son haberler ve yayınlanan sürümler ile güncel kaldığınıza emin olmak için, neden <a href="https://www.phpbb.com/support/">e-posta listemize abone olmuyorsunuz</a>?<br /><br />',
 	'SYNC_FORUMS'				=> 'Forumların eşleştirilmesine başlanıyor',
 	'SYNC_POST_COUNT'         => 'post_counts senkronize ediliyor',
 	'SYNC_POST_COUNT_ID'      => 'post_counts %1$s <var>girdisinden</var> %2$s <var>girdisine</var> senkronize ediliyor.',
@@ -371,7 +377,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel. Şimdi <a href="../ucp.php?mode=login">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Lütfen sunucunuz hakkındaki güncel bilgileri ve mesaj panosu ayarlarınızı YKP\'nizdeki <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">İstatistikleri gönder</a> modülünü kullanarak gönderin.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Tüm dosyalar son phpBB sürümü ile güncel.',
 	'ARCHIVE_FILE'				=> 'Arşiv içinde kaynak dosya',
 
 	'BACK'				=> 'Geri',
@@ -390,11 +396,14 @@ $lang = array_merge($lang, array(
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Şimdi <a href="../ucp.php?mode=login">mesaj panonuza giriş yapmalısınız</a> ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın!',
 	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Güncellemeye şimdi devam et',					// Shown after file upload to indicate the update process is not yet finished
-	'CURRENT_FILE'               => 'Kod güncellemesinden önceki Uyuşmayan - Orijinal Dosyanın Başlangıcı',
+	'CURRENT_FILE'               => 'Uyuşmazlığın başlangıcı - Güncellemeden önceki Orijinal Dosya kodu',
 	'CURRENT_VERSION'				=> 'Şu anki sürüm',
 
 	'DATABASE_TYPE'						=> 'Veritabanı tipi',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'install dizini içerisindeki veritabanı güncelleme dosyası eski. Lütfen dosyanın geçerli sürümünü yüklediğinize emin olun.',
+	'DATABASE_UPDATE_COMPLETE'			=> 'Veritabanı güncelleyici tamamlandı!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Veritabanı güncellemesine devam et',	
+	'DATABASE_UPDATE_INFO_OLD'			=> 'install dizini içerisindeki veritabanı güncelleme dosyası güncel değil. Lütfen dosyanın geçerli sürümünü yüklediğinize emin olun.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Veritabanı güncellemesi henüz tamamlanmadı.',	
  	'DELETE_USER_REMOVE'				=> 'Kullanıcıyı sil ve mesajları kaldır',
  	'DELETE_USER_RETAIN'				=> 'Kullanıcıyı sil fakat mesajları tut',
 	'DESTINATION'						=> 'Gidilecek dosya',
@@ -413,8 +422,9 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Düzenlenen dosyalar arşivini indir',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'İndirme işlemini tamamladıktan sonra arşivi açın. Arşivin içerisinde phpBB ana dizininize yüklemeniz gereken değiştirilmiş dosyaları bulacaksınız. Lütfen dosyaları ait olan yerlerine yükleyin. Tüm dosyaları yükledikten sonra, lütfen aşağıdaki ilgili diğer butonu kullanarak dosyaları tekrar kontrol edin.',
 
- 	'ERROR'			=> 'Hata',
  	'EDIT_USERNAME'	=> 'Kullanıcı adını düzenle',
+	'ERROR'			=> 'Hata',
+	'EVERYTHING_UP_TO_DATE'		=> 'Her şey son phpBB sürümü ile güncel. Şimdi <a href="%1$s">mesaj panonuza giriş</a> yapmalısınız ve herşeyin iyi çalıştığını kontrol etmelisiniz. install klasörünüzü silmeyi, yeniden adlandırmayı veya taşımayı unutmayın! Lütfen sunucunuz hakkındaki güncel bilgileri ve mesaj panosu konfigrasyonunuzu YKP’nizdeki <a href="%2$s">İstatistikleri gönder</a> modülünü kullanarak bize gönderin.',	
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Dosya zaten güncel.',
 	'FILE_DIFF_NOT_ALLOWED'   => 'Dosya, karşılaştırma yapmaya izinli değil.',
@@ -483,6 +493,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS_VERSION'					=> 'Önceki sürüm',
 	'PROGRESS'							=> 'İlerleme',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Duyuru',	
 	'RESULT'					=> 'Sonuç',
 	'RUN_DATABASE_SCRIPT'		=> 'Veritabanımı şimdi güncelle',
 
@@ -525,7 +536,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Sürüm duyurusu</h1>
 
-		<p>Güncelleme işleminize başlamadan önce lütfen <a href="%1$s" title="%1$s"><strong>son sürüm için sürüm duyurusunu</strong></a> okuyun. Bu, yararlı bilgiler içerebilir. Ayrıca tüm indirme bağlantılarını ve değişiklik kayıtlarını içermektedir.</p>
+		<p>Güncelleme işleminize başlamadan önce lütfen son sürüm için sürüm duyurusunu okuyun. Bu duyuru yararlı bilgiler içerebilir. Sürüm duyurusu ayrıca tüm indirme bağlantılarını ve değişiklik kayıtlarını içermektedir.</p>
 
 		<br />
 
@@ -540,17 +551,11 @@ $lang = array_merge($lang, array(
 		</ul>
 
 		<p>Mesaj panonuz, şu anda yüklediğiniz mevcut install klasörünün yükleme işlemi sırasında ve işlem bittikten sonra normal kullanıcılar için çevrimdışı olacaktır.<br /><br />
-		<strong><a href="%2$s" title="%2$s">Şimdi install klasörüne tarayıcınız ile giderek güncelleme işlemine başlayın</a>.</strong><br />
+		<strong><a href="%1$s" title="%1$s">Şimdi install klasörüne tarayıcınız ile giderek güncelleme işlemine başlayın</a>.</strong><br />
 		<br />
 		Güncelleme işlemi sırasında size rehberlik edilecektir. Güncelleme tamamlandığında ise bildiri alacaksınız.
 		</p>
 	',
-    'UPDATE_INSTRUCTIONS_INCOMPLETE'   => '
- 
-    <h1>Tam olmayan güncelleme tespit edildi</h1>
- 
-    <p>phpBB tam olmayan bir otomatik güncelleme tespit etti. Lütfen otomatik güncelleme aracı içerisindeki her bir adımı izlediğinize emin olun. Altta tekrar bir bağlantı bulacaksınız, ya da direk olarak install dizininize gidin.</p>
-  ',
 	'UPDATE_METHOD'					=> 'Güncelleme metodu',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Şimdi güncelleme metodu tercihinizi seçebilirsiniz. FTP yüklemesi kullanıldığında size bir form gösterilecektir, buraya FTP hesap bilgilerinizi girmeniz gerekmektedir. Bu metot ile dosyalar yeni yerlerine otomatik olarak taşınacaktır ve dosya adlarına .bak uzantısı ilave edilerek eski dosyalarınızın yedekleri oluşturulacaktır. Eğer düzenlenmiş dosyaları indirmeyi seçtiyseniz dosyaları açıp daha sonra doğru yerlerine elle yükleyebilirsiniz.',
 	'UPDATE_REQUIRES_FILE'			=> 'Güncelleyici şu dosyayı istiyor: %s',
@@ -560,10 +565,10 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Veri güncelleniyor',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Veritabanı en son sabit sürüme güncelleniyor',
 	'UPDATED_VERSION'				=> 'Güncellenen sürüm',
-	'UPGRADE_INSTRUCTIONS'         => '<strong>%1$s</strong> için yayınlanan yeni bir özellik mevcut. Lütfen bu özelliğin ne sunduğunu, ve nasıl güncelleyeceğinizi öğrenmek için <a href="%2$s" title="%2$s"><strong>yayın duyurusunu</strong></a> okuyun.',
 	'UPLOAD_METHOD'					=> 'Yükleme metodu',
 
 	'UPDATE_DB_SUCCESS'				=> 'Veritabanı güncellemesi başarıyla yapıldı.',
+	'UPDATE_FILE_SUCCESS'			=> 'Dosya güncellemesi başarıyla yapıldı.',	
 	'USER_ACTIVE'					=> 'Aktif kullanıcı',
 	'USER_INACTIVE'					=> 'Aktif olmayan kullanıcı',
 
@@ -623,7 +628,5 @@ $lang = array_merge($lang, array(
    'SMILIES_VERY_HAPPY'      => 'Çok Mutlu', 
    'SMILIES_WINK'             => 'Göz Kırpıyor', 
      
-   'TOPICS_TOPIC_TITLE'     => 'phpBB3\'e hoşgeldiniz', 
-    )); 
-
-?>
+   'TOPICS_TOPIC_TITLE'     => 'phpBB3’e hoşgeldiniz', 
+)); 

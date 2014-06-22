@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* ucp [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: ucp.php,v 1.124 2007/06/14 15:03:52 kellanved Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -39,12 +40,12 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '"%1$s" (diğer anlamda "biz", "tarafımız", "bizim", "%1$s", "%2$s") tarafından çoğaltılan, yasal olarak sınırlı olan alttaki koşulları kabul etmiş sayılıyorsunuz. Eğer yasal olarak sınırlı olan alttaki koşulların tümünü kabul etmiyorsanız o zaman lütfen "%1$s" mesaj panosuna giriş yapmayın ve/veya kullanmayın. Biz bu koşulları herhangi bir zamanda değiştirebiliriz ve sizi bilgilendirebiliriz, buna rağmen kendiniz düzenli olarak bu koşulları tekrar gözden geçirerek  "%1$s" mesaj panosunu kullanmaya devam edebilirsiniz, yasal olarak sınırlı olan bu koşulların güncellenmesi ve/veya düzenlenmesi durumunda meydana gelebilecek değişiklikleri de kabul etmiş sayılırsınız.<br />
 	<br />
-	Forumlarımız phpBB (diğer anlamda "onlar", "onlara", "onların", "phpBB yazılımı", "www.phpbb.com", "phpBB Grubu", "phpBB Takımları") tarafından güçlendirilmiştir -ki bu da "<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>" (diğer anlamda "GPL") altında bir forum yazılımı olarak yayınlanmıştır ve bu yazılımı <a href="https://www.phpbb.com/">www.phpbb.com</a> adresinden indirebilirsiniz. phpBB yazılımı sadece internet tabanlı tartışmaları kolaylaştırmak içindir, phpBB Grubu müsaade edilebilir içerik ve/veya davranış olarak izin verdiğimiz ve/veya izin vermediğimiz şeylerden sorumlu değildir. phpBB hakkında daha fazla bilgi için, lütfen bu adrese bakın: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
+	Forumlarımız phpBB (diğer anlamda “onlar”, “onlara”, “onların”, “phpBB yazılımı”, “www.phpbb.com”, “phpBB Limited”, “phpBB Takımları”) tarafından güçlendirilmiştir -ki bu da “<a href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>” (diğer anlamda “GPL” ya da “Genel Kamu Lisansı”) altında bir forum yazılımı olarak yayınlanmıştır ve bu yazılımı <a href="https://www.phpbb.com/">www.phpbb.com</a> adresinden indirebilirsiniz. phpBB yazılımı sadece internet tabanlı tartışmaları kolaylaştırmak içindir, phpBB Limited müsaade edilebilir içerik ve/veya davranış olarak izin verdiğimiz ve/veya izin vermediğimiz şeylerden sorumlu değildir. phpBB hakkında daha fazla bilgi için, lütfen bu adrese bakın: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Küfürlü, müstehcen, kaba, iftira niteliğinde, nefret dolu, tehdit edici, sekse yönelik veya ülkenizin kanunlarını çiğneyici içerikler göndermemeyi kabul ediyorsunuz, "%1$s" mesaj panosu hangi ülkede barındırılıyorsa o ülkenin kanunları veya Uluslararası kanunlar geçerlidir. Bunları dikkate almamanız durumunda hemen ve süresizce mesaj panosundan yasaklanırsınız ve eğer tarafımızca gerekli görülürse İnternet Servis Sağlayıcınız da haberdar edilir. Bütün mesajların IP adresi bu koşulların uygulanmasına yardımcı olmak için kaydedilmektedir. "%1$s" mesaj panosunda uygun gördüğümüz durumlarda ve zamanlarda herhangi bir başlığı silme, değiştirme, taşıma veya kapatma hakkımızın olduğunu kabul ediyorsunuz. Bir kullanıcı olarak her girdiğiniz bilginin veritabanında saklanacağını kabul ediyorsunuz. Her ne kadar bu bilgiler sizin bilginiz dışında üçüncü şahıslara verilmeyecek olsa da, herhangi bir hack saldırısı sonucunda bu bilgiler dağılırsa bundan "%1$s" veya phpBB kesinlikle sorumlu değildir.
 	',
 
-	'PRIVACY_POLICY'		=> 'Bu sözleşmedeki açıklamalar "%1$s" mesaj panosu ile bağlı grupların (diğer anlamda "biz", "bizler", "bizim", "%1$s", "%2$s") ve phpBB (diğer anlamda "onlar", "onlara", "onların", "phpBB yazılımı", "www.phpbb.com", "phpBB Grubu", "phpBB Takımları") yazılımının, ayrıca tarafınızdan kullanılan oturum boyunca toplanan bazı bilgilerin (diğer anlamda "sizin bilgileriniz") nasıl kullanılacağını içermektedir.<br />
+	'PRIVACY_POLICY'		=> 'Bu sözleşmedeki açıklamalar “%1$s” mesaj panosu ile bağlı grupların (diğer anlamda “biz”, “bizler”, “bizim”, “%1$s”, “%2$s”) ve phpBB (diğer anlamda "onlar”, “onlara”, “onların”, “phpBB yazılımı”, “www.phpbb.com”, “phpBB Limited”, “phpBB Takımları”) yazılımının, ayrıca tarafınızdan kullanılan oturum boyunca toplanan bazı bilgilerin (diğer anlamda “sizin bilgileriniz”) nasıl kullanılacağını içermektedir.<br />
 	<br />
 	Bilgileriniz iki konu altında toplanır. İlki, "%1$s" mesaj panosunu dolaşırken phpBB yazılımı belirli sayıda çerezler oluşturacaktır, bu küçük metin dosyaları bilgisayarınızda web tarayıcınızın temporary files klasörüne indirilir. İlk iki çerezler sadece bir kullanıcı kimliği (diğer anlamda "user-id") ve bir misafir oturum kimliği (diğer anlamda "session-id") içerir, bu size phpBB yazılımı tarafından otomatik olarak atanır. Üçüncü çerez ise "%1$s" mesaj panosundaki başlıkları dolaşabilmeniz için oluşturulur ve okumuş olduğunuz başlıkların depolanması için kullanılır, böylece kullanıcı yetenekleriniz hızlanacaktır.<br />
 	<br />
@@ -88,13 +89,24 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Bu mesaj panosundaki mesajlara eklediğiniz eklentilerin bir listesidir.',
 	'ATTACHMENTS_DELETED'			=> 'Eklentiler başarıyla silindi',
 	'ATTACHMENT_DELETED'			=> 'Eklenti başarıyla silindi',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Seçilen "Beni Hatırla" giriş anahtarı başarıyla silindi.',
 	'AVATAR_CATEGORY'				=> 'Kategori',
-	'AVATAR_EXPLAIN'				=> 'En yüksek boyutlar; genişlik: %1$d piksel, yükseklik: %2$d piksel, dosya boyutu: %3$.2f KiB.',
-	'AVATAR_FEATURES_DISABLED'		=> 'Avatar işlevselliği şimdilik kapatıldı.',
+	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar, birden fazla web sitesi üzerinde aynı avatarı kullanmayı sağlayan bir servistir. Daha fazla bilgi için <a href="http://www.gravatar.com/">Gravatar</a> web sitesini ziyaret edin.',
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Galeri avatarı',
+	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'Avatarınızı yerel sunucu üzerindeki mevcut avatar setleri içerisinden seçebilirsiniz.',
+	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Uzak avatar',
+	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Diğer bir web sitesi üzerindeki avatar resminin bağlantısını verebilirsiniz.',
+	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Avatar yükle',
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Kendi özel avatarınızı yükleyin.',
+	'AVATAR_EXPLAIN'				=> 'En yüksek boyutlar; genişlik: %1$s, yükseklik: %2$s, dosya boyutu: %3$.2f KiB.',
+	'AVATAR_FEATURES_DISABLED'		=> 'Avatar özelliği şu anda kapalı.',
 	'AVATAR_GALLERY'				=> 'Yerel galeri',
-	'AVATAR_GENERAL_UPLOAD_ERROR'		=> 'Avatar şuraya yüklenemiyor: %s.',
+	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Avatar şuraya yüklenemiyor: %s.',
 	'AVATAR_NOT_ALLOWED'			=> 'Avatarınız görüntülenemiyor çünkü avatarlara izin verilmiyor.',
 	'AVATAR_PAGE'					=> 'Sayfa',
+	'AVATAR_SELECT'					=> 'Avatarınızı seçin',
+	'AVATAR_TYPE'					=> 'Avatar türü',
 	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Şu anki avatarınız görüntülenemiyor çünkü avatarınızın türüne izin verilmiyor.',
 
 	'BACK_TO_DRAFTS'			=> 'Kaydedilen taslaklara dön',
@@ -103,7 +115,6 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'Doğum gününüzün olduğu yılı ayarladığınız zaman yaşınız listelenecektir.',
 	'BOARD_DATE_FORMAT'			=> 'Zaman formatı',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'PHP <a href="http://www.php.net/date" onclick="this.target=\'_blank\';" title="Yeni bir pencerede açılır">date()</a> fonksiyonu ile aynı sözdizimi kullanılır.',
-	'BOARD_DST'					=> 'Yaz Saati/<abbr title="Gün Işığından Tasarruf Zamanı">GITZ</abbr> uygulamasını kullan',
 	'BOARD_LANGUAGE'			=> 'Dil',
 	'BOARD_STYLE'				=> 'Mesaj panosu stili',
 	'BOARD_TIMEZONE'			=> 'Zaman dilimi',
@@ -123,8 +134,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$s“%3$s” adlı klasörünüze dönün%2$s',
 	'CONFIRMATION'				=> 'Kayıt doğrulaması',
 	'CONFIRM_CHANGES'			=> 'Değişiklikleri doğrula',
-	'CONFIRM_EMAIL'				=> 'E-posta adresini doğrula',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Sadece e-posta adresinizi değiştireceğiniz zaman bunu belirtmelisiniz.',
 	'CONFIRM_EXPLAIN'			=> 'Otomatik kayıtları önlemek için mesaj panosu yöneticisi bir onay kodu girmenizi istiyor. Alttaki resmin içerisinde gösterilen kodu görmelisiniz. Eğer kodu bozuk görüyor veya okuyamıyorsanız lütfen %sMesaj Panosu Yöneticisi%s ile iletişime geçin.',
 	'VC_REFRESH'            => 'Onay kodunu yenile',
 	'VC_REFRESH_EXPLAIN'      => 'Eğer kodu okuyamıyorsanız butona tıklayarak yeni bir tane isteyebilirsiniz.',
@@ -188,27 +197,42 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'Bu görüntüleneni dışarı çıkar',
 
 	'FIELD_REQUIRED'			=> '“%s” alanı tamamlanmış olmalıdır.',
-	'FIELD_TOO_SHORT'			=> '“%1$s” alanı çok kısa, en az %2$d karakter isteniyor.',
-	'FIELD_TOO_LONG'			=> '“%1$s” çok uzun, en fazla %2$d karaktere izin veriliyor.',
-	'FIELD_TOO_SMALL'			=> '“%1$s” değeri çok küçük, en az %2$d değeri isteniyor.',
-	'FIELD_TOO_LARGE'			=> '“%1$s” değeri çok büyük, en fazla %2$d değerine izin veriliyor.',
+	'FIELD_TOO_SHORT'					=> array(
+		1	=> '“%2$s” alanı çok kısa, en az %1$d karakter gerekmektedir.',
+		2	=> '“%2$s” alanı çok kısa, en az %1$d karakter gerekmektedir.',
+	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> '“%2$s” alanı çok uzun, en fazla %1$d karaktere izin verilmektedir.',
+		2	=> '“%2$s” alanı çok uzun, en fazla %1$d karaktere izin verilmektedir.',
+	),
+	'FIELD_TOO_SMALL'					=> '“%2$s” değeri çok küçük, en az %1$d değer gerekmektedir.',
+	'FIELD_TOO_LARGE'					=> '“%2$s” değeri çok büyük, en fazla %1$d değere izin verilmektedir.',
+	'FIELD_INVALID_CHARS_INVALID'		=> '“%s” alanındaki karakterler geçersiz.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> '“%s” alanındaki karakterler geçersiz, sadece sayılara izin veriliyor.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> '“%s” alanındaki karakterler geçersiz, sadece alfanümerik karakterlere izin veriliyor.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> '“%s” alanındaki karakterler geçersiz, sadece alfanümerik, boşluk veya -+_[] karakterlerine izin veriliyor.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> '“%s” alanındaki karakterler geçersiz, sadece alfanümerik, boşluk veya -+_[] karakterlerine izin veriliyor.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> '“%s” alanındaki karakterler geçersiz, sadece alfanümerik veya _ karakterine izin veriliyor.',
 	'FIELD_INVALID_DATE'			=> '“%s” alanındaki tarih geçersiz.',
+	'FIELD_INVALID_URL'					=> '“%s” alanındaki url adresi geçersiz.',
 	'FIELD_INVALID_VALUE'				=> '“%s” alanındaki değer geçersiz.',	
 
 	'FOE_MESSAGE'				=> 'Engellenenden mesaj',
 	'FOES_EXPLAIN'				=> 'Engellenen kullanıcılar varsayılan olarak yoksayılacaktır. Bu kullanıcılar tarafından gönderilen mesajlar tam olarak görüntülenmeyecektir. Engellenenlerden gelen özel mesajlara izin verilmeyecektir. Not: Moderatör veya yöneticileri yoksayamazsınız.',
 	'FOES_UPDATED'				=> 'Engellenenler listeniz başarıyla güncellendi.',
 	'FOLDER_ADDED'				=> 'Klasör başarıyla eklendi.',
-	'FOLDER_MESSAGE_STATUS'			=> '%2$d mesajdan %1$d tanesi saklandı',
-	'FOLDER_NAME_EMPTY'			=> 'Bu klasör için bir isim girmelisiniz.',	
-	'FOLDER_NAME_EXIST'			=> '<strong>%s</strong> isimli klasör zaten var.',
+	'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> '%1$s üzerinden %2$d saklandı',
+		2	=> '%1$s üzerinden %2$d saklandı',
+	),
+	'FOLDER_NAME_EMPTY'			=> 'Bu klasör için bir ad girmelisiniz.',
+	'FOLDER_NAME_EXIST'			=> '<strong>%s</strong> adlı klasör zaten var.',
 	'FOLDER_OPTIONS'			=> 'Klasör seçenekleri',
 	'FOLDER_RENAMED'			=> 'Klasör başarıyla yeniden adlandırıldı.',
 	'FOLDER_REMOVED'			=> 'Klasör başarıyla silindi.',
-	'FOLDER_STATUS_MSG'			=> 'Klasör %1$d%% dolu (%3$d mesajdan %2$d tanesi saklandı)',
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> 'Klasör %3$d%% dolu (%1$s üzerinden %2$d saklandı)',
+		2	=> 'Klasör %3$d%% dolu (%1$s üzerinden %2$d saklandı)',
+	),
 	'FORWARD_PM'				=> 'ÖM İlet',
 	'FORCE_PASSWORD_EXPLAIN'		=> 'Mesaj panosunu dolaşmaya devam etmeden önce şifrenizi değiştirmeniz gerekmektedir.',
 	'FRIEND_MESSAGE'			=> 'Arkadaştan mesaj',
@@ -226,6 +250,11 @@ $lang = array_merge($lang, array(
 
 	'GLOBAL_ANNOUNCEMENT'			=> 'Global duyuru',
 
+	'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar e-posta adresi',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> '<a href="http://www.gravatar.com/">Gravatar</a> web sitesi üzerindeki hesabınıza kayıt olmak için kullandığınız e-posta adresini girin.',
+	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar boyutları',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Avatarın genişlik ve yüksekliğini belirtin, otomatik doğrulama denemesi için boş bırakın.',
+	
 	'HIDE_ONLINE'				=> 'Çevrimiçi durumumu gizle',
 	'HIDE_ONLINE_EXPLAIN'      => 'Bu ayarı değiştirirseniz mesaj panosuna yapacağınız sonraki ziyaretinize kadar etkisi olmayacaktır.',
 	'HOLD_NEW_MESSAGES'			=> 'Yeni mesajları kabul etme (Yeni mesajlar alan kullanılır oluncaya kadar tutulacaktır)',
@@ -246,6 +275,12 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'Avatar boyutları',
 	'LINK_REMOTE_SIZE_EXPLAIN'		=> 'Avatarın genişlik ve yüksekliğini belirtin, otomatik doğrulama denemesi için boş bırakın.',
 	'LOGIN_EXPLAIN_UCP'			=> 'Kullanıcı Kontrol Paneline erişebilmek için lütfen giriş yapın.',
+	'LOGIN_LINK'					=> 'Mesaj panosu hesabınız ile harici bir servis üzerindeki hesabınızı bağlayın ya da kayıt olun',
+	'LOGIN_LINK_EXPLAIN'			=> 'Harici bir servis ile giriş yapmaya çalıştınız, ancak bu mesaj panosundaki bir hesaba henüz bağlantı yapılmadı. Şu an mevcut olan bir hesabınız için bu hesaba bağlantı yapmalısınız ya da yeni bir hesap oluşturmalısınız.',
+	'LOGIN_LINK_MISSING_DATA'		=> 'Harici bir servis ile hesabınıza bağlantı yapmak için gerekli olan veri mevcut değil. Lütfen giriş işlemini yeniden başlatın.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'Bir forum hesabına harici bir hesabı bağlantı yapmak için bu sayfaya hiç bir veri sağlanmadı. Eğer sorun yaşamaya devam ederseniz lütfen mesaj panosu yöneticisi ile iletişime geçin.',
+	'LOGIN_KEY'					=> 'Giriş Anahtarı',
+	'LOGIN_TIME'				=> 'Giriş Zamanı',	
 	'LOGIN_REDIRECT'			=> 'Başarıyla giriş yaptınız.',
 	'LOGOUT_FAILED'       => 'Çıkış yapamadınız, oturumunuz ile uyumlu istek yok. Eğer problemlerle karşılaşmaya devam ederseniz lütfen mesaj panosu yöneticisi ile iletişime geçin.',
 	'LOGOUT_REDIRECT'			=> 'Başarıyla çıkış yaptınız.',
@@ -266,19 +301,42 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'	=> 'Silinen klasördeki mesajları şuraya taşı',
 	'MOVE_DOWN'					=> 'Aşağı taşı',
 	'MOVE_MARKED_TO_FOLDER'		=> 'İşaretlileri %s klasörüne taşı',
-	'MOVE_PM_ERROR'				=> 'Mesajlar yeni klasöre taşınırken bir hata oluştu, sadece %2d mesajdan %1d tanesi taşındı.',
-	'MOVE_TO_FOLDER'			=> 'Klasöre taşı',
-	'MOVE_UP'					=> 'Yukarı taşı',
+	'MOVE_PM_ERROR'					=> array(
+		1	=> 'Mesajlar yeni klasöre taşınırken bir hata oluştu, %1$s üzerinden sadece %2$d taşındı.',
+		2	=> 'Mesajlar yeni klasöre taşınırken bir hata oluştu, %1$s üzerinden sadece %2$d taşındı.',
+	),
+	'MOVE_TO_FOLDER'				=> 'Klasöre taşı',
+	'MOVE_UP'						=> 'Yukarı taşı',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Doğrulamak için bir e-posta adresi girmediniz.',
-	'NEW_EMAIL_ERROR'			=> 'Girdiğiniz e-posta adresi diğeriyle uyuşmuyor.',
-	'NEW_FOLDER_NAME'			=> 'Yeni klasör adı',
-	'NEW_PASSWORD'				=> 'Yeni şifre',
-	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Doğrulamak için bir şifre girmediniz.',	
-	'NEW_PASSWORD_ERROR'		=> 'Girdiğiniz şifre diğeriyle uyuşmuyor.',
-	'NOTIFY_METHOD'				=> 'Bildiri metodu',
-	'NOTIFY_METHOD_BOTH'		=> 'Her ikisi',
-	'NOTIFY_METHOD_EMAIL'		=> 'Sadece e-posta',
+	'NEW_FOLDER_NAME'				=> 'Yeni klasör adı',
+	'NEW_PASSWORD'					=> 'Yeni şifre',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Doğrulama şifresi girmediniz.',
+	'NEW_PASSWORD_ERROR'			=> 'Girdiğiniz şifreler birbiriyle uyuşmuyor.',
+
+	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Tüm bildirimleri okunmuş say',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Tüm bildirimleri okunmuş saymak istediğinize emin misiniz?',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Tüm bildirimler okunmuş sayıldı.',
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Çeşitli Bildirimler',
+	'NOTIFICATION_GROUP_MODERATION'						=> 'Moderasyon Bildirimleri',
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Yönetim Bildirimleri',	
+	'NOTIFICATION_GROUP_POSTING'						=> 'Mesajlaşma Bildirimleri',
+	'NOTIFICATION_METHOD_EMAIL'							=> 'E-posta',
+	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
+	'NOTIFICATION_TYPE'									=> 'Bildirim türü',
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Sık kullanılanlara eklediğiniz bir başlığa cevap yazıldı',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Lideri olduğunuz bir gruba katılmak için istek yapıldı',
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Bir mesaj ya da başlığa onay gerekiyor',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Başlığınız/mesajınız bir moderatör tarafından onaylandı ya da onaylanmadı',
+	'NOTIFICATION_TYPE_PM'								=> 'Birisi size özel bir mesaj gönderdi',
+	'NOTIFICATION_TYPE_POST'							=> 'Abone olduğunuz bir başlığa cevap yazıldı',
+	'NOTIFICATION_TYPE_QUOTE'							=> 'Bir mesajda alıntı yapıldınız',
+	'NOTIFICATION_TYPE_REPORT'							=> 'Bir mesaj bildirisi yapıldı',
+	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Abonesi olduğunuz bir foruma başlık oluşturuldu',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Yeni kayıtlı kullanıcı aktivasyonu gerekiyor',	
+
+	'NOTIFY_METHOD'					=> 'Bildirim metotu',
+	'NOTIFY_METHOD_BOTH'			=> 'Her ikisi',
+	'NOTIFY_METHOD_EMAIL'			=> 'Sadece e-posta',
 	'NOTIFY_METHOD_EXPLAIN'		=> 'Bu mesaj panosu ile gönderilecek mesajlar için metot.',
 	'NOTIFY_METHOD_IM'			=> 'Sadece Jabber',
 	'NOTIFY_ON_PM'				=> 'Yeni özel mesaj geldiğinde beni haberdar et',
@@ -293,8 +351,10 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'		=> 'Kendinizi engellenenler listesine ekleyemezsiniz.',
 	'NOT_AGREE'					=> 'Bu koşulları kabul etmiyorum',
 	'NOT_ENOUGH_SPACE_FOLDER'	=> '“%s” adındaki gidecek klasör dolu görünüyor. İstenilen eylem gerçekleştirilemiyor.',
-	'NOT_MOVED_MESSAGE'			=> 'Şu anda 1 yeni özel mesajınız tutuluyor, çünkü klasör dolu.',
-	'NOT_MOVED_MESSAGES'		=> 'Şu anda %d yeni özel mesajınız tutuluyor, çünkü klasör dolu.',
+	'NOT_MOVED_MESSAGES'			=> array(
+		1	=> 'Klasör dolu olduğundan şu anda %d özel mesajınız bekletiliyor.',
+		2	=> 'Klasör dolu olduğundan şu anda %d özel mesajınız bekletiliyor.',
+	),
 	'NO_ACTION_MODE'			=> 'Hiç bir mesaj eylemi belirtilmedi',
 	'NO_AUTHOR'					=> 'Bu mesaj için hiç bir yazar belirtilmedi',
 	'NO_AVATAR_CATEGORY'		=> 'Yok',
@@ -304,6 +364,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Özel mesajları iletme yetkiniz yok.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Gruplara özel mesaj gönderme yetkiniz yok.',
 	'NO_AUTH_PASSWORD_REMINDER'      => 'Yeni bir şifre istemek için yetkiniz yok.',
+	'NO_AUTH_PROFILEINFO'			=> 'Profil bilgilerinizi değiştirmek için yetkiniz yok.',	
 	'NO_AUTH_READ_HOLD_MESSAGE'      => 'Tutulan özel mesajları okumak için yetkiniz yok.',
 	'NO_AUTH_READ_MESSAGE'         => 'Özel mesajları okumak için yetkiniz yok.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'   => 'Bu mesajı okuyamazsınız çünkü mesaj, yazarı tarafından silindi.',
@@ -334,10 +395,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'      => 'Abone olunan herhangi bir başlık ya da forum seçmediniz.',
 	'NO_WATCHED_TOPICS'			=> 'Herhangi bir başlığa abone olmadınız.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı, karışık durumda harfler ve sayılar içermelidir.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Şifre %1$d ve %2$d karakter arasında olmalıdır.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı ve karışık durumda harfler içermelidir.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Şifre %1$d ve %2$d karakter arası uzunlukta olmalı, karışık durumda harfler, sayılar ve simgeler içermelidir.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Şifre %1$s ve %2$s arası uzunlukta olmalı, karışık durumda harfler ve sayılar içermelidir.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> '%1$s ve %2$s arasında olmalıdır.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'Şifre %1$s ve %2$s arası uzunlukta olmalı ve karışık durumda harfler içermelidir.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Şifre %1$s ve %2$s arası uzunlukta olmalı, karışık durumda harfler, sayılar ve simgeler içermelidir.',
 	'PASSWORD'					=> 'Şifre',
 	'PASSWORD_ACTIVATED'		=> 'Yeni şifreniz aktif edildi.',
 	'PASSWORD_UPDATED'			=> 'Yeni şifreniz kayıtlı e-posta adresinize gönderildi.',
@@ -353,8 +414,9 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'Gönderilen mesajlar',
 	'PM_SUBJECT'				=> 'Mesaj başlığı',
 	'PM_TO'						=> 'Kime',
+	'PM_TOOLS'					=> 'Mesaj araçları',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Bazı kullanıcılar özel mesajları okuma izni olmadıklarından dolayı eklenemedi.',	
 	'PM_USERS_REMOVED_NO_PM'	=> 'Bazı kullanıcılar özel mesaj alımını kapattıkları için eklenemedi.',
-	'POPUP_ON_PM'				=> 'Yeni özel mesaj geldiğinde küçük pencere aç',
 	'POST_EDIT_PM'				=> 'Mesajı düzenle',
 	'POST_FORWARD_PM'			=> 'Mesajı ilet',
 	'POST_NEW_PM'				=> 'Mesaj oluştur',
@@ -366,6 +428,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'Tercihleriniz güncellendi.',
 	'PROFILE_INFO_NOTICE'		=> 'Not: Bu bilgiler diğer üyeler tarafından görüntülenebilir. Bazı kişisel bilgilerinizi eklerken dikkatli olun. Doldurulması zorunlu bazı alanlar * ile işaretlenmiştir.',
 	'PROFILE_UPDATED'			=> 'Profiliniz güncellendi.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'Mesaj panosunu ziyaret ettiğiniz zaman "Beni Hatırla" giriş anahtarları otomatik olarak sizi giriş yaptırır. Eğer çıkış yaparsanız, beni hatırla giriş anahtarı sadece çıkış yaptığınız bilgisayardan silinir. Buradan diğer bilgisayarlarda oluşturulmuş ve bu siteye erişmek için kullanılan hatırlayıcı giriş anahtarlarını görebilirsiniz.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Hiç bir kayıtlı "Beni Hatırla" giriş anahtarı yok.',	
 
 	'RECIPIENT'					=> 'Alıcı',
 	'RECIPIENTS'				=> 'Alıcılar',
@@ -390,17 +454,21 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'				=> 'Kural başarıyla silindi.',
 	'RULE_LIMIT_REACHED'				=> 'Daha fazla ÖM kuralı ekleyemezsiniz. Kuralların en yüksek sayısına ulaştınız.',
 	'RULE_NOT_DEFINED'			=> 'Kural doğru şekilde belirlenmedi.',
-	'RULE_REMOVED_MESSAGE'				=> 'Özel mesaj süzgecine göre zamanı gelen bir özel mesaj silindi.',
-	'RULE_REMOVED_MESSAGES'				=> 'Özel mesaj süzgecine göre zamanı gelen %d özel mesaj silindi.',
+	'RULE_REMOVED_MESSAGES'				=> array(
+		1	=> 'Özel mesaj filtreleri nedeniyle %d özel mesaj silindi.',
+		2	=> 'Özel mesaj filtreleri nedeniyle %d özel mesaj silindi.',
+	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Girdiğiniz yeni şifre şu anki şifreniz ile aynı.',
 	'SEARCH_YOUR_POSTS'			=> 'Kendi mesajlarınız',
 	'SEND_PASSWORD'				=> 'Şifre gönder',
 	'SENT_AT'					=> 'Gönderildi',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'Kullanıcılar e-posta yoluyla benimle iletişime geçebilir',
-	'SIGNATURE_EXPLAIN'			=> 'Bu oluşturduğunuz mesajlara eklenebilecek bir yazı bloğudur. %d karakterlik limiti vardır.',
-	'SIGNATURE_PREVIEW'			=> 'İmzanız mesajlarınızda bunun gibi görüntülenecek',
+	'SIGNATURE_EXPLAIN'			=> 'Bu, oluşturduğunuz mesajlara eklenebilecek bir yazı bloğudur. %d karakterlik limiti vardır.',
+	'SIGNATURE_PREVIEW'			=> 'İmzanız mesajlarınızda bunun gibi görüntülenecektir',
 	'SIGNATURE_TOO_LONG'		=> 'İmzanız çok uzun.',
+	'SELECT_CURRENT_TIME'		=> 'Şu anki zamanı seç',
+	'SELECT_TIMEZONE'			=> 'Zaman dilimini seç',
 	'SORT'						=> 'Sırala',
 	'SORT_COMMENT'				=> 'Dosya yorumu',
 	'SORT_DOWNLOADS'			=> 'İndirmeler',
@@ -410,20 +478,33 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'Dosya boyutu',
 
 	'TIMEZONE'					=> 'Zaman dilimi',
-	'TO'						=> 'Kime',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'Önerilen: %s',
+	'TIMEZONE_INVALID'			=> 'Seçtiğiniz zaman dilimi geçersiz.',
+	'TO'						=> 'Alıcı',
+	'TO_MASS'					=> 'Alıcılar',
+	'TO_ADD'					=> 'Alıcı ekle',
+	'TO_ADD_MASS'				=> 'Alıcılar ekle',
+	'TO_ADD_GROUPS'				=> 'Gruplara ekle',	
 	'TOO_MANY_RECIPIENTS'      => 'Çok fazla alıcıya bir özel mesaj göndermeyi denediniz.',
 	'TOO_MANY_REGISTERS'		=> 'Bu oturum için en fazla kayıt girişimi sayısını aştınız. Lütfen daha sonra tekrar deneyin.',
 
 	'UCP'						=> 'Kullanıcı Kontrol Paneli',
 	'UCP_ACTIVATE'				=> 'Hesabı aktifleştir',
-	'UCP_ADMIN_ACTIVATE'		=> 'Not: Hesabınız aktif edebilmek için doğru bir e-posta adresi girmelisiniz. Yöneticiler hesabınızı inceleyecekler ve eğer onaylarlarsa belirttiğiniz adrese bir e-posta alacaksınız.',
-	'UCP_AIM'					=> 'AOL Instant Messenger',
+	'UCP_ADMIN_ACTIVATE'		=> 'Not: Hesabınızın aktif edilebilmesi için doğru bir e-posta adresi girmelisiniz. Yöneticiler hesabınızı inceleyecekler ve eğer onaylarlarsa belirttiğiniz adrese bir e-posta alacaksınız.',
 	'UCP_ATTACHMENTS'			=> 'Eklentiler',
+	'UCP_AUTH_LINK'				=> 'Harici hesaplar',
+	'UCP_AUTH_LINK_ASK'			=> 'Şu anda harici bir servis ile ilişkilendirilmiş herhangi bir hesabınız yok. Bu harici servis ile bir hesabınıza mesaj panosu hesabınızı bağlantı yapmak için alttaki butona tıklayın.',
+	'UCP_AUTH_LINK_ID'			=> 'Benzersiz tanımlayıcı',
+	'UCP_AUTH_LINK_LINK'		=> 'Bağlantı',
+	'UCP_AUTH_LINK_MANAGE'		=> 'Harici hesap ilişkilendirmelerini yönet',
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'Harici servis hesaplarına mesaj panosu hesaplarını bağlantı yapmak, bu mesaj panosunun şu anki yetkilendirme metotuna göre desteklenmiyor.',
+	'UCP_AUTH_LINK_TITLE'		=> 'Harici hesaplarınızın ilişkilendirmelerini yönetin',
+	'UCP_AUTH_LINK_UNLINK'		=> 'Bağlantıyı kes',
 	'UCP_COPPA_BEFORE'			=> '%s tarihinden önce',
 	'UCP_COPPA_ON_AFTER'		=> '%s tarihinde veya daha sonra',
-	'UCP_EMAIL_ACTIVATE'		=> 'Not: Hesabınızı aktif edebilmek için doğru bir e-posta adresi girmelisiniz. Belirttiğiniz adrese bir e-posta alacaksınız ve içeriğinde bir aktivasyon bağlantısı bulunacaktır.',
-	'UCP_ICQ'					=> 'ICQ numarası',
+	'UCP_EMAIL_ACTIVATE'		=> 'Not: Hesabınızın aktif edilebilmesi için doğru bir e-posta adresi girmelisiniz. Belirttiğiniz adrese içeriğinde aktivasyon bağlantısı bulunan bir e-posta alacaksınız.',
 	'UCP_JABBER'				=> 'Jabber adresi',
+	'UCP_LOGIN_LINK'			=> 'Bir harici hesap ilişkilendirmesi ayarlayın',
 
 	'UCP_MAIN'					=> 'Genel',
 	'UCP_MAIN_ATTACHMENTS'		=> 'Eklentileri yönet',
@@ -432,8 +513,12 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Ön sayfa',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Abonelikleri yönet',
 
-	'UCP_MSNM'					=> 'WL/MSN Messenger',
-	'UCP_NO_ATTACHMENTS'		=> 'Hiç dosya göndermediniz.',
+	'UCP_NO_ATTACHMENTS'		=> 'Hiç bir dosya göndermediniz.',
+
+	'UCP_NOTIFICATION_LIST'				=> 'Bildirimleri yönet',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Buradan tüm geçmiş bildirimlerinizi görüntüleyebilirsiniz.',
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Bildirim ayarlarını düzenle',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Buradan mesaj panosu için tercih ettiğiniz bildirim metotlarını ayarlayabilirsiniz.',
 
 	'UCP_PREFS'					=> 'Mesaj panosu tercihleri',
 	'UCP_PREFS_PERSONAL'		=> 'Kişisel ayarlar',
@@ -444,8 +529,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> 'Mesaj oluştur',
 	'UCP_PM_DRAFTS'				=> 'ÖM taslakları\'nı yönet',
 	'UCP_PM_OPTIONS'			=> 'Kurallar, klasörler &amp; ayarlar',
-	'UCP_PM_POPUP'				=> 'Özel mesajlar',
-	'UCP_PM_POPUP_TITLE'			=> 'Özel mesaj açılır penceresi',
 	'UCP_PM_UNREAD'				=> 'Okunmayan mesajlar',
 	'UCP_PM_VIEW'				=> 'Mesajları görüntüle',
 
@@ -455,15 +538,17 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_REG_DETAILS'	=> 'Kayıt bilgileri',
 	'UCP_PROFILE_SIGNATURE'		=> 'İmzanız',
 
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> '“Beni Hatırla” giriş anahtarlarını yönet',
+
 	'UCP_USERGROUPS'			=> 'Kullanıcı grupları',
-	'UCP_USERGROUPS_MEMBER'		=> 'Üyelikler',
+	'UCP_USERGROUPS_MEMBER'		=> 'Üyelikleri düzenle',
 	'UCP_USERGROUPS_MANAGE'		=> 'Grupları yönet',
 
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'Şifre sıfırlama özelliği devre dışı bırakıldı. Eğer hesabınıza erişim ile ilgili bir probleminiz varsa, lütfen %sMesaj Panosu Yöneticisi%s ile iletişime geçin',
 	'UCP_REGISTER_DISABLE'			=> 'Yeni bir hesap oluşturmak şu anda mümkün değil.',
 	'UCP_REMIND'					=> 'Şifre gönder',
 	'UCP_RESEND'					=> 'Aktivasyon e-postası gönder',
 	'UCP_WELCOME'					=> 'Kullanıcı Kontrol Paneline hoşgeldiniz. Bu ekrandan profilinizi görüntüleme ve güncelleme yapabilir, tercihlerinizi düzenleyebilir, başlıklar ve forumlara abonelikleri görüntüleyebilirsiniz ya da düzenleyebilirsiniz. Ayrıca diğer kullanıcılara (eğer izin veriliyorsa) mesaj gönderebilirsiniz. Lütfen devam etmeden önce herhangi bir duyuru olup olmadığını kontrol edin.',
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Arkadaşlar &amp; Engellenenler',
 	'UCP_ZEBRA_FOES'				=> 'Engellenenleri yönet',
 	'UCP_ZEBRA_FRIENDS'				=> 'Arkadaşları yönet',
@@ -473,12 +558,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Bilgisayarından yükle',
 	'UPLOAD_AVATAR_URL'				=> 'Bir URL adresinden yükle',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Resmin olduğu sitenin URL adresini girin. Resim bu mesaj panosuna kopyalanacaktır.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Kullanıcı adı %1$d ve %2$d karakter arasındaki uzunlukta olmalıdır ve sadece alfanümerik karakterler kullanılmalıdır.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Kullanıcı adı %1$d ve %2$d karakter arasındaki uzunlukta olmalıdır ve alfanümerik, boşluk veya -+_[] karakterleri kullanılmalıdır.',
-	'USERNAME_ASCII_EXPLAIN'		=> 'Kullanıcı adı %1$d ve %2$d karakter arasındaki uzunlukta olmalıdır ve ayrıca özel semboller olmadan sadece ASCII karakterler kullanılmalıdır.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Kullanıcı adı %1$d ve %2$d karakter arasındaki uzunlukta olmalıdır ve sadece harf ya da sayı karakterleri kullanılmalıdır.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Kullanıcı adı %1$d ve %2$d karakter arasındaki uzunlukta olmalıdır ve harf, sayı, boşluk veya -+_[] karakterleri kullanılmalıdır.',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Uzunluk %1$d ve %2$d karakter arasında olmalıdır.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Kullanıcı adı %1$s ve %2$s arasındaki uzunlukta olmalı ve sadece alfanümerik karakterler kullanılmalıdır.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Kullanıcı adı %1$s ve %2$s arasındaki uzunlukta olmalı ve alfanümerik, boşluk veya -+_[] karakterleri kullanılmalıdır.',
+	'USERNAME_ASCII_EXPLAIN'		=> 'Kullanıcı adı %1$s ve %2$s arasındaki uzunlukta olmalı ve ayrıca özel semboller olmadan sadece ASCII karakterler kullanılmalıdır.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Kullanıcı adı %1$s ve %2$s arasındaki uzunlukta olmalı ve sadece harf ya da sayı karakterleri kullanılmalıdır.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Kullanıcı adı %1$s ve %2$s arasındaki uzunlukta olmalı ve harf, sayı, boşluk veya -+_[] karakterleri kullanılmalıdır.',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Uzunluk %1$s ve %2$s arasında olmalıdır.',
 	'USERNAME_TAKEN_USERNAME'		=> 'Girdiğiniz kullanıcı adı zaten kullanılıyor, lütfen alternatif bir tane seçin.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'Girdiğiniz kullanıcı adı izinli değil ya da izin verilmeyen bir kelime içeriyor. Lütfen farklı bir ad seçin.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Belirttiğiniz kullanıcı adları bulunamadı veya bu kullanıcılar aktif değil.',
@@ -491,8 +576,10 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'Sonraki ÖM',
 	'VIEW_PM'					=> 'Mesajı görüntüle',
 	'VIEW_PM_INFO'				=> 'Mesaj detayları',
-	'VIEW_PM_MESSAGE'			=> '1 mesaj',
-	'VIEW_PM_MESSAGES'			=> '%d mesaj',
+	'VIEW_PM_MESSAGES'			=> array(
+		1	=> '%d mesaj',
+		2	=> '%d mesaj',
+	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Bu tarihten önceki ÖM',
 	'VIEW_PREVIOUS_PM'			=> 'Önceki ÖM',
 	'VIEW_SIGS'					=> 'İmzayı göster',
@@ -520,14 +607,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'Klasör içerisine yerleştir',
 		'MARK_AS_READ'		=> 'Okunmuş olarak işaretle',
 		'MARK_AS_IMPORTANT'	=> 'Mesajı işaretle',
-		'DELETE_MESSAGE'	=> 'Mesajı sil'
+		'DELETE_MESSAGE'	=> 'Mesajı sil',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Konu',
 		'SENDER'	=> 'Gönderen',
 		'MESSAGE'	=> 'Mesaj',
 		'STATUS'	=> 'Mesaj durumu',
-		'TO'		=> 'Kime'
+		'TO'		=> 'Kime',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'şuna benziyorsa',
@@ -543,9 +630,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'cevaplandıysa',
 		'FORWARDED'		=> 'iletildiyse',
 		'TO_GROUP'		=> 'varsayılan kullanıcı grubuma',
-		'TO_ME'			=> 'bana'
+		'TO_ME'			=> 'bana',
 	),
-
 
 	'GROUPS_EXPLAIN'		=> 'Kullanıcı grupları, kullanıcıları daha iyi yönetebilmek için mesaj panosu yöneticilerine olanak sağlar. Varsayılan olarak belirli bir gruba yerleştirileceksiniz, bu sizin varsayılan grubunuzdur. Bu grupta diğer kullanıcılara nasıl görüneceğiniz belirlenir, örneğin kullanıcı adı renginiz, avatarınız, rütbeniz v.b. Yöneticiler size güvenirse ya da isterlerse varsayılan grubunuzu değiştirmenize izin verebilirler. Ayrıca diğer gruplara yerleştirilebilirsiniz veya katılma izniniz olabilir. Bazı gruplar içeriği görüntüleyebilmeniz için veya diğer alanlarda yeteneklerinizi arttırmak için size ilave izinler verebilirler.',
 	'GROUP_LEADER'		=> 'Liderlikler',
@@ -559,5 +645,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'Askıda üyelik yok',
 	'NO_NONMEMBER'	=> 'Üyesi olmayan gruplar yok',
 ));
-
-?>

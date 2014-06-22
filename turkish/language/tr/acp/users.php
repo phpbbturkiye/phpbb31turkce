@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_users [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: users.php,v 1.29 2007/06/18 15:12:14 kellanved Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -49,12 +50,13 @@ $lang = array_merge($lang, array(
 	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Kurucu hesaplarını deaktif etme izniniz yok.',
 	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Kendi hesabınızı deaktif etme izniniz yok.',
 	'CANNOT_FORCE_REACT_BOT'		=> 'Bot hesaplarında zorunlu yeniden aktivasyon yaptırma izniniz yok. Lütfen bunun yerine botlar sayfasından botu yeniden aktif edin.',
-	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Kurucu hesaplarında zorunlu yeniden aktivasyon yaptırma izniniz yok.',
-	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Kendi hesabınızı tekrar aktif etme zorunluluğunuz yok.',
-	'CANNOT_REMOVE_ANONYMOUS'	=> 'Misafir kullanıcı hesabını silemezsiniz.',
-	'CANNOT_REMOVE_YOURSELF'	=> 'Kendi kullanıcı hesabınızı silme yetkiniz yok.',
-	'CANNOT_SET_FOUNDER_IGNORED'		=> 'Yoksayılan kullanıcıların rütbesini kurucu olarak yükseltemezsiniz.',
-	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Kullanıcıları kurucu olarak terfi ettirmeden önce kullanıcıları aktif etmeniz gerekmektedir, sadece aktif edilmiş kullanıcılar terfi edebilir.',
+ 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Kurucu hesaplarında zorunlu yeniden aktivasyon için izniniz yok.',
+ 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Kendi hesabınızın zorunlu yeniden aktivasyonu için izniniz yok.',
+ 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Misafir kullanıcı hesabını kaldırmanız mümkün değildir.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Kurucu hesaplarını kaldırmak için izniniz yok.',
+ 	'CANNOT_REMOVE_YOURSELF'		=> 'Kendi kullanıcı hesabınızı kaldırmak için izniniz yok.',
+ 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Yoksayılan kullanıcıların rütbesini kurucu olarak yükseltmeniz mümkün değildir.',
+ 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Kullanıcıları kurucu rütbesine yükseltmeden önce kullanıcıların aktif edilmiş olması gerekmektedir, sadece aktif edilmiş kullanıcıların rütbesi yükseltilebilir.',
 	'CONFIRM_EMAIL_EXPLAIN'		=> 'Sadece kullanıcıların e-posta adreslerini değiştirirken bunu belirtmeniz gerekmektedir.',
 	
 	'DELETE_POSTS'			=> 'Mesajları sil',
@@ -139,5 +141,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'Hiç bir bilgi mevcut değil. Kayıt girdileri silinmiş olabilir.',
 	'USER_TOOLS'					=> 'Temel araçlar',
 ));
-
-?>

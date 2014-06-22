@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* posting [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: posting.php,v 1.68 2007/06/16 12:25:36 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -54,7 +55,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>KAPALI</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>AÇIK</em>',
 	'BBCODE_I_HELP'				=> 'İtalik yazı: [i]metin[/i]',
-	'BBCODE_L_HELP'				=> 'Liste: [list][*]metin[/list]', 
+	'BBCODE_L_HELP'				=> 'Liste: [list][*]metin[/list]',
 	'BBCODE_LISTITEM_HELP'		=> 'Liste maddesi: [*]metin',
 	'BBCODE_O_HELP'				=> 'Sıralı liste: örn. [list=1][*]İlk nokta[/list] ya da [list=a][*]a noktası[/list]',
 	'BBCODE_P_HELP'				=> 'Resim ekle: [img]http://resim_url[/img]',
@@ -71,6 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Üzgünüz fakat duyurular gönderemezsiniz.',	
 	'CANNOT_POST_STICKY'		=> 'Üzgünüz fakat sabit başlıklar gönderemezsiniz.',
 	'CHANGE_TOPIC_TO'			=> 'Başlık tipini değiştir',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Mesajınız %1$d karakter içeriyor.',
+		2	=> 'Mesajınız %1$d karakter içeriyor.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'İmzanız %1$d karakter içeriyor.',
+		2	=> 'İmzanız %1$d karakter içeriyor.',
+	),	
 	'CLOSE_TAGS'				=> 'Etiketleri kapat',
 	'CURRENT_TOPIC'				=> 'Şu anki başlık',
 
@@ -78,8 +87,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Mesajı sil',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Bu mesajı silmek istediğinize emin misiniz?',
 	'DELETE_OWN_POSTS'			=> 'Üzgünüz fakat sadece kendi mesajlarınızı silebilirsiniz.',
+	'DELETE_PERMANENTLY'		=> 'Kalıcı olarak sil',
 	'DELETE_POST_CONFIRM'		=> 'Bu mesajı silmek istediğinize emin misiniz?',
-	'DELETE_POST_WARN'			=> 'Bir kere silinen mesaj tekrar geri getirilemez',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Bu mesajı <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
+	'DELETE_POST_PERMANENTLY'	=> 'Bu mesaj kalıcı olarak silinirse tekrar geri getirilemez',
+	'DELETE_POSTS_CONFIRM'		=> 'Bu mesajları silmek istediğinize emin misiniz?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Bu mesajları <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
+	'DELETE_REASON'				=> 'Yumuşak silme sebebi',
+	'DELETE_REASON_EXPLAIN'		=> 'Silmek için belirlediğiniz bu sebep moderatörler tarafından görüntülenebilecektir.',
+	'DELETE_POST_WARN'			=> 'Bu mesajı sil',
+	'DELETE_TOPIC_CONFIRM'		=> 'Bu başlığı silmek istediğinize emin misiniz?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Bu başlık kalıcı olarak silinirse tekrar geri getirilemez',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Bu başlığı <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Bu başlıkları silmek istediğinize emin misiniz?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Bu başlıkları <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
 	'DISABLE_BBCODE'			=> 'BBCode kullanma',
 	'DISABLE_MAGIC_URL'			=> 'Otomatik olarak belirlenen URL bağlantılarını kapat',
 	'DISABLE_SMILIES'			=> 'İfadeleri kullanma',
@@ -122,13 +143,29 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Bu forumdaki mesajları alıntı yapmak için giriş yapmalısınız.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Bu forumdaki başlıklara cevap vermek için giriş yapmalısınız.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'En yüksek font boyutunu %1$d olarak kullanabilirsiniz.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Flash dosyalarınız en fazla %1$d piksel yüksekliğinde olabilir.',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Flash dosyalarınız en fazla %1$d piksel genişliğinde olabilir.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Resimleriniz en fazla %1$d piksel yüksekliğinde olabilir.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Resimleriniz en fazla %1$d piksel genişliğinde olabilir.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Fontları sadece en yüksek %d boyutuna kadar kullanabilirsiniz.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Flash dosyalarınız en fazla %d piksel yüksekliğinde olabilir.',
+		2	=> 'Flash dosyalarınız en fazla %d piksel yüksekliğinde olabilir.',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Flash dosyalarınız en fazla %d piksel genişliğinde olabilir.',
+		2	=> 'Flash dosyalarınız en fazla %d piksel genişliğinde olabilir.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Resimleriniz en fazla %1$d piksel yüksekliğinde olabilir.',
+		2	=> 'Resimleriniz en fazla %1$d piksel yüksekliğinde olabilir.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Resimleriniz en fazla %d piksel genişliğinde olabilir.',
+		2	=> 'Resimleriniz en fazla %d piksel genişliğinde olabilir.',
+	),
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Buraya mesajınızı girin, <strong>%d</strong> karakterden fazlasını içermemelidir.',
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Buraya mesajınızı girin, mesajınız <strong>%d</strong> karakterden fazlasını içermemelidir.',
+		2	=> 'Buraya mesajınızı girin, mesajınız <strong>%d</strong> karakterden fazlasını içermemelidir.',
+	),
 	'MESSAGE_DELETED'			=> 'Bu mesaj başarıyla silindi.',
 	'MORE_SMILIES'				=> 'Daha fazla ifade görüntüle',
 
@@ -146,12 +183,18 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Satır içine yerleştir',
 	'POLL_DELETE'				=> 'Anketi sil',
 	'POLL_FOR'					=> 'Anketin çalışma süresi',
-	'POLL_FOR_EXPLAIN'			=> 'Anket süresinin bitmemesi için 0 yazın ya da boş bırakın.',
-	'POLL_MAX_OPTIONS'			=> 'Her bir kullanıcı için seçenek',
-	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Bu her bir kullanıcının oy verirken seçebileceği seçenek sayısıdır.',
+	'POLL_FOR_EXPLAIN'			=> 'Anket süresinin hiç bitmemesi için 0 yazın.',
+	'POLL_MAX_OPTIONS'			=> 'Kullanıcı başına seçenek',
+	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Bu, her bir kullanıcının oy verirken seçebileceği seçenek sayısıdır..',
 	'POLL_OPTIONS'				=> 'Anket seçenekleri',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Her bir satıra bir seçenek yerleştirin. En fazla <strong>%d</strong> seçenek girebilirsiniz.',
-	'POLL_OPTIONS_EDIT_EXPLAIN'   => 'Her seçeneği yeni bir satıra yerleştirin. <strong>%d</strong> seçeneğe kadar girebilirsiniz. Eğer seçenekler eklerseniz ya da kaldırırsanız önceki tüm oylar sıfırlanacaktır.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> 'Her bir satıra bir seçenek yerleştirin. <strong>%d</strong> seçenek girebilirsiniz.',
+		2	=> 'Her bir satıra bir seçenek yerleştirin. En fazla <strong>%d</strong> seçeneğe kadar giriş yapabilirsiniz.',
+	),
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> 'Her bir satıra bir seçenek yerleştirin. <strong>%d</strong> seçenek girebilirsiniz. Eğer seçenekler ekler ya da kaldırırsanız önceden kullanılan tüm oylar sıfırlanacaktır.',
+		2	=> 'Her bir satıra bir seçenek yerleştirin. En fazla <strong>%d</strong> seçeneğe kadar giriş yapabilirsiniz. Eğer seçenekler ekler ya da kaldırırsanız önceden kullanılan tüm oylar sıfırlanacaktır.',
+	),
 	'POLL_QUESTION'				=> 'Anket sorusu',
 	'POLL_TITLE_TOO_LONG'		=> 'Anket başlığı 100 karakterden daha az karakter içermelidir.',
  	'POLL_TITLE_COMP_TOO_LONG'	=> 'Anket başlığınızın dilbilgisel olarak boyutu çok geniş, BBCode ya da ifadeleri kaldırmayı dikkate alın.',
@@ -176,7 +219,11 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'				=> 'Farklı başlık gönder',
 	'PROGRESS_BAR'				=> 'İlerleme çubuğu',
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Birbirleri içerisinde sadece %1$d alıntı yapabilirsiniz.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> 'Birbiri içine sadece %d alıntı yerleştirebilirsiniz.',
+		2	=> 'Birbiri içine sadece %d alıntı yerleştirebilirsiniz.',
+	),
+	'QUOTE_NO_NESTING'			=> 'Birbiri içine alıntılar yerleştiremezsiniz.',	
 
 	'SAVE'						=> 'Kaydet',
 	'SAVE_DATE'					=> 'Kaydedilen tarih',
@@ -187,16 +234,20 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'İfadeler <em>AÇIK</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'		=> 'Sabit/Duyuru zaman limiti',
 	'STICK_TOPIC_FOR'			=> 'Başlık sabitleme süresi',
-	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Sabit/Duyuru süresinin bitmemesi için 0 yazın ya da boş bırakın. Not: Bu sayı mesajın tarihi ile ilgilidir.',
-	'STYLES_TIP'				=> 'İpucu: Metni seçerek stilleri daha kolay uygulayabilirsiniz.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Sabit/Duyuru süresinin hiç bitmemesi için 0 yazın. Not: Bu sayı mesajın tarihine göredir.',
+	'STYLES_TIP'				=> 'Tip: Seçilmiş metine stiller daha kolay uygulanabilir.',
 
 	'TOO_FEW_CHARS'				=> 'Mesajınız çok az karakter içeriyor.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'Mesajınız %1$d karakter içeriyor. En az %2$d karakter girmelisiniz.',	
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'En az %1$d karakter girmelisiniz.',
+		2	=> 'En az %1$d karakter girmelisiniz.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'En az iki anket seçeneği girmelisiniz.',
-	'TOO_MANY_ATTACHMENTS'		=> 'Başka eklenti ekleyemezsiniz, en fazla %d tane eklenebilir.',
+	'TOO_MANY_ATTACHMENTS'		=> 'Başka bir eklenti eklenemiyor, en fazla %d tane eklenebilir.',
 	'TOO_MANY_CHARS'			=> 'Mesajınız çok fazla karakter içeriyor.',
-	'TOO_MANY_CHARS_POST'      => 'Mesajınız %1$d karakter içeriyor. En fazla izin verilen karakter sayısı %2$d.',
-	'TOO_MANY_CHARS_SIG'      => 'İmzanız %1$d karakter içeriyor. En fazla izin verilen karakter sayısı %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'En fazla izin verilen karakter sayısı %1$d.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Çok fazla anket seçeneği girmeyi denediniz.',
 	'TOO_MANY_SMILIES'			=> 'Mesajınız çok fazla ifade içeriyor. İzin verilen en fazla ifade sayısı %d.',
 	'TOO_MANY_URLS'				=> 'Mesajınız çok fazla url içeriyor. İzin verilen en fazla URL sayısı %d.',
@@ -219,8 +270,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sGönderdiğiniz mesajınızı görüntüleyin%s',
 	'VIEW_PRIVATE_MESSAGE'      => '%sGönderdiğiniz özel mesajınızı görüntüleyin%s',
 
-	'WRONG_FILESIZE'			=> 'Dosya çok büyük, en fazla izin verilen boyutlar %1d %2s.',
-	'WRONG_SIZE'				=> 'Resim en düşük %1$d piksel genişliğinde, %2$d piksel yüksekliğinde ve en yüksek %3$d piksel genişliğinde ve %4$d piksel yüksekliğinde olmalıdır. Eklenen resim %5$d piksel genişliğinde ve %6$d piksel yüksekliğinde.',
+	'WRONG_FILESIZE'			=> 'Dosya çok büyük, en fazla izin verilen boyutlar %1$d %2$s.',
+	'WRONG_SIZE'				=> 'Resim en düşük %1$s genişliğinde, %2$s yüksekliğinde ve en fazla %3$s genişliğinde ve %4$s yüksekliğinde olmalıdır. Eklenen resim %5$s genişliğinde ve %6$s yüksekliğindedir.',
 ));
-
-?>

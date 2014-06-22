@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_search [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php,v 1.19 2007/04/28 21:16:31 naderman Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -52,15 +53,39 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'İndeks silinmesi işlemde',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Arama uygulaması şu anda indeksleri siliyor. Bu işlem bir kaç dakika sürebilir.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL tam metin uygulaması sadece MySQL4 ve üzeri sürümlerde kullanılabilir.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL tam metin uygulaması sadece MySQL4 ve üzeri sürümlerde kullanılabilir.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL tam metin indekslemesi sadece MyISAM ya da InnoDB tabloları ile kullanılabilir. InnoDB tablolarında tam metin indekslemesi için MySQL 5.6.4 ya da sonraki sürümler gereklidir.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'İndekslenen mesajların toplam sayısı',
- 	'FULLTEXT_MYSQL_MBSTRING'				=> 'mbstring kullanılarak latin olmayan UTF-8 karakterleri desteği:',
- 	'FULLTEXT_MYSQL_PCRE'					=> 'PCRE kullanılarak latin olmayan UTF-8 karakterleri desteği:',
- 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Eğer PCRE, unicode karakter özelliklerine sahip değilse, arama uygulaması mbstring’in düzenli ifade motorunu kullanmayı deneyecektir.',
- 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Bu arama uygulaması PCRE unicode karakter özelliklerini gerektiriyor, eğer latin olmayan karakterler için arama yapmak istiyorsanız, bu özellikler sadece PHP 4.4, 5.1 ve üzeri sürümlerde mevcuttur.',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Arama yapmak için kelimeler en az bu kadar karakter ile indekslenecektir. Siz veya hosting firmanız bu ayarı sadece mysql ayarlarından değiştirebilir.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Arama yapmak için kelimeler bu kadar karakterden fazlasıyla indekslenmeyecektir. Siz veya hosting firmanız bu ayarı sadece mysql ayarlarından değiştirebilir.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Arama yapmak için kelimeler en az bu kadar karakter ile indekslenecektir. Bu ayarı sadece siz veya hosting firmanız mysql ayarlarından değiştirebilir.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Arama yapmak için kelimeler bu kadar karakterden fazlasıyla indekslenmeyecektir. Bu ayarı sadece siz veya hosting firmanız mysql ayarlarından değiştirebilir.',
+
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'PostgreSQL tam metin uygulaması sadece PostgreSQL ile kullanılabilir.',
+	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'PostgreSQL tam metin uygulaması sadece PostgreSQL 8.3 ve üzeri sürümlerde kullanılabilir.',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'İndekslenen mesajların toplam sayısı',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL sürümü',
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Metin araması Yapılandırma Profili:',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Anahtar kelimeler için en düşük kelime uzunluğu',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Anahtar kelimeler için ek yüksek kelime uzunluğu',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'Bu arama uygulaması PostgreSQL 8.3 ve üzeri sürümleri gerektirir.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'Metin araması yapılandırma profili ayrıştırıcıyı ve sözlüğü belirlemek için kullanılır.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'En az bu kadar karaktere sahip kelimeler veritabanı sorgusuna dahil edilecektir.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'En fazla bu kadar karaktere sahip kelimeler veritabanı sorgusuna dahil edilecektir.',
+
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Sphinx ayar dosyası oluşturmak için alttaki ayarları yapılandırın',
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Veri dizinine giden yol',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'Bu, indeksler ve kayıt dosyalarını depolamak için kullanılacaktır. Bu dizini web üzerinden erişilebilen dizinlerin dışındaki bir yerde oluşturmalısınız. (eğik çizgi (slaş) işareti içermelidir)',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Sıkça güncellenen delta indeksindeki mesajların sayısı',
+	'FULLTEXT_SPHINX_HOST'					=> 'Sphinx search daemon hostu',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Sphinx search daemon (searchd) üzerinde dinleme yapılan host. Varsayılan localhost kullanmak için boş bırakın',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'İndekseliyici hafıza sınırı',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Bu sayı makinenizdeki mevcut hafızadan (RAMden) her zaman daha düşük olmalıdır. Eğer periyodik performans sorunları yaşıyorsanız, bu sorunlar çok fazla kaynak tüketen indeksleyici yüzünden kaynaklanıyor olabilir. Bu ayar indeksleyici için kullanılan mevcut hafıza miktarını azaltmaya yardımcı olabilir.',
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Ana indeks içerisindeki mesajların sayısı',
+	'FULLTEXT_SPHINX_PORT'					=> 'Sphinx search daemon portu',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Sphinx search daemon (searchd) üzerinde dinleme yapılan port. Varsayılan Sphinx API portu olan 9312\'yi kullanmak için boş bırakın',
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'phpBB için sphinx search, sadece MySQL ve PostgreSQL veritabanlarını destekler.',
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx ayar dosyası',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Sphinx ayar dosyasının içeriğini oluşturur. Bu veri, sphinx search deamon tarafından kullanılabilmesi için sphinx.conf dosyasnın içerisine yapıştırılmalıdır.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Sphinx veri ve ayar dizin yolu belirlenmedi. Lütfen ayar dosyası oluşturmak için bunları belirleyin.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Genel Arama Ayarları',
 	'GO_TO_SEARCH_INDEX'					=> 'Arama indeks sayfasına git',
@@ -75,7 +100,7 @@ $lang = array_merge($lang, array(
 	'MAX_SEARCH_CHARS'						=> 'Aramada indekslenecek en yüksek karakter',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Aramada indekslenecek kelimeler bundan fazla olmayacaktır.',
 	'MAX_NUM_SEARCH_KEYWORDS'            => 'En fazla izin verilen anahtar kelime sayısı',
-  'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      => 'Kullanıcıların arama yaparken kullanabilecekleri en fazla kelime sayısı. 0 değeri sınırsız sayıda kelimelere izin verir.',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      => 'Kullanıcıların arama yaparken kullanabilecekleri en fazla kelime sayısı. 0 değeri sınırsız sayıda kelimelere izin verir.',
 	'MIN_SEARCH_CHARS'						=> 'Aramada indekslenecek en düşük karakter',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Aramada indekslenecek kelimeler bundan düşük olmayacaktır.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'En düşük yazar adı karakteri',
@@ -85,8 +110,15 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Misafir arama flood aralığı',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Misafirlerin aramaları arasında beklemesi gereken saniye sayısı. Eğer bir misafir arama yaparsa diğer tüm misafirler zaman aralığı dolana kadar bekleyecektir.',
- 	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Tüm mesajlar şimdi %1$d mesaj id numarasına kadar indekslendi, bu adımda %2$d mesaj indekslendi.<br />Şu anki indekslemenin tahmini değeri her saniyede %3$.1f mesaj.<br />İndeksleme işlemi devam ediyor…',
- 	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Tüm mesajlar %1$d mesaj id numarasına kadar arama indeksinden kaldırıldı.<br />Silme işlemi devam ediyor…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		2	=> 'Tüm mesajlar şimdi %2$d mesaj id numarasına kadar indekslendi, bu adımda %1$d mesaj indekslendi.<br />',
+	),
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		2	=> 'Şu anki indekslemenin değeri her saniyede %1$.1f mesaj.<br />İndeksleme işlemi devam ediyor…',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		2	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar arama indeksinden kaldırıldı.<br />Silme işlemi devam ediyor…',
+	),
 	'SEARCH_INDEX_CREATED'					=> 'Pano veritabanındaki tüm mesajlar başarıyla indekslendi',
 	'SEARCH_INDEX_REMOVED'					=> 'Bu uygulama için arama indeksi başarıyla silindi',
 	'SEARCH_INTERVAL'						=> 'Kullanıcı arama flood aralığı',
@@ -105,5 +137,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Tam metin güncellemesini aç',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Mesaj gönderilirken tam metin indekslemesini günceller, eğer arama kapalıysa önemsemeden devam eder.',
 ));
-
-?>

@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* mcp [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: mcp.php,v 1.80 2007/06/09 11:10:24 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -53,7 +54,11 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> 'Bu mesajı onaylamak istediğinize emin misiniz?',
 	'APPROVE_POSTS'			=> 'Mesajları onayla',
 	'APPROVE_POSTS_CONFIRM'	=> 'Seçilen mesajları onaylamak istediğinize emin misiniz?',
-
+	'APPROVE_TOPIC'			=> 'Başlığı onayla',
+	'APPROVE_TOPIC_CONFIRM'	=> 'Bu başlığı onaylamak istediğinize emin misiniz?',
+	'APPROVE_TOPICS'		=> 'Başlıkları onayla',
+	'APPROVE_TOPICS_CONFIRM'=> 'Seçilen başlıkları onaylamak istediğinize emin misiniz?',
+	
 	'CANNOT_MOVE_SAME_FORUM'=> 'Aynı forum içerisinde zaten bulunan bir başlığı taşıyamazsınız.',
 	'CANNOT_WARN_ANONYMOUS'	=> 'Bir misafir kullanıcıya uyarı veremezsiniz.',
 	'CANNOT_WARN_SELF'		=> 'Kendinize uyarı veremezsiniz.',
@@ -72,18 +77,13 @@ $lang = array_merge($lang, array(
 	'DELETE_PM_REPORT_CONFIRM'	=> 'Seçilen ÖM bildirisini silmek istediğinize emin misiniz?',
 	'DELETE_PM_REPORTS'			=> 'ÖM bildirilerini sil',
 	'DELETE_PM_REPORTS_CONFIRM'	=> 'Seçilen ÖM bildirilerini silmek istediğinize emin misiniz?',
-
 	'DELETE_POSTS'			=> 'Mesajları sil',
-	'DELETE_POSTS_CONFIRM'	=> 'Bu mesajları silmek istediğinize emin misiniz?',
-	'DELETE_POST_CONFIRM'	=> 'Bu mesajı silmek istediğinize emin misiniz?',
 	'DELETE_REPORT'			=> 'Bildiriyi sil',
 	'DELETE_REPORT_CONFIRM'	=> 'Seçilen bildiriyi silmek istediğinize emin misiniz?',
 	'DELETE_REPORTS'		=> 'Bildirileri sil',
 	'DELETE_REPORTS_CONFIRM'	=> 'Seçilen bildirileri silmek istediğinize emin misiniz?',
 	'DELETE_SHADOW_TOPIC'		=> 'Gölgeli başlığı sil',
 	'DELETE_TOPICS'			=> 'Seçilen başlıkları sil',
-	'DELETE_TOPICS_CONFIRM'	=> 'Bu başlıkları silmek istediğinize emin misiniz?',
-	'DELETE_TOPIC_CONFIRM'	=> 'Bu başlığı silmek istediğinize emin misiniz?',
 	'DISAPPROVE'			=> 'Onaylama',
 	'DISAPPROVE_REASON'		=> 'Onaylamama sebebi',
 	'DISAPPROVE_POST'		=> 'Mesajı onaylama',
@@ -121,8 +121,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Son alınan uyarılar',
 	'LATEST_WARNINGS'			=> 'Son 5 uyarı',
 	'LEAVE_SHADOW'				=> 'Burada bulunan gölgeli başlığı boş bırak',
-	'LIST_REPORT'				=> '1 bildiri',
-	'LIST_REPORTS'				=> '%d bildiri',
+	'LIST_REPORTS'				=> array(
+		1	=> '%d bildiri',
+		2	=> '%d bildiri',
+	),
 	'LOCK'						=> 'Kilitle',
 	'LOCK_POST_POST'			=> 'Mesajı kilitle',
 	'LOCK_POST_POST_CONFIRM'	=> 'Bu mesajın düzenlenmesini engellemek istediğinize emin misiniz?',
@@ -201,6 +203,10 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Bu, kullanıcılara görüntülenmeden önce onay isteyen tüm mesajların bir listesidir.',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Onay bekleyen başlıklar',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Bu, kullanıcılara görüntülenmeden önce onay isteyen tüm başlıkların bir listesidir.',
+	'MCP_QUEUE_DELETED_POSTS'				=> 'Silinen mesajlar',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Bu, yumuşak silme yapılan tüm mesajların bir listesidir. Bu ekrandan mesajları geri getirebilir ya da kalıcı olarak silebilirsiniz.',
+	'MCP_QUEUE_DELETED_TOPICS'				=> 'Silinen başlıklar',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Bu, yumuşak silme yapılan tüm başlıkların bir listesidir. Bu ekrandan başlıkları geri getirebilir ya da kalıcı olarak silebilirsiniz.',
 
 	'MCP_VIEW_USER'			=> 'Belirli bir kullanıcı için uyarıları görüntüle',
 
@@ -238,25 +244,32 @@ $lang = array_merge($lang, array(
 	'NO_POST'				=> 'Bu mesaj yüzünden kullanıcıya verilecek uyarı için bir mesaj seçmelisiniz.',
 	'NO_POST_REPORT'			=> 'Bu mesaj bildiri almadı.',
 	'NO_POST_SELECTED'		=> 'Bu eylemi uygulamak için en az bir tane mesaj seçmelisiniz.',
+	'NO_POSTS_DELETED'				=> 'Silinen hiç bir mesaj yok.',
+	'NO_POSTS_QUEUE'				=> 'Onay için bekleyen hiç bir mesaj yok.',	
 	'NO_REASON_DISAPPROVAL'		=> 'Lütfen onaylamama için uygun bir sebep girin.',
 	'NO_REPORT'						=> 'Hiç bir bildiri bulunamadı',
 	'NO_REPORTS'              => 'Hiç bir bildiri bulunamadı',
 	'NO_REPORT_SELECTED'			=> 'Bu eylemi uygulamak için en az bir tane bildiri seçmelisiniz.',
 	'NO_TOPIC_ICON'			=> 'Yok',
 	'NO_TOPIC_SELECTED'		=> 'Bu eylemi uygulamak için en az bir tane başlık seçmelisiniz.',
+	'NO_TOPICS_DELETED'				=> 'Silinen hiç bir başlık yok.',
 	'NO_TOPICS_QUEUE'				=> 'Onay için bekleyen hiç bir başlık yok.',
 
 	'ONLY_TOPIC'			=> 'Sadece “%s” başlığı',
 	'OTHER_USERS'			=> 'Bu IP adresinden mesaj gönderen diğer kullanıcılar',
-	
+
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s hızlı yönetim için izinli değil",
+
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla kapatıldı.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla silindi.',
 	'PM_REPORTED_SUCCESS'		=> 'Bu özel mesaj başarıyla bildirildi.',
-	'PM_REPORT_TOTAL'			=> 'İncelemek için toplam <strong>1</strong> ÖM bildirisi var.',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Seçilen ÖM bildirileri başarıyla kapatıldı.',
-	'PM_REPORTS_DELETED_SUCCESS'=> 'Seçilen ÖM bildirileri başarıyla silindi.',	
-	'PM_REPORTS_TOTAL'			=> 'İncelemek için toplam <strong>%d</strong> ÖM bildirisi var.',
-	'PM_REPORTS_ZERO_TOTAL'		=> 'İncelemek için herhangi bir ÖM bildirisi yok.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'Seçilen ÖM bildirileri başarıyla silindi.',
+	'PM_REPORTS_TOTAL'			=> array(
+		0	=> 'İncelemek için herhangi bir ÖM bildirisi yok.',
+		1	=> 'İncelemek için toplam <strong>1</strong> ÖM bildirisi var.',
+		2	=> 'İncelemek için toplam <strong>%d</strong> ÖM bildirisi var.',
+	),
 	'PM_REPORT_DETAILS'			=> 'Özel mesaj bildiri detayları',
 
 	'POSTER'				=> 'Yazar',
@@ -265,15 +278,17 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'Seçilen mesajlar onaylanmadı.',
 	'POSTS_LOCKED_SUCCESS'		=> 'Seçilen mesajlar başarıyla kilitlendi.',
 	'POSTS_MERGED_SUCCESS'		=> 'Seçilen mesajlar birleştirildi.',
-	'POSTS_UNLOCKED_SUCCESS'	=> 'Seçilen mesajların kilidi başarıyla açıldı.',
 	'POSTS_PER_PAGE'			=> 'Her sayfadaki mesaj sayısı',
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(Tüm mesajları görmek için 0 yazın.)',
+	'POSTS_RESTORED_SUCCESS'	=> 'Seçilen mesajlar başarıyla geri getirildi.',
+	'POSTS_UNLOCKED_SUCCESS'	=> 'Seçilen mesajların kilidi başarıyla açıldı.',	
 	'POST_APPROVED_SUCCESS'		=> 'Seçilen mesaj onaylandı.',
 	'POST_DELETED_SUCCESS'		=> 'Seçilen mesaj veritabanından başarıyla silindi.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'Seçilen mesaj onaylanmadı.',
 	'POST_LOCKED_SUCCESS'		=> 'Mesaj başarıyla kilitlendi.',
 	'POST_NOT_EXIST'			=> 'İstediğiniz mesaj bulunamıyor.',
 	'POST_REPORTED_SUCCESS'		=> 'Bu mesaj başarıyla bildirildi.',
+	'POST_RESTORED_SUCCESS'		=> 'Bu mesaj başarıyla geri getirildi.',	
 	'POST_UNLOCKED_SUCCESS'		=> 'Mesajın kilidi başarıyla açıldı.',
 
 	'READ_USERNOTES'			=> 'Kullanıcı notları',
@@ -284,8 +299,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'		=> 'tarih',
 	'REPORTS_CLOSED_SUCCESS'	=> 'Seçilen bildiriler başarıyla kapatıldı.',
 	'REPORTS_DELETED_SUCCESS'	=> 'Seçilen bildiriler başarıyla silindi.',
-	'REPORTS_TOTAL'			=> 'İncelemek için toplam <strong>%d</strong> bildiri var.',
-	'REPORTS_ZERO_TOTAL'		=> 'İncelemek için hiç bir bildiri yok.',
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'İncelemek için hiç bir bildiri yok.',
+		1	=> 'İncelemek için toplam <strong>1</strong> bildiri var.',
+		2	=> 'İncelemek için toplam <strong>%d</strong> bildiri var.',
+	),
 	'REPORT_CLOSED'			=> 'Bu bildiri daha önce kapatıldı.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Seçilen bildiri başarıyla kapatıldı.',
 	'REPORT_DELETED_SUCCESS'	=> 'Seçilen bildiri başarıyla silindi.',
@@ -297,7 +315,15 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Seçilen mesajı forum moderatörlerine ve mesaj panosu yöneticilerine bildirmek için bu formu kullanın. Bildiri genel olarak sadece forum kurallarını çiğneyen mesaj için kullanılmalıdır.',
 	'REPORT_REASON'			=> 'Bildiri sebebi',
 	'REPORT_TIME'			=> 'Bildiri zamanı',
-	'REPORT_TOTAL'			=> 'İnceleme için toplam <strong>1</strong> bildiri var.',
+	'RESTORE'					=> 'Geri getir',
+	'RESTORE_POST'				=> 'Mesajı geri getir',
+	'RESTORE_POST_CONFIRM'		=> 'Bu mesajı geri getirmek istediğinize emin misiniz?',
+	'RESTORE_POSTS'				=> 'Mesajları geri getir',
+	'RESTORE_POSTS_CONFIRM'		=> 'Seçilen mesajları geri getirmek istediğinize emin misiniz?',
+	'RESTORE_TOPIC'				=> 'Başlığı geri getir',
+	'RESTORE_TOPIC_CONFIRM'		=> 'Bu başlığı geri getirmek istediğinize emin misiniz?',
+	'RESTORE_TOPICS'			=> 'Başlıkları geri getir',
+	'RESTORE_TOPICS_CONFIRM'	=> 'Seçilen başlıkları geri getirmek istediğinize emin misiniz?',
 	'RESYNC'				=> 'Yeniden senkronize et',
 	'RETURN_MESSAGE'			=> '%sMesaja dön%s',
 	'RETURN_NEW_FORUM'		=> '%sYeni foruma git%s',
@@ -338,6 +364,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> 'Seçilen başlıklar başarıyla kopyalandı.',
 	'TOPICS_LOCKED_SUCCESS'		=> 'Seçilen başlıklar kilitlendi.',
 	'TOPICS_MOVED_SUCCESS'		=> 'Seçilen başlıklar başarıyla taşındı.',
+	'TOPICS_RESTORED_SUCCESS'	=> 'Seçilen başlıklar başarıyla geri getirildi.',	
 	'TOPICS_RESYNC_SUCCESS'		=> 'Seçilen başlıklar başarıyla yeniden senkronize edildi.',
 	'TOPICS_TYPE_CHANGED'			=> 'Başlık türleri başarıyla değiştirildi.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'Seçilen başlıkların kilidi açıldı.',
@@ -348,6 +375,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'Seçilen başlık kilitlendi.',
 	'TOPIC_MOVED_SUCCESS'		=> 'Seçilen başlık başarıyla taşındı.',
 	'TOPIC_NOT_EXIST'			=> 'Seçilen başlık bulunmuyor.',
+	'TOPIC_RESTORED_SUCCESS'	=> 'Seçilen başlık başarıyla geri getirildi.',	
 	'TOPIC_RESYNC_SUCCESS'		=> 'Seçilen başlık yeniden senkronize edildi.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'Seçilen başlık başarıyla ayrıldı.',
 	'TOPIC_TIME'			=> 'Başlık zamanı',
@@ -355,9 +383,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'Seçilen başlığın kilidi açıldı.',
 	'TOTAL_WARNINGS'			=> 'Toplam Uyarılar',
 
-	'UNAPPROVED_POSTS_TOTAL'	=> 'Onay için bekleyen toplam <strong>%d</strong> mesaj var.',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Onay için bekleyen hiç bir mesaj yok.',
-	'UNAPPROVED_POST_TOTAL'		=> 'Onay için bekleyen toplam <strong>1</strong> mesaj var.',
+	'UNAPPROVED_POSTS_TOTAL'		=> array(
+		0	=> 'Onay için bekleyen hiç bir mesaj yok.',
+		1	=> 'Onay için bekleyen toplam <strong>1</strong> mesaj var.',
+		2	=> 'Onay için bekleyen toplam <strong>%d</strong> mesaj var.',
+	),
 	'UNLOCK'						=> 'Kilidi aç',
 	'UNLOCK_POST'					=> 'Mesajın kilidini aç',
 	'UNLOCK_POST_EXPLAIN'			=> 'Düzenlemeye izin ver',
@@ -383,7 +413,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> 'Altta bu mesaj panosunun yöneticisi veya moderatörü tarafından size hangi sebepten dolayı bir uyarı verildiği bulunmaktadır.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Mesaj panosu uyarı bildirisi',
 	'WARNING_POST_DEFAULT'	=> 'Tarafınızdan gönderilen bu mesaj bir uyarı sebebidir: %s .',
-	'WARNINGS_ZERO_TOTAL'	=> 'Hiç bir uyarı mevcut değil.',
+	'NO_WARNINGS'	=> 'Hiç bir uyarı yok.',
 
 	'YOU_SELECTED_TOPIC'	=> 'Seçtiğiniz başlık numarası %d: %s.',
 
@@ -399,8 +429,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Bildirilen mesaj bir web sitesinin veya diğer bir ürünün reklamını yapma amacında.',
 			'OFF_TOPIC'	=> 'Bildirilen mesaj konu dışı.',
 			'OTHER'		=> 'Bildirilen mesaj diğer kategorilerden herhangi birine uymuyor, lütfen daha fazla bilgi alanını kullanın.'
-		)
+		),
 	),
 ));
-
-?>

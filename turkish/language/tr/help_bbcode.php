@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* help_bbcode [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: help_bbcode.php,v 1.25 2007/05/17 18:55:52 davidmj Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -89,7 +90,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ayrı bir siteye bağlantı verme',
-		1 => 'phpBB, BBCode yoluyla daha iyi bir şekilde URLler olarak bilinen URIler (Uniform Resource Indicators) oluşturmayı destekler.<ul><li>Birinci yöntem <strong>[url=][/url]</strong> etiketiyledir. = işaretinin arkasına yazılanlar bağlantı olarak çalışır. Örneğin phpBB.com\'a bağlantı vermek için şu şekilde yazın:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>phpBB\'yi ziyaret edin!<strong>[/url]</strong><br /><br />Sonuçta şu bağlantıyı göreceksiniz: <a href="http://www.phpbb.com/">phpBB\'yi ziyaret edin!</a> Not: Bu bağlantı kullanıcıların tarayıcı ayarlarına bağlı olarak aynı pencerede veya yeni bir pencerede açılır.</li><li>Bağlantı adresinin gösterilmesini istiyorsanız, şu şekildede yazabilirsiniz:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />Sonuçta şu bağlantıyı göreceksiniz: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>phpBB ayrıca <i>Sihirli Bağlantılar</i> denen bir işleme sahip. Bunun sayesinde, kurallara uygun bir şekilde yazılan her bağlantı adresi otomatik olarak bağlantıya çevrilir, herhangi bir etiket, hatta http:// yazmanıza gerek kalmaz. Örn. www.phpbb.com yazınca, izlenim sayfasında otomatik olarak <a href="http://www.phpbb.com/">www.phpbb.com</a> olarak görüntülenir.</li><li>Aynı işlem email adresleri için uygulanır. Dilerseniz özel olarak bir adres belirleyebilirsiniz, örn.:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />yazılınca şu şekilde görüntülenir: <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> Veya basitçe no.one@domain.adr yazabilirsiniz ve mesajınız görüntülendiğinde bu kısım otomatik olarak bağlantıya çevrilir.</li></ul>Bütün BBCode etiketleri gibi, bağlantı adreslerinide diğer etiketlerin içine alabilirsiniz, örn. <strong>[img][/img]</strong> (bir sonraki madde bakın), <strong>[b][/b]</strong>, vs. Biçimleme etiketlerinde olduğu gibi, etiketlerin düzgün bir şekilde sırasıyla kapatılmasını kendiniz sağlamalısınız, örn.:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br />doğru <span style="text-decoration: underline">değildir</span> ve hatta mesajınızın silinmesine yol açabilir, bu konuda dikkatli olmanız gerek.'
+		1 => 'phpBB, BBCode yoluyla daha iyi bir şekilde URLler olarak bilinen URIler (Uniform Resource Indicators) oluşturmayı destekler.<ul><li>Birinci yöntem <strong>[url=][/url]</strong> etiketiyledir. = işaretinin arkasına yazılanlar bağlantı olarak çalışır. Örneğin phpBB.com\'a bağlantı vermek için şu şekilde yazın:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>phpBB\'yi ziyaret edin!<strong>[/url]</strong><br /><br />Sonuçta şu bağlantıyı göreceksiniz: <a href="http://www.phpbb.com/">phpBB\'yi ziyaret edin!</a> Not: Bu bağlantı kullanıcıların tarayıcı ayarlarına bağlı olarak aynı pencerede veya yeni bir pencerede açılır.</li><li>Bağlantı adresinin gösterilmesini istiyorsanız, şu şekildede yazabilirsiniz:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />Sonuçta şu bağlantıyı göreceksiniz: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>phpBB ayrıca <i>Sihirli Bağlantılar</i> denen bir işleme sahip. Bunun sayesinde, kurallara uygun bir şekilde yazılan her bağlantı adresi otomatik olarak bağlantıya çevrilir, herhangi bir etiket, hatta http:// yazmanıza gerek kalmaz. Örn. www.phpbb.com yazınca, izlenim sayfasında otomatik olarak <a href="http://www.phpbb.com/">www.phpbb.com</a> olarak görüntülenir.</li><li>Aynı işlem email adresleri için uygulanır. Dilerseniz özel olarak bir adres belirleyebilirsiniz, örn.:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />yazılınca şu şekilde görüntülenir: <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> Veya basitçe no.one@domain.adr yazabilirsiniz ve mesajınız görüntülendiğinde bu kısım otomatik olarak bağlantıya çevrilir.</li></ul>Bütün BBCode etiketleri gibi, bağlantı adreslerinide diğer etiketlerin içine alabilirsiniz, örn. <strong>[img][/img]</strong> (bir sonraki madde bakın), <strong>[b][/b]</strong>, vs. Biçimleme etiketlerinde olduğu gibi, etiketlerin düzgün bir şekilde sırasıyla kapatılmasını kendiniz sağlamalısınız, örn.:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br />doğru <span style="text-decoration: underline">değildir</span> ve hatta mesajınızın silinmesine yol açabilir, bu konuda dikkatli olmanız gerek.'
 	),
 	array(
 		0 => '--',
@@ -97,11 +98,11 @@ $help = array(
 	),
 	array(
 		0 => 'Bir mesaja resim eklemek',
-		1 => 'BBCode mesajlarınıza resim eklemek için bir etikete sahiptir. Bu etiketi kullanırken iki önemli noktayı dikkate almanız gerek: birçok kullanıcı mesajlarda çok sayıda resmin görüntülenmesini hoş karşılamıyor. Ayrıca kullanmak istediğiniz resme internet üzerinden ulaşılabilmeli (örn. bu resmin kendi bilgisayarınızda bulunması yeterli değildir). Bir resmi görüntülemek için, resmin adresini <strong>[img][/img]</strong> etiketleri içine almalısınız. Örn.:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />Bir önceki maddede belirtildiği gibi, resmi dilerseniz <strong>[url][/url]</strong> etiketleri içine alabilirsiniz. Örn.:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />yazınca şu sonucu verir:<br /><br /><a href="http://www.google.com/"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" border="0" alt="" /></a><br />'
-		), 
-  array( 
-    0 => 'Bir mesaja eklentiler eklemek', 
-    1 => 'Eklentiler, yeni <strong>[attachment=][/attachment]</strong> BBCode etiketlerini kullanarak bir mesajın herhangi bir bölümüne yerleştirilebilir, tabi ki eğer eklenti özelliği mesaj panosu yöneticisi tarafından açıldıysa ve eklentiler oluşturmak için uygun izinleriniz verildiyse... Satıriçi eklentiler yerleştirmek için mesaj gönderme ekranında bir seçenek kutusu (bir buton sırasıyla) bulunur.' 
+		1 => 'phpBB BBCode mesajlarınıza resimler eklemek için bir etiket içerir. Bu etiketi kullanırken iki önemli noktayı dikkate almanız gerekir: birçok kullanıcı mesajlarda çok sayıda resmin görüntülenmesini hoş karşılamaz. Ayrıca göstermek istediğiniz resim internet üzerinde mevcut olmalıdır (bir web sunucusu çalıştırmıyorsanız, bu resmin kendi bilgisayarınızda bulunması yeterli değildir). Bir resmi görüntülemek için, resmin adresini <strong>[img][/img]</strong> etiketleri içine almalısınız. Örn.:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />Bir önceki maddede belirtildiği gibi, resmi dilerseniz <strong>[url][/url]</strong> etiketleri içine alabilirsiniz. Örn.:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />oluşturulacak olan:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
+	), 
+	array( 
+		0 => 'Bir mesaja eklentiler eklemek', 
+		1 => 'Eklentiler, yeni <strong>[attachment=][/attachment]</strong> BBCode etiketlerini kullanarak bir mesajın herhangi bir bölümüne yerleştirilebilir, tabi ki eğer eklenti özelliği mesaj panosu yöneticisi tarafından açıldıysa ve eklentiler oluşturmak için uygun izinleriniz verildiyse... Satıriçi eklentiler yerleştirmek için mesaj gönderme ekranında bir seçenek kutusu (bir buton sırasıyla) bulunur.' 
 	),
 	array(
 		0 => '--',
@@ -109,8 +110,6 @@ $help = array(
 	),
 	array(
 		0 => 'Kendi etiketlerimi ekleyebilir miyim?',
-		1 => 'Eğer siz bu mesaj panosunda bir yöneticiyseniz ve uygun izinleriniz varsa, Özel BBCode\'lar bölümü aracılığıyla daha fazla BBCode ekleyebilirsiniz.'
-	)
+		1 => 'Eğer bu mesaj panosunda bir yöneticiyseniz ve uygun izinleriniz varsa, Özel BBCode’lar bölümü aracılığıyla daha fazla BBCode ekleyebilirsiniz.'
+	),
 );
-
-?>

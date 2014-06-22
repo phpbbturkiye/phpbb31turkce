@@ -10,5 +10,4 @@ Bu bağlantıyı kullanarak kullanıcının profilini görüntüleyin:
 Bu bağlantıyı kullanarak hesabı aktifleştirin:
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

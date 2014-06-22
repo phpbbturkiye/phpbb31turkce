@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_permissions [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: permissions.php,v 1.34 2007/05/16 14:44:56 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -58,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Asla',
 	'ACL_SET'				=> 'İzinleri ayarla',
-	'ACL_SET_EXPLAIN'		=> 'İzinler <samp>EVET</samp>/<samp>HAYIR</samp> üzerine kurulu basit bir sistemdir. <samp>ASLA</samp> seçeneği kullanıcı ya da kullanıcı grupları için işaretlendiğinde diğer tüm değerlerin yerini alır. Eğer bu değerlerin kullanıcılar ya da kullanıcı gruplarındaki ayarların yerini almasını istemiyorsanız <samp>HAYIR</samp> seçeneğini seçin. Eğer değerler bu seçenek için başka bir yerde ayarlanırsa tercih olarak seçilen kabul edilecektir, aksi takdirde <samp>ASLA</samp> olarak kabul edilecektir. Tüm ögeler (önlerindeki seçme kutusuyla) işaretlendiğinde, belirlediğiniz izin ayarı kopyalanacaktır.',
+	'ACL_SET_EXPLAIN'		=> 'İzinler <strong>EVET</strong>/<strong>HAYIR</strong> üzerine kurulu basit bir sistemdir. <strong>ASLA</strong> seçeneği kullanıcı ya da kullanıcı grupları için işaretlendiğinde diğer tüm değerlerin yerini alır. Eğer bu değerlerin kullanıcılar ya da kullanıcı gruplarındaki ayarların yerini almasını istemiyorsanız <strong>HAYIR</strong> seçeneğini seçin. Eğer değerler bu seçenek için başka bir yerde ayarlanırsa tercih olarak seçilen kabul edilecektir, aksi takdirde <strong>ASLA</strong> olarak kabul edilecektir. Tüm ögeler (önlerindeki seçme kutusuyla) işaretlendiğinde, belirlediğiniz izin ayarı kopyalanacaktır.',
 	'ACL_SETTING'			=> 'Ayar',
 
 	'ACL_TYPE_A_'			=> 'Yönetim izinleri',
@@ -101,10 +102,10 @@ $lang = array_merge($lang, array(
 	'ADD_USERS'					=> 'Kullanıcılar ekle',
 	'ADVANCED_PERMISSIONS'          => 'Gelişmiş İzinler',
 	'ALL_GROUPS'				=> 'Tüm grupları seç',
-	'ALL_NEVER'					=> 'Tümü <samp>ASLA</samp>',
-	'ALL_NO'					=> 'Tümü <samp>HAYIR</samp>',
+	'ALL_NEVER'					=> 'Tümü <strong>ASLA</strong>',
+	'ALL_NO'					=> 'Tümü <strong>HAYIR</strong>',
 	'ALL_USERS'					=> 'Tüm kullanıcıları seç',
-	'ALL_YES'					=> 'Tümü <samp>EVET</samp>',
+	'ALL_YES'					=> 'Tümü <strong>EVET</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> 'Tüm izinleri uygula',
 	'APPLY_PERMISSIONS'			=> 'İzinleri uygula',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Bu alanda belirlenen rol ve izinler sadece bu alan için ve işaretlenen tüm maddelere göre uygulanacaktır.',
@@ -138,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'İzin ayarları tanımlanmadı.',
 	'NO_ROLE_ASSIGNED'			=> 'Hiç bir rol tanımlanmadı…',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Bu role ayarlanan haklar üzerindeki izinler değişmez. Tüm izinleri ayarsız bırakmak/kaldırmak istiyorsanız, “Tümü <samp>HAYIR</samp>” bağlantısını kullanmalısınız.',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Bu role ayarlanan haklar üzerindeki izinler değişmez. Tüm izinleri ayarsız bırakmak/kaldırmak istiyorsanız, “Tümü <strong>HAYIR</strong>” bağlantısını kullanmalısınız.',
 	'NO_ROLE_AVAILABLE'			=> 'Hiç bir rol mevcut değil',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Lütfen role bir isim verin.',
 	'NO_ROLE_SELECTED'			=> 'Rol bulunamadı.',
@@ -196,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'		=> 'Standart erişim gibidir, fakat anket oluşturabilir.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'	=> 'Forumu okuyabilirler, fakat yeni başlıklar oluşturamazlar ya da mesajlara cevap veremezler.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'	=> 'Forumun bir çok özelliklerinden yararlanabilirler, buna eklentiler ve kendi başlıklarını silmek dahildir, fakat kendi başlıklarını kilitleyemezler ve anketler oluşturamazlar.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar grubunun üyeleri için özel bir roldür; yeni kullanıcılar için kilit özelliklere <samp>ASLA</samp> izinlerini içerir.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar grubunun üyeleri için özel bir roldür; yeni kullanıcılar için kilit özelliklere <strong>ASLA</strong> izinlerini içerir.',
 	'ROLE_DESCRIPTION_MOD_FULL'			=> 'Yönetim ile ilgili tüm özellikleri kullanırlar, buna yasaklamada dahildir.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'		=> 'Yönetim yapabilirler, onaylanmayı bekleyen mesajları ve mesajların düzenlenmesini yönetebilirler, fakat başka birşey yapamazlar.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'		=> 'Temel başlık işlerini kullanabilirler. Uyarı gönderemezler ya da yönetimle ilgili mesaj onaylama yapamazlar.',
@@ -206,7 +207,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'	=> 'Sınırlı özellik ayarlarına sahiptir, ve Avatar özelliğini kullanmalarına izin verilmemiştir.',
 	'ROLE_DESCRIPTION_USER_NOPM'		=> 'Sınırlı özellik ayarlarına sahiptir, ve Özel mesajlaşmalarına izin verilmemiştir.',
 	'ROLE_DESCRIPTION_USER_STANDARD'	=> 'Bir çoğu için giriş hakkı vardır fakat tüm kullanıcı özellikleri için değil. Örnek olarak, kullanıcı adını değiştiremez ya da flood limiti gözardı edilemez.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar grubunun üyeleri için özel bir roldür; yeni kullanıcılar için kilit özelliklere <samp>ASLA</samp> izinlerini içerir.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar grubunun üyeleri için özel bir roldür; yeni kullanıcılar için kilit özelliklere <strong>ASLA</strong> izinlerini içerir.',
 	
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Hangi rol için ne yapılacağı ve rolün açıklamasını kısa bir tanımlama şeklinde girerek yazabilirsiniz. Burada gireceğiniz açıklama izinler ekranındada gösterilecektir.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Rol açıklaması çok uzun, lütfen açıklamayı 4000 karakter olarak sınırlayın.',
@@ -227,48 +228,48 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> 'Kullanıcı izinlerini ayarla',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'Kullanıcı forum izinlerini ayarla',
 
-	'TRACE_DEFAULT'					=> 'Varsayılan olarak tüm izinler <samp>HAYIR</samp> (ayarlanmamış) kabul edilir. Yani izinler diğer ayarlar tarafından değiştirilebilir.',
+	'TRACE_DEFAULT'					=> 'Varsayılan olarak tüm izinler <strong>HAYIR</strong> (ayarlanmamış) kabul edilir. Yani izinler diğer ayarlar tarafından değiştirilebilir.',
 	'TRACE_FOR'						=> 'İzlenecek',
 	'TRACE_GLOBAL_SETTING'			=> '%s (global)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'Bu grubun izninin toplam değeri <samp>ASLA</samp> olarak ayarlanmıştır bu yüzden eski sonuçlar kalır.',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'Bu forum için bu grubun izninin toplam değeri <samp>ASLA</samp> olarak ayarlanmıştır bu yüzden eski sonuçlar kalır.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'		=> 'Bu grubun izni <samp>ASLA</samp> olarak ayarlanmıştır bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<samp>HAYIR</samp> olarak ayarlıdır).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'Bu forum için bu grubun izni <samp>ASLA</samp> olarak ayarlanmıştır bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<samp>HAYIR</samp> olarak ayarlıdır).',
-	'TRACE_GROUP_NEVER_TOTAL_YES'		=> 'Bu grubun izni <samp>ASLA</samp> olarak ayarlanmıştır, bu kullanıcı için toplam <samp>EVET</samp> değeri <samp>ASLA</samp> olarak değiştirilir.',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'Bu forum için bu grubun izni <samp>ASLA</samp> olarak ayarlanmıştır, bu kullanıcı için toplam <samp>EVET</samp> değeri <samp>ASLA</samp> olarak değiştirilir.',
-	'TRACE_GROUP_NO'				=> 'Bu grup için izin <samp>HAYIR</samp> olarak ayarlanmıştır bu durumda eski toplam değer kalır.',
-	'TRACE_GROUP_NO_LOCAL'			=> 'Bu forum içerisindeki bu grup için izin <samp>HAYIR</samp> olarak ayarlanmıştır bu durumda eski toplam değer kalır.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'		=> 'Bu grubun izni <samp>EVET</samp> olarak ayarlanmıştır fakat toplamda <samp>ASLA</samp> olarak ayarlandığı için değiştirilemez.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'Bu forum için bu grubun izni <samp>EVET</samp> olarak ayarlanmıştır fakat toplamda <samp>ASLA</samp> olarak ayarlandığı için değiştirilemez.',
-	'TRACE_GROUP_YES_TOTAL_NO'	=> 'Bu grubun izni <samp>EVET</samp> olarak ayarlanmıştır, bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<samp>HAYIR</samp> olarak ayarlanmıştır).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'Bu forum için bu grubun izni <samp>EVET</samp> olarak ayarlanmıştır, bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<samp>HAYIR</samp> olarak ayarlanmıştır).',
-	'TRACE_GROUP_YES_TOTAL_YES'		=> 'Bu grubun izni <samp>EVET</samp> olarak ayarlanmıştır ve toplam izin <samp>EVET</samp> olarak zaten ayarlıdır, bu yüzden toplam sonuçlar kalır.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'Bu forum için bu grubun izni <samp>EVET</samp> olarak ayarlanmıştır ve toplam izin <samp>EVET</samp> olarak zaten ayarlıdır, bu yüzden toplam sonuçlar kalır.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'Bu grubun izninin toplam değeri <strong>ASLA</strong> olarak ayarlanmıştır bu yüzden eski sonuçlar kalır.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'Bu forum için bu grubun izninin toplam değeri <strong>ASLA</strong> olarak ayarlanmıştır bu yüzden eski sonuçlar kalır.',
+	'TRACE_GROUP_NEVER_TOTAL_NO'		=> 'Bu grubun izni <strong>ASLA</strong> olarak ayarlanmıştır bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<strong>HAYIR</strong> olarak ayarlıdır).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'Bu forum için bu grubun izni <strong>ASLA</strong> olarak ayarlanmıştır bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<strong>HAYIR</strong> olarak ayarlıdır).',
+	'TRACE_GROUP_NEVER_TOTAL_YES'		=> 'Bu grubun izni <strong>ASLA</strong> olarak ayarlanmıştır, bu kullanıcı için toplam <strong>EVET</strong> değeri <strong>ASLA</strong> olarak değiştirilir.',
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'Bu forum için bu grubun izni <strong>ASLA</strong> olarak ayarlanmıştır, bu kullanıcı için toplam <strong>EVET</strong> değeri <strong>ASLA</strong> olarak değiştirilir.',
+	'TRACE_GROUP_NO'				=> 'Bu grup için izin <strong>HAYIR</strong> olarak ayarlanmıştır bu durumda eski toplam değer kalır.',
+	'TRACE_GROUP_NO_LOCAL'			=> 'Bu forum içerisindeki bu grup için izin <strong>HAYIR</strong> olarak ayarlanmıştır bu durumda eski toplam değer kalır.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'		=> 'Bu grubun izni <strong>EVET</strong> olarak ayarlanmıştır fakat toplamda <strong>ASLA</strong> olarak ayarlandığı için değiştirilemez.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'Bu forum için bu grubun izni <strong>EVET</strong> olarak ayarlanmıştır fakat toplamda <strong>ASLA</strong> olarak ayarlandığı için değiştirilemez.',
+	'TRACE_GROUP_YES_TOTAL_NO'	=> 'Bu grubun izni <strong>EVET</strong> olarak ayarlanmıştır, bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<strong>HAYIR</strong> olarak ayarlanmıştır).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'Bu forum için bu grubun izni <strong>EVET</strong> olarak ayarlanmıştır, bu durumda yeni toplam değere sahip olur çünkü bu değer henüz ayarlanmamıştır (<strong>HAYIR</strong> olarak ayarlanmıştır).',
+	'TRACE_GROUP_YES_TOTAL_YES'		=> 'Bu grubun izni <strong>EVET</strong> olarak ayarlanmıştır ve toplam izin <strong>EVET</strong> olarak zaten ayarlıdır, bu yüzden toplam sonuçlar kalır.',
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'Bu forum için bu grubun izni <strong>EVET</strong> olarak ayarlanmıştır ve toplam izin <strong>EVET</strong> olarak zaten ayarlıdır, bu yüzden toplam sonuçlar kalır.',
 	'TRACE_PERMISSION'				=> 'İzini izle - %s',
 	'TRACE_RESULT'					=> 'İzleme sonucu',
 	'TRACE_SETTING'					=> 'İzleme ayarı',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'	=> 'Forum bağımsız kullanıcı izni <samp>EVET</samp> olur fakat, fakat toplam sonuç zaten <samp>EVET</samp> olarak ayarlıdır, ayrıca toplam sonuç korunur. %sGlobal izinleri araştır%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'	=> 'Forum bağımsız kullanıcı izni <samp>EVET</samp> seçeneğinin yerel izin sonucu olan <samp>ASLA</samp> seçeneğinin yerini alması durumunu değerlendirir %sGlobal izinleri araştır%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'Forum bağımsız kullanıcı izni <samp>ASLA</samp> seçeneğinin yerel izinleri etkilemediğini değerlendirir %sGlobal izinleri araştır%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'	=> 'Forum bağımsız kullanıcı izni <strong>EVET</strong> olur fakat, fakat toplam sonuç zaten <strong>EVET</strong> olarak ayarlıdır, ayrıca toplam sonuç korunur. %sGlobal izinleri araştır%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'	=> 'Forum bağımsız kullanıcı izni <strong>EVET</strong> seçeneğinin yerel izin sonucu olan <strong>ASLA</strong> seçeneğinin yerini alması durumunu değerlendirir %sGlobal izinleri araştır%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'Forum bağımsız kullanıcı izni <strong>ASLA</strong> seçeneğinin yerel izinleri etkilemediğini değerlendirir %sGlobal izinleri araştır%s',
 	
-	'TRACE_USER_FOUNDER'			=> 'Kullanıcı bir kurucudur, bu nedenle yönetici izinleri her zaman <samp>EVET</samp> olarak ayarlıdır.',
-	'TRACE_USER_KEPT'				=> 'Kullanıcının izni <samp>HAYIR</samp> olarak ayarlanmıştır bu yüzden eski toplam değer kalır.',
-	'TRACE_USER_KEPT_LOCAL'					=> 'Bu forum için kullanıcının izni <samp>HAYIR</samp> olarak ayarlanmıştır bu yüzden eski toplam değer kalır.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'		=> 'Kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır ve toplam değer <samp>ASLA</samp> olarak ayarlandığında, hiç bir değişim olmaz.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'Bu forum için kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır ve toplam değer <samp>ASLA</samp> olarak ayarlandığında, hiç bir değişim olmaz.',
-	'TRACE_USER_NEVER_TOTAL_NO'		=> 'Kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır bu durumda toplam değerede sahip olur çünkü toplam değer HAYIR olarak ayarlıdır.',
-	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'Bu forum için kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır bu durumda toplam değerede sahip olur çünkü toplam değer HAYIR olarak ayarlıdır.',
-	'TRACE_USER_NEVER_TOTAL_YES'		=> 'Kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır ve önceki <samp>EVET</samp> değerinin yerini almıştır.',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'Bu forum için kullanıcının izni <samp>ASLA</samp> olarak ayarlanmıştır ve önceki <samp>EVET</samp> değerinin yerini almıştır.',
-	'TRACE_USER_NO_TOTAL_NO'	=> 'Kullanıcının izni <samp>HAYIR</samp>’dır ve toplam değer HAYIR olarak ayarlıdır bu yüzden varsayılan olarak <samp>ASLA</samp> değerini almıştır.',
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'Bu forum için kullanıcının izni <samp>HAYIR</samp>’dır ve toplam değer HAYIR olarak ayarlıdır bu yüzden varsayılan olarak <samp>ASLA</samp> değerini almıştır.',
-	'TRACE_USER_YES_TOTAL_NEVER'		=> 'Kullanıcının izni <samp>EVET</samp> olarak ayarlanmıştır fakat toplam <samp>ASLA</samp> değerinin üzerine yazılamaz.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'Bu forum için kullanıcının izni <samp>EVET</samp> olarak ayarlanmıştır fakat toplam <samp>ASLA</samp> değerinin üzerine yazılamaz.',
-	'TRACE_USER_YES_TOTAL_NO'	=> 'Kullanıcının izni <samp>EVET</samp> olarak ayarlanmıştır bu durumda toplam değere döner, çünkü toplam değer <samp>HAYIR</samp> olarak ayarlanmıştır.',
-	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'Bu forum için kullanıcının izni <samp>EVET</samp> olarak ayarlanmıştır bu durumda toplam değere döner, çünkü toplam değer <samp>HAYIR</samp> olarak ayarlanmıştır.',
-	'TRACE_USER_YES_TOTAL_YES'		=> 'Kullanıcının izni <samp>EVET</samp> olarak ayarlanmıştır ve toplam değeri de <samp>EVET</samp> olarak ayarlanmıştır, bu yüzden hiç bir şey değişmez.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'Bu forum için kullanıcının izni <samp>EVET</samp> olarak ayarlanmıştır ve toplam değeri de <samp>EVET</samp> olarak ayarlanmıştır, bu yüzden hiç bir şey değişmez',
+	'TRACE_USER_FOUNDER'			=> 'Kullanıcı bir kurucudur, bu nedenle yönetici izinleri her zaman <strong>EVET</strong> olarak ayarlıdır.',
+	'TRACE_USER_KEPT'				=> 'Kullanıcının izni <strong>HAYIR</strong> olarak ayarlanmıştır bu yüzden eski toplam değer kalır.',
+	'TRACE_USER_KEPT_LOCAL'					=> 'Bu forum için kullanıcının izni <strong>HAYIR</strong> olarak ayarlanmıştır bu yüzden eski toplam değer kalır.',
+	'TRACE_USER_NEVER_TOTAL_NEVER'		=> 'Kullanıcının izni <strong>ASLA</strong> olarak ayarlanmıştır ve toplam değer <strong>ASLA</strong> olarak ayarlandığında, hiç bir değişim olmaz.',
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'Bu forum için kullanıcının izni <strong>ASLA</strong> olarak ayarlanmıştır ve toplam değer <strong>ASLA</strong> olarak ayarlandığında, hiç bir değişim olmaz.',
+	'TRACE_USER_NEVER_TOTAL_NO'		=> 'Kullanıcının izni <strong>ASLA</strong> olarak ayarlanmıştır bu durumda toplam değerede sahip olur çünkü toplam değer HAYIR olarak ayarlıdır.',
+	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'Bu forum için kullanıcının izni <strong>ASLA</strong> olarak ayarlanmıştır bu durumda toplam değerede sahip olur çünkü toplam değer HAYIR olarak ayarlıdır.',
+	'TRACE_USER_NEVER_TOTAL_YES'		=> 'Kullanıcının izni <strong>ASLA</strong> olarak ayarlanmıştır ve önceki <strong>EVET</strong> değerinin yerini almıştır.',
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'Bu forum için kullanıcının izni <strong>ASLA</strong> olarak ayarlanmıştır ve önceki <strong>EVET</strong> değerinin yerini almıştır.',
+	'TRACE_USER_NO_TOTAL_NO'	=> 'Kullanıcının izni <strong>HAYIR</strong>’dır ve toplam değer HAYIR olarak ayarlıdır bu yüzden varsayılan olarak <strong>ASLA</strong> değerini almıştır.',
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'Bu forum için kullanıcının izni <strong>HAYIR</strong>’dır ve toplam değer HAYIR olarak ayarlıdır bu yüzden varsayılan olarak <strong>ASLA</strong> değerini almıştır.',
+	'TRACE_USER_YES_TOTAL_NEVER'		=> 'Kullanıcının izni <strong>EVET</strong> olarak ayarlanmıştır fakat toplam <strong>ASLA</strong> değerinin üzerine yazılamaz.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'Bu forum için kullanıcının izni <strong>EVET</strong> olarak ayarlanmıştır fakat toplam <strong>ASLA</strong> değerinin üzerine yazılamaz.',
+	'TRACE_USER_YES_TOTAL_NO'	=> 'Kullanıcının izni <strong>EVET</strong> olarak ayarlanmıştır bu durumda toplam değere döner, çünkü toplam değer <strong>HAYIR</strong> olarak ayarlanmıştır.',
+	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'Bu forum için kullanıcının izni <strong>EVET</strong> olarak ayarlanmıştır bu durumda toplam değere döner, çünkü toplam değer <strong>HAYIR</strong> olarak ayarlanmıştır.',
+	'TRACE_USER_YES_TOTAL_YES'		=> 'Kullanıcının izni <strong>EVET</strong> olarak ayarlanmıştır ve toplam değeri de <strong>EVET</strong> olarak ayarlanmıştır, bu yüzden hiç bir şey değişmez.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'Bu forum için kullanıcının izni <strong>EVET</strong> olarak ayarlanmıştır ve toplam değeri de <strong>EVET</strong> olarak ayarlanmıştır, bu yüzden hiç bir şey değişmez',
 	'TRACE_WHO'						=> 'Kim',
 	'TRACE_TOTAL'					=> 'Toplam',
 
@@ -284,5 +285,3 @@ $lang = array_merge($lang, array(
   'WRONG_PERMISSION_TYPE'            => 'Yanlış izin tipi seçildi.',
   'WRONG_PERMISSION_SETTING_FORMAT'   => 'İzin ayarları yanlış bir formatta, onlar düzeltilmeden phpBB işlemeyecektir.',
 ));
-
-?>

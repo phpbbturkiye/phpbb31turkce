@@ -1,12 +1,13 @@
 <?php
 /** 
 *
-* acp_prune [Turkish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: prune.php,v 1.13 2007/05/11 12:25:28 acydburn Exp $ 
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,7 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Bu bölüm mesaj panonuzdaki kullanıcıları deaktif etmenize ya da silmenize izin verir. Hesaplar değişik yollarla filtre edilebilir; mesaj sayısına göre, en çok aktifliğe göre, v.b. gibi. Etkilenen kullanıcı sayısının daha da daraltılması için kriterler birleştirilebilir. Örneğin, 2002-01-01 tarihinden sonra hiç aktif olmamış, 10 mesajdan az göndermiş kullanıcıları budayabilirsiniz. Alternatif olarak, kullanıcıların listesini metin alanına girmek suretiyle (her kullanıcı adını ayrı bir satıra yerleştirerek) kriter seçimlerinin tamamen uygulanmasına engel olabilirsiniz. Bunu yaparken dikkat etmelisiniz! Bir kullanıcı silindiğinde, işlemin geri alınmasının hiçbir yolu yoktur.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Bu bölüm mesaj panonuzdaki kullanıcıları deaktif etmenize ya da silmenize izin verir. Hesaplar değişik yollarla filtre edilebilir; mesaj sayısına göre, en çok aktifliğe göre, v.b. gibi. Etkilenen kullanıcı sayısının daha da daraltılması için kriterler birleştirilebilir. Örneğin, 2002-01-01 tarihinden sonra hiç aktif olmamış, 10 mesajdan az göndermiş kullanıcıları budayabilirsiniz. Metin alanları için joker olarak * karakterini kullanabilirsiniz. Alternatif olarak, kullanıcıların listesini metin alanına girmek suretiyle (her kullanıcı adını ayrı bir satıra yerleştirerek) kriter seçimlerinin tamamen uygulanmasına engel olabilirsiniz. Bunu yaparken dikkat etmelisiniz! Bir kullanıcı silindiğinde, işlemin geri alınmasının hiçbir yolu yoktur.',
+
+	'CRITERIA'				=> 'Kriter',
 
 	'DEACTIVATE_DELETE'			=> 'Deaktif et ya da sil',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Deaktif edilecek veya tamamen silinecek kullanıcıları seçiniz. Not: Silinen kullanıcılar geri getirilemez.',
@@ -45,15 +48,18 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Budanan kullanıcı mesajlarını sil',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Silinen kullanıcılar tarafından oluşturulan mesajları siler, eğer kullanıcılar aktif değilse bir etkisi olmaz.',
 
-	'JOINED_EXPLAIN'			=> '<kbd>YYYY-AA-GG</kbd> formatında bir tarih girin.',
+	'JOINED_EXPLAIN'			=> '<kbd>YYYY-AA-GG</kbd> formatında bir tarih girin. Bir tarih aralığı belirtmek için her iki alanı da kullanabilirsiniz, ya da açık bir tarih aralığı belirtmek için alanlardan birini boş bırakabilirsiniz.',
 
 	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-AA-GG</kbd> formatında bir tarih girin. Hiç giriş yapmamış kullanıcıları budamak için <kbd>0000-00-00</kbd> girin, <em>Önce</em> ve <em>Sonra</em> koşulları yoksayılacaktır.',
-	
- 	'PRUNE_USERS_LIST'				=> 'Budanan kullanıcılar',
-	'PRUNE_USERS_LIST_DELETE'		=> 'Budanacak kullanıcılar için seçilen kritere göre alttaki hesaplar silinecekti.',
- 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Budanacak kullanıcılar için seçilen kritere göre alttaki hesaplar deaktif edilecekti.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Belirlenen kullanıcı adlarını buraya girin, bunlar altta tercih edilen kriterleri kullanacaklardır. Kurucular budanamaz.',
+	'POSTS_ON_QUEUE'			=> 'Onay Bekleyen Mesajlar',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Seçilen gruptaki kullanıcılar için sınır.',
+	'PRUNE_USERS_GROUP_NONE'	=> 'Tüm gruplar',
+	'PRUNE_USERS_LIST'				=> 'Budanacak kullanıcılar',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Seçilen kritere göre kullanıcı budaması yapmak için alttaki hesaplar silinecektir. Silinme listesindeki belirli kullanıcıları, kendi kullanıcı adlarının yanındaki kutucuğun işaretini silerek kaldırabilirsiniz.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Seçilen kritere göre kullanıcı budaması yapmak için alttaki hesaplar deaktif edilecektir. Deaktif etme listesindeki belirli kullanıcıları, kendi kullanıcı adlarının yanındaki kutucuğun işaretini silerek kaldırabilirsiniz.',
+
+	'SELECT_USERS_EXPLAIN'		=> 'Belirlenen kullanıcı adlarını buraya girin. Bunlar yukarıda tercih edilen kriteri kullanacaklardır. Kurucular budanamaz.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Seçilen kullanıcılar başarıyla deaktif edildi',
 	'USER_DELETE_SUCCESS'		=> 'Seçilen kullanıcılar başarıyla silindi',
@@ -87,5 +93,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'		=> 'Başlıklar budandı',
 ));
-
-?>
