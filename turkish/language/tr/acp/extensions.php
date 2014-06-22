@@ -67,18 +67,18 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Uzantı Adı',
 	'EXTENSION_ACTIONS'			=> 'Eylemler',
 	'EXTENSION_OPTIONS'			=> 'Seçenekler',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Uzantı güncelleniyor',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Uzantının güncellenmesi',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Uzantı devre dışı bırakıldı</li>
-			<li>Uzantı dosyaları dosya sisteminden silindi</li>
-			<li>Yeni dosyalar yüklendi</li>
-			<li>Uzantı etkinleştirildi</li>
+			<li>Uzantı devre dışı bırakılır</li>
+			<li>Uzantı dosyaları dosya sisteminden silinir</li>
+			<li>Yeni dosyalar yüklenir</li>
+			<li>Uzantı etkinleştirilir</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Uzantı mesaj panonuzdan tamamen siliniyor',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Uzantının mesaj panosundan tamamen silinmesi',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Uzantı devre dışı bırakıldı</li>
-			<li>Uzantı verileri silindi</li>
-			<li>Uzantı dosyaları dosya sisteminden silindi</li>
+			<li>Uzantı devre dışı bırakılır</li>
+			<li>Uzantı verileri silinir</li>
+			<li>Uzantı dosyaları dosya sisteminden silinir</li>
 		</ol>',
 
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> '“%s” ile ilişkili verileri silmek istediğinize emin misiniz?<br /><br />Bu işlem uzantıya ait tüm verileri ve ayarları kaldıracaktır, geri alınamaz!',
