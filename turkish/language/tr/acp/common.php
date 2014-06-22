@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -427,7 +427,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Bilinmiyor',
 	'INACTIVE_USERS'				=> 'Pasif kullanıcılar',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Bu liste, kayıt olmuş fakat hesapları aktif olmayan kullanıcıların bir listesidir. Eğer isterseniz bu kullanıcıları aktif edebilir, silebilir ya da hatırlatma (bir e-posta yoluyla) yapabilirsiniz.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Bu liste, aktif olmayan hesaplara sahip en son kayıt olan 10 kullanıcının bir listesidir. Hesaplar aktif değildir, çünkü kullanıcı kayıt ayarlarından hesap aktivasyonu ayarı açılmıştır ve bu kullanıcıların hesapları hala aktif edilmediği için aktif olarak gözükmemektedir. Tam bir listeyi aktif olmayan kullanıcıların altlarındaki ilgili bağlantıyı izleyerek görebilirsiniz ve bu kullanıcıları aktif edebilir, silebilir ya da kullanıcılara hatırlatma (bir e-posta ile) yapabilirsiniz.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Bu liste, aktif olmayan hesaplara sahip en son kayıt olan 10 kullanıcının bir listesidir. Hesaplar aktif değildir, çünkü kullanıcı kayıt ayarlarından hesap aktivasyonu ayarı açık konumdadır ve bu kullanıcıların hesapları hala aktif edilmememiştir, ya da bu hesaplar deaktif edilmiştir. Alttaki bağlantıya tıklayarak bu kullanıcıların tam bir detaylı listesini görebilirsiniz ve dilerseniz bu kullanıcıları aktif edebilir, silebilir ya da kullanıcılara hatırlatma (bir e-posta ile) yapabilirsiniz.',
 
 	'NO_INACTIVE_USERS'	=> 'Pasif kullanıcı yok',
 
