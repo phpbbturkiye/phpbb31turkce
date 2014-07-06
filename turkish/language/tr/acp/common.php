@@ -75,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Kullanıcılar',
 	'ACP_CLIENT_COMMUNICATION'	=> 'İletişim bağlantıları',
 	'ACP_COOKIE_SETTINGS'		=> 'Çerez ayarları',
+	'ACP_CONTACT'				=> 'İletişim sayfası',
+	'ACP_CONTACT_SETTINGS'		=> 'İletişim sayfası ayarları',	
 	'ACP_CRITICAL_LOGS'			=> 'Hata kaydı',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Özel profil alanları',
 	
@@ -220,8 +222,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Geri',
 
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Hazır ve hazır olmayan kron görevlerinin bir listesini yazdırır.',
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Tüm hazır kron görevlerini çalıştırır.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Çalıştırılacak görevin adı',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Shell’i başlat.',
+	
 	'COLOUR_SWATCH'			=> 'Web-tabanlı renk kuşağı',
 	'CONFIG_UPDATED'		=> 'Ayarlar başarıyla güncellendi.',
+	'CRON_LOCK_ERROR'		=> 'Kron kilidi alınamadı.',
+	'CRON_NO_SUCH_TASK'		=> '“%s” adlı kron görevi bulunamadı.',
+	'CRON_NO_TASK'			=> 'Şu anda hiç bir kron görevinin çalıştırılması gerekmiyor.',
+	'CRON_NO_TASKS'			=> 'Hiç bir kron görevi bulunamadı.',	
 
 	'DEACTIVATE'				=> 'Deaktifleştir',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Girilen “%s” yolu mevcut değil.',
@@ -283,6 +295,7 @@ $lang = array_merge($lang, array(
 	'REMIND'				=> 'Hatırlat',
 	'RESYNC'				=> 'Yeniden senkronize et',
 
+	'RUNNING_TASK'			=> 'Görev çalışıyor: %s.',
 	'SELECT_ANONYMOUS'		=> 'Misafir kullanıcı seç',
 	'SELECT_OPTION'			=> 'Tercih seç',
 
@@ -292,8 +305,10 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_SHORT'      => '“%1$s” ayarı için girilen değer çok kısa. En düşük izin verilen uzunluk %2$d.',
 	
 	'SHOW_ALL_OPERATIONS'	=> 'Tüm işlemleri göster',
-	
-	'TOTAL_SIZE'      		=> 'Toplam boyut',	
+
+	'TASKS_NOT_READY'			=> 'Hazır olmayan görevler:',
+	'TASKS_READY'			=> 'Hazır görevler:',
+	'TOTAL_SIZE'      		=> 'Toplam boyut',
 
 	'UCP'					=> 'Kullanıcı Kontrol Paneli',
 	'USERNAMES_EXPLAIN'		=> 'Her kullanıcı adını ayrı bir satıra yerleştirin.',
@@ -539,25 +554,25 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Başlık onaylandı</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Kullanıcı başlığı darbeledi</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>“%1$s” konulu mesaj silindi, mesajın yazarı</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>“%2$s” tarafından yazılan “%1$s” konulu mesaj alttaki nedenle silindi</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'   => '<strong>Gölgeli başlık silindi</strong><br />» %s',
-	'LOG_DELETE_TOPIC'         => '<strong>“%1$s” konulu başlık silindi, başlığın yazarı</strong><br />» %2$s',
-	'LOG_FORK'               => '<strong>Başlık kopyalandı</strong><br />» Başlık %s forumundan kopyalandı',
-	'LOG_LOCK'               => '<strong>Başlık kilitlendi</strong><br />» %s',
-	'LOG_LOCK_POST'            => '<strong>Mesaj kilitlendi</strong><br />» %s',
-	'LOG_MERGE'               => '<strong>Mesajlar birleştirildi</strong><br />» Mesajlar %s başlığı içerisine alındı',
-	'LOG_MOVE'               => '<strong>Başlık taşındı</strong><br />» Başlık %1$s forumundan %2$s forumuna taşındı',
+	'LOG_DELETE_TOPIC'			=> '<strong>“%2$s” tarafından yazılan “%1$s” konulu başlık alttaki nedenle silindi</strong><br />» %3$s',
+	'LOG_FORK'               	=> '<strong>Başlık kopyalandı</strong><br />» Başlık %s forumundan kopyalandı',
+	'LOG_LOCK'               	=> '<strong>Başlık kilitlendi</strong><br />» %s',
+	'LOG_LOCK_POST'            	=> '<strong>Mesaj kilitlendi</strong><br />» %s',
+	'LOG_MERGE'               	=> '<strong>Mesajlar birleştirildi</strong><br />» Mesajlar %s başlığı içerisine alındı',
+	'LOG_MOVE'               	=> '<strong>Başlık taşındı</strong><br />» Başlık %1$s forumundan %2$s forumuna taşındı',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>ÖM bildirisi kapatıldı</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>ÖM bildirisi silindi</strong><br />» %s',
 	'LOG_POST_APPROVED'   		=> '<strong>Mesaj onaylandı</strong><br />» %s', 
 	'LOG_POST_DISAPPROVED'		=> '<strong>“%3$s” tarafından yazılan “%1$s” konulu mesaj onaylanmadı</strong><br />» Onaylanmama sebebi: %2$s',
-	'LOG_POST_EDITED'     		=> '<strong>“%1$s” konulu mesaj düzenlendi</strong><br />» Mesajın yazarı: %2$s',
+	'LOG_POST_EDITED'			=> '<strong>“%2$s” tarafından yazılan “%1$s” konulu mesaj alttaki nedenle düzenlendi</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Mesaj onarıldı</strong><br />» %s',
 	'LOG_REPORT_CLOSED'   		=> '<strong>Bildiri kapatıldı</strong><br />» %s', 
 	'LOG_REPORT_DELETED'  		=> '<strong>Bildiri silindi</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>“%1$s” konulu başlık onarıldı</strong><br />» Başlığın yazarı: %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>“%1$s” konulu mesaja yumuşak silme yapıldı</strong><br />» Mesajın yazarı: %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>“%1$s” konulu başlığa yumuşak silme yapıldı</strong><br />» Başlığın yazarı: %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>“%2$s” tarafından yazılan “%1$s” konulu mesaja alttaki nedenle yumuşak silme yapıldı</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>“%2$s” tarafından yazılan “%1$s” konulu başlığa alttaki nedenle yumuşak silme yapıldı</strong><br />» %3$s',
  	'LOG_SPLIT_DESTINATION'		=> '<strong>Bölünen mesajlar taşındı</strong><br />» Bölünen mesajlar %s başlığına taşındı',
  	'LOG_SPLIT_SOURCE'			=> '<strong>Mesajlar bölündü</strong><br />» Mesajlar %s başlığından bölündü',
  	

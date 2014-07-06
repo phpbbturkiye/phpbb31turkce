@@ -39,9 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Özel profil alanı başarıyla eklendi',
+	'ALPHA_DOTS'			=> 'Alfanümerik ve noktalar (periyotlar)',
 	'ALPHA_ONLY'			=> 'Sadece alfanümerik',
 	'ALPHA_SPACERS'			=> 'Alfanümerik ve boşluk',
 	'ALPHA_UNDERSCORE'		=> 'Alfanümerik ve alt çizgiler',
+	'ALPHA_PUNCTUATION'		=> 'Alfanümerik ve virgül, noktalar, alt çizgi ve bir harf ile başlayan tireler',	
 	'ALWAYS_TODAY'			=> 'Her zaman geçerli tarih',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Ayarlarınızı şimdi girin',
@@ -91,6 +93,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Alan Açıklaması',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Kullanıcıya sunulacak bu alan için açıklama.',
 	'FIELD_DROPDOWN'			=> 'Açılır liste kutusu',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',	
 	'FIELD_IDENT'				=> 'Alan adı',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Seçilen alan kimliği zaten mevcut. Lütfen başka bir ad seçin.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Alan kimliği, veritabanı ve şablonlar içerisinde profil alanını tanımlamak için kullanılacak olan bir addır.',

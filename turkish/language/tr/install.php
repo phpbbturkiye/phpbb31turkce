@@ -170,7 +170,6 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Gerekli</strong> - phpBB\'nin düzgün bir şekilde işlemesi için bazı dosya ve klasörlere yazılabilmesi veya erişilebilmesi gerekmektedir. Eğer "Bulunamadı" ifadesini görüyorsanız konu ile ilgili dosya veya klasörü oluşturmanız gerekmektedir. Eğer "Yazılabilir değil" ifadesini görüyorsanız dosya veya klasördeki izinleri değiştirip yazılması için phpBB\'ye izin vermeniz gerekmektedir.',
 	'FILLING_TABLE'				=> 'Doldurulan tablo <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Tablolar dolduruluyor',
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB, Firebird/Interbase uygulamasının 2.1’den önceki sürümlerini desteklememektedir. Lütfen güncelleme işlemine devam etmeden önce Firebird uygulamasının 2.1.0 veya daha yukarı sürümünü kurun.',
 	'FINAL_STEP'				=> 'Final adımı işlemi',
 	'FORUM_ADDRESS'				=> 'Mesaj panosu adresi',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Bu, önceki mesaj panonuzun URL adresidir, örneğin <samp>http://www.siteadresi.com/phpBB2/</samp>. Eğer buraya bir adres girilmişse ve bu adresin hiç bir kısmı boş değilse yeni mesaj panosu adresiniz tarafından mesajlar, özel mesajlar ve imzalar dahilinde eskisi ile değiştirilecektir.',
@@ -199,28 +198,27 @@ $lang = array_merge($lang, array(
 	'INSTALL_INTRO_BODY'		=> 'Bu seçenek ile, sunucunuza phpBB3 kurmak mümkün olacaktır.</p><p>Devam etmek için, veritabanı ayarlarınıza ihtiyacınız vardır. Eğer veritabanı ayarlarınızı bilmiyorsanız, lütfen hosting firmanız ile iletişime geçin ve onlara sorun. Bu ayarlar olmadan devam edemezsiniz. Size gerekenler:</p>
 	
 	<ul>
-		<li>Veritabanı Tipi - kullanacağınız veritabanı.</li> 
-		<li>Veritabanı sunucu adı ya da DSN - veritabanı sunucusunun adresi.</li> 
-		<li>Veritabanı sunucu portu - veritabanı sunucusunun portu (genellikle bu gerekli değildir).</li> 
-		<li>Veritabanı adı - sunucudaki veritabanının adı.</li> 
-		<li>Veritabanı kullanıcı adı ve Veritabanı şifresi - veritabanına erişim için giriş bilgileri.</li> 
+		<li>Veritabanı Tipi - kullanacağınız veritabanı.</li>
+		<li>Veritabanı sunucu adı ya da DSN - veritabanı sunucusunun adresi.</li>
+		<li>Veritabanı sunucu portu - veritabanı sunucusunun portu (genellikle bu gerekli değildir).</li>
+		<li>Veritabanı adı - sunucudaki veritabanının adı.</li>
+		<li>Veritabanı kullanıcı adı ve Veritabanı şifresi - veritabanına erişim için giriş bilgileri.</li>
 	</ul>
      
 	<p><strong>Not:</strong> eğer kurulum yaparken SQLite kullanacaksanız, DSN alanına veritabanı dosyanıza ulaşan tam yolu girmelisiniz ve kullanıcı adı ile şifre alanlarını boş bırakmalısınız. Güvenlik sebeplerinden dolayı, veritabanı dosyasının web üzerinden erişilebilir bir konumda bulunmadığına emin olun.</p> 
      
-	<p>phpBB3 alttaki veritabanlarını destekler:</p> 
+	<p>phpBB3 alttaki veritabanlarını destekler:</p>
 	<ul>
-		<li>MySQL 3.23 veya üzeri (MySQLi destekli)</li> 
-		<li>PostgreSQL 8.3+</li> 
+		<li>MySQL 3.23 veya üzeri (MySQLi destekli)</li>
+		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
-		<li>SQLite 3.6.15+</li>	 
-		<li>Firebird 2.1+</li> 
-		<li>MS SQL Server 2000 veya üzeri (direkt olarak veya ODBC yoluyla)</li> 
+		<li>SQLite 3.6.15+</li>
+		<li>MS SQL Server 2000 veya üzeri (direkt olarak veya ODBC yoluyla)</li>
 		<li>MS SQL Server 2005 veya üzeri (native)</li>
-		<li>Oracle</li> 
+		<li>Oracle</li>
 	</ul>
         
-	<p>Sunucunuzda sadece bu desteklenen veritabanları görüntülenecektir.', 
+	<p>Sunucunuzda sadece bu desteklenen veritabanları görüntülenecektir.',
 	'INSTALL_INTRO_NEXT'		=> 'Kurulumu başlatmak için, lütfen alttaki butona tıklayın.',
 	'INSTALL_LOGIN'				=> 'Giriş',
 	'INSTALL_NEXT'				=> 'Sonraki Adım',
@@ -239,8 +237,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE'		=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
 	'INST_ERR_DB_NO_SQLITE3'	=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 3.6.15 sürümüne güncellenmelidir.',	
 	'INST_ERR_DB_NO_ORACLE'		=> 'Bu makinede kurulu olan Oracle\'nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>\'e göre ayarlamanız gerekiyor. Kurulumunuzu 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'Bu makinede kurulu olan Firebird sürümü 2.1\'den eski, lütfen yeni bir sürüme güncelleyin.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Firebird için seçtiğiniz veritabanı 8192\'den daha az bir sayfa boyutuna sahip, en düşük 8192 olmalıdır.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Seçtiğiniz veritabanı <var>UNICODE</var> veya <var>UTF8</var> kodlaması içerisinde oluşturulamadı. <var>UNICODE</var> veya <var>UTF8</var> kodlaması ile oluşturulmuş bir veritabanı ile kurmayı deneyin.',
 	'INST_ERR_DB_NO_NAME'		=> 'Hiç bir veritabanı adı belirtilmedi.',
 	'INST_ERR_EMAIL_INVALID'	=> 'Girdiğiniz e-posta adresi hatalı.',

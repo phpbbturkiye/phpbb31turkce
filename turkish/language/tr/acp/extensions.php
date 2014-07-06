@@ -116,5 +116,8 @@ $lang = array_merge($lang, array(
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Tüm sürümleri yeniden kontrol et',
 	'FORCE_UNSTABLE'					=> 'Her zaman kararsız sürümleri kontrol et',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Sürüm kontrol ayarları',	
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Sürüm kontrol ayarları',
+
+	'META_FIELD_NOT_SET'	=> 'Gerekli %s meta alanı ayarlanmadı.',
+	'META_FIELD_INVALID'	=> '%s meta alanı geçersiz.',
 ));

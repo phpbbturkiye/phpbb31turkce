@@ -48,7 +48,9 @@ $lang = array_merge($lang, array(
  	
 	'BEFORE'				=> 'Önce',
 
-	'CC_EMAIL'				=> 'Bu e-posta\'nın bir kopyasını kendinize gönderin.',
+	'CC_EMAIL'				=> 'Bu e-posta’nın bir kopyasını kendinize gönderin.',
+	'CONTACT_USER'			=> 'İletişim',
+	'CONTACT_ADMIN'			=> 'Bir Mesaj Panosu Yöneticisi ile iletişime geçin',
 
 	'DEST_LANG'				=> 'Dil',
 	'DEST_LANG_EXPLAIN'		=> 'Bu mesajın alıcısı için (eğer mevcutsa) uygun bir dil seçin.',
@@ -61,6 +63,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'E-posta olarak gönderilecek bir mesaj girmelisiniz.',
 	'EMPTY_MESSAGE_IM'      => 'Gönderilecek bir mesaj girmelisiniz.',
 	'EMPTY_NAME_EMAIL'		=> 'Alıcının gerçek adını girmelisiniz.',
+	'EMPTY_SENDER_EMAIL'	=> 'Geçerli bir e-posta adresi belirtmelisiniz.',
+	'EMPTY_SENDER_NAME'		=> 'Geçerli bir ad belirtmelisiniz.',	
 	'EMPTY_SUBJECT_EMAIL'	=> 'E-posta için bir konu belirtmelisiniz.',
 	'EQUAL_TO'				=> 'Eşit',
 
@@ -98,6 +102,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Daha çok',
 
+	'NO_CONTACT_FORM'		=> 'Mesaj panosu yöneticisi iletişim formu kapatıldı.',
+	'NO_CONTACT_PAGE'		=> 'Mesaj panosu yöneticisi iletişim sayfası kapatıldı.',	
 	'NO_EMAIL'				=> 'Bu kullanıcıya e-posta gönderme izniniz yok.',
 	'NO_VIEW_USERS'			=> 'Profilleri veya üye listesini görüntüleme yetkiniz yok.',
 
@@ -113,6 +119,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'İşaretlileri seç',
 	'SELECT_SORT_METHOD'	=> 'Sıralama tipini seçin',
+	'SENDER_EMAIL_ADDRESS'	=> 'E-posta adresiniz',
+	'SENDER_NAME'			=> 'Adınız',	
  	'SEND_ICQ_MESSAGE'		=> 'ICQ mesajı gönder',
 	'SEND_IM'				=> 'Anlık mesajlaşma',
 	'SEND_JABBER_MESSAGE'	=> 'Jabber mesajı gönder',
@@ -136,4 +144,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Sayfa başına kullanıcı sayısı',
 
 	'VIEWING_PROFILE'		=> 'Profil görüntüleniyor - %s',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook Profilini görüntüle',
+	'VIEW_SKYPE_PROFILE'	=> 'Skype Profilini görüntüle',
+	'VIEW_TWITTER_PROFILE'	=> 'Twitter Profilini görüntüle',
+	'VIEW_YOUTUBE_CHANNEL'  => 'YouTube Kanalını görüntüle',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+ Profilini görüntüle',	
 ));

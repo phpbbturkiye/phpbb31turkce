@@ -111,9 +111,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Diğer bir siteden avatarların yüklenmesine izin verir.',
 	'ALLOW_UPLOAD'					=> 'Avatar yüklemeyi aç',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galerisinin klasörü',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ön-yüklenmiş resimler için phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ön-yüklenmiş resimler için phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/gallery</samp>.<br />Güvenlik sebeplerinden dolayı klasör yoluna eklenen <samp>../</samp> gibi çift noktalar kaldırılacaktır.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar kayıt klasörü',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/upload</samp>.<br />Eğer bu dosya yolu yazılabilir değilse avatar yüklemesi <strong>mevcut olmayacaktır</strong>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/avatars/upload</samp>.<br />Eğer bu dosya yolu yazılabilir değilse avatar yüklemesi <strong>yapılamayacaktır</strong>.<br />Güvenlik sebeplerinden dolayı klasör yoluna eklenen <samp>../</samp> gibi çift noktalar kaldırılacaktır.',
 	'MAX_AVATAR_SIZE'				=> 'En yüksek avatar boyutları',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Piksel cinsinden Genişlik x Yükseklik.',
 	'MAX_FILESIZE'					=> 'En yüksek avatar dosyası büyüklüğü',
@@ -351,6 +351,19 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Bu zamandan sonra oturumlar sona erecektir, saniye cinsinden belirtilmelidir.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Buradan iletişim sayfasını etkinleştirip devre dışı bırakabilirsiniz, ayrıca iletişim sayfasında gösterilecek bir metin ekleyebilirsiniz.',
+
+	'CONTACT_US_ENABLE'				=> 'İletişim sayfasını etkinleştir',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Bu sayfa kullanıcıların mesaj panosu yöneticilerine e-posta göndermelerine olanak sağlar',
+
+	'CONTACT_US_INFO'				=> 'İletişim bilgileri',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'İletişim sayfasında gösterilecek mesaj',
+	'CONTACT_US_INFO_PREVIEW'		=> 'İletişim sayfası bilgileri - Önizleme',
+	'CONTACT_US_INFO_UPDATED'		=> 'İletişim sayfası bilgileri güncellendi.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Buradan mesaj panosunun belirli fonksiyonlarını açıp kapatabilirsiniz, bu sayede işlem miktarını azaltabilirsiniz. Bir çok sunucuda herhangi bir fonksiyonu kapamanız gerekmez. Aslında, belirli sistemlerde ya da paylaşılmış hosting ekipmanlarında gerekli olmadığına inandığınız fonksiyonların kapatılması bazı kazançlar sağlayabilir. Ayrıca burada sistem yüklemesi ve aktif oturum durumundan çıkıldığında, -ki bu durumda mesaj panosu çevrimdışı olur, bunlar için bazı sınırlamalar belirleyebilirsiniz.',
@@ -400,7 +413,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Bir doğrulama yöntemi seçin',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Her etkin OAuth servis sağlayıcısının anahtar ve gizli parametreleri temin edilmiş olmalıdır. Bir OAuth servis sağlayıcısı için sadece bir tanesi temin edilmelidir.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Her bir OAuth sağlayıcısı, dış sunucu ile doğrulama yapmak için benzersiz bir gizli ve bir anahtar parametresi gerektirir.<br />Bu parametreler OAuth servisine web siteniz ile kayıt olduğunuz zaman size verilir. Temin edilen bu parametreleri tam ve doğru olarak girmelisiniz.<br />Buraya girilen ve bir anahtar ile bir gizli parametresinin her ikisi de olmayan herhangi bir servisin forum kullanıcıları tarafından kullanımı uygun olmayacaktır.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Her bir OAuth sağlayıcısı, dış sunucu ile doğrulama yapmak için benzersiz bir gizli ve bir anahtar parametresi gerektirir. Bu parametreler OAuth servisine web siteniz ile kayıt olduğunuz zaman size verilir. Temin edilen bu parametreleri tam ve doğru olarak girmelisiniz.<br />Buraya girilen ve bir anahtar ile bir gizli parametresinin her ikisi de olmayan herhangi bir servisin forum kullanıcıları tarafından kullanımı uygun olmayacaktır. Ayrıca not: bu kullanıcılar hala veritabanı doğrulama eklentisi (DB authentication plug-in) kullanarak kayıt olabilir ve giriş yapabilirler.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Anahtar',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Gizli',
@@ -460,7 +473,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Uzantı grup ikonlarının saklandığı klasör',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, ör: <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Sistem kronundan periyodik görevleri çalıştır',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Kapalı olduğu zaman, phpBB otomatik olarak çalışması için periyodik görevleri düzenleyecektir. Açık olduğu zaman, phpBB kendisi tarafından herhangi bir periyodik görev zamanlaması yapmayacaktır; bir sistem yöneticisi düzenli aralıklarda (ör. her 5 dakikada bir) sistem kron aracı tarafından çağırılması için <code>cron.php</code> dosyasını düzenlemelidir.',	
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Kapalı olduğu zaman, phpBB otomatik olarak çalışması için periyodik görevleri ayarlayacaktır. Açık olduğu zaman ise, phpBB kendisi tarafından herhangi bir periyodik görev zamanlaması yapmayacaktır; bir sistem yöneticisi düzenli aralıklarda (ör. her 5 dakikada bir) sistem kron aracı tarafından çalıştırılması için <code>bin/phpbbcli.php cron:run</code> ayarını yapmalıdır.',
 ));
 
 // Security Settings

@@ -225,6 +225,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'Birbiri içine alıntılar yerleştiremezsiniz.',	
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Belirtilen dosya yüklenemedi çünkü istek zaman aşımına uğradı.',
 	'SAVE'						=> 'Kaydet',
 	'SAVE_DATE'					=> 'Kaydedilen tarih',
 	'SAVE_DRAFT'				=> 'Taslağı kaydet',
@@ -254,8 +255,10 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_USER_OPTIONS'		=> 'Önceden var olan anket seçeneklerinden her kullanıcı için daha fazla seçenek belirleyemezsiniz.',
 	'TOPIC_BUMPED'				=> 'Başlık başarıyla darbelendi.',
 
-	'UNAUTHORISED_BBCODE'		=> 'Bazı BBCode\'ları kullanamazsınız: %s.',
+	'UNAUTHORISED_BBCODE'		=> 'Bazı BBCode’ları kullanamazsınız: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Bu başlığı globalden tekrar normal başlığa çevirmek için, bu başlığın görüntülenmesini istediğiniz forumu seçmelisiniz',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Mesajınız desteklenmeyen karakterler içeriyor:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Konunuz desteklenmeyen karakterler içeriyor:<br />%s',	
 	'UPDATE_COMMENT'			=> 'Yorumu güncelle',
 	'URL_INVALID'				=> 'Belirttiğiniz URL hatalı.',
 	'URL_NOT_FOUND'				=> 'Belirtilen dosya bulunmuyor.',
