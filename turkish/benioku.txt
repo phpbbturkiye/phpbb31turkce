@@ -4,5 +4,8 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
-22-06-2014 v0.8.1
-- Dil dosyaları phpBB 3.1.0 Beta4 sürümü için güncellendi.
+06-07-2014 v0.9.0
+- benioku.txt dosyası güncellendi.
+- admin_send_email.txt dosyasındaki çeviri hatası düzeltildi.
+- migrator.php dosyasındaki bir hata düzeltildi.
+- Dil dosyaları phpBB 3.1.0-RC1 sürümü için yayınlandı.
