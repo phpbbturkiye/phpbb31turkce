@@ -86,8 +86,8 @@ $lang = array_merge($lang, array(
 	
 	'ACP_EMAIL_SETTINGS'		=> 'E-posta ayarları',
 	'ACP_EXTENSION_GROUPS'		=> 'Dosya eki uzantı gruplarını yönet',
-	'ACP_EXTENSION_MANAGEMENT'	=> 'Uzantı yönetimi',
-	'ACP_EXTENSIONS'			=> 'Uzantıları yönet',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Eklenti yönetimi',
+	'ACP_EXTENSIONS'			=> 'Eklentileri yönet',
 	
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum tabanlı izinler',
 	'ACP_FORUM_LOGS'				=> 'Forum kayıtları',
