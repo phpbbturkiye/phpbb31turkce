@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Bu bölümde mesaj panosunun bazı özelliklerini aktif ve pasif yapabilirsiniz.',
 
-	'ALLOW_ATTACHMENTS'			=> 'Eklentilere izin ver',
+	'ALLOW_ATTACHMENTS'			=> 'Dosya eklerine izin ver',
  	'ALLOW_BIRTHDAYS'			=> 'Doğum günlerine izin ver',
 	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Doğum günleri girilmesine ve profillerde yaş görüntülenmesine izin verir. Not: Mesaj panosu anasayfasındaki doğum günü listesi ayrı bir yüklü ayar tarafından kontrol edilir.',
 	'ALLOW_BOOKMARKS'			=> 'Başlık yer imlerine izni ver',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_NAME_CHANGE'			=> 'Kullanıcı adlarının değiştirilmesine izin ver',
 	'ALLOW_NO_CENSORS'			=> 'Kelime sansürünün kapatılmasına izin ver',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Kullanıcılar, mesajların ve özel mesajların otomatik kelime sansürünü kapatabilirler.',
-	'ALLOW_PM_ATTACHMENTS'		=> 'Özel mesajlarda eklentilere izin ver',
+	'ALLOW_PM_ATTACHMENTS'		=> 'Özel mesajlarda dosya eklerine izin ver',
 	'ALLOW_PM_REPORT'			=> 'Kullanıcıların özel mesajları bildirmesine izin ver',
 	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Eğer bu özellik aktifse, kullanıcılar aldıkları bir özel mesajı bildirme ya da mesaj panosu moderatörlerine gönderme seçeneğine sahip olurlar. Bu özel mesajlar Moderatör Kontrol Panelinden görülebilecektir.',
 	'ALLOW_QUICK_REPLY'			=> 'Hızlı cevaba izin ver',
@@ -521,11 +521,11 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_ANY'					=> 'Gerek yok',
 	'PASS_TYPE_CASE'				=> 'Karışık bir halde olmalıdır',
 	'PASS_TYPE_SYMBOL'				=> 'Semboller içermelidir',
-	'REF_HOST'                  => 'Sadece host\'u doğrula',
+	'REF_HOST'                  => 'Sadece host’u doğrula',
 	'REF_PATH'                  => 'Ayrıca yolu da doğrula',
-	'REFERER_VALID'               => 'Referer Doğrulaması',
-	'REFERER_VALID_EXPLAIN'         => 'Eğer bu ayar etkinleştirilirse, POST isteklerinin yapıldığı referer (diğer web sitelerinden gelen istekler) host/script yolu (path) ayarlarına karşı kontrol edilecektir. Bu işlem farklı alan adları ve / veya harici girişler kullanan mesaj panoları için sorunlara neden olabilir.',
-	'TPL_ALLOW_PHP'					=> 'Şablonlarda php\'ye izin ver',
+	'REFERRER_VALID'				=> 'Yönlendirici Doğrulaması',
+	'REFERRER_VALID_EXPLAIN'		=> 'Eğer bu ayar etkinleştirilirse, POST isteklerinin yapıldığı yönlendiriciler (referrer) (diğer web sitelerinden gelen istekler) host/script yolu (path) ayarlarına karşı kontrol edilecektir. Bu işlem bir kaç farklı alan adı ve / veya harici girişler kullanan mesaj panoları için sorunlara neden olabilir.',
+	'TPL_ALLOW_PHP'					=> 'Şablonlarda php’ye izin ver',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Eğer bu özellik açılırsa, <code>PHP</code> ve <code>INCLUDEPHP</code> ifadeleri tanınacak ve tema şablonlarının içerisine işlenecektir.',
 ));
 

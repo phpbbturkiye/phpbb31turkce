@@ -44,6 +44,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Budama olayları arasında geçecek, gün cinsinden zaman aralığı.',
 	'AUTO_PRUNE_VIEWED'			=> 'Otomatik-budama mesaj görüntüleme yaşı',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Başlığın silinmesi için son mesajın görüntülenmesinden sonra geçecek gün sayısı.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Gölgeli başlıklar otomatik-budama sıklığı',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Otomatik-budama için gölgeli başlıkların yaşı',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Başlığın silinmesi için gölgeli başlık oluşumundan sonra geçecek gün sayısı.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Budama olayları arasında geçecek, gün cinsinden zaman aralığı.',	
 
 	'CONTINUE'						=> 'Devam',
 	'COPY_PERMISSIONS'				=> 'İzinleri şuradan kopyala',

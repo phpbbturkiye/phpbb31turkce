@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Önce',
 
 	'CC_EMAIL'				=> 'Bu e-posta’nın bir kopyasını kendinize gönderin.',
-	'CONTACT_USER'			=> 'İletişim',
 	'CONTACT_ADMIN'			=> 'Bir Mesaj Panosu Yöneticisi ile iletişime geçin',
 
 	'DEST_LANG'				=> 'Dil',
@@ -147,6 +146,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook Profilini görüntüle',
 	'VIEW_SKYPE_PROFILE'	=> 'Skype Profilini görüntüle',
 	'VIEW_TWITTER_PROFILE'	=> 'Twitter Profilini görüntüle',
-	'VIEW_YOUTUBE_CHANNEL'  => 'YouTube Kanalını görüntüle',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube Kanalını görüntüle',
 	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+ Profilini görüntüle',	
 ));

@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'APPROVE'								=> 'Onayla',
-	'ATTACHMENT'						=> 'Eklenti',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Eklenti özelliği kapatıldı.',
+	'ATTACHMENT'						=> 'Dosya eki',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Dosya eki özelliği kapatıldı.',
 
 	'BOOKMARK_ADDED'		=> 'Başlık sık kullanılanlara başarıyla eklendi.',
 	'BOOKMARK_ERR'         => 'Sık kullanılanlara ekleme işlemi başarısız oldu. Lütfen tekrar deneyin.',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 		2	=> 'en son %2$s tarafından %3$s tarihinde düzenlendi, toplamda %1$d kere düzenlendi.',
 	),
 	'EMAIL_TOPIC'			=> 'Başlığı e-posta ile gönder',
-	'ERROR_NO_ATTACHMENT'	=> 'Seçilen eklenti artık mevcut değil.',
+	'ERROR_NO_ATTACHMENT'	=> 'Seçilen dosya eki artık mevcut değil.',
 
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> dosyası bulunamıyor.',
 	'FORK_TOPIC'			=> 'Başlığı kopyala',
@@ -79,10 +79,10 @@ $lang = array_merge($lang, array(
 		1	=> '<strong>%d</strong> seçenek seçebilirsiniz',
 		2	=> 'En fazla <strong>%d</strong> seçenek seçebilirsiniz',
 	),
-	'MISSING_INLINE_ATTACHMENT'	=> '<strong>%s</strong> Eklentisi bulunamıyor',
+	'MISSING_INLINE_ATTACHMENT'	=> '<strong>%s</strong> adlı dosya eki artık mevcut değil',
 	'MOVE_TOPIC'			=> 'Başlığı taşı',
 
-	'NO_ATTACHMENT_SELECTED'=> 'Görüntülemek veya indirmek için bir eklenti seçmediniz.',
+	'NO_ATTACHMENT_SELECTED'=> 'Görüntülemek veya indirmek için bir dosya eki seçmediniz.',
 	'NO_NEWER_TOPICS'		=> 'Bu forumda daha yeni başlık yok.',
 	'NO_OLDER_TOPICS'		=> 'Bu forumda daha eski başlık yok.',
 	'NO_UNREAD_POSTS'		=> 'Bu başlıkta daha yeni okunmayan mesaj yok.',

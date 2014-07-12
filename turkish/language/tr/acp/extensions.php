@@ -35,60 +35,60 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'EXTENSION'					=> 'Uzantı',
-	'EXTENSIONS'				=> 'Uzantılar',
-	'EXTENSIONS_ADMIN'			=> 'Uzantı Yöneticisi',
-	'EXTENSIONS_EXPLAIN'		=> 'Uzantı Yöneticisi, phpBB Mesaj Panonuzdaki tüm uzantıların durumlarını yönetmeye ve bunlar hakkındaki bilgileri görüntülemeye imkan veren bir araçtır.',
-	'EXTENSION_INVALID_LIST'	=> '“%s” uzantısı geçerli değil.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'Seçilen uzantı bu mesaj panosu için mevcut değil, lütfen izin verilen phpBB ve PHP sürümünüzü doğrulayın (ayrıntılar sayfasına bakın).',
-	'EXTENSION_DIR_INVALID'		=> 'Seçilen uzantı geçersiz bir dizin yapısına sahip ve etkinleştirilemiyor.',
+	'EXTENSION'					=> 'Eklenti',
+	'EXTENSIONS'				=> 'Eklentiler',
+	'EXTENSIONS_ADMIN'			=> 'Eklenti Yöneticisi',
+	'EXTENSIONS_EXPLAIN'		=> 'Eklenti Yöneticisi, phpBB Mesaj Panonuzdaki tüm eklentilerin durumlarını yönetmeye ve bunlar hakkındaki bilgileri görüntülemeye imkan veren bir araçtır.',
+	'EXTENSION_INVALID_LIST'	=> '“%s” eklentisi geçerli değil.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'Seçilen eklenti bu mesaj panosu için mevcut değil, lütfen izin verilen phpBB ve PHP sürümünüzü doğrulayın (ayrıntılar sayfasına bakın).',
+	'EXTENSION_DIR_INVALID'		=> 'Seçilen eklenti geçersiz bir dizin yapısına sahip ve etkinleştirilemiyor.',
 
 	'DETAILS'				=> 'Ayrıntılar',
 
-	'EXTENSIONS_DISABLED'	=> 'Devre dışı bırakılan Uzantılar',
-	'EXTENSIONS_ENABLED'	=> 'Etkinleştirilen Uzantılar',
+	'EXTENSIONS_DISABLED'	=> 'Devre dışı bırakılan Eklentiler',
+	'EXTENSIONS_ENABLED'	=> 'Etkinleştirilen Eklentiler',
 
 	'EXTENSION_DELETE_DATA'	=> 'Veriyi sil',
 	'EXTENSION_DISABLE'		=> 'Devre dışı bırak',
 	'EXTENSION_ENABLE'		=> 'Etkinleştir',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Bir uzantının silinmesi o uzantıya ait tüm verileri ve ayarları kaldırır. Ancak uzantıyı daha sonra tekrar etkinleştirebilmek için dosyalar saklanır.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Bir uzantının devre dışı bırakılması o uzantıya ait dosyaları, verileri ve ayarları kaldırmaz. Ancak uzantı tarafından eklenen tüm özellikler kaldırılır.',
-	'EXTENSION_ENABLE_EXPLAIN'		=> 'Bir uzantının etkinleştirilmesi o uzantının mesaj panonuzda kullanılmasına izin verir.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Bir eklentinin silinmesi o eklentiye ait tüm verileri ve ayarları kaldırır. Ancak eklentiyi daha sonra tekrar etkinleştirebilmek için dosyalar saklanır.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Bir eklentinin devre dışı bırakılması o eklentiye ait dosyaları, verileri ve ayarları kaldırmaz. Ancak eklenti tarafından eklenen tüm özellikler kaldırılır.',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'Bir eklentinin etkinleştirilmesi o eklentinin mesaj panonuzda kullanılmasına izin verir.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Uzantı verileri şu anda siliniyor. Lütfen işlem tamamlanana kadar bu sayfayı kapatmayın ya da yenilemeyin.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Uzantı şu anda devre dışı bırakılıyor. Lütfen işlem tamamlanana kadar bu sayfayı kapatmayın ya da yenilemeyin.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Uzantı şu anda etkinleştiriliyor. Lütfen işlem tamamlanana kadar bu sayfayı kapatmayın ya da yenilemeyin.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Eklenti verileri şu anda siliniyor. Lütfen işlem tamamlanana kadar bu sayfayı kapatmayın ya da yenilemeyin.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Eklenti şu anda devre dışı bırakılıyor. Lütfen işlem tamamlanana kadar bu sayfayı kapatmayın ya da yenilemeyin.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Eklenti şu anda etkinleştiriliyor. Lütfen işlem tamamlanana kadar bu sayfayı kapatmayın ya da yenilemeyin.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Uzantı verileri başarıyla silindi',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'Uzantı başarıyla devre dışı bırakıldı',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'Uzantı başarıyla etkinleştirildi',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Eklenti verileri başarıyla silindi',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'Eklenti başarıyla devre dışı bırakıldı',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'Eklenti başarıyla etkinleştirildi',
 
-	'EXTENSION_NAME'			=> 'Uzantı Adı',
+	'EXTENSION_NAME'			=> 'Eklenti Adı',
 	'EXTENSION_ACTIONS'			=> 'Eylemler',
 	'EXTENSION_OPTIONS'			=> 'Seçenekler',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Uzantının güncellenmesi',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Eklentinin güncellenmesi',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Uzantı devre dışı bırakılır</li>
-			<li>Uzantı dosyaları dosya sisteminden silinir</li>
+			<li>Eklenti devre dışı bırakılır</li>
+			<li>Eklenti dosyaları dosya sisteminden silinir</li>
 			<li>Yeni dosyalar yüklenir</li>
-			<li>Uzantı etkinleştirilir</li>
+			<li>Eklenti etkinleştirilir</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Uzantının mesaj panosundan tamamen silinmesi',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Eklentinin mesaj panosundan tamamen silinmesi',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Uzantı devre dışı bırakılır</li>
-			<li>Uzantı verileri silinir</li>
-			<li>Uzantı dosyaları dosya sisteminden silinir</li>
+			<li>Eklenti devre dışı bırakılır</li>
+			<li>Eklenti verileri silinir</li>
+			<li>Eklenti dosyaları dosya sisteminden silinir</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> '“%s” ile ilişkili verileri silmek istediğinize emin misiniz?<br /><br />Bu işlem uzantıya ait tüm verileri ve ayarları kaldıracaktır, geri alınamaz!',
-	'EXTENSION_DISABLE_CONFIRM'		=> '“%s” uzantısını devre dışı bırakmak istediğinize emin misiniz?',
-	'EXTENSION_ENABLE_CONFIRM'		=> '“%s” uzantısını etkinleştirmek istediğinize emin misiniz?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> '“%s” ile ilişkili verileri silmek istediğinize emin misiniz?<br /><br />Bu işlem eklentiye ait tüm verileri ve ayarları kaldıracaktır, geri alınamaz!',
+	'EXTENSION_DISABLE_CONFIRM'		=> '“%s” eklentisini devre dışı bırakmak istediğinize emin misiniz?',
+	'EXTENSION_ENABLE_CONFIRM'		=> '“%s” eklentisini etkinleştirmek istediğinize emin misiniz?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Kararsız sürümün kullanımı için ilerlemek istediğinize emin misiniz?',	
 
-	'RETURN_TO_EXTENSION_LIST'	=> 'Uzantı listesine geri dön',
+	'RETURN_TO_EXTENSION_LIST'	=> 'Eklenti listesine geri dön',
 
-	'EXT_DETAILS'			=> 'Uzantı Ayrıntıları',
+	'EXT_DETAILS'			=> 'Eklenti Ayrıntıları',
 	'DISPLAY_NAME'			=> 'Görünen Adı',
 	'CLEAN_NAME'			=> 'Saf Adı',
 	'TYPE'					=> 'Tür',

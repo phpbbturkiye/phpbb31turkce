@@ -101,8 +101,8 @@ $help = array(
 		1 => 'phpBB BBCode mesajlarınıza resimler eklemek için bir etiket içerir. Bu etiketi kullanırken iki önemli noktayı dikkate almanız gerekir: birçok kullanıcı mesajlarda çok sayıda resmin görüntülenmesini hoş karşılamaz. Ayrıca göstermek istediğiniz resim internet üzerinde mevcut olmalıdır (bir web sunucusu çalıştırmıyorsanız, bu resmin kendi bilgisayarınızda bulunması yeterli değildir). Bir resmi görüntülemek için, resmin adresini <strong>[img][/img]</strong> etiketleri içine almalısınız. Örn.:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />Bir önceki maddede belirtildiği gibi, resmi dilerseniz <strong>[url][/url]</strong> etiketleri içine alabilirsiniz. Örn.:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />oluşturulacak olan:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
 	), 
 	array( 
-		0 => 'Bir mesaja eklentiler eklemek', 
-		1 => 'Eklentiler, yeni <strong>[attachment=][/attachment]</strong> BBCode etiketlerini kullanarak bir mesajın herhangi bir bölümüne yerleştirilebilir, tabi ki eğer eklenti özelliği mesaj panosu yöneticisi tarafından açıldıysa ve eklentiler oluşturmak için uygun izinleriniz verildiyse... Satıriçi eklentiler yerleştirmek için mesaj gönderme ekranında bir seçenek kutusu (bir buton sırasıyla) bulunur.' 
+		0 => 'Bir mesaja dosya ekleri eklemek',
+		1 => 'Dosya ekleri, yeni <strong>[attachment=][/attachment]</strong> BBCode etiketlerini kullanarak bir mesajın herhangi bir bölümüne yerleştirilebilir, tabi ki eğer dosya eki özelliği mesaj panosu yöneticisi tarafından açıldıysa ve dosya ekleri oluşturmak için uygun izinleriniz verildiyse... Satır içi dosya ekleri yerleştirmek için mesaj gönderme ekranında aşağı açılır bir kutu (sırasıyla bir buton) bulunur.'
 	),
 	array(
 		0 => '--',

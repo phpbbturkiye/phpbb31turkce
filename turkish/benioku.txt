@@ -4,6 +4,10 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+12-07-2014 v0.9.1
+- "Eklenti" -> "Dosya eki", "Uzantı" -> "Eklenti" olarak değiştirilerek tercüme edildi.
+- Dil dosyaları phpBB 3.1.0-RC2 sürümü için güncellendi.
+
 06-07-2014 v0.9.0
 - benioku.txt dosyası güncellendi.
 - admin_send_email.txt dosyasındaki çeviri hatası düzeltildi.

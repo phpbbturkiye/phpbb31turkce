@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_ICONS'		=> 'Başlık/mesaj ikonlarını ve ifadeleri değiştirebilir',
 	'ACL_A_WORDS'		=> 'Kelime sansürlerini değiştirebilir',
 	'ACL_A_BBCODE'		=> 'BBCode etiketleri tanımlayabilir',
-	'ACL_A_ATTACH'		=> 'Eklenti ile ilgili ayarları değiştirebilir',
+	'ACL_A_ATTACH'		=> 'Dosya eki ile ilgili ayarları değiştirebilir',
 
 	'ACL_A_USER'		=> 'Kullanıcıları yönetebilir<br /><em>Bu ayar ayrıca kullanıcı tarayıcılarını kimler çevrimiçi listesinde görüntülenmesini de içerir.</em>',
 	'ACL_A_USERDEL'		=> 'Kullanıcıları silebilir/budayabilir',
@@ -198,7 +198,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_SWITCHPERM'	=> 'Diğer kullanıcıların izinlerini kullanarak mesaj panosunu görüntüleyebilir',
 
 	'ACL_A_STYLES'		=> 'Stilleri yönetebilir',
-	'ACL_A_EXTENSIONS'	=> 'Uzantıları yönetebilir',
+	'ACL_A_EXTENSIONS'	=> 'Eklentileri yönetebilir',
 	'ACL_A_VIEWLOGS'	=> 'Kayıtları görebilir',
 	'ACL_A_CLEARLOGS'	=> 'Kayıtları silebilir',
 	'ACL_A_MODULES'		=> 'Modülleri yönetebilir',

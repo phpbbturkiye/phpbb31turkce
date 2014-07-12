@@ -37,17 +37,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ADD_ATTACHMENT'			=> 'Eklenti yüklemesi',
-	'ADD_ATTACHMENT_EXPLAIN'	=> 'Bir veya daha fazla dosya eklemek istiyorsanız alttaki açıklamaları doldurun.',
+	'ADD_ATTACHMENT'			=> 'Dosya eki yükle',
+	'ADD_ATTACHMENT_EXPLAIN'	=> 'Bir veya daha fazla dosya eklemek istiyorsanız lütfen alttaki açıklamaları doldurun.',
 	'ADD_FILE'					=> 'Dosya ekle',
 	'ADD_POLL'					=> 'Anket oluştur',
 	'ADD_POLL_EXPLAIN'			=> 'Eğer başlığa bir anket eklemek istemiyorsanız bu alanları boş bırakın.',
 	'ALREADY_DELETED'			=> 'Üzgünüz fakat bu mesaj zaten silindi.',
-	'ATTACH_DISK_FULL'			=> 'Bu eklentiyi gönderebilmek için yeterli boş disk alanı yok.',	
-	'ATTACH_QUOTA_REACHED'		=> 'Üzgünüz, pano eklenti kotası aşıldı.',
+	'ATTACH_DISK_FULL'			=> 'Bu dosya ekini gönderebilmek için yeterli boş disk alanı yok.',
+	'ATTACH_QUOTA_REACHED'		=> 'Üzgünüz, mesaj panosu dosya eki kotası aşıldı.',
 	'ATTACH_SIG'				=> 'İmza ekle (imzalar KKP yoluyla değiştirilebilir)',
 
-	'BBCODE_A_HELP'				=> 'Satır içi yüklenen eklenti: [attachment=]dosyaadı.uzantı[/attachment]',
+	'BBCODE_A_HELP'				=> 'Satır içi dosya eki yükleme: [attachment=]dosyaadı.uzantı[/attachment]',
 	'BBCODE_B_HELP'				=> 'Kalın yazı: [b]metin[/b]',
 	'BBCODE_C_HELP'				=> 'Kod görüntüsü: [code]kod[/code]',
 	'BBCODE_D_HELP'				=> 'Flash: [flash=yükseklik,genişlik]http://url[/flash]',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'FONT_SMALL'				=> 'Küçük',
 	'FONT_TINY'					=> 'Ufacık',
 
-	'GENERAL_UPLOAD_ERROR'		=> 'Buraya eklenti yüklenemiyor: %s.',
+	'GENERAL_UPLOAD_ERROR'		=> 'Dosya eki %s dizinine yüklenemiyor.',
 
 	'IMAGES_ARE_OFF'			=> '[img] <em>KAPALI</em>',
 	'IMAGES_ARE_ON'				=> '[img] <em>AÇIK</em>',
@@ -178,8 +178,8 @@ $lang = array_merge($lang, array(
 	'NO_POST_MODE'				=> 'Hiç bir mesaj modu belirtilmedi.',
 
 	'PARTIAL_UPLOAD'			=> 'Yüklenilen dosya sadece kısmen yüklendi.',
-	'PHP_SIZE_NA'				=> 'Eklenti\'nin dosya boyutu çok büyük.<br />PHP tarafından php.ini dosyasında belirlenen en yüksek boyut aşılamıyor.',
-	'PHP_SIZE_OVERRUN'			=> 'Eklenti’nin dosya boyutu çok büyük, en fazla yüklenebilen boyut %1$d %2$s.<br />Not: Bu ayar php.ini dosyasında yapılmıştır ve üzerine yazılamaz.',
+	'PHP_SIZE_NA'				=> 'Dosya ekinin dosya boyutu çok büyük.<br />PHP tarafından php.ini dosyasında belirlenen en yüksek boyut aşılamıyor.',
+	'PHP_SIZE_OVERRUN'			=> 'Dosya ekinin dosya boyutu çok büyük, en fazla yüklenebilen boyut %1$d %2$s.<br />Not: Bu ayar php.ini dosyasında yapılmıştır ve üzerine yazılamaz.',
 	'PLACE_INLINE'				=> 'Satır içine yerleştir',
 	'POLL_DELETE'				=> 'Anketi sil',
 	'POLL_FOR'					=> 'Anketin çalışma süresi',
@@ -200,7 +200,7 @@ $lang = array_merge($lang, array(
  	'POLL_TITLE_COMP_TOO_LONG'	=> 'Anket başlığınızın dilbilgisel olarak boyutu çok geniş, BBCode ya da ifadeleri kaldırmayı dikkate alın.',
 	'POLL_VOTE_CHANGE'			=> 'Tekrar oylamaya izin ver',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Eğer bunu aktif ederseniz kullanıcılar kendi oylarını değiştirebileceklerdir.',
-	'POSTED_ATTACHMENTS'		=> 'Gönderilen eklentiler',
+	'POSTED_ATTACHMENTS'		=> 'Gönderilen dosya ekleri',
 	'POST_APPROVAL_NOTIFY'      => 'Mesajınız onaylandığı zaman bildiri alacaksınız.',
 	'POST_CONFIRMATION'			=> 'Mesajı onayla',
 	'POST_CONFIRM_EXPLAIN'		=> 'Otomatik mesajları engelleyebilmek için bu mesaj panosu bir onay kodu girmenizi istiyor. Alttaki resmin içerisinde gösterilen kodu görmelisiniz. Eğer kodu bozuk görüyor veya okuyamıyorsanız lütfen %sMesaj Panosu Yöneticisi%s ile iletişime geçin.',
@@ -244,7 +244,7 @@ $lang = array_merge($lang, array(
 		2	=> 'En az %1$d karakter girmelisiniz.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'En az iki anket seçeneği girmelisiniz.',
-	'TOO_MANY_ATTACHMENTS'		=> 'Başka bir eklenti eklenemiyor, en fazla %d tane eklenebilir.',
+	'TOO_MANY_ATTACHMENTS'		=> 'Başka bir dosya eki eklenemiyor, en fazla %d tane eklenebilir.',
 	'TOO_MANY_CHARS'			=> 'Mesajınız çok fazla karakter içeriyor.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		2	=> 'En fazla izin verilen karakter sayısı %1$d.',

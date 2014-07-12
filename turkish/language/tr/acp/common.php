@@ -41,8 +41,8 @@ $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Yöneticiler',
 	'ACP_ADMIN_LOGS'			=> 'Yönetici kayıtları',
 	'ACP_ADMIN_ROLES'			=> 'Yönetici rolleri',
-	'ACP_ATTACHMENTS'			=> 'Eklentiler',
-	'ACP_ATTACHMENT_SETTINGS'	=> 'Eklenti ayarları',
+	'ACP_ATTACHMENTS'			=> 'Dosya ekleri',
+	'ACP_ATTACHMENT_SETTINGS'	=> 'Dosya eki ayarları',
 	'ACP_AUTH_SETTINGS'			=> 'Doğrulama',
 	'ACP_AUTOMATION'			=> 'Otomasyon',
 	'ACP_AVATAR_SETTINGS'		=> 'Avatar ayarları',
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAT_CUSTOMISE'			=> 'Özelleştir',	
 	'ACP_CAT_DATABASE'			=> 'Veritabanı',
-	'ACP_CAT_DOT_MODS'			=> 'Uzantılar',
+	'ACP_CAT_DOT_MODS'			=> 'Eklentiler',
 	'ACP_CAT_FORUMS'			=> 'Forumlar',
 	'ACP_CAT_GENERAL'			=> 'Genel',
 	'ACP_CAT_MAINTENANCE'		=> 'Bakım',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Yasaklı kullanıcı isimleri',
 	
 	'ACP_EMAIL_SETTINGS'		=> 'E-posta ayarları',
-	'ACP_EXTENSION_GROUPS'		=> 'Eklenti uzantı gruplarını yönet',
+	'ACP_EXTENSION_GROUPS'		=> 'Dosya eki uzantı gruplarını yönet',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Uzantı yönetimi',
 	'ACP_EXTENSIONS'			=> 'Uzantıları yönet',
 	
@@ -121,10 +121,10 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'Girişler',
 	
 	'ACP_MAIN'					=> 'YKP ana sayfa',
-	'ACP_MANAGE_ATTACHMENTS'			=> 'Eklentileri yönet',
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Dosya eklerini yönet',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Buradan mesajlara ve özel mesajlara eklenen dosyaları listeleyebilir ve silebilirsiniz.',
 
-	'ACP_MANAGE_EXTENSIONS'		=> 'Eklenti uzantılarını yönet',
+	'ACP_MANAGE_EXTENSIONS'		=> 'Dosya eki uzantılarını yönet',
 	'ACP_MANAGE_FORUMS'			=> 'Forumları yönet',
 	'ACP_MANAGE_RANKS'			=> 'Rütbeleri yönet',
 	'ACP_MANAGE_REASONS'		=> 'Bildiri/yasaklama sebeplerini yönet',
@@ -136,9 +136,9 @@ $lang = array_merge($lang, array(
 	'ACP_MOD_LOGS'				=> 'Moderatör kaydı',
 	'ACP_MOD_ROLES'				=> 'Moderatör rolleri',
 	
-  'ACP_NO_ITEMS'            => 'Henüz hiç bir öge yok.',
+	'ACP_NO_ITEMS'            => 'Henüz hiç bir öge yok.',
 	
-	'ACP_ORPHAN_ATTACHMENTS'	=> 'Boşta kalmış eklentiler',
+	'ACP_ORPHAN_ATTACHMENTS'	=> 'Boşta kalmış dosya ekleri',
 	
 	'ACP_PERMISSIONS'			=> 'İzinler',
 	'ACP_PERMISSION_MASKS'		=> 'İzin maskeleri',
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Kullanıcı forum izinleri',
 	'ACP_USERS_LOGS'				=> 'Kullanıcı kayıtları',
 	'ACP_USERS_PERMISSIONS'			=> 'Kullanıcı izinleri',
-	'ACP_USER_ATTACH'				=> 'Eklentiler',
+	'ACP_USER_ATTACH'				=> 'Dosya ekleri',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Geri bildirim',
 	'ACP_USER_GROUPS'				=> 'Gruplar',
@@ -279,7 +279,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Bildiri',
 	'NO_ADMIN'				=> 'Bu mesaj panosunu yönetmek için yetkiniz yok.',
 	'NO_EMAILS_DEFINED'		=> 'Geçerli bir e-mail adresi bulunamadı.',
-	'NO_FILES_TO_DELETE'	=> 'Silmek için seçtiğiniz eklentiler mevcut değil.',
+	'NO_FILES_TO_DELETE'	=> 'Silmek için seçtiğiniz dosya ekleri mevcut değil.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Yönetim Kontrol Paneline erişmek için şifrenizi girmelisiniz.',
 
 	'OFF'					=> 'Kapalı',
@@ -364,18 +364,18 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP çıkış karakter dönüşümü yanlış yapılandırılmış',
 	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> <samp>pass (izinli)</samp> olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',	
 
-	'FILES_PER_DAY'		=> 'Günlük ortalama eklentiler',
+	'FILES_PER_DAY'		=> 'Günlük ortalama dosya ekleri',
 	'FORUM_STATS'		=> 'Mesaj panosu istatistikleri',
 
 	'GZIP_COMPRESSION'	=> 'Gzip sıkıştırma',
 
 	'NO_SEARCH_INDEX'	=> 'Seçilen arama uygulaması bir arama indeksine sahip değil.<br />Lütfen %2$sarama indeksi%3$s bölümünden “%1$s” için indeks oluşturun.',	
 	'NOT_AVAILABLE'		=> 'Mevcut değil',
-	'NUMBER_FILES'		=> 'Eklentilerin sayısı',
+	'NUMBER_FILES'		=> 'Dosya eklerinin sayısı',
 	'NUMBER_POSTS'		=> 'Mesajların sayısı',
 	'NUMBER_TOPICS'		=> 'Başlıkların sayısı',
 	'NUMBER_USERS'		=> 'Kullanıcıların sayısı',
-	'NUMBER_ORPHAN'		=> 'Boşta kalan eklentiler',
+	'NUMBER_ORPHAN'		=> 'Boşta kalan dosya ekleri',
 	
 	'PHP_VERSION_OLD'	=> 'Bu sunucudaki PHP sürümü phpBB\'nin gelecek sürümleri tarafından desteklenmeyecektir. %sDetaylar%s',
 
@@ -418,7 +418,7 @@ $lang = array_merge($lang, array(
 	'TIMEZONE_SELECTED'	=> '(şu an seçili)',
 	'TOPICS_PER_DAY'	=> 'Günlük ortalama başlık',
 
-	'UPLOAD_DIR_SIZE'	=> 'Gönderilen eklentilerin boyutu',
+	'UPLOAD_DIR_SIZE'	=> 'Gönderilen dosya eklerinin boyutu',
 	'USERS_PER_DAY'		=> 'Günlük ortalama kullanıcı',
 
 	'VALUE'				=> 'Değer',
@@ -499,16 +499,16 @@ $lang = array_merge($lang, array(
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Başarısız yönetici giriş denemesi</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Başarılı yönetici girişi</strong>',
   
- 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Kullanıcı eklentileri silindi</strong><br />» %s',
+ 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Kullanıcı dosya ekleri silindi</strong><br />» %s',
 
-	'LOG_ATTACH_EXT_ADD'		=> '<strong>Dosya eklenti uzantısı eklendi ya da düzenlendi</strong><br />» %s',
-	'LOG_ATTACH_EXT_DEL'		=> '<strong>Dosya eklenti uzantısı kaldırıldı</strong><br />» %s',
-	'LOG_ATTACH_EXT_UPDATE'		=> '<strong>Dosya eklenti uzantısı güncellendi</strong><br />» %s',
-	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Eklenti grubu eklendi</strong><br />» %s',
-	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Eklenti grubu düzenlendi</strong><br />» %s',
-	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Eklenti grubu kaldırıldı</strong><br />» %s',
-	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Sahipsiz Dosya mesaja yüklendi</strong><br />» ID %1$d - %2$s',
-	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Sahipsiz Dosyalar silindi</strong><br />» %s',
+	'LOG_ATTACH_EXT_ADD'		=> '<strong>Dosya eki uzantısı eklendi ya da düzenlendi</strong><br />» %s',
+	'LOG_ATTACH_EXT_DEL'		=> '<strong>Dosya eki uzantısı kaldırıldı</strong><br />» %s',
+	'LOG_ATTACH_EXT_UPDATE'		=> '<strong>Dosya eki uzantısı güncellendi</strong><br />» %s',
+	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Dosya eki grubu eklendi</strong><br />» %s',
+	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Dosya eki grubu düzenlendi</strong><br />» %s',
+	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Dosya eki grubu kaldırıldı</strong><br />» %s',
+	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Boşta kalan dosya mesaja yüklendi</strong><br />» ID %1$d - %2$s',
+	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Boşta kalan dosyalar silindi</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Kullanıcı yasaktan çıkarıldı</strong> sebebi “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP adresi yasaktan çıkarıldı</strong> sebebi “<em>%1$s</em>”<br />» %2$s',
@@ -534,7 +534,7 @@ $lang = array_merge($lang, array(
 	'LOG_CLEAR_USER'		=> '<strong>Kullanıcı kaydı temizlendi</strong><br />» %s',
 	'LOG_CLEAR_USERS'		=> '<strong>Kullanıcı kayıtları temizlendi</strong>',
 
-	'LOG_CONFIG_ATTACH'			=> '<strong>Eklenti ayarları değiştirildi</strong>',
+	'LOG_CONFIG_ATTACH'			=> '<strong>Dosya eki ayarları değiştirildi</strong>',
 	'LOG_CONFIG_AUTH'			=> '<strong>Yetkilendirme ayarları değiştirildi</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>Avatar ayarları değiştirildi</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>Çerez ayarları değiştirildi</strong>',
@@ -698,7 +698,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Bildiri/yasaklama sebebi silindi</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Bildiri/yasaklama sebebi güncellendi</strong><br />» %s',
 	
-	'LOG_REFERER_INVALID'      => '<strong>Referer doğrulaması başarısız oldu</strong><br />»Referer, “<em>%1$s</em>” olarak görüldü. İstek kabul edilmedi ve oturum sonlandırıldı.',
+	'LOG_REFERER_INVALID'		=> '<strong>Yönlendirici (referrer) doğrulaması başarısız oldu</strong><br />»Yönlendirici “<em>%1$s</em>” olarak görüldü. İstek kabul edilmedi ve oturum sonlandırıldı.',
 	'LOG_RESET_DATE'			=> '<strong>Mesaj panosu’nun açılış tarihi sıfırlandı</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Şimdiye kadar en çok çevrimiçi olanlar sıfırlandı</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Dosya istatistikleri yeniden senkronize edildi</strong>',	
@@ -746,7 +746,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_BAN_IP'		=> '<strong>Kullanıcı yönetimi yoluyla IP yasaklandı.</strong> Nedeni: “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'	=> '<strong>Kullanıcı yönetimi yoluyla e-posta yasaklandı.</strong> Nedeni: “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Kullanıcı silindi</strong><br />» %s',
-	'LOG_USER_DEL_ATTACH'	=> '<strong>Kullanıcı tarafından oluşturulan tüm eklenti dosyaları silindi</strong><br />» %s',
+	'LOG_USER_DEL_ATTACH'	=> '<strong>Kullanıcı tarafından oluşturulan tüm dosya ekleri silindi</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Kullanıcı avatarı silindi</strong><br />» %s',
 	'LOG_USER_DEL_OUTBOX'	=> '<strong>Kullanıcı giden kutusu boşaltıldı</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Kullanıcı tarafından oluşturulan tüm mesajlar silindi</strong><br />» %s',
@@ -791,7 +791,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Kelime sansürü silindi</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Kelime sansürü düzenlendi</strong><br />» %s',
 
-	'LOG_EXT_ENABLE'	=> '<strong>Uzantı aktifleştirildi</strong><br />» %s',
-	'LOG_EXT_DISABLE'	=> '<strong>Uzantı pasifleştirildi</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '<strong>Uzantı’nın verisi silindi</strong><br />» %s',	
+	'LOG_EXT_ENABLE'	=> '<strong>Eklenti etkinleştirildi</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Eklenti devre dışı bırakıldı</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Eklenti’nin verisi silindi</strong><br />» %s',
 ));

@@ -121,7 +121,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mesajıma bir imza nasıl eklerim?',
-		1 => 'Herhangi bir mesaja imzanızı ekleyebilmek için önce bir imza oluşturmanız gerekmektedir. Bu, Kullanıcı Kontrol Paneliniz yoluyla yapılır. Daha sonra mesaj gönderme formunun alt kısmındaki <em>Bir imza ekle</em> seçeneğini seçip mesajınıza imzanızı ekleyebilirsiniz. Gönderdiğiniz bütün mesajlara genel bir ayar olarak imzanızın eklenmesini istiyorsanız, profilinizdeki seçeneği tıklayın. Buna rağmen dilediğiniz her mesaj için imzanızın eklenmesini önleyebilirsiniz, bunu yapmak için mesaj gönderme formunda imza ekleme seçeneğinin işaretini kaldırmanız yeterlidir.'
+		1 => 'Herhangi bir mesaja imzanızı ekleyebilmek için önce bir imza oluşturmanız gerekmektedir. Bu, Kullanıcı Kontrol Paneliniz yoluyla yapılır. Daha sonra mesaj gönderme formunun alt kısmındaki <em>Bir imza ekle</em> seçeneğini seçip mesajınıza imzanızı ekleyebilirsiniz. Ayrıca Kullanıcı Kontrol Panelindeki uygun seçeneği işaretleyerek tüm mesajlarınıza varsayılan olarak bir imza ekleyebilirsiniz. Buna rağmen dilediğiniz her mesaj için imzanızın eklenmesini önleyebilirsiniz, bunu yapmak içinse mesaj gönderme formunda imza ekleme seçeneğinin işaretini kaldırmanız yeterlidir.'
 	),
 	array(
 		0 => 'Nasıl bir anket oluştururum?',
@@ -140,8 +140,8 @@ $help = array(
 		1 => 'Bazı forumlar sadece belirli kullanıcılara veya kullanıcı gruplarına açık olabilir. Mesajları okumak, görüntülemek, göndermek ya da diğer işlemler için özel yetki gerekebilir. Size erişim verilebilmesi için bir moderatör ya da mesaj panosu yöneticisiyle iletişime geçin.'
 	),
 	array(
-		0 => 'Neden eklentiler ekleyemiyorum?',
-		1 => 'Her forumda, her grupta, veya her kullanıcı temelinde eklenti izinleri vardır. Mesaj panosu yöneticisi mesaj gönderdiğiniz belirli forum için eklenen eklentilere izin vermemiş olabilir, ya da muhtemelen sadece bazı gruplar eklenti gönderebiliyordur. Eğer eklenti eklemenin sizin için neden kapalı olduğu hakkında bir şüpheniz varsa mesaj panosu yöneticiyle iletişime geçin.'
+		0 => 'Neden dosya ekleri ekleyemiyorum?',
+		1 => 'Her forumda, her grupta, veya her kullanıcı temelinde dosya eki izinleri vardır. Mesaj panosu yöneticisi mesaj gönderdiğiniz belirli forum için eklenen dosya eklerine izin vermemiş olabilir, ya da muhtemelen sadece bazı gruplar dosya eki gönderebiliyordur. Eğer dosya eki eklemenin sizin için neden kapalı olduğu hakkında bir şüpheniz varsa mesaj panosu yöneticiyle iletişime geçin.'
 	),
 	array(
 		0 => 'Neden bir uyarı aldım?',
@@ -153,7 +153,7 @@ $help = array(
 	),
 	array(
 		0 => 'Başlığa mesaj gönderilirkenki “Kaydet” butonu nedir?',
-		1 => 'Bu, sonraki bir tarihte girilecek ve tamamlanacak olan mesajlarınızı kaydetmeye izin verir. Kaydedilen bir mesajı yeniden doldurmak için, Kullanıcı Kontrol Panelini ziyaret edin.'
+		1 => 'Bu buton sonraki bir tarihte tamamlamak ve göndermek için başlığınızı taslak olarak kaydetmeye olanak sağlar. Kaydedilen bir taslağı yeniden yüklemek için, Kullanıcı Kontrol Panelini ziyaret edin.'
 	),
 	array(
 		0 => 'Neden mesajımın onaylanması gerekiyor?',
@@ -254,7 +254,7 @@ $help = array(
 	),
 	array(
 		0 => 'İstemediğim özel mesajları almaya devam ediyorum!',
-		1 => 'İleride özel mesajlar sistemine belirli kişilerden gelen mesajları iptal etme imkanını ekleyeceğiz. Şimdilik herhangi bir şahıstan istemediğiniz özel mesajlar alıyorsanız, mesaj panosu yöneticisine başvurun. O herhangi bir kullanıcıyı özel mesaj göndermekten men edebilir.'
+		1 => 'Kullanıcı Kontrol Panelinizdeki mesaj kuralları özelliğini kullanarak bir kullanıcıdan gelen özel mesajları otomatik olarak silebilirsiniz. Eğer belirli bir kullanıcıdan küfürlü ya da kötü niyetli özel mesajlar alıyorsanız, bu mesajları moderatörlere bildirin; onlar özel mesaj gönderen bir kullanıcıyı önleme yetkisine sahiptir.'
 	),
 	array(
 		0 => 'Bu mesaj panosunda herhangi birinden spam e-posta aldım!',
@@ -314,15 +314,15 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Eklentiler'
+		1 => 'Dosya ekleri'
 	),
 	array(
-		0 => 'Bu mesaj panosunda hangi eklentilere izin veriliyor?',
-		1 => 'Her mesaj panosu yöneticisi bazı eklenti tiplerine izin verebilir ya da izin vermeyebilir. Eğer nelerin yüklenmesine izin verildiğinden şüpheliyseniz, yardım için mesaj panosu yöneticisiyle iletişime geçin.'
+		0 => 'Bu mesaj panosunda hangi dosya eklerine izin veriliyor?',
+		1 => 'Her mesaj panosu yöneticisi bazı dosya eki tiplerine izin verebilir ya da izin vermeyebilir. Eğer nelerin yüklenmesine izin verildiğinden şüpheliyseniz, yardım için mesaj panosu yöneticisiyle iletişime geçin.'
 	),
 	array(
-		0 => 'Tüm eklentilerimi nasıl bulurum?',
-		1 => 'Yüklediğiniz eklentilerin listesini bulmak için, Kullanıcı Kontrol Panelinize gidin ve eklentiler kısmındaki bağlantıları takip edin.'
+		0 => 'Tüm dosya eklerimi nasıl bulurum?',
+		1 => 'Yüklediğiniz dosya eklerinin listesini bulmak için, Kullanıcı Kontrol Panelinize gidin ve dosya ekleri kısmındaki bağlantıları takip edin.'
 	),
 	array(
 		0 => '--',

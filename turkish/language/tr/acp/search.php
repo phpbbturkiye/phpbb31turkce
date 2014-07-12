@@ -60,7 +60,6 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Arama yapmak için kelimeler bu kadar karakterden fazlasıyla indekslenmeyecektir. Bu ayarı sadece siz veya hosting firmanız mysql ayarlarından değiştirebilir.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'PostgreSQL tam metin uygulaması sadece PostgreSQL ile kullanılabilir.',
-	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'PostgreSQL tam metin uygulaması sadece PostgreSQL 8.3 ve üzeri sürümlerde kullanılabilir.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'İndekslenen mesajların toplam sayısı',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL sürümü',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Metin araması Yapılandırma Profili:',
