@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Sıralı liste: örn. [list=1][*]İlk nokta[/list] ya da [list=a][*]a noktası[/list]',
 	'BBCODE_P_HELP'				=> 'Resim ekle: [img]http://resim_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Alıntı yazısı: [quote]metin[/quote]',
-	'BBCODE_S_HELP'				=> 'Font rengi: [color=red]metin[/color] İpucu: ayrıca, color=#FF0000 şeklinde de kullanabilirsiniz',
+	'BBCODE_S_HELP'				=> 'Font rengi: [color=red]metin[/color] ya da [color=#FF0000]metin[/color]',
 	'BBCODE_U_HELP'				=> 'Altı çizgili yazı: [u]metin[/u]',
 	'BBCODE_W_HELP'				=> 'URL Ekle: [url]http://url[/url] veya [url=http://url]URL metni[/url]',
 	'BBCODE_Y_HELP'				=> 'Liste: Liste ögesi ekle',

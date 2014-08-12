@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+12-08-2014 v0.9.2
+- Dil dosyaları phpBB 3.1.0-RC3 sürümü için güncellendi.
+
 12-07-2014 v0.9.1
 - "Eklenti" -> "Dosya eki", "Uzantı" -> "Eklenti" olarak değiştirilerek tercüme edildi.
 - Dil dosyaları phpBB 3.1.0-RC2 sürümü için güncellendi.

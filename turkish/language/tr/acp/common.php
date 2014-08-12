@@ -222,12 +222,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Geri',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Hazır ve hazır olmayan kron görevlerinin bir listesini yazdırır.',
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Tüm hazır kron görevlerini çalıştırır.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Çalıştırılacak görevin adı',
-
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Shell’i başlat.',
-	
 	'COLOUR_SWATCH'			=> 'Web-tabanlı renk kuşağı',
 	'CONFIG_UPDATED'		=> 'Ayarlar başarıyla güncellendi.',
 	'CRON_LOCK_ERROR'		=> 'Kron kilidi alınamadı.',

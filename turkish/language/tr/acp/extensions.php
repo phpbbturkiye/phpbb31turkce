@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INVALID_LIST'	=> '“%s” eklentisi geçerli değil.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'Seçilen eklenti bu mesaj panosu için mevcut değil, lütfen izin verilen phpBB ve PHP sürümünüzü doğrulayın (ayrıntılar sayfasına bakın).',
 	'EXTENSION_DIR_INVALID'		=> 'Seçilen eklenti geçersiz bir dizin yapısına sahip ve etkinleştirilemiyor.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'Seçilen eklenti etkinleştirilemiyor, lütfen eklenti’nin gereksinimlerini doğrulayın.',
 
 	'DETAILS'				=> 'Ayrıntılar',
 
