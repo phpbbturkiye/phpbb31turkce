@@ -73,6 +73,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_PURGE_FAILURE'		=> '%s eklentisi temizlenemedi',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> '%s eklentisi başarıyla temizlendi',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Hiç bir eklenti bulunamadı.',
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Mevcut',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Devre dışı bırakıldı',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Etkinleştirildi',	
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tüm e-posta hashleri başarıyla yeniden hesaplandı.',
 ));

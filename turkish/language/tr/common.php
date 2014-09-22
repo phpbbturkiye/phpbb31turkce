@@ -518,6 +518,10 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Hiç bir kullanıcı adı belirtilmedi.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_ATTACHMENTS'		=> array(
+		1	=> '%d eklenti',
+		2	=> '%d eklenti',
+	),	
 	'NUM_POSTS_IN_QUEUE'      => array(
 		0         => 'Onay bekleyen hiç bir mesaj yok',      // 0
 		1         => '1 mesaj onay bekliyor',      // 1
@@ -863,6 +867,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'Girdiğiniz renk değeri geçersiz.',
 	'WRONG_DATA_JABBER'			=> 'Girilen ad, geçersiz bir Jabber hesap adı.',
 	'WRONG_DATA_LANG'			=> 'Belirlediğiniz dil geçerli değil.',
+	'WRONG_DATA_POST_SD'		=> 'Belirlediğiniz mesaj sıralama yönü geçerli değil.',
+	'WRONG_DATA_POST_SK'		=> 'Belirlediğiniz mesaj sıralama seçeneği geçerli değil.',
+	'WRONG_DATA_TOPIC_SD'		=> 'Belirlediğiniz başlık sıralama yönü geçerli değil.',
+	'WRONG_DATA_TOPIC_SK'		=> 'Belirlediğiniz başlık sıralama seçeneği geçerli değil.',	
 	'WROTE'						=> 'yazdı',
 
 	'YAHOO'				=> 'Yahoo Messenger',

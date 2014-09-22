@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Sonuçlar için gün limiti',
 	'RESULT_SORT'			=> 'Sonuçları sırala',
 	'RETURN_FIRST'			=> 'Mesajın ilk',
-	'RETURN_TO_SEARCH_ADV'	=> 'Gelişmiş aramaya tekrar dön',
+	'GO_TO_SEARCH_ADV'	=> 'Gelişmiş aramaya git',
 
 	'SEARCHED_FOR'			=> 'Aranan terim',
 	'SEARCHED_TOPIC'		=> 'Başlık arandı',

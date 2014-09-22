@@ -297,6 +297,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'            => 'Buradan spambotlar tarafından tasarlanan otomatik olarak form gönderimlerini engellemek için eklentileri seçebilir ve ayarlayabilirsiniz. Bu eklentiler genellikle bir <em>CAPTCHA</em> ile kullanıcıya sorulmak amacıyla çalışır ve bilgisayarlar için çözmesi zor olarak tasarlanan bir testtir.',
+	'ACP_VC_EXT_GET_MORE'					=> 'İlave (ve belkide daha iyi) anti-spam eklentileri için, <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Uzantı Veritabanı</strong></a> sayfasını ziyaret edin. Mesaj panonuzda spam önleme ile ilgili daha fazla bilgi için, <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Bilgi Bankası</strong></a> sayfasını ziyaret edin.',	
 	'AVAILABLE_CAPTCHAS'               => 'Mevcut eklentiler',
 	'CAPTCHA_UNAVAILABLE'               => 'Gereksinimleri yerine getirilmediği için bu eklenti seçilemez.',
 	'CAPTCHA_GD'                     => 'GD resmi',
