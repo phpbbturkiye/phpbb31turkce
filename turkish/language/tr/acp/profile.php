@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_EXPLAIN'		=> 'Alan kimliği, veritabanı ve şablonlar içerisinde profil alanını tanımlamak için kullanılacak olan bir addır.',
 	'FIELD_INT'					=> 'Sayılar',	
 	'FIELD_IS_CONTACT'			=> 'Bir iletişim alanı olarak alanı göster',
-	'FIELD_IS_CONTACT_EXPLAIN'	=> 'İletişim alanları, kullanıcı profilinin iletişim bölümünde; ve bundan farklı olarak mesajlar ile özel mesajlardan sonra mini profil içerisinde gösterilir.',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'İletişim alanları, kullanıcı profilinin iletişim bölümünde; ve bundan farklı olarak mesajlar ile özel mesajlardan sonra mini profil içerisinde gösterilir. Kullanıcı tarafından sağlanan bir değer ile değiştirilmesi için yer tutucu bir değişken olarak <samp>%s</samp> kullanabilirsiniz.',
 	'FIELD_LENGTH'				=> 'Girdi kutusunun uzunluğu',
 	'FIELD_NOT_FOUND'			=> 'Profil alanı bulunamadı',
 	'FIELD_STRING'				=> 'Tek yazı alanı',
@@ -117,7 +117,13 @@ $lang = array_merge($lang, array(
 	'INVALID_FIELD_IDENT_LEN'	=> 'Alan tanımı sadece 17 karakter uzunluğunda olabilir',
 	'ISO_LANGUAGE'				=> 'Dil [%s]',
 
-	'LANG_SPECIFIC_OPTIONS'		=> 'Dil özel seçenekleri [<b>%s</b>]',
+	'LANG_SPECIFIC_OPTIONS'		=> 'Dil özel seçenekleri [<strong>%s</strong>]',
+ 
+	'LETTER_NUM_DOTS'			=> 'Herhangi harfler, sayılar ve noktalar (dönemler)',
+	'LETTER_NUM_ONLY'			=> 'Herhangi harfler ve sayılar',
+	'LETTER_NUM_PUNCTUATION'	=> 'Herhangi harfler, sayılar, virgül, noktalar, alt çizgiler ve herhangi bir harfle başlayan tireler',
+	'LETTER_NUM_SPACERS'		=> 'Herhangi harfler, sayılar ve boşluklar',
+	'LETTER_NUM_UNDERSCORE'		=> 'Herhangi harfler, sayılar ve alt çizgiler',
 
 	'MAX_FIELD_CHARS'		=> 'En yüksek karakter sayısı',
 	'MAX_FIELD_NUMBER'		=> 'En yüksek izin verilen sayı',
