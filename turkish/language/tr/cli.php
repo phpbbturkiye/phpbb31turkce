@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Eğer sadece eski eşleşen değer geçerliyse bir yapılandırma seçeneğinin değerini ayarlar',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Bir yapılandırma seçeneğinin değerini ayarlar',
 
-	'CLI_EXTENSION_DISABLE_FAILURE'		=> '%s ueklentisi devre dışı bırakılamadı',
+	'CLI_EXTENSION_DISABLE_FAILURE'		=> '%s eklentisi devre dışı bırakılamadı',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s eklentisi başarıyla devre dışı bırakıldı',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> '%s eklentisi etkinleştirilemedi',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s eklentisi başarıyla etkinleştirildi',

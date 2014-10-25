@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Sphinx search daemon (searchd) üzerinde dinleme yapılan port. Varsayılan Sphinx API portu olan 9312\'yi kullanmak için boş bırakın',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'phpBB için sphinx search, sadece MySQL ve PostgreSQL veritabanlarını destekler.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx ayar dosyası',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Sphinx ayar dosyasının içeriğini oluşturur. Bu veri, sphinx search deamon tarafından kullanılabilmesi için sphinx.conf dosyasnın içerisine yapıştırılmalıdır.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Sphinx ayar dosyasının içeriği oluşturuldu. Bu veri, sphinx search deamon tarafından kullanılabilmesi için sphinx.conf dosyasnın içerisine yapıştırılmalıdır.[dbuser] ve [dbpassword] ile belirtilen yerleri veritabanınızın kimlik bilgileriyle değiştirin.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Sphinx veri ve ayar dizin yolu belirlenmedi. Lütfen ayar dosyası oluşturmak için bunları belirleyin.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Genel Arama Ayarları',

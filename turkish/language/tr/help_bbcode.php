@@ -53,7 +53,7 @@ $help = array(
 	),
 	array(
 		0 => 'Biçimlendirme etiketlerini karıştırabilir miyim?',
-		1 => 'Evet, mesela dikkati çekmek için şöyle yazabilirsiniz:<br /><br /><strong>[size=150][color=red][b]</strong>DİKKAT!<strong>[/b][/color][/size]</strong><br /><br />Bu yazı şu şekilde görüntülenir: <span style="color:red;font-size:250%;"><strong>DİKKAT!</strong></span><br /><br />Uzun metinleri bu şekilde yazmamanızı öneririz! Unutmayın ki, etiketlerin düzgün bir şekilde kapatılmasını temin etmek, metni gönderen kişi olarak sizin görevinizdir. Örneğin bu şekilde yazmak yanlıştır: <br /><br /><strong>[b][u]</strong>Etiketler hatalı kapatılmış<strong>[/b][/u]</strong>'
+		1 => 'Evet, mesela dikkati çekmek için şöyle yazabilirsiniz:<br /><br /><strong>[size=150][color=red][b]</strong>DİKKAT!<strong>[/b][/color][/size]</strong><br /><br />Bu yazı şu şekilde görüntülenir: <span style="color:red;font-size:200%;"><strong>DİKKAT!</strong></span><br /><br />Uzun metinleri bu şekilde yazmamanızı öneririz! Unutmayın ki, etiketlerin düzgün bir şekilde kapatılmasını temin etmek, metni gönderen kişi olarak sizin görevinizdir. Örneğin bu şekilde yazmak yanlıştır: <br /><br /><strong>[b][u]</strong>Etiketler hatalı kapatılmış<strong>[/b][/u]</strong>'
 	),
 	array(
 		0 => '--',

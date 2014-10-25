@@ -36,44 +36,40 @@ $help = array(
 		1 => 'Giriş ve Kayıt sorunları'
 	),
 	array(
-		0 => 'Neden giriş yapamıyorum?',
-		1 => 'Kayıt oldunuz mu? Giriş yapabilmek için önceden kayıt olmanız gerek. Yoksa mesaj panosundan yasaklandınız mı (o halde bu anlamda bir mesaj görmeniz gerekir)? Eğer öyleyse, webmaster veya mesaj panosu yöneticisiyle irtibata geçip sebebini sorabilirsiniz. Eğer kayıt olduysanız ve yasaklanmış olmamanıza rağmen giriş yapamıyorsanız, tekrar tekrar kullanıcı adınızı ve şifrenizi kontrol edin. Genelde hata burada oluyor. Sorun bu değilse mesaj panosu yönetimi ile iletişime geçin, belki mesaj panosu için yanlış ayar yapmış olabilirler.'
-	),
-	array(
 		0 => 'Neden kayıt olmam gerekiyor?',
 		1 => 'Kayıt olmanıza gerek olmayabilirdi aslında. Mesaj gönderebilmek için kaydın şart olması, mesaj panosu yöneticisinin (yönetici) kararına bağlı. Ayrıca kayıt olunca bazı özel imkanlara ulaşabilirsiniz. Örneğin mesajlarınızın yanında kendinize ait küçük bir resim (avatar) gösterme, özel mesaj gönderme, tanıdığınız kullanıcılara e-posta gönderme veya kullanıcı gruplarına katılma imkanlarına misafir kullanıcılar sahip değildir. Kayıt işlemi çok basit olduğu için kayıt olmanız önerilir.'
 	),
 	array(
-		0 => 'Neden otomatik olarak çıkışım yapılıyor?',
-		1 => 'Giriş sayfasında gördüğünüz <em>Beni hatırla</em> kutucuğunu işaretlemediğiniz sürece, mesaj panosu sizi sadece belirli bir süre için giriş yapmış kabul eder. Böylece kaydınızın başkaları tarafından kullanılması önlenir. Girişinizin devamlı kalması için, bu komutu seçmeniz yeterlidir. Fakat başka şahıslarında kullandığı (örn. herhangi bir kütüphaneye, internet kafeye, üniversiteye vs. ait) bir bilgisayardan giriş yapıyorsanız, bu komutu seçmemeniz önerilir. Eğer bu kutucuğu göremiyorsanız, bu demektir ki; mesaj panosu yöneticisi bu özelliği kapatmıştır.'
+		0 => 'COPPA nedir?',
+		1 => 'COPPA ya da Child Online Privacy and Protection Act of 1998, Birleşik Devletlerde web sitelerinin 13 yaşından küçüklerin ebeveynlerinden potansiyel bilgi toplayabilmek için yazılı izin almayı gerekli tutan bir kanundur, ya da başka bir deyişle yasal veli/vasi onay şeklidir, veliler 13 yaşından küçüklerden kişisel kimlik bilgilerinin toplanması için izin verirler. Eğer bu uygulama ile kayıt olmak ya da bu uygulama ile bir web sitesine kayıt olmak size güvenilir gelmiyorsa, yardım için bir yasal danışman ile iletişime geçin. Not: phpBB Limited ya da bu mesaj panosunun sahibi yasal destek sağlamaz, ve “Bu mesaj panosu ile ilgili kötü niyetli ve/veya hukuki konularda kime başvurabilirim?” sorusu hariç, yasayı ilgilendiren herhangi bir konuda iletişim noktası olarak gösterilemez.',
 	),
 	array(
-		0 => 'Çevrimiçi kullanıcı listesinde kullanıcı adımın görünmesini nasıl önleyebilirim?',
-		1 => 'Kullanıcı Kontrol Paneliniz içerisinde “Mesaj panosu tercihleri” altında <em>Çevrimiçi olduğunuzu gizleyin</em> isminde bir seçenek bulacaksınız. Eğer bu seçenek <em>Evet</em> seçeneği ile aktif edilirse, çevrimiçi olduğunuzu sadece yöneticiler, moderatörler ve kendiniz görebileceksiniz. Bu durumda gizli bir kullanıcı olarak sayılacaksınız.'
-	),
-	array(
-		0 => 'Şifremi unuttum!',
-		1 => 'Telaşa kapılmayın! Eski şifrenizi öğrenmek mümkün olmasa bile, yerine değişik bir şifre alabilirsiniz. Giriş sayfasını açıp <em>Şifremi unuttum</em> bağlantısına tıklayın ve tarif edilen işlemleri uygulayın. Kısa sürede tekrar çevrimiçi olduğunuzu göreceksiniz.'
+		0 => 'Neden kayıt olamıyorum?',
+		1 => 'Bir mesaj panosu yöneticisi yeni ziyaretçilerin kayıt olmasını önlemek amacıyla kayıt işlemini devre dışı bırakmış olabilir. Ayrıca mesaj panosu yöneticisi IP adresinizi yasaklamış ya da kullanıcı adınızı kullanmanıza izin vermemiş olabilir. Yardım için bir mesaj panosu yöneticisiyle iletişime geçin.',
 	),
 	array(
 		0 => 'Kayıt oldum ama giriş yapamıyorum!',
 		1 => 'Öncelikle, kullanıcı adınızı ve şifrenizi kontrol edin. Eğer onlar doğruysa, o zaman şu iki durumdan biri meydana gelmiş olabilir. Eğer COPPA desteği açıksa ve kayıt sırasında 13 yaşından küçük olduğunuzu belirttiyseniz, size tarif edilen işlemleri uygulamanız gerekmektedir. Bazı mesaj panoları yeni kayıtlarda ayrıca aktivasyon istemektedir, giriş yapmadan önce bu aktivasyonun kendiniz ya da bir yönetici tarafından yapılması gerekmektedir; bu bilgi kayıt sırasında gösterilmiştir. Eğer size bir e-posta gönderildiyse, açıklamaları takip edin. Eğer bir e-posta almadıysanız, yanlış bir e-posta adresi belirtmiş olabilirsiniz ya da e-posta, bir spam filtresi tarafından spam olarak seçilmiş olabilir. Eğer doğru e-posta adresi belirttiğinize eminseniz, bir yönetici ile iletişime geçmeyi deneyin.'
 	),
 	array(
+		0 => 'Neden giriş yapamıyorum?',
+		1 => 'Bunun meydana gelmesinde çeşitli sebepler vardır. Öncelikle, kullanıcı adınız ve şifrenizi doğru olarak girdiğinizden emin olmalısınız. Eğer kullanıcı adı ve şifrenizin doğruluğundan eminseniz, bir mesaj panosu yöneticisi ile iletişime geçerek mesaj panosundan yasaklanıp yasaklanmadığınızdan emin olun. Eğer sorun bu da değilse web sitesi sahibi mesaj panosu için yanlış ayar yapmış olabilir ve bunu düzeltmesi gerekebilir.',
+	),
+	array(	
 		0 => 'Daha önce kayıt olmuştum ama artık giriş yapamıyorum?!',
 		1 => 'Bazı sebeplerden dolayı bir yönetici hesabınızı deaktif etmiş ya da silmiş olabilir. Ayrıca, bazı mesaj panoları veritabanını azaltmak için uzun bir süredir mesaj göndermeyen kullanıcıları periyodik aralıklarla silerler. Eğer bu olmuşsa, tekrar kayıt olmayı deneyin ve tartışmalara katılın.'
 	),
 	array(
-		0 => 'COPPA nedir?',
-		1 => 'COPPA ya da Child Online Privacy and Protection Act of 1998, Birleşik Devletlerde web sitelerinin 13 yaşından küçüklerin ebeveynlerinden potansiyel bilgi toplayabilmek için yazılı izin almayı gerekli tutan bir kanundur, ya da başka bir deyişle yasal veli/vasi onay şeklidir, veliler 13 yaşından küçüklerden kişisel kimlik bilgilerinin toplanması için izin verirler. Eğer bu uygulama ile kayıt olmak ya da bu uygulama ile bir web sitesine kayıt olmak size güvenilir gelmiyorsa, yardım için bir yasal danışman ile iletişime geçin. Not: phpBB Limited yasal destek sağlamaz ve genel konular hariç, herhangi bir çeşit yasa ile ilgili bir durum için iletişim göstermez.',
+		0 => 'Şifremi kaybettim!',
+		1 => 'Panik yapmayın! Şifreniz geri getirelemese de, kolayca sıfırlanabilir. Giriş sayfasını ziyaret edin ve <em>Şifremi unuttum</em> bağlantısına tıklayın. Buradaki talimatları takip ederek kısa bir süre içerisinde yeniden giriş yapabilirsiniz.<br />Yine de, eğer şifenizi sıfırlayamazsanız, bir mesaj panosu yöneticisi ile iletişime geçin.',
 	),
 	array(
-		0 => 'Neden kayıt olamıyorum?',
-		1 => 'Kayıt olma girişiminizde web sitesi sahibi\'nin IP adresinizi banlaması ya da kullanıcı adına izin vermemesi mümkündür. Web sitesi sahibi ayrıca yeni ziyaretçilerin giriş yapmasını önlemek için kaydı kapatmış olabilir. Yardım için bir mesaj panosu yöneticisiyle iletişime geçin.',
+		0 => 'Neden otomatik olarak çıkışım yapılıyor?',
+		1 => 'Eğer giriş yaparken <em>Beni hatırla</em> kutucuğunu işaretlemezseniz, mesaj panosu sadece belirli bir zaman için sizi giriş yapmış şekilde tutacaktır. Bu, hesabınızın başka biri tarafından kötüye kullanımını önlemek içindir. Sürekli giriş yapmış olarak kalmak için, giriş sırasında <em>Beni hatırla</em> kutucuğunu işaretleyin. Ancak bu işlem başkalarıyla paylaşılan bir bilgisayarlardan, örneğin; kütüphane, internet kafe, üniversite bilgisayar laboratuarı, v.b. gibi yerlerden mesaj panosuna erişim yaptığınızda önerilmez. Eğer giriş sırasında <em>Beni hatırla</em> kutucuğunu göremiyorsanız, bunun anlamı bir mesaj panosu yöneticisinin bu özelliği devre dışı bırakmış olmasıdır.',
 	),
 	array(
 		0 => '“Tüm mesaj panosu çerezlerini sil” nedir?',
-		1 => '“Tüm mesaj panosu çerezlerini sil” özelliği, phpBB3 tarafından oluşturulan mesaj panosuna girişiniz ve doğrulanmanız için tutulan çerezleri kapsar. Ayrıca eğer mesaj panosu sahibi tarafından ayarlandıysa bunun gibi sağlanan okuma özelliklerini silmeye yarar. Eğer giriş ya da çıkış problemleri yaşıyorsanız, mesaj panosu çerezlerini silmek size yardımcı olabilir.',
+		1 => '“Tüm mesaj panosu çerezlerini sil” özelliği, phpBB tarafından oluşturulan ve mesaj panosuna girişiniz, doğrulanmanız için tutulan çerezleri silmeye yarar. Çerezler ayrıca, eğer bir mesaj panosu yöneticisi tarafından ayarlandıysa, okuma takibi gibi özellikler sağlar. Eğer giriş ya da çıkış problemleri yaşıyorsanız, mesaj panosu çerezlerini silmek size yardımcı olabilir.',
 	),
 	array(
 		0 => '--',
@@ -81,7 +77,11 @@ $help = array(
 	),
 	array(
 		0 => 'Ayarlarımı nasıl değiştirebilirim?',
-		1 => 'Eğer kayıt bir kullanıcı iseniz tüm ayarlarınız mesaj panosu veritabanına kaydedilir. Ayarlarınızı değiştirmek için Kullanıcı Kontrol Panelinizi ziyaret edin; bu bağlantı genelde sayfaların üst kısmında bulunur. Bu sistem size tüm ayarlarınızı ve tercihlerinizi değiştirme izni verecektir.'
+		1 => 'Eğer kayıtlı bir kullanıcı iseniz, tüm ayarlarınız mesaj panosu veritabanına kaydedilir. Ayarlarınızı değiştirmek için Kullanıcı Kontrol Panelinizi ziyaret edin; genellikle sayfaların üst kısmında, kullanıcı adınızın üzerine tıkladığınızda bir bağlantı bulunur. Bu sistem size tüm ayarlarınızı ve tercihlerinizi değiştirme izni verecektir.',
+	),
+	array(
+		0 => 'Kullanıcı adımın çevrimiçi kullanıcılar listesinde görüntülenmesini nasıl önleyebilirim?',
+		1 => 'Kullanıcı Kontrol Panelinizden, “Mesaj panosu tercihleri” bölümüne tıkladığınızda, <em>Çevrimiçi durumumu gizle</em> seçeneğini bulacaksınız. Bu seçeneği aktifleştirdiğinizde kullanıcı adınız, çevrimiçi kullanıcılar listesinde sadece yöneticiler, moderatörler ve kendiniz tarafından görüntülenecektir. Böylece gizli bir kullanıcı olarak sayılacaksınız.'
 	),
 	array(
 		0 => 'Gösterilen zamanlar yanlış!',
@@ -93,11 +93,15 @@ $help = array(
 	),
 	array(
 		0 => 'Konuştuğum dil listede yok!',
-		1 => 'Mesaj panosu yöneticisi konuştuğunuz dili destekleyen paketi kurmamıştır, ya da hiç kimse bu mesaj panosunu konuştuğunuz dile henüz çevirmemiştir. Mesaj panosu yöneticilerine başvurup, kendi dilinizi destekleyen paketi kurmalarını rica edin. Eğer böyle bir dil paketi yoksa, yeni bir çeviri oluşturmakta özgürsünüz. Daha fazla bilgi phpBB web sitesinde bulunabilir (mesaj panosu sayfalarının altındaki bağlantıya bakın).'
+		1 => 'Mesaj panosu yöneticisi konuştuğunuz dili destekleyen paketi kurmamıştır, ya da hiç kimse bu mesaj panosunu konuştuğunuz dile henüz çevirmemiştir. Bir mesaj panosu yöneticisine başvurup, ihtiyacınız olan dil paketini kurmasını rica edin. Eğer dil paketi mevcut değilse, yeni bir çeviri oluşturmakta özgürsünüz. Daha fazla bilgi <a href="https://www.phpbb.com/">phpBB</a>&reg; websitesinde bulunabilir.',
 	),
 	array(
-		0 => 'Kullanıcı adım ile beraber bir resmi nasıl gösteririm?',
-		1 => 'Mesajları görüntülerken kullanıcı adı ile beraber iki tane resim görebilirsiniz. Bunlardan birisi rütbeniz ile tanımlanmış olan bir resim olabilir. Bu resim genelde yıldızlar, kareler ya da noktalar şeklindedir ve mesaj panosunda ne kadar mesaj oluşturduğunuzu ya da durumunuzu gösterir. Diğeri ise, avatar olarak bilinen genellikle daha büyük bir resimdir. Bu resim genelde kullanıcıya ait ve özeldir. Avatar kullanma imkanını mesaj panosu yöneticisi saptar. Ayrıca avatar\'ların ne şekilde kullanılabileceğinide saptar. Eğer avatar kullanamıyorsanız, mesaj panosu yöneticisi ile iletişime geçip bu imkanı ne sebepten dolayı iptal ettiğini sorabilirsiniz.'
+		0 => 'Kullanıcı adımın yanındaki resim nedir?',
+		1 => 'Mesajları görüntülerken kullanıcı adı ile birlikte iki tane resim görüntülenebilir. Bunlardan bir tanesi rütbeniz ile ilişkilendirilmiş; genellikle yıldız, blok ya da nokta şeklinde; mesaj panosundaki durumunuzu veya gönderdiğiniz mesaj sayısına göre değişkenlik gösteren bir resim olabilir. Diğeri ise, çoğunlukla büyük boyda, her kullanıcı için kişisel ya da benzersiz, avatar olarak bilinen bir resimdir.',
+	),
+	array(
+		0 => 'Bir avatarı nasıl gösterebilirim?',
+		1 => 'Kullanıcı Kontrol Panelinizde, “Profil” bölümünden şu dört farklı metottan birisini kullanarak avatar ekleyebilirsiniz: Gravatar, Galeri, Uzak Avatar ya da Avatar Yükleme. Avatar kullanma imkanı ve avatar kullanımında seçilebilecek yollar mesaj panosu yöneticisinin kararına bağlıdır. Eğer avatarları kullanamıyorsanız, bir mesaj panosu yöneticisi ile iletişime geçin.',
 	),
 	array(
 		0 => 'Rütbem nedir ve onu nasıl değiştirebilirim?',
@@ -112,8 +116,8 @@ $help = array(
 		1 => 'Mesaj Gönderme'
 	),
 	array(
-		0 => 'Bir foruma yeni bir başlık nasıl gönderilir?',
-		1 => 'Çok kolay, forumu veya başlığı görüntüleme sayfasında <em>Yeni Başlık Gönder</em> düğmesini tıklayın. Yeni mesaj göndermeden önce kayıt olmanız gerekebilir. Forum ve başlık sayfalarının alt kısmında yapabileceğiniz bütün işlemlerin listesini görebilirsiniz (örn. <em>Bu forumda yeni başlıklar gönderebilirsiniz</em> vs. gibi).'
+		0 => 'Yeni bir başlık ya da bir mesaja nasıl cevap gönderebilirim?',
+		1 => 'Bir foruma yeni bir başlık göndermek için, "Yeni Başlık" bağlantısına, bir başlığa cevap göndermek içinse, "Cevap Gönder" bağlantısına tıklayın. Bir mesaj göndermeden önce kayıt olmanız gerekebilir. Forum ve başlık ekranlarının alt kısımlarında her forum için mevcut olan izinlerin bir listesini görebilirsiniz. Örneğin: Yeni başlıklar gönderebilirsiniz, Dosya ekleri gönderebilirsiniz, v.b.',
 	),
 	array(
 		0 => 'Bir mesajı nasıl silebilir veya düzenleyebilirim?',
@@ -282,7 +286,7 @@ $help = array(
 	),
 	array(
 		0 => 'Neden arama yaptığımda sonuç çıkmıyor?',
-		1 => 'Aramanız muhtemelen son derece anlaşılmaz ve phpBB3 tarafından indekslenmeyen çok fazla genel terim içeriyor. Gelişmiş Arama içerisindeki daha fazla özellik ve mevcut seçenekleri kullanarak arama yapabilirsiniz.'
+		1 => 'Yaptığınız arama muhtemelen çok belirsiz ve phpBB tarafından indekslenmeyen çok fazla genel terim içeriyor. Gelişmiş Arama içerisindeki daha fazla özellik ve mevcut seçenekleri kullanarak arama yapabilirsiniz.'
 	),
 	array(
 		0 => 'Neden arama yaptığımda boş bir sayfa çıkıyor!?',
@@ -294,19 +298,23 @@ $help = array(
 	),
 	array(
 		0 => 'Kendi mesajlarımı ve başlıklarımı nasıl bulabilirim?',
-		1 => 'Kendi mesajlarınızı, Kullanıcı Kontrol Panelinden “Kullanıcı’nın mesajlarını ara” bağlantısına tıklayarak ya da kendi profil sayfanızdan bulabilirsiniz. Başlıklarınızı aramak için, Gelişmiş arama sayfasını kullanın ve var olan uygun seçenekleri doldurun.'
+		1 => 'Kendi mesajlarınızı, Kullanıcı Kontrol Panelinden “Mesajlarımı göster” bağlantısına tıklayarak ya da kendi profil sayfanızdaki “Kullanıcı’nın mesajlarını ara” bağlantısına tıklayarak ya da mesaj panosunun üstündeki “Hızlı Bağlantılar” menüsüne tıklayarak bulabilirsiniz. Başlıklarınızı aramak için, Gelişmiş arama sayfasını kullanın ve uygun olan seçenekleri doldurun.',
 	),
 	array(
 		0 => '--',
-		1 => 'Başlık Abonelikleri ve Yer imleri'
+		1 => 'Abonelikler ve Yer imleri'
 	),
 	array(
 		0 => 'Yer imi ve abonelik arasındaki fark nedir?',
-		1 => 'phpBB3’teki yer imleri, hemen hemen web tarayıcınızdaki yer imleri gibidir. Bir güncelleme olduğu zaman bildiri almayacaksınız, fakat başlığa daha sonra geri dönebilirsiniz. Abonelikte, farklı olarak abonelik için tercih ettiğiniz metot ya da metotlar sayesinde mesaj panosundaki forum veya başlıklarda bir güncelleme olduğu zaman bildiri alırsınız.'
+		1 => 'phpBB 3.0’da, başlık yer imleri bir web tarayıcısındaki yer imleri gibi çalışıyordu. Yer imlerine eklenen başlıklar güncellendiği zaman hiç bir uyarı alamıyordunuz. phpBB 3.1 itibariyle, yer imleri tıpkı bir başlığa abone olmak gibi çalışıyor. Yer imlerindeki bir başlık güncellendiği zaman artık bildirim alabiliyorsunuz. Aboneliklerde ise, farklı olarak, mesaj panosu genelinde bir başlık ya da forum güncellendiğinde bildirim alacaksınız. Yer imleri ve abonelikler için bildirim seçeneklerini Kullanıcı Kontrol Panelindeki “Mesaj panosu tercihleri” bölümünden ayarlayabilirsiniz.',
 	),
 	array(
-		0 => 'Belirli forumlara ya da başlıklara nasıl abone olurum?',
-		1 => 'Belirli bir foruma abone olmak için, herhangi bir foruma girdiğinizde, “Foruma abone ol” bağlantısı göreceksiniz. Bir başlığa abone olmak için, başlığa cevap verirken abonelik kutusunu işaretleyin ya da başlığın içindeki “Başlığa abone ol” bağlantısını tıklayın.'
+		0 => 'Belirli başlıkları nasıl yer imlerine eklerim ya da bu başlıklara nasıl abone olurum?',
+		1 => 'Belirli bir başlığı yer imlerine eklemek ya da bu başlığa abone olmak için bir başlıktaki üst ve alt kısımlarda bulunan “Başlık araçları” menüsünden uygun bağlantıyı tıklayabilirsiniz.<br />Ayrıca bir başlığa cevap yazarken “Mesaja cevap geldiğinde bana bildir” seçeneğini işaretleyerek başlığa abone olabilirsiniz.',
+	),
+	array(
+		0 => 'Belirli bir foruma nasıl abone olurum?',
+		1 => 'Belirli bir foruma abone olmak için, ilgili foruma giriş yaptığınızda sayfanın alt kısmında bulunan “Foruma abone ol” bağlantısına tıklayabilirsiniz.',
 	),
 	array(
 		0 => 'Aboneliklerimi nasıl silerim?',
@@ -326,11 +334,11 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB 3 Konuları'
+		1 => 'phpBB Konuları'
 	),
 	array(
 		0 => 'Bu mesaj panosunu kim yazdı?',
-		1 => 'Bu yazılım (değiştirilmemiş haliyle) <a href="https://www.phpbb.com/">phpBB Limited</a> tarafından telif hakkıyla üretilmiş ve genel dağıtıma çıkarılmıştır. Bu yazılım, GNU General Public License (Genel Kamu Lisansı) altında yapılmıştır ve serbestçe dağıtılabilir. Daha detaylı bilgiler için bağlantıya göz atın.'
+		1 => 'Bu yazılım (değiştirilmemiş haliyle) <a href="https://www.phpbb.com/">phpBB Limited</a> tarafından telif hakkıyla üretilmiş ve genel dağıtıma çıkarılmıştır. Bu yazılım, GNU General Public License (Genel Kamu Lisansı), sürüm 2 (GPL-2.0) altında yapılmıştır ve serbestçe dağıtılabilir. Daha fazla detay için <a href="https://www.phpbb.com/about/">phpBB Hakkında</a> sayfasına bakın.',
 	),
 	array(
 		0 => 'Aradığım X özellik neden yok?',
@@ -339,5 +347,9 @@ $help = array(
 	array(
 		0 => 'Bu mesaj panosuyla ilgili hukuki sorunlar için veya suistimal durumlarda kime başvurabilirim?',
 		1 => '“Takım” sayfasında listelenmiş yöneticilerin herhangi biri ile şikayetleriniz için iletişime geçebilirsiniz. Eğer onlardan cevap alamıyorsanız, o zaman alan adının sahibi ile (bir <a href="http://www.google.com/search?q=whois">whois sorgulaması</a> yaparak alan adı sahibine ulaşılabilir) ya da, eğer bu mesaj panosu ücretsiz bir serviste çalışıyorsa (ör. Yahoo!, free.fr, f2s.com, v.b.), bu servisin yönetimi veya suistimal konularla ilgilenen bölümüyle iletişime geçmelisiniz. Not: phpBB Limited, bu mesaj panosunun nasıl, nerede ve kimler tarafından kullanıldığı konusunda bir bilgisi olmadığı için <strong>kesinlikle yargılanamaz</strong> ve her ne olursa olsun sorumlu tutulamaz. phpBB.com sitesiyle veya phpBB yazılımıyla <strong>doğrudan ilgisi olmayan</strong> herhangi bir hukuki konuda (ihtiyati tedbir, mali sorumluluk, iftira vs.) phpBB Limited ile iletişime geçmeyin. Bu yazılımın herhangi <strong>üçüncü şahıslar tarafından kullanımıyla ilgili</strong> phpBB Limited’e e-posta gönderirseniz, ya çok kısa bir cevap alırsınız ya da hiç bir cevap alamazsınız.'
+	),
+	array(
+		0 => 'Bir mesaj panosu yöneticisiyle nasıl iletişime geçebilirim?',
+		1 => 'Mesaj panosunun tüm kullanıcıları, “Bize ulaşın” formunu (eğer bu özellik mesaj panosu yöneticisi tarafından etkinleştirilmişse) kullanabilir.<br />Mesaj panosunun üyeleri, bir mesaj panosu yöneticisi ile iletişime geçmek için ayrıca “Takım” bağlantısını da kullanabilir.',
 	),
 );

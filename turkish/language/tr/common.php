@@ -521,7 +521,7 @@ $lang = array_merge($lang, array(
 	'NUM_ATTACHMENTS'		=> array(
 		1	=> '%d eklenti',
 		2	=> '%d eklenti',
-	),	
+	),
 	'NUM_POSTS_IN_QUEUE'      => array(
 		0         => 'Onay bekleyen hiç bir mesaj yok',      // 0
 		1         => '1 mesaj onay bekliyor',      // 1

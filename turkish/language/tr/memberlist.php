@@ -54,6 +54,8 @@ $lang = array_merge($lang, array(
 	'DEST_LANG'				=> 'Dil',
 	'DEST_LANG_EXPLAIN'		=> 'Bu mesajın alıcısı için (eğer mevcutsa) uygun bir dil seçin.',
 
+	'EDIT_PROFILE'			=> 'Profili düzenle',
+
 	'EMAIL_BODY_EXPLAIN'	=> 'Bu mesaj düz metin olarak gönderilecektir, içeriğinde herhangi bir HTML kodu veya BBcode kullanmayın. Bu mesaj için dönüş adresi ayarlamış olduğunuz e-posta adresiniz olacaktır.',
 	'EMAIL_DISABLED'		=> 'Üzgünüz fakat tüm e-postalara ilişkin özellikler kapatıldı.',
 	'EMAIL_SENT'			=> 'E-posta gönderildi.',

@@ -142,7 +142,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'Dönüştürücü içerisindeki test_file değişkeni için hiç bir değer belirtilmedi. Eğer siz bu dönüştürücünün bir kullanıcıysanız, bu hatayı göremezsiniz, lütfen dönüştürücü yapımcısına bu mesajı bildirin. Eğer siz bir dönüştürücü yapımcısıysanız, doğrulamaya izin verilen yol hangi kaynak mesaj panosu içerisinde bulunuyorsa bir dosyanın adını belirlemelisiniz.',
 	'DIRECTORIES_AND_FILES'		=> 'Dizin ve dosya ayarı',
 	'DISABLE_KEYS'				=> 'Anahtarlar kapatılıyor',
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Uzak FTP desteği [ Kurulum ]',
 	'DLL_GD'					=> 'GD grafik desteği [ Görsel Doğrulama ]',
 	'DLL_MBSTRING'				=> 'Multi-byte karakter desteği',
@@ -269,7 +268,7 @@ $lang = array_merge($lang, array(
 	'MBSTRING_HTTP_INPUT' => 'HTTP girdi karakter dönüşümü',
 	'MBSTRING_HTTP_INPUT_EXPLAIN' => '<var>mbstring.http_input</var> <samp>izinli</samp> olarak ayarlanmalıdır.',
 	'MBSTRING_HTTP_OUTPUT' => 'HTTP çıktı karakter dönüşümü',
-	'MBSTRING_HTTP_OUTPUT_EXPLAIN' => '<var>mbstring.http_output</var> <samp>izinli<samp> olarak ayarlanmalıdır.', 
+	'MBSTRING_HTTP_OUTPUT_EXPLAIN' => '<var>mbstring.http_output</var> <samp>izinli</samp> olarak ayarlanmalıdır.', 
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Lütfen bu dosyanın mevcut olduğuna ve web sunucusu tarafından yazılabilir olduğuna emin olup tekrar deneyin:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Lütfen bu dosyaların mevcut olduğuna ve web sunucusu tarafından yazılabilir olduğuna emin olup tekrar deneyin:<br />»<strong>%s</strong>.',
