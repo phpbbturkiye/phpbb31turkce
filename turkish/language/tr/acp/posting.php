@@ -124,7 +124,6 @@ $lang = array_merge($lang, array(
 	'ICONS_ADDED'			=> array(
 		0	=> 'Hiç bir ikon eklenmedi.',
 		1	=> 'İkon başarıyla eklendi.',
-		2	=> 'İkonlar başarıyla eklendi.',
 	),
 	'ICONS_CONFIG'			=> 'İkon ayarları',
 	'ICONS_DELETED'			=> 'İkon başarıyla kaldırıldı.',
@@ -132,7 +131,6 @@ $lang = array_merge($lang, array(
 	'ICONS_EDITED'			=> array(
 		0	=> 'Hiç bir ikon güncellenmedi.',
 		1	=> 'İkon başarıyla güncellendi.',
-		2	=> 'İkonlar başarıyla güncellendi.',
 	),
 	'ICONS_HEIGHT'			=> 'İkon yüksekliği',
 	'ICONS_IMAGE'			=> 'İkon resmi',
@@ -168,7 +166,6 @@ $lang = array_merge($lang, array(
 	'SMILIES_ADDED'				=> array(
 		0	=> 'Hiç bir ifade eklenmedi.',
 		1	=> 'İfade başarıyla eklendi.',
-		2	=> 'İfadeler başarıyla eklendi.',
 	),
 	'SMILIES_CODE'				=> 'İfade Kodu',
 	'SMILIES_CONFIG'			=> 'İfade ayarları',
@@ -180,7 +177,6 @@ $lang = array_merge($lang, array(
 	'SMILIES_EDITED'			=> array(
 		0	=> 'Hiç bir ifade güncellenmedi.',
 		1	=> 'İfade başarıyla güncellendi.',
-		2	=> 'İfadeler başarıyla güncellendi.',
 	),
 	'SMILIES_EMOTION'			=> 'Duygu',
 	'SMILIES_HEIGHT'			=> 'İfade yüksekliği',
@@ -194,7 +190,6 @@ $lang = array_merge($lang, array(
 	'SMILIES_WIDTH'				=> 'İfade genişliği',
 	'TOO_MANY_SMILIES'			=> array(
 		1	=> '%d ifade sınırına ulaşıldı.',
-		2	=> '%d ifade sınırına ulaşıldı.',
 	),
 
 	'WRONG_PAK_TYPE'	=> 'Belirtilen paket uygun veriye sahip değil.',

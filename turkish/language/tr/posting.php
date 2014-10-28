@@ -74,11 +74,9 @@ $lang = array_merge($lang, array(
 	'CHANGE_TOPIC_TO'			=> 'Başlık tipini değiştir',
 	'CHARS_POST_CONTAINS'		=> array(
 		1	=> 'Mesajınız %1$d karakter içeriyor.',
-		2	=> 'Mesajınız %1$d karakter içeriyor.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
 		1	=> 'İmzanız %1$d karakter içeriyor.',
-		2	=> 'İmzanız %1$d karakter içeriyor.',
 	),	
 	'CLOSE_TAGS'				=> 'Etiketleri kapat',
 	'CURRENT_TOPIC'				=> 'Şu anki başlık',
@@ -146,25 +144,20 @@ $lang = array_merge($lang, array(
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Fontları sadece en yüksek %d boyutuna kadar kullanabilirsiniz.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Flash dosyalarınız en fazla %d piksel yüksekliğinde olabilir.',
-		2	=> 'Flash dosyalarınız en fazla %d piksel yüksekliğinde olabilir.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
 		1	=> 'Flash dosyalarınız en fazla %d piksel genişliğinde olabilir.',
-		2	=> 'Flash dosyalarınız en fazla %d piksel genişliğinde olabilir.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Resimleriniz en fazla %1$d piksel yüksekliğinde olabilir.',
-		2	=> 'Resimleriniz en fazla %1$d piksel yüksekliğinde olabilir.',
 	),
 	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
 		1	=> 'Resimleriniz en fazla %d piksel genişliğinde olabilir.',
-		2	=> 'Resimleriniz en fazla %d piksel genişliğinde olabilir.',
 	),
 
 	'MESSAGE_BODY_EXPLAIN'		=> array(
 		0	=> '', // zero means no limit, so we don't view a message here.
 		1	=> 'Buraya mesajınızı girin, mesajınız <strong>%d</strong> karakterden fazlasını içermemelidir.',
-		2	=> 'Buraya mesajınızı girin, mesajınız <strong>%d</strong> karakterden fazlasını içermemelidir.',
 	),
 	'MESSAGE_DELETED'			=> 'Bu mesaj başarıyla silindi.',
 	'MORE_SMILIES'				=> 'Daha fazla ifade görüntüle',
@@ -189,11 +182,9 @@ $lang = array_merge($lang, array(
 	'POLL_OPTIONS'				=> 'Anket seçenekleri',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
 		1	=> 'Her bir satıra bir seçenek yerleştirin. <strong>%d</strong> seçenek girebilirsiniz.',
-		2	=> 'Her bir satıra bir seçenek yerleştirin. En fazla <strong>%d</strong> seçeneğe kadar giriş yapabilirsiniz.',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
 		1	=> 'Her bir satıra bir seçenek yerleştirin. <strong>%d</strong> seçenek girebilirsiniz. Eğer seçenekler ekler ya da kaldırırsanız önceden kullanılan tüm oylar sıfırlanacaktır.',
-		2	=> 'Her bir satıra bir seçenek yerleştirin. En fazla <strong>%d</strong> seçeneğe kadar giriş yapabilirsiniz. Eğer seçenekler ekler ya da kaldırırsanız önceden kullanılan tüm oylar sıfırlanacaktır.',
 	),
 	'POLL_QUESTION'				=> 'Anket sorusu',
 	'POLL_TITLE_TOO_LONG'		=> 'Anket başlığı 100 karakterden daha az karakter içermelidir.',
@@ -221,7 +212,6 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
 		1	=> 'Birbiri içine sadece %d alıntı yerleştirebilirsiniz.',
-		2	=> 'Birbiri içine sadece %d alıntı yerleştirebilirsiniz.',
 	),
 	'QUOTE_NO_NESTING'			=> 'Birbiri içine alıntılar yerleştiremezsiniz.',	
 
@@ -241,13 +231,12 @@ $lang = array_merge($lang, array(
 	'TOO_FEW_CHARS'				=> 'Mesajınız çok az karakter içeriyor.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
 		1	=> 'En az %1$d karakter girmelisiniz.',
-		2	=> 'En az %1$d karakter girmelisiniz.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'En az iki anket seçeneği girmelisiniz.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Başka bir dosya eki eklenemiyor, en fazla %d tane eklenebilir.',
 	'TOO_MANY_CHARS'			=> 'Mesajınız çok fazla karakter içeriyor.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
-		2	=> 'En fazla izin verilen karakter sayısı %1$d.',
+		1	=> 'En fazla izin verilen karakter sayısı %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Çok fazla anket seçeneği girmeyi denediniz.',
 	'TOO_MANY_SMILIES'			=> 'Mesajınız çok fazla ifade içeriyor. İzin verilen en fazla ifade sayısı %d.',

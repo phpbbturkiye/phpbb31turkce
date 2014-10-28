@@ -123,7 +123,6 @@ $lang = array_merge($lang, array(
 	'LEAVE_SHADOW'				=> 'Burada bulunan gölgeli başlığı boş bırak',
 	'LIST_REPORTS'				=> array(
 		1	=> '%d bildiri',
-		2	=> '%d bildiri',
 	),
 	'LOCK'						=> 'Kilitle',
 	'LOCK_POST_POST'			=> 'Mesajı kilitle',
@@ -267,8 +266,7 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Seçilen ÖM bildirileri başarıyla silindi.',
 	'PM_REPORTS_TOTAL'			=> array(
 		0	=> 'İncelemek için herhangi bir ÖM bildirisi yok.',
-		1	=> 'İncelemek için toplam <strong>1</strong> ÖM bildirisi var.',
-		2	=> 'İncelemek için toplam <strong>%d</strong> ÖM bildirisi var.',
+		1	=> 'İncelemek için toplam <strong>%d</strong> ÖM bildirisi var.',
 	),
 	'PM_REPORT_DETAILS'			=> 'Özel mesaj bildiri detayları',
 
@@ -301,8 +299,7 @@ $lang = array_merge($lang, array(
 	'REPORTS_DELETED_SUCCESS'	=> 'Seçilen bildiriler başarıyla silindi.',
 	'REPORTS_TOTAL'				=> array(
 		0	=> 'İncelemek için hiç bir bildiri yok.',
-		1	=> 'İncelemek için toplam <strong>1</strong> bildiri var.',
-		2	=> 'İncelemek için toplam <strong>%d</strong> bildiri var.',
+		1	=> 'İncelemek için toplam <strong>%d</strong> bildiri var.',
 	),
 	'REPORT_CLOSED'			=> 'Bu bildiri daha önce kapatıldı.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Seçilen bildiri başarıyla kapatıldı.',
@@ -385,8 +382,7 @@ $lang = array_merge($lang, array(
 
 	'UNAPPROVED_POSTS_TOTAL'		=> array(
 		0	=> 'Onay için bekleyen hiç bir mesaj yok.',
-		1	=> 'Onay için bekleyen toplam <strong>1</strong> mesaj var.',
-		2	=> 'Onay için bekleyen toplam <strong>%d</strong> mesaj var.',
+		1	=> 'Onay için bekleyen toplam <strong>%d</strong> mesaj var.',
 	),
 	'UNLOCK'						=> 'Kilidi aç',
 	'UNLOCK_POST'					=> 'Mesajın kilidini aç',

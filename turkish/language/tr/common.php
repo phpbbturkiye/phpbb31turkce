@@ -132,7 +132,6 @@ $lang = array_merge($lang, array(
 	'BROWSING_FORUM'      => 'Bu forumu gezen kullanıcılar: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
 		1	=> 'Bu forumu görüntüleyen kullanıcılar: %2$s ve %1$d misafir',
-		2	=> 'Bu forumu görüntüleyen kullanıcılar: %2$s ve %1$d misafir',
 	),
 	'BUTTON_EDIT'			=> 'Düzenle',
 	'BUTTON_FORUM_LOCKED'	=> 'Kilitli',
@@ -155,7 +154,6 @@ $lang = array_merge($lang, array(
  	'CHANGING_PROFILE'		=> 'Profil ayarları değiştiriliyor',
 	'CHARACTERS'			=> array(
 		1	=> '%d karakter',
-		2	=> '%d karakter',
 	),
 	'COLLAPSE_VIEW'			=> 'Dar görünüm',
 	'CLOSE_WINDOW'			=> 'Pencereyi kapat',
@@ -197,7 +195,6 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'Hiç indirilmedi',
 		1	=> '%d kere indirildi',
-		2	=> '%d kere indirildi',
 	),
 
 	'EDIT_POST'							=> 'Mesajı düzenle',
@@ -296,11 +293,9 @@ $lang = array_merge($lang, array(
 	'GUEST'						=> 'Misafir',
 	'GUEST_USERS_ONLINE'		=> array(
 		1	=> '%d misafir kullanıcı çevrimiçi',
-		2	=> '%d misafir kullanıcı çevrimiçi',
 	),
 	'GUEST_USERS_TOTAL'			=> array(
 		1	=> '%d misafir',
-		2	=> '%d misafir',
 	),
 	'G_ADMINISTRATORS'			=> 'Yöneticiler',
 	'G_BOTS'					=> 'Botlar',
@@ -312,11 +307,9 @@ $lang = array_merge($lang, array(
 
 	'HIDDEN_USERS_ONLINE'		=> array(
 		1	=> '%d gizli kullanıcı',
-		2	=> '%d gizli kullanıcı',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> '%d gizli',
-		2	=> '%d gizli',
 	),
 	'HIDE_GUESTS'				=> 'Misafirleri gizle',
 	'HIDE_ME'					=> 'Bu oturumda çevrimiçi olduğumu gizle',
@@ -402,7 +395,6 @@ $lang = array_merge($lang, array(
 	'MESSAGES'			=> 'Mesajlar',
 	'MESSAGES_COUNT'		=> array(
 		1	=> '%d mesaj',
-		2	=> '%d mesaj',
 	),	
 	'MESSAGE_BODY'		=> 'Mesaj gövdesi',
 	'MINUTES'			=> 'Dakika',
@@ -471,7 +463,7 @@ $lang = array_merge($lang, array(
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'diğer kişiler',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d diğer kişi',
+		1	=> '%d diğer kişi',
 	),	
  	'NOTIFY_ADMIN'				=> 'Lütfen mesaj panosu yöneticisine ya da webmaster’a bildirin.',
  	'NOTIFY_ADMIN_EMAIL'		=> 'Lütfen mesaj panosu yöneticisine ya da webmaster’a bildirin: <a href="mailto:%1$s">%1$s</a>',
@@ -520,12 +512,10 @@ $lang = array_merge($lang, array(
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_ATTACHMENTS'		=> array(
 		1	=> '%d eklenti',
-		2	=> '%d eklenti',
 	),
 	'NUM_POSTS_IN_QUEUE'      => array(
 		0         => 'Onay bekleyen hiç bir mesaj yok',      // 0
-		1         => '1 mesaj onay bekliyor',      // 1
-		2         => '%d mesaj onay bekliyor',      // 2+
+		1         => '%d mesaj onay bekliyor',      // 1
 	),
 
 	'OCCUPATION'				=> 'Meslek',
@@ -535,12 +525,10 @@ $lang = array_merge($lang, array(
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
 		1	=> 'Toplam <strong>%1$d</strong> kullanıcı çevrimiçi :: %2$s ve %3$s',
-		2	=> 'Toplam <strong>%1$d</strong> kullanıcı çevrimiçi :: %2$s ve %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
 		1	=> 'Toplam <strong>%1$d</strong> kullanıcı çevrimiçi :: %2$s, %3$s ve %4$s',
-		2	=> 'Toplam <strong>%1$d</strong> kullanıcı çevrimiçi :: %2$s, %3$s ve %4$s',
 	),
 	'OPTIONS'					=> 'Seçenekler',
 
@@ -550,7 +538,6 @@ $lang = array_merge($lang, array(
 	'PIXEL'					=> 'piksel',
 	'PIXELS'				=> array(
 		1	=> '%d piksel',
-		2	=> '%d piksel',
 	),
 	'PLAY_QUICKTIME_FILE'	=> 'Quicktime dosyasını oynat',
 	'PLEASE_WAIT'			=> 'Lütfen bekleyin.',
@@ -614,11 +601,9 @@ $lang = array_merge($lang, array(
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
 		1	=> '%1$d kayıtlı kullanıcı ve %2$s çevrimiçi',
-		2	=> '%1$d kayıtlı kullanıcı ve %2$s çevrimiçi',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> '%d kayıtlı',
-		2	=> '%d kayıtlı',
 	),
 	'REMOVE'					=> 'Sil',
 	'REMOVE_INSTALL'			=> 'Lütfen mesaj panonuzu kullanmadan önce install klasörünü silin, taşıyın veya yeniden adlandırın. Eğer bu klasör mevcutsa, sadece Yönetim Kontrol Paneline (YKP) erişilebilinecektir.',
@@ -764,23 +749,21 @@ $lang = array_merge($lang, array(
 	'TOTAL_ATTACHMENTS'	=> 'Dosya eki(ekleri)',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d kayıt',
-		2	=> '%d kayıt',
 	),
 	'TOTAL_PMS'		=> array(
 		1	=> 'Toplam %d özel mesaj',
-		2	=> 'Toplam %d özel mesaj',
 	),
 	'TOPIC_POLL'		=> 'Bu başlık bir ankete sahip.',	
 	'TOTAL_POSTS'		=> 'Toplam mesajlar',
 	'TOTAL_POSTS_COUNT'	=> array(
-		2	=> 'Toplam <strong>%d</strong> mesaj',
+		1	=> 'Toplam <strong>%d</strong> mesaj',
 	),
 	'TOPIC_REPORTED'	=> 'Bu başlık bildirildi',
 	'TOTAL_TOPICS'		=> array(
-		2	=> 'Toplam <strong>%d</strong> başlık',
+		1	=> 'Toplam <strong>%d</strong> başlık',
 	),
 	'TOTAL_USERS'		=> array(
-		2	=> 'Toplam <strong>%d</strong> üye',
+		1	=> 'Toplam <strong>%d</strong> üye',
 	),
 	'TRACKED_PHP_ERROR'	=> 'İzlenen PHP hataları: %s',
 	'TWITTER'			=> 'Twitter',	
@@ -809,7 +792,6 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_READ'		=> 'Bu forumdaki mesajları okuyamazsınız.',
 	'USER_POSTS'			=> array(
 		1	=> '%d Mesaj',
-		2	=> '%d Mesaj',
 	),
 	'USERS'					=> 'Kullanıcılar',
 	'USE_PERMISSIONS'		=> 'Kullanıcı’nın yetkilerini sına',
@@ -820,7 +802,6 @@ $lang = array_merge($lang, array(
 	'VIEWED_COUNTS'		=> array(
 		0	=> 'Hiç görüntülenmedi',
 		1	=> '%d kere görüntülendi',
-		2	=> '%d kere görüntülendi',
 	),
 	'VIEWING_CONTACT_ADMIN'		=> 'İletişim sayfası görüntüleniyor',	
 	'VIEWING_FAQ'				=> 'SSS görüntüleniyor',
@@ -839,7 +820,6 @@ $lang = array_merge($lang, array(
 	'VIEW_NOTES'				=> 'Kullanıcı notlarını görüntüle',
 	'VIEW_ONLINE_TIMES'			=> array(
 		1	=> 'son %d dakika öncesinden itibaren aktif olan kullanıcılar temel alınır',
-		2	=> 'son %d dakika öncesinden itibaren aktif olan kullanıcılar temel alınır',
 	),
 	'VIEW_TOPIC'				=> 'Başlığı görüntüle',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Duyuru: ',
@@ -887,7 +867,6 @@ $lang = array_merge($lang, array(
 		'AGO'		=> array(
 			0		=> 'bir dakika önceden daha az',
 			1		=> '%d dakika önce',
-			2		=> '%d dakika önce',
 		),
 
 		'Sunday'	=> 'Pazar',

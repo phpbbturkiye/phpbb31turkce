@@ -199,11 +199,9 @@ $lang = array_merge($lang, array(
 	'FIELD_REQUIRED'			=> '“%s” alanı tamamlanmış olmalıdır.',
 	'FIELD_TOO_SHORT'					=> array(
 		1	=> '“%2$s” alanı çok kısa, en az %1$d karakter gerekmektedir.',
-		2	=> '“%2$s” alanı çok kısa, en az %1$d karakter gerekmektedir.',
 	),
 	'FIELD_TOO_LONG'					=> array(
 		1	=> '“%2$s” alanı çok uzun, en fazla %1$d karaktere izin verilmektedir.',
-		2	=> '“%2$s” alanı çok uzun, en fazla %1$d karaktere izin verilmektedir.',
 	),
 	'FIELD_TOO_SMALL'					=> '“%2$s” değeri çok küçük, en az %1$d değer gerekmektedir.',
 	'FIELD_TOO_LARGE'					=> '“%2$s” değeri çok büyük, en fazla %1$d değere izin verilmektedir.',
@@ -229,7 +227,6 @@ $lang = array_merge($lang, array(
 	'FOLDER_ADDED'				=> 'Klasör başarıyla eklendi.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
 		1	=> '%1$s üzerinden %2$d saklandı',
-		2	=> '%1$s üzerinden %2$d saklandı',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Bu klasör için bir ad girmelisiniz.',
 	'FOLDER_NAME_EXIST'			=> '<strong>%s</strong> adlı klasör zaten var.',
@@ -238,7 +235,6 @@ $lang = array_merge($lang, array(
 	'FOLDER_REMOVED'			=> 'Klasör başarıyla silindi.',
 	'FOLDER_STATUS_MSG'			=> array(
 		1	=> 'Klasör %3$d%% dolu (%1$s üzerinden %2$d saklandı)',
-		2	=> 'Klasör %3$d%% dolu (%1$s üzerinden %2$d saklandı)',
 	),
 	'FORWARD_PM'				=> 'ÖM İlet',
 	'FORCE_PASSWORD_EXPLAIN'		=> 'Mesaj panosunu dolaşmaya devam etmeden önce şifrenizi değiştirmeniz gerekmektedir.',
@@ -310,7 +306,6 @@ $lang = array_merge($lang, array(
 	'MOVE_MARKED_TO_FOLDER'		=> 'İşaretlileri %s klasörüne taşı',
 	'MOVE_PM_ERROR'					=> array(
 		1	=> 'Mesajlar yeni klasöre taşınırken bir hata oluştu, %1$s üzerinden sadece %2$d taşındı.',
-		2	=> 'Mesajlar yeni klasöre taşınırken bir hata oluştu, %1$s üzerinden sadece %2$d taşındı.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Klasöre taşı',
 	'MOVE_UP'						=> 'Yukarı taşı',
@@ -360,7 +355,6 @@ $lang = array_merge($lang, array(
 	'NOT_ENOUGH_SPACE_FOLDER'	=> '“%s” adındaki gidecek klasör dolu görünüyor. İstenilen eylem gerçekleştirilemiyor.',
 	'NOT_MOVED_MESSAGES'			=> array(
 		1	=> 'Klasör dolu olduğundan şu anda %d özel mesajınız bekletiliyor.',
-		2	=> 'Klasör dolu olduğundan şu anda %d özel mesajınız bekletiliyor.',
 	),
 	'NO_ACTION_MODE'			=> 'Hiç bir mesaj eylemi belirtilmedi',
 	'NO_AUTHOR'					=> 'Bu mesaj için hiç bir yazar tanımlanmadı',
@@ -466,7 +460,6 @@ $lang = array_merge($lang, array(
 	'RULE_NOT_DEFINED'			=> 'Kural doğru şekilde belirlenmedi.',
 	'RULE_REMOVED_MESSAGES'				=> array(
 		1	=> 'Özel mesaj filtreleri nedeniyle %d özel mesaj silindi.',
-		2	=> 'Özel mesaj filtreleri nedeniyle %d özel mesaj silindi.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Girdiğiniz yeni şifre şu anki şifreniz ile aynı.',
@@ -588,7 +581,6 @@ $lang = array_merge($lang, array(
 	'VIEW_PM_INFO'				=> 'Mesaj detayları',
 	'VIEW_PM_MESSAGES'			=> array(
 		1	=> '%d mesaj',
-		2	=> '%d mesaj',
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Bu tarihten önceki ÖM',
 	'VIEW_PREVIOUS_PM'			=> 'Önceki ÖM',

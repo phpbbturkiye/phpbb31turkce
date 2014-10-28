@@ -777,7 +777,6 @@ $lang = array_merge($lang, array(
 	'LOG_WARNING_DELETED'		=> '<strong>Kullanıcı uyarısı silindi</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
 		1 => '<strong>Kullanıcı uyarısı silindi</strong><br />» %1$s',
-		2 => '<strong>%2$d kullanıcı uyarısı silindi</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tüm kullanıcı uyarıları silindi</strong><br />» %s',
 

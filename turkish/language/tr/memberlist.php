@@ -94,7 +94,6 @@ $lang = array_merge($lang, array(
 	'LESS_THAN'					=> 'Daha az',
 	'LIST_USERS'				=> array(
 		1	=> '%d kullanıcı',
-		2	=> '%d kullanıcı',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> 'Mesaj panosu, takım listesini görüntülemek için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Mesaj panosu, üye listesine erişim için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
@@ -137,8 +136,7 @@ $lang = array_merge($lang, array(
 	'USER_FORUM'			=> 'Kullanıcı istatistikleri',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Şu anda gönderilen hiç bir hatırlatma yok',
-		1		=> '%1$d hatırlatma gönderildi<br />» %2$s',
-		2		=> '%1$d hatırlatma gönderildi<br />» %2$s',		
+		1		=> '%1$d hatırlatma gönderildi<br />» %2$s',	
 	),
 	'USER_ONLINE'			=> 'Çevrimiçi',
 	'USER_PRESENCE'			=> 'Mesaj panosundaki görünüşü',

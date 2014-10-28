@@ -58,7 +58,6 @@ $lang = array_merge($lang, array(
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'En son %2$s tarafından %3$s tarihinde düzenlendi, toplamda %1$d kere düzenlendi.',
-		2	=> 'en son %2$s tarafından %3$s tarihinde düzenlendi, toplamda %1$d kere düzenlendi.',
 	),
 	'EMAIL_TOPIC'			=> 'Başlığı e-posta ile gönder',
 	'ERROR_NO_ATTACHMENT'	=> 'Seçilen dosya eki artık mevcut değil.',
@@ -76,8 +75,7 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'			=> '“Normal” olarak değiştir',
 	'MAKE_STICKY'			=> '“Sabit” olarak değiştir',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> '<strong>%d</strong> seçenek seçebilirsiniz',
-		2	=> 'En fazla <strong>%d</strong> seçenek seçebilirsiniz',
+		1	=> 'En fazla <strong>%d</strong> seçenek seçebilirsiniz',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> '<strong>%s</strong> adlı dosya eki artık mevcut değil',
 	'MOVE_TOPIC'			=> 'Başlığı taşı',
@@ -117,7 +115,6 @@ $lang = array_merge($lang, array(
 	'VIEW_RESULTS'			=> 'Sonuçları Görüntüle',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d mesaj',
-		2	=> '%d mesaj',
 	),
 	'VIEW_UNREAD_POST'		=> 'Önce okunmamış mesaj',
 	'VOTE_SUBMITTED'		=> 'Oyunuz ankete eklendi.',

@@ -44,11 +44,9 @@ $lang = array_merge($lang, array(
 
 	'FOUND_SEARCH_MATCHES'		=> array(
 		1	=> '%d uygun sonuç bulundu',
-		2	=> '%d uygun sonuç bulundu',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
 		1	=> '%d uygun sonuçtan fazlası bulundu',
-		2	=> '%d uygun sonuçtan fazlası bulundu',
 	),
 
 	'GLOBAL'				=> 'Global başlık',
@@ -64,7 +62,6 @@ $lang = array_merge($lang, array(
 	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
 		1	=> 'Aramak için çok fazla kelime belirlediniz. Lütfen %1$d kelimeden fazlasını girmeyin.',
-		2	=> 'Aramak için çok fazla kelime belirlediniz. Lütfen %1$d kelimeden fazlasını girmeyin.',
  	),
 
 	'NO_KEYWORDS'			=> 'Arama yapmak için en az bir kelime belirlemelisiniz. Her kelime, jokerler hariç en az %s ve en fazla %s içermelidir.',
@@ -73,7 +70,6 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH_RESULTS'		=> 'Uygun sonuç bulunamadı.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Üzgünüz fakat arama fonksiyonunu şu anda kullanamazsınız. Lütfen %d saniye sonra tekrar deneyin.',
-		2	=> 'Üzgünüz fakat arama fonksiyonunu şu anda kullanamazsınız. Lütfen %d saniye sonra tekrar deneyin.',
 	),
 	'NO_SEARCH_UNREADS'     => 'Üzgünüz fakat bu mesaj panosunda okunmamış mesajlar için arama yapma özelliği kapatıldı.',
 	'WORD_IN_NO_POST'		=> 'Hiç bir mesaj bulunamadı çünkü <strong>%s</strong> kelimesini içeren herhangi bir mesaj yok.',
@@ -118,6 +114,5 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
 		1	=> 'Yazar adını en az %d karakter olarak belirlemelisiniz.',
-		2	=> 'Yazar adını en az %d karakter olarak belirlemelisiniz.',
 	),
 ));

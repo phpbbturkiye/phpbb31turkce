@@ -5,6 +5,7 @@
 Sürüm Geçmişi:
 -------------------------------------------------------
 28-10-2014 v1.1.0
+- Çoğul (plurals) kelimelerdeki hatalar düzeltildi.
 - subsilver2 dosyaları eklendi.
 - Dil dosyaları phpBB 3.1.0 sürümü için güncellendi.
 

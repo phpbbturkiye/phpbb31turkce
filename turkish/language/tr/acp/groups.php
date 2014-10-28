@@ -59,7 +59,6 @@ $lang = array_merge($lang, array(
 	'GROUP_COLOR_EXPLAIN'			=> 'Bu gruba dahil üyelerin kullanıcı adlarının rengini tanımlar, boş bırakılırsa kullanıcı varsayılan rengi kullanır.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
 		1	=> '%2$s kullanıcısını gruba eklemek istediğinize emin misiniz?',
-		2	=> '%2$s kullanıcılarını gruba eklemek istediğinize emin misiniz?',
 	),
 	'GROUP_CREATED'					=> 'Grup başarıyla oluşturuldu',
 	'GROUP_DEFAULT'					=> 'Üye için varsayılan grup yap',
