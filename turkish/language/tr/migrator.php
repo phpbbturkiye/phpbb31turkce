@@ -41,12 +41,16 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> '"%s" grubu beklenmedik bir şekilde mevcut değil.',
 
+	'MIGRATION_APPLY_DEPENDENCIES'		=> '%s bağımlılıkları uygula.',
 	'MIGRATION_DATA_DONE'				=> 'Yüklenen Veri: %1$s; Zaman: %2$.2f saniye',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Veri Yükleniyor: %1$s; Zaman: %2$.2f saniye',
+	'MIGRATION_DATA_RUNNING'			=> 'Veri Yükleniyor: %s.',	
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migrasyon zaten etkin bir şekilde yüklendi (atlandı): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'İstek sırasında bazı şeyler ters gitti ve bir istisna atıldı. Güçlü yeteneklerimiz sayesinde hata oluşmadan önce yapılan değişiklikler geri alındı, ancak yine de mesaj panosunu hatalar için kontrol etmelisiniz.',
 	'MIGRATION_NOT_FULFILLABLE'			=> '"%1$s" migrasyonu yerine getirilebilir değil, kayıp migrasyon "%2$s".',
+	'MIGRATION_NOT_VALID'				=> '%s geçerli bir migrasyon değil.',	
 	'MIGRATION_SCHEMA_DONE'				=> 'Yüklenen Şema: %1$s; Zaman: %2$.2f saniye',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Şema Yükleniyor: %s.',	
 
 	'MODULE_ERROR'						=> 'Bir modül oluşturulurken bir hata oluştu: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Gereken bir modül bilgi dosyası eksik: %2$s',
