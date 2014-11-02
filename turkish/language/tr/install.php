@@ -546,7 +546,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com indirme sayfasına</a> gidin ve "Otomatik Güncelleme Paketi" arşivini indirin.<br /><br /></li>
 			<li>Arşivi açın.<br /><br /></li>
-			<li>phpBB ana dizininize (config.php dosyanızın bulunduğu dizin) sıkıştırılmamış install klasörünün tamamını yükleyin.<br /><br /></li>
+			<li>phpBB ana dizininize (config.php dosyanızın bulunduğu dizin) sıkıştırılmamış "install" ve "vendor" klasörlerinin tamamını yükleyin.<br /><br /></li>
 		</ul>
 
 		<p>Mesaj panonuz, şu anda yüklediğiniz mevcut install klasörünün yükleme işlemi sırasında ve işlem bittikten sonra normal kullanıcılar için çevrimdışı olacaktır.<br /><br />
