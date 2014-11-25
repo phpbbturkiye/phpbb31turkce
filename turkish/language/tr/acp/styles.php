@@ -74,6 +74,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Kurulmuş stiller listesine dön',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Daha fazla stil kur',
 	'STYLE_NAME'				=> 'Stil adı',
+	'STYLE_NAME_RESERVED'		=> '"%s" stili, stil adı daha önceden rezerve edildiği için kurulamadı.',
 	'STYLE_NOT_INSTALLED'		=> '"%s" stili kurulu değil.',
 	'STYLE_PATH'				=> 'Stil yolu',
 	'STYLE_UNINSTALL'			=> 'Kurulumu kaldır',

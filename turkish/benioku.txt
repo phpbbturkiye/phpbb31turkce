@@ -1,9 +1,12 @@
-﻿#### Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir ####
+#### Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir ####
 ####
 #### phpBB3 Türkçe Dil Paketi ####
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+25-11-2014 v1.1.2
+- Dil dosyaları phpBB 3.1.2 sürümü için güncellendi.
+
 02-11-2014 v1.1.1
 - Dil dosyaları phpBB 3.1.1 sürümü için güncellendi.
 
