@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'ACL_U_VIEWPROFILE'	=> 'Can view profiles, memberlist and online list',
+	'ACL_U_VIEWPROFILE'	=> 'Profilleri, üye listesini ve çevrimiçi listesini görüntüleyebilir',
 	'ACL_U_CHGNAME'		=> 'Kullanıcı adı değiştirebilir',
 	'ACL_U_CHGPASSWD'	=> 'Şifre değiştirebilir',
 	'ACL_U_CHGEMAIL'	=> 'E-posta adresi değiştirebilir',

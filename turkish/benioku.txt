@@ -4,6 +4,10 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+07-12-2014 v1.1.2a
+- acp/permissions_phpbb.php dosyasında 'ACL_U_VIEWPROFILE' satırındaki tercüme edilmeyen cümle düzeltildi.
+- acp/board.php dosyasında 'READ_NOTIFICATION_EXPIRE_DAYS' ve 'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' satırlarındaki hatalı tercümeler düzeltildi.
+
 25-11-2014 v1.1.2
 - Dil dosyaları phpBB 3.1.2 sürümü için güncellendi.
 
