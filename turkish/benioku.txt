@@ -4,6 +4,10 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+17-12-2014 v1.1.2b
+- acp/common.php dosyasında 'DISPLAY_LOG' değişkeninin karşılığındaki hatalı tercüme düzeltildi. 
+- acp/common.php dosyasında 'ADMIN_INTRO' değişkeninin karşılığındaki UTF-8 destekli olmayan noktalama işareti düzeltildi.
+
 07-12-2014 v1.1.2a
 - acp/permissions_phpbb.php dosyasında 'ACL_U_VIEWPROFILE' satırındaki tercüme edilmeyen cümle düzeltildi.
 - acp/board.php dosyasında 'READ_NOTIFICATION_EXPIRE_DAYS' ve 'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' satırlarındaki hatalı tercümeler düzeltildi.

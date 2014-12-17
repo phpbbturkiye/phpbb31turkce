@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Buradaki listelerde tüm kullanıcılar tarafından ya da kullanıcılar üzerinde yapılan tüm eylemleri (bildiriler, uyarılar ve kullanıcı notları) görebilirsiniz.',
 	'ALL_ENTRIES'				=> 'Tüm girdiler',
 
-	'DISPLAY_LOG'	=> 'Kayıtları öncekilerden itibaren göster',
+	'DISPLAY_LOG'	=> 'Şu tarihten itibaren kayıtları göster',
 
 	'NO_ENTRIES'	=> 'Bu dönem için hiç bir kayıt girdisi yok.',
 
@@ -337,7 +337,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'phpBB\'yi mesaj panosu çözümü olarak seçtiğiniz için teşekkür ederiz. Bu ekranda mesaj panonuzun çeşitli istatistikleri hakkında genel ve kısa bilgiler gösterilir. Sol taraftaki bağlantı ekranında, mesaj panonuzla ilgili özellikleri kontrol etmenize olanak sağlanır. Her bir sayfada bu özellikleri nasıl kullanacağınızı gösteren yönergeler mevcuttur.',
+	'ADMIN_INTRO'				=> 'phpBB’yi mesaj panosu çözümü olarak seçtiğiniz için teşekkür ederiz. Bu ekranda mesaj panonuzun çeşitli istatistikleri hakkında genel ve kısa bilgiler gösterilir. Sol taraftaki bağlantı ekranında, mesaj panonuzla ilgili özellikleri kontrol etmenize olanak sağlanır. Her bir sayfada bu özellikleri nasıl kullanacağınızı gösteren yönergeler mevcuttur.',
 	'ADMIN_LOG'					=> 'Yönetici işlem kayıtları',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Bu bilgi mesaj panosu yöneticisi tarafından gerçekleştirilen son 5 hareketi görmeyi sağlar. Tüm kayıtları görebilmek için sol taraftaki menü öğelerine bakılmalıdır.',
 	'AVATAR_DIR_SIZE'			=> 'Avatar klasör büyüklüğü',
