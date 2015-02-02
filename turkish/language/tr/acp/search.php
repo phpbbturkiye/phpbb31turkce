@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'phpBB için sphinx search, sadece MySQL ve PostgreSQL veritabanlarını destekler.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx ayar dosyası',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Sphinx ayar dosyasının içeriği oluşturuldu. Bu veri, sphinx search deamon tarafından kullanılabilmesi için sphinx.conf dosyasnın içerisine yapıştırılmalıdır.[dbuser] ve [dbpassword] ile belirtilen yerleri veritabanınızın kimlik bilgileriyle değiştirin.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Sphinx veri ve ayar dizin yolu belirlenmedi. Lütfen ayar dosyası oluşturmak için bunları belirleyin.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Sphinx veri dizin yolu belirlenmedi. Lütfen ayar dosyası oluşturmak için bu yolu belirleyin.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Genel Arama Ayarları',
 	'GO_TO_SEARCH_INDEX'					=> 'Arama indeks sayfasına git',

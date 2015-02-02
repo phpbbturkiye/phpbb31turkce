@@ -68,6 +68,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'En son herhangi bir arama yapılmadı.',
 	'NO_SEARCH'				=> 'Üzgünüz fakat arama sistemini kullanma izniniz yok.',
 	'NO_SEARCH_RESULTS'		=> 'Uygun sonuç bulunamadı.',
+	'NO_SEARCH_LOAD'		=> 'Üzgünüz fakat arama özelliğini şu an kullanamazsınız. Sunucuda yüksek oranda yük var. Lütfen daha sonra tekrar deneyin.',	
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Üzgünüz fakat arama fonksiyonunu şu anda kullanamazsınız. Lütfen %d saniye sonra tekrar deneyin.',
 	),

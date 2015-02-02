@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+03-02-2015 v1.1.3
+- Dil dosyaları phpBB 3.1.3 sürümü için güncellendi.
+
 17-12-2014 v1.1.2b
 - acp/common.php dosyasında 'DISPLAY_LOG' değişkeninin karşılığındaki hatalı tercüme düzeltildi. 
 - acp/common.php dosyasında 'ADMIN_INTRO' değişkeninin karşılığındaki UTF-8 destekli olmayan noktalama işareti düzeltildi.

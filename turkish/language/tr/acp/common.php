@@ -556,6 +556,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'            	=> '<strong>Mesaj kilitlendi</strong><br />» %s',
 	'LOG_MERGE'               	=> '<strong>Mesajlar birleştirildi</strong><br />» Mesajlar %s başlığı içerisine alındı',
 	'LOG_MOVE'               	=> '<strong>Başlık taşındı</strong><br />» Başlık %1$s forumundan %2$s forumuna taşındı',
+	'LOG_MOVED_TOPIC'			=> '<strong>Başlık taşındı</strong><br />» %s',	
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>ÖM bildirisi kapatıldı</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>ÖM bildirisi silindi</strong><br />» %s',
 	'LOG_POST_APPROVED'   		=> '<strong>Mesaj onaylandı</strong><br />» %s', 
