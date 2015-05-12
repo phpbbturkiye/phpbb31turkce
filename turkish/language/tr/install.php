@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'BEGIN_CONVERT'					=> 'Dönüşüme başla',
 	'BLANK_PREFIX_FOUND'			=> 'Tablolarınızda yapılan tarama sırasında, geçerli bir kurulum için hiç bir tablo öneki kullanılmadığı görüldü.',
 	'BOARD_NOT_INSTALLED'			=> 'Hiç bir kurulum bulunmadı',
- 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'phpBB Birleştirme Dönüştürücü Sistemi işlevini yerine getirmek için phpBB3\'ün varsayılan bir kurulumuna ihtiyaç duyuyor, lütfen <a href="%s">ilk önce phpBB3 kurulumuna devam edin</a>.',
+ 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'phpBB Birleştirme Dönüştürücü Sistemi işlevini yerine getirmek için phpBB3’ün varsayılan bir kurulumuna ihtiyaç duyuyor, lütfen <a href="%s">ilk önce phpBB3 kurulumuna devam edin</a>.',
 	'BACKUP_NOTICE'					=> 'Lütfen güncelleme işlemi sırasında ortaya çıkabilecek problemlere karşı, güncelleme yapmadan önce mesaj panonuzu yedekleyin.',	
 
 	'CATEGORY'					=> 'Kategori',
@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Veritabanı şifresi',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
 	'DB_PORT_EXPLAIN'			=> 'Bildiğiniz sunucu işlemleri bir standart portta olmadıkça burayı boş bırakın.',
-	'DB_UPDATE_NOT_SUPPORTED'	=> 'Üzgünüz, ancak bu güncelleme paketi phpBB’nin “%1$s” sürümünden önceki sürümlerden güncellemeyi desteklememektedir. Yüklü olan mevcut sürümünüz “%2$s”\'dir. Lütfen bu güncelleme paketini çalıştırmadan önce forumunuzu bir önceki sürüme güncelleyin. Konu ile ilgili olarak phpBB.com sitesindeki Destek Forumları size yardımcı olacaktır.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Üzgünüz, ancak bu güncelleme paketi phpBB’nin “%1$s” sürümünden önceki sürümlerden güncellemeyi desteklememektedir. Yüklü olan mevcut sürümünüz “%2$s”’dir. Lütfen bu güncelleme paketini çalıştırmadan önce forumunuzu bir önceki sürüme güncelleyin. Konu ile ilgili olarak phpBB.com sitesindeki Destek Forumları size yardımcı olacaktır.',
 	'DB_USERNAME'				=> 'Veritabanı kullanıcı adı',
 	'DB_TEST'					=> 'Bağlantı testi',
 	'DEFAULT_LANG'				=> 'Varsayılan forum dili',
@@ -166,9 +166,10 @@ $lang = array_merge($lang, array(
 	'FILES_OPTIONAL'			=> 'İsteğe Bağlı dosyalar ve klasörler',
 	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>İsteğe Bağlı</strong> - Bu dosyalar, klasörler veya izin ayarları gerekli değildir. Eğer bunlar bulunamıyorsa veya yazılamıyorsa, kurulum sistemi çeşitli teknikler kullanarak onları oluşturmaya çalışacaktır. Fakat, bunların hazır bulunması kurulumu hızlandıracaktır.',
 	'FILES_REQUIRED'			=> 'Dosyalar ve Klasörler',
-	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Gerekli</strong> - phpBB\'nin düzgün bir şekilde işlemesi için bazı dosya ve klasörlere yazılabilmesi veya erişilebilmesi gerekmektedir. Eğer "Bulunamadı" ifadesini görüyorsanız konu ile ilgili dosya veya klasörü oluşturmanız gerekmektedir. Eğer "Yazılabilir değil" ifadesini görüyorsanız dosya veya klasördeki izinleri değiştirip yazılması için phpBB\'ye izin vermeniz gerekmektedir.',
+	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Gerekli</strong> - phpBB’nin düzgün bir şekilde işlemesi için bazı dosya ve klasörlere yazılabilmesi veya erişilebilmesi gerekmektedir. Eğer "Bulunamadı" ifadesini görüyorsanız konu ile ilgili dosya veya klasörü oluşturmanız gerekmektedir. Eğer "Yazılabilir değil" ifadesini görüyorsanız dosya veya klasördeki izinleri değiştirip yazılması için phpBB’ye izin vermeniz gerekmektedir.',
 	'FILLING_TABLE'				=> 'Doldurulan tablo <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Tablolar dolduruluyor',
+
 	'FINAL_STEP'				=> 'Final adımı işlemi',
 	'FORUM_ADDRESS'				=> 'Mesaj panosu adresi',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Bu, önceki mesaj panonuzun URL adresidir, örneğin <samp>http://www.siteadresi.com/phpBB2/</samp>. Eğer buraya bir adres girilmişse ve bu adresin hiç bir kısmı boş değilse yeni mesaj panosu adresiniz tarafından mesajlar, özel mesajlar ve imzalar dahilinde eskisi ile değiştirilecektir.',
@@ -178,7 +179,7 @@ $lang = array_merge($lang, array(
 	'FTP_CONFIG'				=> 'FTP tarafından transfer ayarı',
 	'FTP_CONFIG_EXPLAIN'		=> 'phpBB, bu sunucuda FTP modülünün hazır bulunduğunu tespit etti. Eğer isterseniz config.php dosyanızı bu yolla yükleyebilirsiniz. Aşağıda listelenen bilgileri temin etmeniz gerekmektedir. Unutmayın, kullanıcı adı ve şifreniz sunucunuza ait olandır! (eğer bunların ne olduğuna emin değilseniz bilgi için hosting sağlayıcınıza sorun).',
 	'FTP_PATH'					=> 'FTP yolu',
-	'FTP_PATH_EXPLAIN'			=> 'Bu, ana dizininizden phpBB\'ye giden yoldur, ör. <samp>htdocs/phpBB3/</samp>.',
+	'FTP_PATH_EXPLAIN'			=> 'Bu, ana dizininizden phpBB’ye giden yoldur, ör. <samp>htdocs/phpBB3/</samp>.',
 	'FTP_UPLOAD'				=> 'Yükle',
 
 	'GPL'						=> 'Genel Kamu Lisansı',
@@ -188,9 +189,9 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS'			=> 'Tebrikler!',
  	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		phpBB %1$s sürümünü başarıyla kurdunuz. Lütfen aşağıdaki seçeneklerden birini seçerek ilerleyin:</p>
-		<h2>Mevcut bir mesaj panosunu phpBB3\'e dönüştürmek</h2>
-		<p>phpBB Birleştirme Dönüştürücü Sistemi phpBB 2.0.x ve diğer mesaj panosu sistemlerinden phpBB3\'e dönüşümü destekler. Eğer dönüştürmek istediğiniz mevcut bir mesaj panonuz varsa, lütfen <a href="%2$s">dönüştürücüye doğru ilerleyin</a>.</p>
-		<h2>phpBB3\'ünüz ile yolunuza devam edin!</h2>
+		<h2>Mevcut bir mesaj panosunu phpBB3’e dönüştürmek</h2>
+		<p>phpBB Birleştirme Dönüştürücü Sistemi phpBB 2.0.x ve diğer mesaj panosu sistemlerinden phpBB3’e dönüşümü destekler. Eğer dönüştürmek istediğiniz mevcut bir mesaj panonuz varsa, lütfen <a href="%2$s">dönüştürücüye doğru ilerleyin</a>.</p>
+		<h2>phpBB3’ünüz ile yolunuza devam edin!</h2>
 		<p>Alttaki butona tıkladıktan sonra Yönetim Kontrol Paneli (YKP)’nizdeki bazı istatistiksel verileri phpBB’ye ulaştıracağınız bir form ile karşılaşacaksınız. Eğer o bilgileri göndererek bizlere yardımcı olursanız, sizlere minnettar kalacağız. Daha sonra biraz zamanınızı ayırarak size sunulan mevcut seçenekleri inceleyebilirsiniz. <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Dokümantasyon</a>, <a href="%3$s">BENİ OKU</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">Destek Forumları</a> yoluyla çevrimiçi yardım alabileceğinizi unutmayın.</p><p><strong>Lütfen mesaj panonuzu kullanmadan önce install klasörünü silin, taşıyın ya da yeniden adlandırın. Eğer bu klasör mevcutsa, sadece Yönetim Kontrol Paneline (YKP) erişilebilinecektir.</strong>',
 	'INSTALL_INTRO'				=> 'Kuruluma Hoşgeldiniz',
 
@@ -233,15 +234,15 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_INVALID_PREFIX'=> 'Girdiğiniz önek hatalı. Önek, bir harf ile başlamalıdır ve sadece harfler, sayılar ve altçizgiler içermelidir.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Hiç bir hata mesajı belirlenmedi.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Bu makinede kurulu olan MySQL sürümü seçtiğiniz “MySQL ile MySQLi Uzantısı” seçeneği ile uyuşmuyor. Lütfen bunun yerine “MySQL” seçeneğini seçerek tekrar deneyin.',
-	'INST_ERR_DB_NO_SQLITE'		=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
-	'INST_ERR_DB_NO_SQLITE3'	=> 'Kurulu olan SQLite uzantısı\'nın sürümü çok eski, en düşük 3.6.15 sürümüne güncellenmelidir.',	
-	'INST_ERR_DB_NO_ORACLE'		=> 'Bu makinede kurulu olan Oracle\'nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>\'e göre ayarlamanız gerekiyor. Kurulumunuzu 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
+	'INST_ERR_DB_NO_SQLITE'		=> 'Kurulu olan SQLite uzantısı’nın sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'Kurulu olan SQLite uzantısı’nın sürümü çok eski, en düşük 3.6.15 sürümüne güncellenmelidir.',	
+	'INST_ERR_DB_NO_ORACLE'		=> 'Bu makinede kurulu olan Oracle’nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>’e göre ayarlamanız gerekiyor. Kurulumunuzu 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Seçtiğiniz veritabanı <var>UNICODE</var> veya <var>UTF8</var> kodlaması içerisinde oluşturulamadı. <var>UNICODE</var> veya <var>UTF8</var> kodlaması ile oluşturulmuş bir veritabanı ile kurmayı deneyin.',
 	'INST_ERR_DB_NO_NAME'		=> 'Hiç bir veritabanı adı belirtilmedi.',
 	'INST_ERR_EMAIL_INVALID'	=> 'Girdiğiniz e-posta adresi hatalı.',
 	'INST_ERR_EMAIL_MISMATCH'	=> 'Girdiğiniz e-posta adresleri uyuşmuyor.',
 	'INST_ERR_FATAL'			=> 'Tehlikeli kurulum hatası',
-	'INST_ERR_FATAL_DB'			=> 'Tehlikeli ve düzeltilemez bir veritabanı hatası meydana geldi. Bu olabilir, çünkü belirlenen kullanıcı <code>CREATE TABLES</code> ya da <code>INSERT</code> verisi, v.b. için uygun izinlere sahip değildir. Daha fazla bilgiyi aşağıdan alabilirsiniz. Lütfen ilk önce hosting sağlayıcınız ile iletişime geçin ya da daha fazla yardımcı bilgi için phpBB\'nin destek forumlarını ziyaret edin.',
+	'INST_ERR_FATAL_DB'			=> 'Tehlikeli ve düzeltilemez bir veritabanı hatası meydana geldi. Bu olabilir, çünkü belirlenen kullanıcı <code>CREATE TABLES</code> ya da <code>INSERT</code> verisi, v.b. için uygun izinlere sahip değildir. Daha fazla bilgiyi aşağıdan alabilirsiniz. Lütfen ilk önce hosting sağlayıcınız ile iletişime geçin ya da daha fazla yardımcı bilgi için phpBB’nin destek forumlarını ziyaret edin.',
 	'INST_ERR_FTP_PATH'			=> 'Belirlenen klasöre değişim yapılamıyor, lütfen dizini kontrol edin.',
 	'INST_ERR_FTP_LOGIN'		=> 'FTP sunucuna giriş yapılamıyor, kullanıcı adı ve şifrenizi kontrol edin.',
 	'INST_ERR_MISSING_DATA'		=> 'Bu bölümdeki tüm alanları doldurmalısınız.',
@@ -260,7 +261,7 @@ $lang = array_merge($lang, array(
 
 	// mbstring
 	'MBSTRING_CHECK'			=> '<samp>mbstring</samp> uzantısı kontrolü',
-	'MBSTRING_CHECK_EXPLAIN'  => '<strong>Gerekli</strong> - <samp>mbstring</samp>, çoklu bayt dizisi fonksiyonu sağlayan bir PHP uzantısıdır. mbstring\'in bazı özellikleri phpBB ile uyumlu değildir ve kapalı olmalıdır',
+	'MBSTRING_CHECK_EXPLAIN'  => '<strong>Gerekli</strong> - <samp>mbstring</samp>, çoklu bayt dizisi fonksiyonu sağlayan bir PHP uzantısıdır. mbstring’in bazı özellikleri phpBB ile uyumlu değildir ve kapalı olmalıdır',
 	'MBSTRING_FUNC_OVERLOAD' => 'Aşırı yükleme fonksiyonu',
 	'MBSTRING_FUNC_OVERLOAD_EXPLAIN' => '<var>mbstring.func_overload</var> 0 veya 4 olarak ayarlanmalıdır.',
 	'MBSTRING_ENCODING_TRANSLATION' => 'Açık karakter kodlaması',
@@ -284,7 +285,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Konumu tespit edilemedi. Eğer Imagemagick’in kurulu olduğunu biliyorsanız, daha sonra yönetim kontrol panelinizden konumunu belirleyebilirsiniz',
 	'NO_TABLES_FOUND'			=> 'Hiç bir tablo bulunmadı.',
 
-	'OVERVIEW_BODY'            => 'phpBB3’e hoşgeldiniz!<br /><br />phpBB® dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 2000 yılında başlayan bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2\'de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu kurulum sistemi phpBB3 kurulumu yaparken, geçmiş bir sürümden phpBB3’ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3’e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="../docs/INSTALL.html">kurulum rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
+	'OVERVIEW_BODY'            => 'phpBB3’e hoşgeldiniz!<br /><br />phpBB® dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 2000 yılında başlayan bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2’de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu kurulum sistemi phpBB3 kurulumu yaparken, geçmiş bir sürümden phpBB3’ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3’e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="../docs/INSTALL.html">kurulum rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
 	
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 desteği',
  	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'Eğer PHP kurulumunuz PCRE uzantısı içinde UTF-8 desteği ile derlenmediyse phpBB <strong>çalışmayacaktır</strong>.',
@@ -482,7 +483,7 @@ $lang = array_merge($lang, array(
 	'NUM_CONFLICTS'					=> 'Uyuşmazlıkların sayısı',
 	'NUMBER_OF_FILES_COLLECTED'      => 'Şu anda %2$d dosyadan %1$d tanesinin farklılıkları kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyin.',
 
-	'OLD_UPDATE_FILES'              => 'Güncelleme dosyaları eski. phpBB %1$s sürümünden phpBB %2$s sürümüne güncelleme yapmak için güncelleme dosyaları bulundu fakat phpBB\'nin son sürümü %3$s.',
+	'OLD_UPDATE_FILES'              => 'Güncelleme dosyaları eski. phpBB %1$s sürümünden phpBB %2$s sürümüne güncelleme yapmak için güncelleme dosyaları bulundu fakat phpBB’nin son sürümü %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'Sürüm için şu anki paket güncellemeleri',
 	'PERFORM_DATABASE_UPDATE'			=> 'Veritabanı güncellemesi yap',
@@ -628,4 +629,4 @@ $lang = array_merge($lang, array(
    'SMILIES_WINK'             => 'Göz Kırpıyor', 
      
    'TOPICS_TOPIC_TITLE'     => 'phpBB3’e hoşgeldiniz', 
-)); 
+));
