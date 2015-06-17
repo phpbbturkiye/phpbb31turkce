@@ -50,7 +50,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_FULFILLABLE'			=> '"%1$s" migrasyonu yerine getirilebilir değil, kayıp migrasyon "%2$s".',
 	'MIGRATION_NOT_VALID'				=> '%s geçerli bir migrasyon değil.',	
 	'MIGRATION_SCHEMA_DONE'				=> 'Yüklenen Şema: %1$s; Zaman: %2$.2f saniye',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Şema Yükleniyor: %s.',	
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Şema Yükleniyor: %s.',
+
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migrasyon geçersiz. Bir if ifade yardımcısı eksik bir koşul içeriyor.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Migrasyon geçersiz. Migrasyon adımına geçmek için bir if ifade yardımcısı eksik bir geçerli çağrı içeriyor.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Migrasyon geçersiz. Özel bir çağrılabilir fonksiyon çağrılamadı.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Migrasyon geçersiz. Bilinmeyen bir migrasyon aracı türüyle karşılaşıldı.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Migrasyon geçersiz. Tanımlanmamış bir migrasyon aracıyla karşılaşıldı.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migrasyon geçersiz. Tanımlanmamış bir migrasyon aracı metotu ile karşılaşıldı.',
 
 	'MODULE_ERROR'						=> 'Bir modül oluşturulurken bir hata oluştu: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Gereken bir modül bilgi dosyası eksik: %2$s',

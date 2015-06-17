@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Özel reCaptcha anahtarı',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Özel reCaptcha anahtarınız. Anahtarlar <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinden elde edilebilir.',
 
-	'RECAPTCHA_EXPLAIN'            => 'Otomatik gönderimleri önlemek amacıyla, görüntüdeki kelimeleri de altındaki metin alanına girmeniz gereklidir.',
+	'RECAPTCHA_EXPLAIN'				=> 'Otomatik gönderimleri önlemek amacıyla, görüntülenen metni altındaki alana yazmanız gereklidir.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'RECAPTCHA servisine bağlanılırken bir hata oluştu: soket açılamadı. Daha sonra tekrar deneyin.',
 ));
