@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'REQUIRES_STYLE'			=> 'Bu stilin kurulması için "%s" stili gereklidir.',
 
 	'STYLE_ACTIVATE'			=> 'Aktifleştir',
-	'STYLE_ACTIVE'				=> 'Actif',
+	'STYLE_ACTIVE'				=> 'Aktif',
 	'STYLE_DEACTIVATE'			=> 'Deaktifleştir',
 	'STYLE_DEFAULT'				=> 'Varsayılan stil yap',
 	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Stili varsayılan stil yapmadan önce aktifleştirmelisiniz.',

@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+01-08-2015 v1.1.5a
+- language/tr/acp/styles.php dosyasında ufak bir çeviri hatası düzeltildi (Actif -> Aktif)
+
 17-06-2015 v1.1.5
 - Dil dosyaları phpBB 3.1.5 sürümü için güncellendi.
 
