@@ -68,18 +68,24 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Eklenti Adı',
 	'EXTENSION_ACTIONS'			=> 'Eylemler',
 	'EXTENSION_OPTIONS'			=> 'Seçenekler',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Eklentinin güncellenmesi',
-	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Eklenti devre dışı bırakılır</li>
-			<li>Eklenti dosyaları dosya sisteminden silinir</li>
-			<li>Yeni dosyalar yüklenir</li>
-			<li>Eklenti etkinleştirilir</li>
+	'EXTENSION_INSTALL_HEADLINE'=> 'Bir eklenti nasıl kurulur?',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>phpBB’nin eklenti veritabanından bir eklenti indirin</li>
+			<li>Sıkıştırılmış eklenti zip klasörünü açın ve phpBB mesaj panonuzun <samp>ext/</samp> dizinine yükleyin</li>
+			<li>Eklentiyi buradaki Eklenti yöneticisinden etkinleştirin</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Eklentinin mesaj panosundan tamamen silinmesi',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Bir eklenti nasıl güncellenir?',
+	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
+			<li>Eklentiyi devre dışı bırakın</li>
+			<li>Eklenti dosyalarını dosya sisteminden silin</li>
+			<li>Yeni dosyaları yükleyin</li>
+			<li>Eklentiyi etkinleştirin</li>
+		</ol>',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Bir eklenti mesaj panosundan tamamen nasıl silinir?',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Eklenti devre dışı bırakılır</li>
-			<li>Eklenti verileri silinir</li>
-			<li>Eklenti dosyaları dosya sisteminden silinir</li>
+			<li>Eklentiyi devre dışı dırakın</li>
+			<li>Eklenti verilerini silin</li>
+			<li>Eklenti dosyalarını dosya sisteminden silin</li>
 		</ol>',
 
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> '“%s” ile ilişkili verileri silmek istediğinize emin misiniz?<br /><br />Bu işlem eklentiye ait tüm verileri ve ayarları kaldıracaktır, geri alınamaz!',
@@ -118,6 +124,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Tüm sürümleri yeniden kontrol et',
 	'FORCE_UNSTABLE'					=> 'Her zaman kararsız sürümleri kontrol et',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Sürüm kontrol ayarları',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Eklenti veritabanına göz at',
 
 	'META_FIELD_NOT_SET'	=> 'Gerekli %s meta alanı ayarlanmadı.',
 	'META_FIELD_INVALID'	=> '%s meta alanı geçersiz.',

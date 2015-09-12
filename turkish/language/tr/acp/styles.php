@@ -83,4 +83,6 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'Kullananlar (robotlar dahil)',
 
 	'UNINSTALL_DEFAULT'		=> 'Varsayılan stilin kurulumunu kaldıramazsınız.',
+
+	'BROWSE_STYLES_DATABASE'	=> 'Stil veritabanına göz at',
 ));

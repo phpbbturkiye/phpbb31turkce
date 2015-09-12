@@ -73,4 +73,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> '“%s” dil paketinde olması gereken alttaki dil değişkenleri eksik',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Kaldırılmış dil paketleri',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Dil paketleri veritabanına göz at',	
 ));
