@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Belirtilen eklentiyi etkinleştirir.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Bağlı olmayan taşınmaları bulur.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Bir yapılandırma seçeneğinin değerini alır',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Bir yapılandırma seçeneğinin değerini arttırır',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Bir yapılandırma seçeneğinin tamsayı değerini arttırır',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Dosya sistemi üzerinde ve veritabanı içerisindeki tüm eklentileri listeler.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Güvenli Mod’da çalıştır (eklentiler olmadan).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell’i başlat.',
@@ -78,4 +78,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Etkinleştirildi',	
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tüm e-posta hashleri başarıyla yeniden hesaplandı.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' İsteğe bağlı olarak sadece belirli cron görevini çalıştırmak için bir cron görev adı belirtebilirsiniz.',
 ));

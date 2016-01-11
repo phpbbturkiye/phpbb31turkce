@@ -322,6 +322,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Mimetype %s için %d resim dosya tipi desteklenmiyor.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Resim dosya tipi uyumsuz: tahmin edilen uzantı %1$s fakat %2$s uzantısı verildi.',
 	'IN'						=> 'forum',
+	'INACTIVE'					=> 'Aktif değil',	
 	'INDEX'					=> 'Ana sayfa',
 	'INFORMATION'			=> 'Bilgi',
 	'INSECURE_REDIRECT'			=> 'Potansiyel olarak güvenli olmayan url sayfasına yönlenmeye çalışıldı.',
@@ -459,7 +460,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Başlık onaylanmadı</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '%1$s tarafından <strong>başlık onay</strong> isteği geldi:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> '"%s" bildirim tipi dosya sisteminde mevcut değil.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Yeni kayıt olan kullanıcı için <strong>aktivasyon gerekiyor</strong>: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Yeni kayıtlı ya da deaktif edilmiş kullanıcı için <strong>aktivasyon gerekiyor</strong>: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'diğer kişiler',
 	'NOTIFICATION_X_OTHERS'				=> array(

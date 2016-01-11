@@ -334,7 +334,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Bir mesajda alıntı yapıldınız',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Bir mesaj bildirisi yapıldı',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Abonesi olduğunuz foruma bir başlık oluşturuldu',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Yeni kayıtlı kullanıcı aktivasyonu gerekiyor',	
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Kullanıcı aktivasyonu gerekiyor',
 
 	'NOTIFY_METHOD'					=> 'Bildirim metotu',
 	'NOTIFY_METHOD_BOTH'			=> 'Her ikisi',

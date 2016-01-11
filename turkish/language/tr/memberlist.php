@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Mesaj panosu, kullanıcıları aramak için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Mesaj panosu, profilleri görüntülemek için kayıt olmanızı ve giriş yapmanızı gerekli tutuyor.',
 
+	'MANAGE_GROUP'			=> 'Grubu yönet',	
 	'MORE_THAN'				=> 'Daha çok',
 
 	'NO_CONTACT_FORM'		=> 'Mesaj panosu yöneticisi iletişim formu kapatıldı.',
