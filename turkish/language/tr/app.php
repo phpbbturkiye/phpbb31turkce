@@ -44,5 +44,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> '#%1$s bağımsız değişkeni için eksik değer: <strong>%2$s</strong> sınıfında <strong>%3$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Hiç bir denetleyici belirtilmedi.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Denetleyici için hiç bir metot belirlenmemiş.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> '"<strong>%s</strong>" denetleyicisi için ./config/services.yml dosyası içerisinde hiç bir servis belirlenmedi.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> '“<strong>%s</strong>” denetleyicisi için ./config/services.yml dosyası içerisinde hiç bir servis belirlenmedi.',
 ));
