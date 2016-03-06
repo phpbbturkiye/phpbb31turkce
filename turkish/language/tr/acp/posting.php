@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // BBCodes 
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode HTML yapısıyla neyin nasıl gösterileceği konusunda yapılan uygulamalardır. Bu sayfadan BBCode ekleyebilir, silebilir ve özel BBCode\'ları düzenleyebilirsiniz.',
+	'ACP_BBCODES_EXPLAIN'		=> 'BBCode HTML yapısıyla neyin nasıl gösterileceği konusunda yapılan uygulamalardır. Bu sayfadan BBCode ekleyebilir, silebilir ve özel BBCode’ları düzenleyebilirsiniz.',
 	'ADD_BBCODE'				=> 'Yeni bir BBCode ekle',
 
 	'BBCODE_DANGER'				=> 'Eklemeyi denediğiniz BBCode bir HTML niteliği içerisinde yanıltıcı bir {TEXT} tipi kullanıldığını gösteriyor. Bu XSS güvenlik sorunundan olabilir. Onun yerine daha başka tanımlayıcı {SIMPLETEXT} ya da {INTTEXT} tiplerini kullanmayı deneyin. Eğer ilgili riskleri anladıysanız ve kesinlikle kaçınılmaz olarak {TEXT} tipini kullanmayı düşünüyorsanız sadece ilerleyin.',
@@ -54,8 +54,8 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_TEXT'		=> 'Yardım satırı metni',
 	'BBCODE_HELPLINE_TOO_LONG'   => 'Girdiğiniz yardım satırı çok uzun.',
 	'BBCODE_INVALID_TAG_NAME'	=> 'Seçtiğiniz BBCode etiket adı zaten var.',
-	'BBCODE_INVALID'         => 'BBCode\'unuz geçersiz bir form içinde yapıldı.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Özel BBCode\'unuz bir açık ve bir kapalı etiket içermelidir.', 
+	'BBCODE_INVALID'         => 'BBCode’unuz geçersiz bir form içinde yapıldı.',
+	'BBCODE_OPEN_ENDED_TAG'		=> 'Özel BBCode’unuz bir açık ve bir kapalı etiket içermelidir.', 
 	'BBCODE_TAG'				=> 'Etiket',
 	'BBCODE_TAG_TOO_LONG'		=> 'Seçtiğiniz etiket adı çok uzun.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'Girdiğiniz etiket tanımı çok uzun, lütfen etiket tanımınızı kısaltın.',
@@ -243,7 +243,7 @@ $lang = array_merge($lang, array(
 	'ADD_DISALLOW_EXPLAIN'	=> 'Bir kullanıcı adına izin vermeyeceğiniz zaman, kullanıcı adının içeriğindeki herhangi bir karakterle uyumlu olması için * karakterini joker olarak kullanabilirsiniz.',
 	'ADD_DISALLOW_TITLE'	=> 'İzin verilmeyen bir kullanıcı adı ekle',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden kullanıcı adı seçip gönder\'e tıklayarak izin verilmeyen bir kullanıcı adını kaldırabilirsiniz.',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden kullanıcı adı seçip gönder’e tıklayarak izin verilmeyen bir kullanıcı adını kaldırabilirsiniz.',
 	'DELETE_DISALLOW_TITLE'		=> 'İzin verilmeyen bir kullanıcı adını kaldır',
 	'DISALLOWED_ALREADY'		=> 'Girdiğiniz kullanıcı adına zaten izin verilmiyor.',
 	'DISALLOWED_DELETED'		=> 'Yasaklı kullanıcı adı başarıyla kaldırıldı',

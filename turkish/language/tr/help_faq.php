@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0 => 'BBCode nedir?',
-		1 => 'BBCode HTML\'in özel bir uygulamasıdır. Forum\'a yazdığınız mesajlarda BBCode kullanabilme imkanını mesaj panosu yöneticisi saptar. Ayrıca mesaj gönderme formundaki seçenekler sayesinde dilediğiniz mesajlarda BBCode\'ı iptal etmeniz mümkündür. BBCode, HTML\'e benzer tarzdadır fakat tag\'ler &lt; ve &gt; yerine köşeli parantez içine alınır: [ ve ]. Ayrıca nelerin nasıl görüntülendiği daha iyi kontrol edilebilir. BBCode hakkında daha geniş bilgiler için, mesaj gönderme sayfasından ulaşabileceğiniz rehbere bakınız.'
+		1 => 'BBCode HTML’in özel bir uygulamasıdır. Forum’a yazdığınız mesajlarda BBCode kullanabilme imkanını mesaj panosu yöneticisi saptar. Ayrıca mesaj gönderme formundaki seçenekler sayesinde dilediğiniz mesajlarda BBCode’ı iptal etmeniz mümkündür. BBCode, HTML’e benzer tarzdadır fakat tag’ler &lt; ve &gt; yerine köşeli parantez içine alınır: [ ve ]. Ayrıca nelerin nasıl görüntülendiği daha iyi kontrol edilebilir. BBCode hakkında daha geniş bilgiler için, mesaj gönderme sayfasından ulaşabileceğiniz rehbere bakınız.'
 	),
 	array(
 		0 => 'HTML kullanabilir miyim?',
@@ -185,7 +185,7 @@ $help = array(
 	),
 	array(
 		0 => 'Resim gönderebilir miyim?',
-		1 => 'Gönderdiğiniz mesajla beraber resimde görüntülenebilir. Fakat şu anda mesaj panosuna doğrudan resim göndermek mümkün değildir. Bu yüzden umuma açık bir web sunucusunda kayıtlı bir resme bağlantı vermeniz gerek, örn. http://www.umuma-acik-sunucu.net/resim.gif . Kendi bilgisayarınızda bulunan bir resme bağlantı vermeniz mümkün değil (bilgisayarınız umuma açık bir web sunucu olmadığı sürece). Ayrıca, umuma açık olmayan ve sadece şifreyle ulaşılan resimlere bağlantı vermek mümkün değildir (örn. hotmail veya yahoo mailboxlarında vs. kayıtlı resimler). Resim görüntülemek için, BBCode\'ın [img] tag\'ini ya da (müsaade verilmişse) HTML kullanabilirsiniz.'
+		1 => 'Gönderdiğiniz mesajla beraber resimde görüntülenebilir. Fakat şu anda mesaj panosuna doğrudan resim göndermek mümkün değildir. Bu yüzden umuma açık bir web sunucusunda kayıtlı bir resme bağlantı vermeniz gerek, örn. http://www.umuma-acik-sunucu.net/resim.gif . Kendi bilgisayarınızda bulunan bir resme bağlantı vermeniz mümkün değil (bilgisayarınız umuma açık bir web sunucu olmadığı sürece). Ayrıca, umuma açık olmayan ve sadece şifreyle ulaşılan resimlere bağlantı vermek mümkün değildir (örn. hotmail veya yahoo mailboxlarında vs. kayıtlı resimler). Resim görüntülemek için, BBCode’ın [img] tag’ini ya da (müsaade verilmişse) HTML kullanabilirsiniz.'
 	),
 	array(
 		0 => 'Global duyurular nedir?',

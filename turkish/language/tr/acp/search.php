@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Bu sayı makinenizdeki mevcut hafızadan (RAMden) her zaman daha düşük olmalıdır. Eğer periyodik performans sorunları yaşıyorsanız, bu sorunlar çok fazla kaynak tüketen indeksleyici yüzünden kaynaklanıyor olabilir. Bu ayar indeksleyici için kullanılan mevcut hafıza miktarını azaltmaya yardımcı olabilir.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Ana indeks içerisindeki mesajların sayısı',
 	'FULLTEXT_SPHINX_PORT'					=> 'Sphinx search daemon portu',
-	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Sphinx search daemon (searchd) üzerinde dinleme yapılan port. Varsayılan Sphinx API portu olan 9312\'yi kullanmak için boş bırakın',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Sphinx search daemon (searchd) üzerinde dinleme yapılan port. Varsayılan Sphinx API portu olan 9312’yi kullanmak için boş bırakın',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'phpBB için sphinx search, sadece MySQL ve PostgreSQL veritabanlarını destekler.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx ayar dosyası',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Sphinx ayar dosyasının içeriği oluşturuldu. Bu veri, sphinx search deamon tarafından kullanılabilmesi için sphinx.conf dosyasnın içerisine yapıştırılmalıdır.[dbuser] ve [dbpassword] ile belirtilen yerleri veritabanınızın kimlik bilgileriyle değiştirin.',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Arama uygulaması panonuzdaki tüm mesajları şu an indeksliyor. Bu işlem panonuzun boyutuna bağlı olarak bir kaç dakika ya da bir kaç saat sürebilir.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Arama sayfası sistem yüklenme sınırı',
-	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Eğer 1 dakika boyunca sistem yüklenmesi aşılırsa bu değer arama sayfasını çevrimdışı bırakacaktır, bir işlemcinin ~100%\'lük kullanımı 1.0\'a eşitlenecektir. Bu özellik sadece UNIX tabanlı sunucularda bulunur.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Eğer 1 dakika boyunca sistem yüklenmesi aşılırsa bu değer arama sayfasını çevrimdışı bırakacaktır, bir işlemcinin ~100%’lük kullanımı 1.0’a eşitlenecektir. Bu özellik sadece UNIX tabanlı sunucularda bulunur.',
 
 	'MAX_SEARCH_CHARS'						=> 'Aramada indekslenecek en yüksek karakter',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Aramada indekslenecek kelimeler bundan fazla olmayacaktır.',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_STORE_RESULTS'					=> 'Arama sonucu önbellek süresi',
 	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Önbelleklenen arama sonuçları saniye cinsinden belirtilecek ve bu zamandan sonra boşaltılacaktır. Eğer arama önbelleklemesini kapatmak istiyorsanız 0 yazın.',
 	'SEARCH_TYPE'							=> 'Arama Uygulaması',
-	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB mesaj içeriğindeki metinleri arayabilmek için bir uygulama seçmenize izin verir. Varsayılan arama olarak phpBB\'nin kendi tam metin aramasını kullanacaksınız.',
+	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB mesaj içeriğindeki metinleri arayabilmek için bir uygulama seçmenize izin verir. Varsayılan arama olarak phpBB’nin kendi tam metin aramasını kullanacaksınız.',
 	'SWITCHED_SEARCH_BACKEND'				=> 'Arama uygulaması seçtiniz. Yeni arama uygulamasını kullanmak için seçtiğiniz uygulamanın bir indeksini oluşturmalısınız.',
 
 	'TOTAL_WORDS'							=> 'İndekslenen kelimelerin toplam sayısı',

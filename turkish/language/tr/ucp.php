@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Seçilenin rütbesini düşür',
 	'DISABLE_CENSORS'			=> 'Kelime sansürlemeyi aç',
 	'DISPLAY_GALLERY'			=> 'Galeriyi göster',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Girilen e-posta alan adı\'nın MX kaydı geçerli değil.',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Girilen e-posta alan adı’nın MX kaydı geçerli değil.',
 	'DOWNLOADS'					=> 'İndirmeler',
 	'DRAFTS_DELETED'			=> 'Seçilen tüm taslaklar başarıyla silindi.',
 	'DRAFTS_EXPLAIN'			=> 'Buradan kayıtlı taslaklarınızı görüntüleyebilir, düzenleyebilir ve silebilirsiniz.',
@@ -530,7 +530,7 @@ $lang = array_merge($lang, array(
 	
 	'UCP_PM'					=> 'Özel mesajlar',
 	'UCP_PM_COMPOSE'			=> 'Mesaj oluştur',
-	'UCP_PM_DRAFTS'				=> 'ÖM taslakları\'nı yönet',
+	'UCP_PM_DRAFTS'				=> 'ÖM taslakları’nı yönet',
 	'UCP_PM_OPTIONS'			=> 'Kurallar, klasörler &amp; ayarlar',
 	'UCP_PM_UNREAD'				=> 'Okunmayan mesajlar',
 	'UCP_PM_VIEW'				=> 'Mesajları görüntüle',

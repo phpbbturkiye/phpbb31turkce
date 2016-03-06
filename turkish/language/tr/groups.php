@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGNED_PENDING'		=> 'Askıda olan üyeliğiniz seçilen gruptan başarıyla silindi.',
 	'GROUP_TYPE'			=> 'Grup tipi',
 	'GROUP_UNDISCLOSED'					=> 'Gizli Grup',
-	'FORUM_UNDISCLOSED'					=> 'Gizli forum(lar)\'ı yönet',
+	'FORUM_UNDISCLOSED'					=> 'Gizli forum(lar)’ı yönet',
 
 	'LOGIN_EXPLAIN_GROUP'	=> 'Grup detaylarını görüntülemek için giriş yapmalısınız.',
 

@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 	'MIN_FIELD_NUMBER'		=> 'En düşük izin verilen sayı',
 
 	'NO_FIELD_ENTRIES'			=> 'Girdi belirtilmedi',
-	'NO_FIELD_ID'				=> 'Alan ID\'si belirtilmedi',
+	'NO_FIELD_ID'				=> 'Alan ID’si belirtilmedi',
 	'NO_FIELD_TYPE'				=> 'Alan tipi belirtilmedi',
 	'NO_VALUE_OPTION'			=> 'Girilmeyen değere eşit seçenek',
 	'NO_VALUE_OPTION_EXPLAIN'	=> 'Belirtilmeyen bir girdi için değer. Eğer alan, doldurulması zorunlu bir alansa ve buradaki seçenek seçilirse kullanıcı bir hata alacaktır.',

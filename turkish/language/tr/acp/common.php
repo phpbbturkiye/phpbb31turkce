@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Kullanıcıların sayısı',
 	'NUMBER_ORPHAN'		=> 'Boşta kalan dosya ekleri',
 	
-	'PHP_VERSION_OLD'	=> 'Bu sunucudaki PHP sürümü phpBB\'nin gelecek sürümleri tarafından desteklenmeyecektir. %sDetaylar%s',
+	'PHP_VERSION_OLD'	=> 'Bu sunucudaki PHP sürümü phpBB’nin gelecek sürümleri tarafından desteklenmeyecektir. %sDetaylar%s',
 
 	'POSTS_PER_DAY'		=> 'Günlük ortalama mesaj',
 
@@ -421,7 +421,7 @@ $lang = array_merge($lang, array(
 	'VIEW_ADMIN_LOG'	=> 'Yönetici kayıtlarını görüntüle',
 	'VIEW_INACTIVE_USERS'	=> 'Pasif kullanıcıları görüntüle',
 	
-	'WELCOME_PHPBB'			=> 'phpBB\'ye Hoş Geldiniz',
+	'WELCOME_PHPBB'			=> 'phpBB’ye Hoş Geldiniz',
 	'WRITABLE_CONFIG'      => 'Ayar dosyanız (config.php) şu anda genel-yazılabilir (world-writable) şeklindedir. Bu dosyanın izinlerini 640 olarak ya da en az 644 olarak değiştirmenizi şiddetle öneriyoruz (örnek: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
@@ -452,9 +452,9 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'İstatistiksel analiz için lütfen phpBB\'ye sunucunuz ve mesaj panosu ayarlarınız hakkındaki bilgileri gönderiniz. Sizi ve web sitenizi temsil edebilecek tüm bilgiler çıkarılmış olacaktır - Veriler tamamen <strong>anonim</strong> olacaktır. Gelecek phpBB sürümleri hakkında bu bilgilerden yola çıkarak kararlar alacağız. İstatistikler herkesin erişebileceği şekildedir. Biz bu verileri phpBB\'nin programlama dili olan PHP projesiyle de paylaşacağız.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'İstatistiksel analiz için lütfen phpBB’ye sunucunuz ve mesaj panosu ayarlarınız hakkındaki bilgileri gönderiniz. Sizi ve web sitenizi temsil edebilecek tüm bilgiler çıkarılmış olacaktır - Veriler tamamen <strong>anonim</strong> olacaktır. Gelecek phpBB sürümleri hakkında bu bilgilerden yola çıkarak kararlar alacağız. İstatistikler herkesin erişebileceği şekildedir. Biz bu verileri phpBB’nin programlama dili olan PHP projesiyle de paylaşacağız.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Aşağıdaki butonu kullanarak gönderilecek tüm değişkenlerin önizlemesine ulaşabilirsiniz.',
-	'DONT_SEND_STATISTICS'		=> 'Eğer istatistiksel bilgileri phpBB\'ye göndermek istemiyorsanız YKP\'ye dönün.',
+	'DONT_SEND_STATISTICS'		=> 'Eğer istatistiksel bilgileri phpBB’ye göndermek istemiyorsanız YKP’ye dönün.',
 	'GO_ACP_MAIN'				=> 'YKP başlangıç sayfasına git',
 	'HIDE_STATISTICS'			=> 'Ayrıntıları gizle',
 	'SEND_STATISTICS'			=> 'İstatistiksel bilgileri gönder',

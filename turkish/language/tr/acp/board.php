@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_FLASH'			=> 'Kullanıcı imzasında <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
 	'ALLOW_SIG_IMG'				=> 'Kullanıcı imzasında <code>[IMG]</code> BBCode etiketi kullanımına izin ver',
 	'ALLOW_SIG_LINKS'			=> 'Kullanıcı imzalarında bağlantıların kullanımına izin ver',
-	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL\'ler kapatıldıysa.',
+	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL’ler kapatıldıysa.',
 	'ALLOW_SIG_SMILIES'			=> 'Kullanıcı imzasında ifade kullanımına izin ver',
 	'ALLOW_SMILIES'				=> 'İfadelere izin ver',
 	'ALLOW_TOPIC_NOTIFY'		=> 'Başlıklara aboneliğe izin ver',
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Bu bölümde varsayılan mesaj gönderme ayarlarını belirleyebilirsiniz.',
 	'ALLOW_POST_LINKS'					=> 'Mesajlarda/özel mesajlarda bağlantılara izin ver',
-	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL\'ler kapatıldıysa.',
+	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL’ler kapatıldıysa.',
 	'ALLOW_POST_FLASH'               => 'Mesajlarda <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
 	'ALLOW_POST_FLASH_EXPLAIN'         => 'Eğer mesajlarda <code>[FLASH]</code> BBCode etiketine izin verilmezse, bunun dışında izin sistemi kontrollerindeki kullanıcılar <code>[FLASH]</code> BBCode etiketi kullanabilir.',
 
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'			=> 'Hesap aktivasyonu',
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Buradaki ayarlar sayesinde kullanıcılar mesaj panosuna hemen giriş yapabilir ya da kullanıcılara hesap onaylama zorunluluğu getirilebilir. Arzu ederseniz yeni kayıt işlemini tamamıyla devre dışı bırakabilirsiniz. <em>Kullanıcı ya da yönetici aktivasyonunu kullanmak için “Mesaj panosu genelinde e-posta gönderimini aç” özelliği aktif olmalıdır.</em>',
-	'ACC_ACTIVATION_WARNING'		=> 'Not: Şu anki seçili olan aktivasyon metotunu kullanabilmek için e-posta gönderiminin açık olması gerekiyor, aksi halde kayıt olma işlevi kapatılacaktır. Farklı bir aktivasyon metotu seçmenizi ya da e-posta gönderimini yeniden açmanızı öneririz.',
+	'ACC_ACTIVATION_WARNING'		=> 'Not: Şu anki seçili olan aktivasyon metodunu kullanabilmek için e-posta gönderiminin açık olması gerekiyor, aksi halde kayıt olma işlevi kapatılacaktır. Farklı bir aktivasyon metodu seçmenizi ya da e-posta gönderimini yeniden açmanızı öneririz.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Yeni üye mesaj sınırı',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Yeni üyeler burada belirtilen mesaj sayısına ulaşana kadar <em>Yeni Kayıtlı Kullanıcılar</em> grubunda kalırlar. Yeni üyelerin mesajlarını incelemek ya da ÖM sistemini kullanamamalarını sağlamak için bu grubu kullanabilirsiniz. <strong>0 değeri bu özelliği kapatır.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Yeni Kayıtlı Kullanıcılar grubunu varsayılan olarak ayarla',
@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'            => 'Buradan spambotlar tarafından tasarlanan otomatik olarak form gönderimlerini engellemek için eklentileri seçebilir ve ayarlayabilirsiniz. Bu eklentiler genellikle bir <em>CAPTCHA</em> ile kullanıcıya sorulmak amacıyla çalışır ve bilgisayarlar için çözmesi zor olarak tasarlanan bir testtir.',
-	'ACP_VC_EXT_GET_MORE'					=> 'İlave (ve belkide daha iyi) anti-spam eklentileri için, <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Uzantı Veritabanı</strong></a> sayfasını ziyaret edin. Mesaj panonuzda spam önleme ile ilgili daha fazla bilgi için, <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Bilgi Bankası</strong></a> sayfasını ziyaret edin.',	
+	'ACP_VC_EXT_GET_MORE'					=> 'İlave (ve belkide daha iyi) anti-spam eklentileri için, <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Eklenti Veritabanı</strong></a> sayfasını ziyaret edin. Mesaj panonuzda spam önleme ile ilgili daha fazla bilgi için, <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Bilgi Bankası</strong></a> sayfasını ziyaret edin.',	
 	'AVAILABLE_CAPTCHAS'               => 'Mevcut eklentiler',
 	'CAPTCHA_UNAVAILABLE'               => 'Gereksinimleri yerine getirilmediği için bu eklenti seçilemez.',
 	'CAPTCHA_GD'                     => 'GD resmi',
@@ -424,7 +424,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Gizli',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'phpBB\'yi bu doğrulama metotuna geçirmeden önce apache doğrulama ayarını yapmalısınız. Apache doğrulaması için kullanılacak kullanıcı adı, phpBB kullanıcı adınız ile aynı olması gerektiğini unutmayın. Apache doğrulaması sadece mod_php ile kullanılabilir (bir CGI sürümü ile değil) ve safe_mode kapalı olmalıdır.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'phpBB’yi bu doğrulama metoduna geçirmeden önce apache doğrulama ayarını yapmalısınız. Apache doğrulaması için kullanılacak kullanıcı adı, phpBB kullanıcı adınız ile aynı olması gerektiğini unutmayın. Apache doğrulaması sadece mod_php ile kullanılabilir (bir CGI sürümü ile değil) ve safe_mode kapalı olmalıdır.',
 
 	'LDAP'							=> 'LDAP',	
 	'LDAP_DN'						=> 'LDAP tabanı <var>dn</var>',
@@ -437,7 +437,7 @@ $lang = array_merge($lang, array(
  	'LDAP_PASSWORD'					=> 'LDAP şifresi',
  	'LDAP_PASSWORD_EXPLAIN'			=> 'Anonim bağlayıcı kullanılıyorsa boş bırakın, aksi takdirde yukarıdaki kullanıcı için şifre belirtin. Aktif Dizin Sunucuları için gereklidir. <strong>DİKKAT:</strong> Bu şifre düz metin halinde veritabanına kaydedileceği için veritabanınıza erişebilen ya da bu ayar sayfasını görüntüleyebilen herkese görünecektir.',
 	'LDAP_PORT'                  => 'LDAP sunucu portu',
-	'LDAP_PORT_EXPLAIN'            => 'İsteğe bağlı olarak varsayılan port olan 389\'un yerine LDAP sunucusuna bağlanmak için kullanılması gereken bir port belirleyebilirsiniz.',
+	'LDAP_PORT_EXPLAIN'            => 'İsteğe bağlı olarak varsayılan port olan 389’un yerine LDAP sunucusuna bağlanmak için kullanılması gereken bir port belirleyebilirsiniz.',
 	'LDAP_SERVER'					=> 'LDAP sunucu adı',
 	'LDAP_SERVER_EXPLAIN'			=> 'Eğer LDAP kullanıyorsanız bu, LDAP sunucusunun IP adresi ya da ana makine adıdır. Alternatif olarak ldap://anamakineadı:port/ gibi bir URL belirtebilirsiniz.',
 	'LDAP_UID'						=> 'LDAP <var>uid</var>',
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Buradan alan adı ile ilgili ayarları ve sunucu ayarlarını tanımlayabilirsiniz. Girdiğiniz verilerin doğrulundan kesin olarak emin olun. Hatalı olması durumunda e-postaların hatalı bilgiler içermesine sebep olunacaktır. Alan adını girdiğinizde şunu hatırlayın: mutlaka http:// veya diğer protokol terimlerini içermelidir. Sunucunuzun farklı bir değer kullandığını biliyorsanız ancak bu durumda port numaralarını değiştirin, port\'un 80 olması bir çok durumda doğrudur.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Buradan alan adı ile ilgili ayarları ve sunucu ayarlarını tanımlayabilirsiniz. Girdiğiniz verilerin doğrulundan kesin olarak emin olun. Hatalı olması durumunda e-postaların hatalı bilgiler içermesine sebep olunacaktır. Alan adını girdiğinizde şunu hatırlayın: mutlaka http:// veya diğer protokol terimlerini içermelidir. Sunucunuzun farklı bir değer kullandığını biliyorsanız ancak bu durumda port numaralarını değiştirin, port’un 80 olması bir çok durumda doğrudur.',
 
 	'ENABLE_GZIP'				=> 'GZip sıkıştırmasını aç',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Oluşturulan içerik kullanıcıya göndermek için öncelikle sıkıştırılacaktır. Bu, ağ trafiğini azaltabilir fakat ayrıca sunucu ve bağlantı tarafının her ikisinde CPU kullanımı artacaktır. Zlib PHP uzantısının yüklenmiş olması gereklidir.',
@@ -466,7 +466,7 @@ $lang = array_merge($lang, array(
 	'RANKS_PATH'				=> 'Rütbe resimlerinin saklandığı yol',
 	'RANKS_PATH_EXPLAIN'		=> 'phpBB ana klasörünüzün alt yolu, örnek: <samp>images/ranks</samp>.',
 	'SCRIPT_PATH'          => 'Script yolu',
-	'SCRIPT_PATH_EXPLAIN'   => 'Alan adına göre phpBB\'nin ilgili konum yolu, ör: <samp>/phpBB3</samp>.',
+	'SCRIPT_PATH_EXPLAIN'   => 'Alan adına göre phpBB’nin ilgili konum yolu, ör: <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Domain adı',
 	'SERVER_NAME_EXPLAIN'		=> 'Bu mesaj panosunun çalıştığı alan adı (örnek: <samp>www.ornek.com</samp>).',
 	'SERVER_PORT'				=> 'Sunucu portu',
@@ -537,7 +537,7 @@ $lang = array_merge($lang, array(
 
 // Email Settings
 $lang = array_merge($lang, array(
-	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Mesaj panosu üzerinden kullanıcılarınıza e-posta gönderdiğinizde bu bilgi kullanılacaktır. Lütfen belirlediğiniz e-posta adresinin doğruluğundan emin olunuz, herhangi bir şekilde geri dönen ve ulaşamayan mesajlar bu belirttiğiniz e-posta adresine gönderilecektir. Eğer sunucunuz kendi doğal yapısındaki mail gönderme sistemini (php temelli) barındırmıyorsa, bunun yerine SMTP yolunu kullanarak e-posta gönderebilirsiniz. Bu durumda sunucunuzun belirlediği bir adres gerekebilir (bu bilgi için hosting firmasına danışın). Sunucunuz bir doğrulama istiyorsa (ve eğer sadece bu yapılacaksa) gerekli olan kullanıcı adını, şifreyi ve yetki metotunu girin.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Mesaj panosu üzerinden kullanıcılarınıza e-posta gönderdiğinizde bu bilgi kullanılacaktır. Lütfen belirlediğiniz e-posta adresinin doğruluğundan emin olunuz, herhangi bir şekilde geri dönen ve ulaşamayan mesajlar bu belirttiğiniz e-posta adresine gönderilecektir. Eğer sunucunuz kendi doğal yapısındaki mail gönderme sistemini (php temelli) barındırmıyorsa, bunun yerine SMTP yolunu kullanarak e-posta gönderebilirsiniz. Bu durumda sunucunuzun belirlediği bir adres gerekebilir (bu bilgi için hosting firmasına danışın). Sunucunuz bir doğrulama istiyorsa (ve eğer sadece bu yapılacaksa) gerekli olan kullanıcı adını, şifreyi ve doğrulama metodunu girin.',
 
 	'ADMIN_EMAIL'					=> 'Dönüş e-posta adresi',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Bu, teknik iletişim adresi şeklinde tüm e-postaların dönüş adresi olarak kullanılacaktır. Bu adres, e-postalarda her zaman <samp>Dönüş-Yolu</samp> ve <samp>Gönderici</samp> adresi olarak kullanılacaktır.',
@@ -580,7 +580,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Buradan anlık mesaj gönderme ve mesaj panosu notları için Jabber kullanımını açabilir ve kontrol edebilirsiniz. Jabber açık kaynak kodlu protokoldür ve bu yüzden herhangi bir kimse tarafından kullanılabilir. Bazı Jabber Sunucuları transports ve gateways içerirler. Bu durum size diğer networkler üzerindeki kullanıcılarla iletişim kurmanıza izin verir. Tüm sunucular olmasada destekledikleri Transports ve protokoller üzerindeki değişim, işletim tarafından transports u engelleyebilir. Lütfen kayıtlı hesap bilgilerini daha önceden girdiğinize emin olun - phpBB buraya girdiğiniz bilgileri kullanacaktır.',
 
-	'JAB_ENABLE'				=> 'Jabber\'i aç',
+	'JAB_ENABLE'				=> 'Jabber’i aç',
 	'JAB_ENABLE_EXPLAIN'		=> 'Jabber mesajlaşma ve haberleşme kullanımını açar.',
 	'JAB_GTALK_NOTE'         => 'Not: GTalk çalışmayacaktır, çünkü <samp>dns_get_record</samp> özelliği bulunamıyor. Bu özellik PHP4 içerisinde mevcut değildir, ve Windows platformlarında yürütülemez. Şimdilik BSD-tabanlı sistemlerde (Mac OS dahil) çalışmaz.',
 	'JAB_PACKAGE_SIZE'			=> 'Jabber paket boyutu',
