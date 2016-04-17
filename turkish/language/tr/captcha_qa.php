@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'            => 'S&amp;C',
 	'CONFIRM_QUESTION_EXPLAIN'   => 'Bu soru spambotlar tarafından otomatik form gönderimlerini önlemek için sunulur.',
 	'CONFIRM_QUESTION_WRONG'   => 'Soruya geçersiz bir cevap belirttiniz.',
+	'CONFIRM_QUESTION_MISSING'	=> 'CAPTCHA için sorular alınamadı. Lütfen mesaj panosu yöneticisi ile iletişime geçin.',	
 
 	'QUESTION_ANSWERS'			=> 'Cevaplar',
 	'ANSWERS_EXPLAIN'			=> 'Lütfen soru için her bir satıra geçerli cevaplar girin.',

@@ -659,6 +659,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_SELF'				=> 'Kendi mesajlarınız',
 	'SEARCH_TOPIC'				=> 'Bu başlıkta ara…',
 	'SEARCH_UNANSWERED'			=> 'Cevaplanmamış mesajlar',
+	'SEARCH_UNANSWERED'			=> 'Cevaplanmamış başlıklar',	
 	'SEARCH_UNREAD'				=> 'Okunmamış mesajlar',
 	'SEARCH_USER_POSTS'			=> 'Kullanıcı’nın mesajlarını ara',	
 	'SECONDS'					=> 'Saniye',
@@ -796,7 +797,7 @@ $lang = array_merge($lang, array(
 	),
 	'USERS'					=> 'Kullanıcılar',
 	'USE_PERMISSIONS'		=> 'Kullanıcı’nın yetkilerini sına',
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Üzgünüz, ancak bu özelliği kullanmaya yetkili değilsiniz. Bu özelliği kullanabilmeniz için burada kayıtlı olmalısınız ve daha fazla katılım göstermelisiniz.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Üzgünüz, ancak bu özelliği kullanmaya yetkili değilsiniz. Bu özelliği kullanabilmeniz için mesaj panosunda kayıtlı olmalısınız ve tartışmalara daha fazla katılım göstermelisiniz.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Görüntüleme',

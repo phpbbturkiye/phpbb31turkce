@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+17-04-2016 v1.1.9
+- Dil dosyaları phpBB 3.1.9 sürümü için güncellendi.
+
 06-03-2016 v1.1.8a
 - language/tr/acp/board.php dosyasında bir kaç çeviri hatası düzeltildi. (metotu -> metodu :: uzantı -> eklenti)
 - Bazı dosyalardaki çevirilerin aralarında bulunan tırnak işareti karakterleri UTF-8'e göre güncellendi. 
