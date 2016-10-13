@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Arama uygulaması şu anda indeksleri siliyor. Bu işlem bir kaç dakika sürebilir.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL tam metin uygulaması sadece MySQL4 ve üzeri sürümlerde kullanılabilir.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL tam metin indekslemesi sadece MyISAM ya da InnoDB tabloları ile kullanılabilir. InnoDB tablolarında tam metin indekslemesi için MySQL 5.6.4 ya da sonraki sürümler gereklidir.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL tam metin indekslemesi sadece MyISAM ya da InnoDB tabloları ile kullanılabilir. InnoDB tablolarında tam metin indekslemesi için MySQL 5.6.8 ya da sonraki sürümler gereklidir.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'İndekslenen mesajların toplam sayısı',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Arama yapmak için kelimeler en az bu kadar karakter ile indekslenecektir. Bu ayarı sadece siz veya hosting firmanız mysql ayarlarından değiştirebilir.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Arama yapmak için kelimeler bu kadar karakterden fazlasıyla indekslenmeyecektir. Bu ayarı sadece siz veya hosting firmanız mysql ayarlarından değiştirebilir.',

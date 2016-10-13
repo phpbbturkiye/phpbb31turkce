@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Yönetici ayarları kontrolü',
 	'ADMIN_USERNAME'			=> 'Yönetici kullanıcı adı',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Lütfen 3 ve 20 karakter arası uzunlukta bir kullanıcı adı girin.',
-	'APP_MAGICK'				=> 'Imagemagick desteği [ Dosya ekleri için ]',
+	'APP_MAGICK'				=> 'ImageMagick desteği [ Dosya ekleri için ]',
 	'AUTHOR_NOTES'				=> 'Yapımcı notları<br />» %s',
 	'AVAILABLE'					=> 'Mevcut',
 	'AVAILABLE_CONVERTORS'		=> 'Mevcut dönüştürücüler',
@@ -282,7 +282,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> '%s #%d anlaşılmıyor, tablo %s (“%s”)',
 	'NO_CONVERTORS'				=> 'Kullanım için mevcut hiç bir dönüştürücü yok.',
 	'NO_CONVERT_SPECIFIED'		=> 'Hiç bir dönüştürücü belirtilmedi.',
-	'NO_LOCATION'				=> 'Konumu tespit edilemedi. Eğer Imagemagick’in kurulu olduğunu biliyorsanız, daha sonra yönetim kontrol panelinizden konumunu belirleyebilirsiniz',
+	'NO_LOCATION'				=> 'Konumu tespit edilemedi. Eğer ImageMagick’in kurulu olduğunu biliyorsanız, daha sonra yönetim kontrol panelinizden konumunu belirleyebilirsiniz',
 	'NO_TABLES_FOUND'			=> 'Hiç bir tablo bulunmadı.',
 
 	'OVERVIEW_BODY'            => 'phpBB3’e hoşgeldiniz!<br /><br />phpBB® dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 2000 yılında başlayan bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2’de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu kurulum sistemi phpBB3 kurulumu yaparken, geçmiş bir sürümden phpBB3’ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3’e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="../docs/INSTALL.html">kurulum rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
@@ -301,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'Eğer bu ayar aktifse phpBB çalışacaktır, fakat eğer mümkünse, güvenlik sebepleri için PHP kurulumunuzdan bu register_globals ayarını deaktif etmenizi öneriyoruz.',
 	'PHP_SAFE_MODE'					=> 'Güvenli mod',
 	'PHP_SETTINGS'					=> 'PHP sürümü ve ayarları',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Gerekli</strong> - phpBB kurulumu için en düşük PHP sürümünüz 5.3.3 olmalıdır. Eğer altta "güvenli mod" görünüyorsa PHP kurulumunuz bu modda çalışmaktadır. Bu, uzaktan yönetim ve benzer özelliklerde sınırlama getirecektir.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Gerekli</strong> - phpBB kurulumu için en düşük PHP sürümünüz 5.3.3 olmalıdır (PHP 7 sürümü desteklenmemektir). Eğer altta "güvenli mod" görünüyorsa PHP kurulumunuz bu modda çalışmaktadır. Bu, uzaktan yönetim ve benzer özelliklerde sınırlama getirecektir.',
 	'PHP_URL_FOPEN_SUPPORT'     => 'PHP <var>allow_url_fopen</var> ayarı açık', 
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN' => '<strong>İsteğe Bağlı</strong> - Bu ayar isteğe bağlıdır, fakat site dışı avatarlar gibi bazı phpBB özellikleri bu olmadan düzgün bir şekilde çalışmayacaktır.',
-	'PHP_VERSION_REQD'				=> 'PHP sürümü >= 5.3.3',
+	'PHP_VERSION_REQD'				=> 'PHP sürümü: >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'Mesaj ID numarası',
 	'PREFIX_FOUND'					=> 'Tablolarınızda yapılan tarama sırasında, geçerli bir kurulum için <strong>%s</strong> adında bir tablo öneki kullanıldığı görüldü.',
 	'PREPROCESS_STEP'				=> 'Özelliklerin/sorguların ön-işlemi yapılıyor',
@@ -399,7 +399,8 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_COMPLETE'			=> 'Veritabanı güncelleyici tamamlandı!',
 	'DATABASE_UPDATE_CONTINUE'			=> 'Veritabanı güncellemesine devam et',	
 	'DATABASE_UPDATE_INFO_OLD'			=> 'install dizini içerisindeki veritabanı güncelleme dosyası güncel değil. Lütfen dosyanın geçerli sürümünü yüklediğinize emin olun.',
-	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Veritabanı güncellemesi henüz tamamlanmadı.',	
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Veritabanı güncellemesi henüz tamamlanmadı.',
+	'DATABASE_VERSION'					=> 'Veritabanı sürümü',
  	'DELETE_USER_REMOVE'				=> 'Kullanıcıyı sil ve mesajları kaldır',
  	'DELETE_USER_RETAIN'				=> 'Kullanıcıyı sil fakat mesajları tut',
 	'DESTINATION'						=> 'Gidilecek dosya',
@@ -439,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Aşağıdaki dosyalarda siz ya da başka bir yönetici tarafından daha önce hiç bir değişiklik yapılmamıştır ve güncellemek istediğiniz eski phpBB sürümünün orijinal dosyaları ile aynıdır.',
 	'FILES_UP_TO_DATE'				=> 'Zaten güncellenmiş dosyalar',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Aşağıdaki dosyalar zaten güncel ve güncelleme yapılmalarına gerek yok.',
+	'FILES_VERSION'					=> 'Dosya Sürümü',
 	'FTP_SETTINGS'					=> 'FTP ayarları',
 	'FTP_UPDATE_METHOD'				=> 'FTP yüklemesi',
 
@@ -486,6 +488,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'              => 'Güncelleme dosyaları eski. phpBB %1$s sürümünden phpBB %2$s sürümüne güncelleme yapmak için güncelleme dosyaları bulundu fakat phpBB’nin son sürümü %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'Sürüm için şu anki paket güncellemeleri',
+	'PACKAGE_VERSION'					=> 'Paket sürümü kuruldu',	
 	'PERFORM_DATABASE_UPDATE'			=> 'Veritabanı güncellemesi yap',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Aşağıda veritabanı güncelleme sayfası için bir buton bulacaksınız. Veritabanı güncellemesi biraz zaman alabilir, bu yüzden eğer askıda kalmış gibi görünüyorsa lütfen işlemi durdurmayın. Veritabanı güncelleme işleminden sonra güncelleme işlemine devam etmek için sadece açıklamaları takip edin.',
 	'PREVIOUS_VERSION'					=> 'Önceki sürüm',
@@ -530,6 +533,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Veritabanı şeması güncelleniyor',
 	'UPDATE_FILES'					=> 'Dosya güncellemesi',
 	'UPDATE_FILES_NOTICE'			=> 'Lütfen mesaj panosu dosyalarınızı da güncellediğinize emin olun, bu dosya sadece veritabanınızı günceller.',
+	'UPDATE_INCOMPLETE'				=> 'phpBB kurulumunuz düzgün olarak güncellenmedi.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Bu hatayı düzeltmek için lütfen alttaki bilgileri okuyun.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Tamamlanmayan güncelleme</h1>
+
+		<p>phpBB kurulumunuzun son güncellemesinin tamamlanmadığını farkettik. <a href="%1$s" title="%1$s">database_update script</a> sayfasını ziyaret edin ve scripti çalıştırın. Eğer bu script yoksa, lütfen <a href="https://www.phpbb.com/downloads/" title="phpBB yüklemeleri">paket sürümünüzü indirin</a>, "install" klasörünü phpBB ana dizininize yükleyin (config.php dosyasının olduğu dizin) ve <a href="%1$s" title="%1$s">veritabanı güncelleme scriptini çalıştırın</a>.</p>',
+	
 	'UPDATE_INSTALLATION'			=> 'phpBB kurulum güncelleştirmesi',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Bu seçenek ile, phpBB kurulumunuzu son sürüme güncellemek mümkündür.<br />İşlem sırasında doğruluk için tüm dosyalarınız kontrol edilecektir. Güncellemeden önce tüm farklılıkları ve dosyaları inceleyebilirsiniz.<br /><br />Dosya güncellemesi iki farklı yolla yapılabilir.</p><h2>Elle Güncelleme</h2><p>Bu seçenek ile dosya değişikliklerinizi kaybetmediğinize emin olmak için sadece değişecek dosyaları indirerek kişisel olarak ayarlayıp yapabilirsiniz. Bu paketi indirdikten sonra phpBB ana dizininizin altındaki doğru pozisyonlara elle yükleme yapmalısınız. İşlem tamamlanmadan önce, eğer dosyaları doğru yerlerine taşıdıysanız tekrar dosya kontrol bölümünden yapılanları görebileceksiniz.</p><h2>FTP ile Otomatik Güncelleme</h2><p>Bu metot ilkine benzer fakat değişecek dosyaları indirmenize ve onları kendinizin güncellemesine gerek yoktur. Bu sizin için yapılacaktır. Bu metotu kullanmak için size sorulacağından FTP giriş bilgilerini bilmeniz gerekmektedir. İşlem bitmeden önce herşeyin doğru olarak güncellendiğine emin olmak için tekrar dosya kontrolüne yönlendirileceksiniz.',
 	'UPDATE_INSTRUCTIONS'			=> '

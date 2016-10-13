@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Resim bağlantısı boyutları',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Resim dosya eki belirtilen miktardan büyükse satır içinde bir metin bağlantısı olarak gösterilecektir. Bu eylemi kapatmak için, değeri 0 piksel - 0 piksel olarak ayarlayın.',
-	'IMAGICK_PATH'				=> 'Imagemagick yolu',
+	'IMAGICK_PATH'				=> 'ImageMagick yolu',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Imagemagick dönüştürme uygulamasının tam yolu, örnek <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Her bir mesajdaki en fazla dosya eki sayısı',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> '<em>İzin verilmeyen</em> IP/sunucu adlarını kaldır ya da hariç tutulanlardan çıkar',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Dosya istatistiklerini yeniden senkronize etmek istediğinize emin misiniz?',
 
-	'SEARCH_IMAGICK'				=> 'Imagemagick için ara',
+	'SEARCH_IMAGICK'				=> 'ImageMagick için ara',
 	'SECURE_ALLOW_DENY'				=> 'İzinli/Yasaklı listesi',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Güvenli indirmeler açık olduğu zaman İzinli/Yasaklı listesinde bir <strong>beyaz liste</strong> (İzinli) veya bir <strong>kara liste</strong> (Yasaklı) için varsayılan eylemi değiştirin.',
 	'SECURE_DOWNLOADS'				=> 'Güvenli indirmeye izin ver',

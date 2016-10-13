@@ -569,6 +569,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'SMTP sunucu portu',
 	'SMTP_PORT_EXPLAIN'				=> 'Sadece SMTP sunucunuzun farklı bir kullandığını biliyorsanız değiştiriniz.',
 	'SMTP_SERVER'					=> 'SMTP sunucu adresi',
+	'SMTP_SERVER_EXPLAIN'			=> 'Not: Sunucunuzun kullandığı protokolü sağlamalısınız. Eğer SSL kullanıyorsanız, bu adres "ssl://sizin.mailsunucunuz.com" olmalıdır.',	
 	'SMTP_SETTINGS'					=> 'SMTP ayarları',
 	'SMTP_USERNAME'					=> 'SMTP kullanıcı adı',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Sadece SMTP sunucunuz kullanıcı adı istiyorsa girin.',
