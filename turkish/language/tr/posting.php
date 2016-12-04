@@ -89,8 +89,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'		=> 'Bu mesajı silmek istediğinize emin misiniz?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Bu mesajı <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
 	'DELETE_POST_PERMANENTLY'	=> array(
-		1	=> 'Bu mesaj kalıcı olarak silinirse tekrar geri getirilemez',
-		2	=> '%1$d mesaj kalıcı olarak silinirse tekrar geri getirilemez',
+		1	=> '%1$d mesaj kalıcı olarak silinirse tekrar geri getirilemez',
 	),
 	'DELETE_POSTS_CONFIRM'		=> 'Bu mesajları silmek istediğinize emin misiniz?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Bu mesajları <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
@@ -99,8 +98,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'			=> 'Bu mesajı sil',
 	'DELETE_TOPIC_CONFIRM'		=> 'Bu başlığı silmek istediğinize emin misiniz?',
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
-		1	=> 'Bu başlık kalıcı olarak silinirse tekrar geri getirilemez',
-		2	=> '%1$d başlık kalıcı olarak silinirse tekrar geri getirilemez',
+		1	=> '%1$d başlık kalıcı olarak silinirse tekrar geri getirilemez',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Bu başlığı <strong>kalıcı olarak</strong> silmek istediğinize emin misiniz?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Bu başlıkları silmek istediğinize emin misiniz?',
