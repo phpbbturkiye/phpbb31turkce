@@ -329,6 +329,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'İlgi alanları',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Geçersiz derleme sorgusu.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> muhtemelen geçersiz bir e-posta adresi?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'Seçilen besleme, geçersiz kısıtlamalar içeren dosya eklerini getirmeye çalıştı.',	
 	'INVALID_PLURAL_RULE'		=> 'Seçilen çoğul kuralı geçersiz. Geçerli değerler 0 ve 15 sayıları arasındaki tamsayılardır.',
 	'IP'					=> 'IP',
 	'IP_BLACKLISTED'			=> 'IP adresiniz %1$s engellendi çünkü kara listede. Detaylar için lütfen bakınız: <a href="%2$s">%2$s</a>.',

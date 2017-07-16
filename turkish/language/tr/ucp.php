@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Avatar yükle',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Kendi özel avatarınızı yükleyin.',
 	'AVATAR_EXPLAIN'				=> 'En yüksek boyutlar; genişlik: %1$s, yükseklik: %2$s, dosya boyutu: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'En yüksek boyutlar; genişlik: %1$s, yükseklik: %2$s.',	
 	'AVATAR_FEATURES_DISABLED'		=> 'Avatar özelliği şu anda kapalı.',
 	'AVATAR_GALLERY'				=> 'Yerel galeri',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Avatar şuraya yüklenemiyor: %s.',

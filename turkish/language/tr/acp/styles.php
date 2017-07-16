@@ -81,6 +81,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> '"%s" stilinin kurulumu kaldırılamıyor çünkü bu stil bir ya da daha fazla alt stillere sahip.',
 	'STYLE_UNINSTALLED'			=> '"%s" stili başarıyla kaldırıldı.',
 	'STYLE_USED_BY'				=> 'Kullananlar (robotlar dahil)',
+	'STYLE_VERSION'				=> 'Stil sürümü',
 
 	'UNINSTALL_DEFAULT'		=> 'Varsayılan stilin kurulumunu kaldıramazsınız.',
 

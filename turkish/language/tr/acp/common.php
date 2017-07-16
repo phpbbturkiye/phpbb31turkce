@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Kullanıcıların sayısı',
 	'NUMBER_ORPHAN'		=> 'Boşta kalan dosya ekleri',
 	
-	'PHP_VERSION_OLD'	=> 'Bu sunucudaki PHP sürümü phpBB’nin gelecek sürümleri tarafından desteklenmeyecektir. %sDetaylar%s',
+	'PHP_VERSION_OLD'	=> 'Bu sunucudaki PHP sürümü (%1$s) phpBB’nin gelecek sürümleri tarafından desteklenmeyecektir. Gereken en düşük PHP sürümü %2$s olacaktır. %3$sDetaylar%4$s',
 
 	'POSTS_PER_DAY'		=> 'Günlük ortalama mesaj',
 

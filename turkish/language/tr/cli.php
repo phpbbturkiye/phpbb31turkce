@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Belirtilen eklentiyi devre dışı bırakır.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Belirtilen eklentiyi etkinleştirir.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Bağlı olmayan taşınmaları bulur.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Forumların ve modüllerin ağaç yapısını onarır.',	
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Bir yapılandırma seçeneğinin değerini alır',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Bir yapılandırma seçeneğinin tamsayı değerini arttırır',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Dosya sistemi üzerinde ve veritabanı içerisindeki tüm eklentileri listeler.',
@@ -64,6 +65,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Kullanıcı tablosunun user_email_hash sütununu yeniden hesaplar.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Eğer sadece eski eşleşen değer geçerliyse bir yapılandırma seçeneğinin değerini ayarlar',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Bir yapılandırma seçeneğinin değerini ayarlar',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'bcrypt ile hash olması için güncel olmayan şifre hashlerini günceller.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> '%s eklentisi devre dışı bırakılamadı',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s eklentisi başarıyla devre dışı bırakıldı',
@@ -77,7 +79,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Devre dışı bırakıldı',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Etkinleştirildi',	
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Forumların ve modüllerin ağaç yapısı başarıyla onarıldı.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tüm e-posta hashleri başarıyla yeniden hesaplandı.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Güncel olmayan şifreler bcrypt ile hashlenerek başarıyla güncellendi.',
 ));
 
 // Additional help for commands.
