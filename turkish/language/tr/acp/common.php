@@ -418,6 +418,9 @@ $lang = array_merge($lang, array(
 	'VALUE'				=> 'Değer',
 	'VERSIONCHECK_FAIL'			=> 'En son sürüm bilgisinin alınması başarısız oldu.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Sürümü tekrar kontrol et',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Son sürüm bilgileri desteklenmeyen bir girdi içeriyor.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Son sürüm bilgileri geçersiz URL içeriyor.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Son sürüm bilgileri geçersiz bir sürüm içeriyor.',	
 	'VIEW_ADMIN_LOG'	=> 'Yönetici kayıtlarını görüntüle',
 	'VIEW_INACTIVE_USERS'	=> 'Pasif kullanıcıları görüntüle',
 	
